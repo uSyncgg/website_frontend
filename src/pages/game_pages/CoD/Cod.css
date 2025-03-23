@@ -1,0 +1,317 @@
+
+* {
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.total-container {
+  position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  .bottom-card {
+    margin-top: 3rem;
+  }
+}
+
+.league {
+    border-style:hidden;
+    width: 100%;
+}
+
+.league-img {
+    width: 90%;
+    height: auto;
+    border-radius: 1.813rem;
+    transition: filter 0.7s;
+}
+
+.check {
+    width: 40%;
+    height: auto;
+    margin-bottom: 1.25rem; 
+}
+
+.info-button {
+    background-color: rgb(49, 49, 49);
+    color: rgb(141, 125, 181);
+    border: .125rem solid rgb(144, 125, 181);
+    width: 90%;
+    transition-duration: 0.4s;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    height: 2.5rem;
+}
+
+.info-button:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
+
+.Background-leagues {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  height: auto;
+}
+
+.Background-game {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-bottom: 10rem;
+  position: relative;
+  z-index: 1;
+}
+
+.Background-bottom {
+    background-color: gray;
+}
+
+.Leagueh1{
+    color: white; 
+    font-size: 2rem;
+    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0.8);
+    font-family: 'Helvetica';
+    font-weight: bold;
+} 
+
+.back-img {
+    background-image: url("../../../website_images/games/cod/cod-leagues/snd-league-unround.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    border-radius: 1.813rem;
+    padding-bottom: 4.375rem;
+    padding-top: .313rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    filter: brightness(90%);
+    transition: filter 0.7s;
+  } 
+
+.league-img:hover {
+  filter: brightness(135%);
+}
+
+.parent {
+    position: relative;
+}
+
+.over-img {
+    position: absolute;
+    top: 6%;
+    right:5%;
+    transform: translateX(-50%);
+    width: 6%;
+    height: auto;
+    transform-origin: center;
+    transition: transform 0.3s;
+    display: block;
+    transition: filter 0.7s;
+
+}
+.over-img:hover {
+  filter: contrast(150%);               
+  }
+  
+
+transition {
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-out, ease-out;
+  transition-delay: 0s, 0s;
+  transition-property: width, left;
+} 
+  
+.back-img:hover {
+    width: 100%;
+    height: 100%;
+} 
+
+.check2 {
+    width: 40%;
+    height: auto;
+    margin-bottom: 5.625rem;
+    margin-left: 10%;
+    margin-top: .313rem;
+    
+}
+
+.hr {
+    display: block;
+    height: .063rem;
+    border: 0;
+    margin: 1em 0;
+    padding: 0; 
+    width: 100%;
+    height: 6.25rem;
+    border-bottom: .063rem solid rgb(255, 252, 252);
+    margin-bottom: 3.75rem;
+}
+
+.hr-report {
+  display: block;
+  height: .063rem;
+  border-bottom: .063rem solid rgb(255, 255, 255);
+  margin: 0 3rem 1rem;
+}
+
+.games-leagues-header-title {
+  margin-top: -13.5rem;
+}
+
+#league-title {
+    color: white;
+    font-size: 5rem; 
+    text-align: center;
+  }
+
+@media only screen and (max-width: 768px) {
+  #league-title, #league-title1 {
+    font-size: 3rem !important;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -11rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #league-title, #league-title1 {
+    font-size: 2rem !important;
+  }
+}
+  
+#league-title-lol {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+  
+.Underline-h-lol {
+  width: 100%;  
+}
+
+@media only screen and (max-width: 767px) {
+  .Underline-h-lol {
+    width: 90%; 
+    left: 5%; 
+  }
+}
+
+.Underline-h {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .Underline-h {
+    width: 90%; 
+  }
+}
+
+.col-2 {
+  margin: 3rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+    
+.Header-Img-l {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  padding-top: 4.5rem;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.Header-Img-l-cod {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.75);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  position: relative;
+  top: 4.5rem;
+}
+
+.Header-Img-l-lol {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+.Header-Img-l-rl {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+.Header-Img-l-val {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+.Header-Img-l-halo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+.Header-Img-l-wz {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+
+#league-header {
+  position: relative;
+}
+
+
+#league-title1 {
+  color: white;
+  position: relative;
+  font-size: 5rem;
+}
+
+.Underline-h1 {
+  width: 100%;
+}
+
+#verification-post-event-a {
+  margin-top: 1.25rem;
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+  font-weight: 700;
+  filter: brightness(120%);
+
+}
+
+#verification-post-event-a:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(140%);
+}

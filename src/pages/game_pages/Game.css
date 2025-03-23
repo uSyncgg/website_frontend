@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+
+  .blockimg {
+    width: 100%;
+    margin: 1% auto; 
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 1.563rem;
+  }
+  
+  .blockimg-coming-soon {
+    width: 100%;
+    margin: 1% auto; 
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 1.563rem;
+  }
+  
+  .blockimg:hover{
+    box-shadow: 0 0 1.563rem .188rem rgba(153, 102, 255, 0.8);
+  }
+
+  @media only screen and (min-width: 992px) {
+    .games-row-1 {
+      margin-bottom: 2rem;
+    }
+  }
+  
+
+  /*
+
+  #bubbler {
+    margin-right: 7.9rem;
+    margin-left: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #bubblel {
+    margin-left: 12rem !important;
+    margin-right: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  #bubble {
+    margin-bottom: 2.5rem;
+  }
+
+  #bubblerb {
+    margin-right: 7.9rem;
+    margin-left: 3.5rem;
+  }
+
+  #bubblelb {
+    margin-left: 12rem !important;
+    margin-right: 3.5rem;
+  }
+  */

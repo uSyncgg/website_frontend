@@ -1,0 +1,510 @@
+.background-mid {
+  background-color: rgb(49, 49, 49);
+}
+
+.headerImg img {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 20rem;
+}
+
+#league-header {
+  height: 15rem;
+}
+
+.become-verified {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: -1rem;
+  color: white;
+}
+
+.become-verified a {
+  color: rgb(142, 106, 206);
+}
+.become-verified a:hover {
+  color: rgb(142, 106, 206);
+  filter: brightness(120%);
+}
+
+.Background-mid-top {
+  /*position: absolute; 
+  top: 0;*/
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+#checkmark-link {
+  width: 5%;
+  margin: 1rem auto;
+}
+
+.Checkmark {
+  width: 100%; /* Increase the width */
+  margin: auto;
+}
+  
+.Checkmark-title {
+  display: block;
+  width: 100%; /* Keep the same width */
+}
+
+#checkmark-title-link {
+  width: 25%;
+}
+
+.join-button {
+  background-color: rgb(49, 49, 49);
+  color: rgb(141, 125, 181);
+  border: .125rem solid rgb(144, 125, 181);
+  width: 100%;
+  transition-duration: 0.4s;
+  border-radius: .5rem;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  /*margin: 0 auto; *//* Add a margin property to center the button */
+  height: 2.5rem;
+}
+
+#join-button-link {
+  width: 45%;
+  margin: 1.5rem auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #checkmark-link {
+    width: 15%;
+    margin: 2rem auto;
+  }
+
+  #checkmark-title-link {
+    width: 70%;
+  }
+
+  #join-button-link {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .Background-mid-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.join-button:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
+
+
+
+.Background-mid-bottom {
+  position: relative;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-size: cover;
+}
+
+.Background-lans {
+  position: relative;
+  top: 70%;
+  width: 100%;
+  height: 150%; /* set the height to 200% to double the vertical size */
+  background-color: rgb(49, 49, 49);
+  z-index: 1;
+  transform: translateY(-40%);
+}
+
+.league-back-button-container {
+  width: 10rem;
+  margin-left: 15%;
+  margin-top: 5rem;
+}
+
+.back-button {
+    background-color: rgb(49, 49, 49);
+    color: rgb(141, 125, 181);
+    border: .125rem solid rgb(141, 125, 181);
+    width: 100%;
+    transition-duration: 0.4s;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    border-radius: .5rem;
+    height: 2rem;
+}
+
+.back-button:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
+
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+@media only screen and (max-width: 768px) {
+  .leagues-entry-fee {
+    margin-top: 2rem;
+  }
+}
+
+.header-img-zoom {
+  transform: scale(2);
+}
+
+.header-img-container {
+  overflow: hidden;
+}
+
+.info-title {
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  position: relative;
+  top: 7%;
+  margin-bottom: 1rem;
+}
+
+.info-title3 {
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  position: relative;
+  top: 12%;
+  margin-bottom: 1.9rem;
+}
+.info-title2 {
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  position: relative;
+  top: 7%;
+}
+  
+.league-info p {
+  color: white;
+  font-size: 1.25rem;
+  position: relative;
+  font-weight: normal;
+  top: 7%;
+} 
+  
+/*.league-info {
+  margin: 0 auto;
+}
+*/
+
+#league-body {
+  position: relative;
+}
+
+#league-row {
+  text-align: center;
+}
+
+.league-row-titles-two {
+  padding-top: 2rem;
+}
+
+.Leaguep {
+  color: rgb(144, 141, 141);
+  font-size: 1.313rem;
+  font-family: 'Helvetica';
+  /* Set a text shadow with a blur radius of 4px and an offset of 2px */
+  text-shadow: 125rem .063rem 125rem rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  margin-top: .6rem;
+}
+
+#verif-img {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+
+#verif-row {
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.Checkmark-title-verification {
+  display: block;
+  margin: 0 auto;
+  width: 40%; /* Keep the same width */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+}
+
+.Underline-h-verification {
+  width: 100%;
+}
+.info-title-verification {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.verified-title {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.Underline-h-verification-2 {
+  width: 100%;
+}
+.info-title-veri {
+  color: white;
+  font-size: 1.8rem;
+  text-align: left;
+  font-weight: 700;
+}
+.verified-button {
+  background-color: rgb(49, 49, 49);
+  color: rgb(141, 125, 181);
+  border: .125rem solid rgb(141, 125, 181);
+  width: 50%;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  border-radius: .313rem;
+  height: 3.5%;
+  margin-top: 5rem;
+  padding: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .verified-button {
+    width: 100%;
+  }
+}
+
+.verified-button:hover {
+  background-color: rgb(141, 125, 181);
+  color: rgb(49, 49, 49);
+}
+.Background-mid-veri {
+  background-color: rgb(49, 49, 49);
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.event-title {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.underline-h {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.Underline-h-verification-event {
+  width: 100%;
+}
+.info-title-verification-event1 {
+  color: white;
+  width: 90%;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+.info-title-verification-event {
+  color: white;
+  width: 90%;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+}
+.eventhost-button {
+  background-color: rgb(49, 49, 49);
+  color: rgb(141, 125, 181);
+  border: .125rem solid rgb(141, 125, 181);
+  width: 40%;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  border-radius: .313rem;
+  height: 3%;
+  padding: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .eventhost-button {
+    width: 100%;
+  }
+} 
+
+.eventhost-button:hover {
+  background-color: rgb(141, 125, 181);
+  color: rgb(49, 49, 49);
+}
+
+#eventhost-p {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.report-container {
+  background-color: rgb(49, 49, 49);
+}
+
+.google-form {
+  width: 100%;
+}
+
+.report-link {
+  margin-bottom: 8rem;
+}
+
+.hr-border {
+  border-top: .1rem solid white;
+  margin-top: 3rem;
+}
+
+.contact-socials {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+/* .contact-email {
+  width: 100%,
+  height auto;
+} */
+
+.event-title-contactus {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.info-title-contactus {
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.info-title-contactus2 {
+  color: white;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 5rem 0;
+}
+.Background-mid-contact {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.Header-Img {
+  width: 100%;
+  height: 100%;
+}
+
+.event-title-contactus2 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+.Underline-h-verification-event2 {
+  width: 100%;
+}
+.about-us-image {
+  width: 100%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+}
+
+.cofounder-title {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.cofounder-subtitle {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+#league-body1 {
+  background-color: rgb(49, 49, 49);
+  position: relative;
+  padding-bottom: 20%;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+.coming-soon-text {
+  color: white;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+}
+
+.Underline-h-verification-coming {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.event-title-coming {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+.Underline-h-coming {
+  position: relative;
+  width: 100%;
+}
+
+#bubble-coming {
+  margin-bottom: 2.5rem;
+  transform: translate(-232.5%,28%);
+}
+.info-title-coming2 {
+  color: white;
+  width: 100%;
+  font-size: 1.2rem;
+}
+#league-body2 {
+  background-color: rgb(49, 49, 49);
+  position: relative;
+  padding-bottom: 20%;
+}
+
+.home-games-images {
+  width: 100%;
+}
+
+.home-games-img-row {
+  margin: 1rem 0;
+}

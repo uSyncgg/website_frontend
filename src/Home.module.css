@@ -1,0 +1,240 @@
+/** {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+} 
+*/
+
+.homeContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.backgroundTop {
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background-image: url("./website_images/home-images/home_background.png"); /* Needs to be changed to imgur */
+  background-position: center;
+  background-attachment: scroll;
+}
+.Intro u {
+  text-decoration: none;
+  border-bottom: .15rem solid rgb(142, 106, 206);
+}
+
+.backgroundTop img{
+  width: 33%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: 2.5rem;
+}
+
+.backgroundMid {
+  background-color: rgb(49, 49, 49);
+}
+
+.Intro {
+  color: white;
+  white-space: pre-line;
+  margin: 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.hometitles {
+  color: white;
+  white-space: pre-line;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: .9rem;
+  padding-bottom: .6rem;
+}
+
+.nameLogo {
+  height: auto;
+  width: 100%;
+  /* display: inline-block;
+  vertical-align: baseline; */
+}
+
+@media screen and (max-width: 960px) {
+  .hometitles {
+    font-size: 2rem;
+  }
+
+  .underline{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .Slogan {
+    font-size: 2rem;
+  }
+}
+
+
+.Intro h2{
+  font-size: 1.125rem;
+}
+
+.getStarted {
+  display: inline-block;
+  background-color: transparent;
+  border: .125rem solid #fff;
+  border-radius: .625rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 90%;
+  margin: 10vh auto;
+  padding: .625rem 1.25rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.getStarted:hover {
+  background-color: rgba(137, 124, 141, 0.407);
+  color: rgb(255, 255, 255);
+}
+
+.backgroundImages img {
+  margin: 1%;
+  width: 12rem;
+  height: 16rem;
+  border-radius: 1.563rem;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 2rem; 
+}
+
+.backgroundImages img:hover {
+  box-shadow: 0 0 1.563rem .188rem rgba(153, 102, 255, 0.8);
+}
+
+.underline-h {
+  width: 1000%;
+  margin-bottom: 3rem;
+}
+
+.comingSoonGames img {
+  margin: 2% 1%;
+  width: 11%;
+  height: 30%;
+}
+
+.footer img {
+  position: relative;
+  z-index: 9999 !important;
+  margin: 1%;
+  width: 3%;
+}
+
+.reportProblem {
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+
+.reportProblem:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
+}
+
+.footer {
+  background-color: rgb(67, 67, 67);
+  text-align: center;
+  padding-bottom: .03%;
+  z-index: 99999 !important;
+  padding-top: 0.1rem;
+}
+
+.contactus{
+  color: white;
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.contactus:hover{
+  color: rgb(190, 190, 190) !important;
+  filter: brightness(120%);
+}
+
+.footer p {
+  position: relative;
+  color: black;
+  font-weight: 600;
+  z-index: 99999 !important;
+}
+
+.btn-block {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.Slogan {
+  font-size: 3.125rem;
+  color: rgb(48 189, 123);
+  text-align: center;
+  padding-bottom: 7.5rem;
+  margin-bottom: 0;
+}
+
+.Map {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.hr {
+  border-top: .1rem solid white;
+  margin: 0 3rem;
+}
+
+.eventhost{
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+}
+
+.eventhost:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
+}
+
+
+.learnhow{
+  color: white;
+  font-size: medium;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
+
+.backgroundImg img {
+  margin: 1%;
+  width: 10%;
+  height: auto;
+  border-radius: 1.563rem;
+  transition: box-shadow 0.3s ease-in-out;
+  transform: translate(50%,0%);
+}
+
+.backgroundImg img:hover {
+  box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
+}
+
+hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.home-games-images {
+  width: 100%;
+  height: 100%;
+}

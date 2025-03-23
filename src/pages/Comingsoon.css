@@ -1,0 +1,52 @@
+.coming-soon-header {
+    background-image: url("../website_images/home-images/home_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 18.75rem;
+    font-size: xx-large;
+}
+
+.total-coming-soon-container {
+    position: relative;
+}
+
+.coming-soon-row {
+    height: auto;
+}
+
+.coming-soon-img {
+    width: 100%;
+    height: 100%;
+}
+
+.coming-soon-header img {
+    float: center;
+}
+
+#coming-soon-gfm {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.coming-soon-game-img img{
+    width: 150px;
+    height: 12.5rem;
+    margin: .625rem;
+}
+
+#coming-soon-online-tournaments {
+    width: 100%;
+    height: 100%;
+}
+
+.event-types-images {
+    margin: 3rem auto;
+}
+
+.coming-soon-event-types {
+    margin: .625rem 12.5rem;
+}
+
+.coming-soon-game-titles {
+    margin: .625rem 12.5rem;
+}

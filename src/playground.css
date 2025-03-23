@@ -1,0 +1,153 @@
+#usync-nav-logo {
+    width: 100%;
+}
+
+.navbar {
+    z-index: 99999999;
+    position: fixed;
+    width: 100%;
+    height: 10.12%;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+    
+.navbar-brand {
+    width: 12rem;
+    margin-left: 1.5rem;
+    margin-bottom: .2rem;
+}
+
+.dropdown-item:hover {
+    color: rgb(142, 106, 206);
+    background-color: #212529;
+    width: auto;
+}
+
+.nav-item .nav-button {
+   color: #d9d9d9;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity .5s ease;
+    /* margin-top: 0.5rem; */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 100%;
+    margin-top: -.51rem;
+}
+
+li .item-active {
+    background-color: rgb(142, 106, 206) !important;
+    color: white !important;
+}
+
+.title-active .nav-button {
+    color: rgb(142, 106, 206);
+}
+
+.nav-button {
+    color: #848f94;
+    background-color: transparent;
+    transition: color .3s ease;
+    font-size: 1.25rem;
+    transform: translateY(-.35rem);
+}
+
+.nav-button:hover{
+    color: rgb(142, 106, 206);
+    transition: color .3s ease;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .navbar-total-container {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .nav-button {
+        padding: .5rem;
+    }
+
+    .dropdown-item {
+        color: white;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .dropdown-menu {
+        border: none;
+    }
+
+    .navbar-nav li {
+        padding: 0 .881rem;
+    }
+
+    .more-dropdown-container {
+        right: 0;
+        left: auto;
+    }
+
+    .title-active {
+        border-bottom: solid .5rem rgb(142, 106, 206);
+    }
+
+    #navbarNav, .navbar-nav {
+        height: 100%;
+    }
+
+    .nav-button {
+        margin-top: .881rem;
+        margin-bottom: .881rem;
+    }
+
+    .title-active .dropdown-menu {
+        top: 4.262rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-toggler {
+        position: absolute;
+        left: 1rem;
+        border: none;
+        top: 1rem;
+    }
+
+    .dropdown .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 5rem;
+    }
+
+    #navbarNav {
+        width: 15rem;
+    }
+
+    .dropdown-menu {
+        border: none;
+        width: 12rem;
+        margin: 0 auto;
+        text-align: center;
+        border: solid .1rem white;
+    }
+
+    .dropdown-item {
+        color: white;
+        width: 100%;
+    }
+
+    .nav-button {
+        padding: .5rem 0;
+    }
+}
+
