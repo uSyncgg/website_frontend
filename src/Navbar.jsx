@@ -1,5 +1,6 @@
 import './Navbar.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -64,9 +65,9 @@ const CustomLink = ({ href, children, ...props }) => {
 
   return (
     <li className={path === href ? "active" : ""}>
-      <a id="navbarLink" href={href} {...props}>
+      <Link id="navbarLink" href={href} {...props}>
         {children}
-      </a>
+      </Link>
     </li>
   );
 };
@@ -76,9 +77,9 @@ const CustomDropLink = ({ href, children, ...props }) => {
 
   return (
     <li className={path === href ? "active mNavLink" : "mNavLink"}>
-      <a id="navbarDropLink" href={href} {...props}>
+      <Link id="navbarDropLink" href={href} {...props}>
         {children}
-      </a>
+      </Link>
     </li>
   );
 };
