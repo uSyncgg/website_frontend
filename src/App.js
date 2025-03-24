@@ -1791,6 +1791,7 @@ function App() {
       <Playground />
     */} <Helmet>
           <title>{title}</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Helmet>
         <Playground />
         <div>{component}</div>

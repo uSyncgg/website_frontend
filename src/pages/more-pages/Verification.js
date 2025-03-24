@@ -19,6 +19,51 @@ const Verification = () => {
             </div>
           </div>
           <div className="Background-mid-veri">
+            <div className="verified-features-img">
+                <h1 className="verified-title">Verified Features</h1>
+                <img
+                  src="https://i.imgur.com/eNhKhTI.png"
+                  className="Underline-h-verification-2"
+                />
+            </div>
+
+            <div className='container-fluid'>
+              <div className='row'>
+                <div className='col-12 col-lg-5 offset-lg-1'>
+                  <a href='/more/verification/verified-game-selection'>
+                    <img
+                      src="https://i.imgur.com/NZAEkGt.png"
+                      // className="Underline-h-verification-2"
+                    />
+                  </a>
+                </div>
+
+                <div className='col-12 col-lg-5'>
+                  <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
+                    <img
+                      src="https://i.imgur.com/IGLQYqK.png"
+                      // className="Underline-h-verification-2"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className='row'>
+                <div className='col-12 col-lg-5 offset-lg-1'>
+                  <a href="/more/verification/verified-game-selection">
+                    <button className="info-button-verification">Choose Your Game</button>
+                  </a>
+                </div>
+
+                <div className='col-12 col-lg-5'>
+                  <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
+                    <button className="info-button-verification">Subscribe Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="hr-border"></div>
+            <br />
             <div className="usync-veri-image">
               <img
                 src="https://i.imgur.com/OSMYolc.png"
@@ -37,35 +82,9 @@ const Verification = () => {
               you can bring your organization to the highest level of
               competitive play.
             </h1>
-            <div className="verified-features-img">
-              <h1 className="verified-title">Verified Features</h1>
-              <img
-                src="https://i.imgur.com/eNhKhTI.png"
-                className="Underline-h-verification-2"
-              />
-            </div>
-            <ul>
-              <li className="info-title-veri">uSync Verified Badge</li>
-              <li className="info-title-veri">
-                Choose where your event is located on the page
-              </li>
-              <li className="info-title-veri">Choose the header image </li>
-              <li className="info-title-veri">
-                Custom information
-              </li>
-              <li className="info-title-veri">
-                Dynamic link to participate in events
-              </li>
-              <li className="info-title-veri">
-                Access to our verified support team
-              </li>
-              <li className="info-title-veri">Social media promotions</li>
-              <li className="info-title-veri">Ability to sell event passes</li>
-            </ul>
-            <a href="/more/verification/becomeverified">
-              <button className="verified-button">Become Verified</button>
-            </a>
-            <p id="verification-premium">*Must Pay a Small Premium*</p>
+            
+            
+            
             <div className="hr-border"></div>
             <p id="verification-post-event">
               Looking to post event? Send{" "}

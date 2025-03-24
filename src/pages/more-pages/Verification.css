@@ -82,3 +82,21 @@
 #verification-post-event-a:hover {
     color: purple;
 }
+
+.info-button-verification {
+    background-color: rgb(49, 49, 49);
+    color: rgb(141, 125, 181);
+    border: .125rem solid rgb(144, 125, 181);
+    width: 85%;
+    transition-duration: 0.4s;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+.info-button-verification:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
