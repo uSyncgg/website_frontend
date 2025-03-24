@@ -24,6 +24,10 @@ function Playground() {
     window.location.href = "/tournaments";
   }
 
+  const handleHomeClick = () => {
+    window.location.href = "/";
+  }
+
   const handleComingSoonButtonClick = () => {
     window.location.href = "/Comingsoon";
   }
@@ -39,6 +43,11 @@ function Playground() {
           {/* <li className={`nav-item ${location === '/' ? 'item-active' : ''}`}>
             <a className="nav-link" href="/">Home</a>
           </li> */}
+          <li className={`nav-item dropdown ${location.includes('/Tournaments') ? 'title-active' : ''}`}>
+            <button className="nav-button" onClick={handleHomeClick}>
+                Home
+            </button>
+          </li>
           <li className={`nav-item dropdown ${(location.startsWith('/games') && !location.includes('/leagues') && !location.includes('/Tournaments') && !location.includes('/lans'))? 'title-active' : ''}`}>
             {/* <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Games
