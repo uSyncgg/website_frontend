@@ -1,5 +1,6 @@
 import "./FAQ.css";
 import Footer from "../../Footer";
+import { Link } from 'react-router-dom'
 
 const FAQ = () => {
   return (
@@ -11,21 +12,21 @@ const FAQ = () => {
               <h1 className="FAQ-header-text">Featured Games</h1>
               <div className="container-border">
                 <div className="images-container">
-                  <a href="http://localhost:3000/games/halo">
+                  <a href="/games/halo">
                     <img
                       src="https://i.imgur.com/wqKJfEu.png"
                       alt="Halo Infinite"
                       className="FAQ-img"
                     />
                   </a>
-                  <a href="http://localhost:3000/games/call-of-duty">
+                  <a href="/games/call-of-duty">
                     <img
                       src="https://i.imgur.com/lt94bkC.png"
                       alt="Call of Duty"
                       className="FAQ-img"
                     />
                   </a>
-                  <a href="http://localhost:3000/games/warzone">
+                  <a href="/games/warzone">
                     <img
                       src="https://i.imgur.com/IBGIbY2.png"
                       alt="Warzone"
@@ -34,21 +35,21 @@ const FAQ = () => {
                   </a>
                 </div>
                 <div className="images-container">
-                  <a href="http://localhost:3000/games/LoL">
+                  <a href="/games/LoL">
                     <img
                       src="https://i.imgur.com/5riYNow.png"
                       alt="League of Legends"
                       className="FAQ-img"
                     />
                   </a>
-                  <a href="http://localhost:3000/games/RocketLeague">
+                  <a href="/games/RocketLeague">
                     <img
                       src="https://i.imgur.com/GJO8JIZ.png"
                       alt="Rocket League"
                       className="FAQ-img"
                     />
                   </a>
-                  <a href="http://localhost:3000/games/Valorant">
+                  <a href="/games/Valorant">
                     <img
                       src="https://i.imgur.com/Gsl3oIp.png"
                       alt="Valorant"
@@ -61,21 +62,21 @@ const FAQ = () => {
               <div>
                 <h1 className="FAQ-header-text">FAQ Articles</h1>
                 <div className="images-container">
-                  <a href="http://localhost:3000/more/FAQ/The-Problem-With-Esports">
+                  <a href="/more/FAQ/The-Problem-With-Esports">
                     <img
                       className="FAQ-img-articles"
                       src="https://i.imgur.com/NeuvzkG.png"
                       alt="img"
                     />
                   </a>
-                  <a href="http://localhost:3000/more/FAQ/What-We-Provide">
+                  <a href="/more/FAQ/What-We-Provide">
                     <img
                       className="FAQ-img-articles"
                       src="https://i.imgur.com/lLIHnnI.png"
                       alt="img"
                     />
                   </a>
-                  <a href="http://localhost:3000/more/FAQ/How-We-Fix-It">
+                  <a href="/more/FAQ/How-We-Fix-It">
                     <img
                       className="FAQ-img-articles"
                       src="https://i.imgur.com/0KG2Yd4.png"
@@ -97,7 +98,7 @@ const FAQ = () => {
                   to{" "}
                   <a
                     className="FAQ-link"
-                    href="http://localhost:3000/more/contactus"
+                    href="/more/contactus"
                     target="_blank"
                   >
                     Contact Us
@@ -155,7 +156,7 @@ const FAQ = () => {
                   A: You can post your own event by submitting an{" "}
                   <a
                     className="FAQ-link"
-                    href="http://localhost:3000/more/eventhost"
+                    href="/more/eventhost"
                     target="_blank"
                   >
                     Event Host
@@ -173,7 +174,7 @@ const FAQ = () => {
                   quality competition for all entrants.{" "}
                   <a
                     className="FAQ-link"
-                    href="http://localhost:3000/more/verification"
+                    href="/more/verification"
                     target="_blank"
                   >
                     Learn More

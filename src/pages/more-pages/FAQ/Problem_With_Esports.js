@@ -65,13 +65,13 @@ const Problem = () => {
                             <div className="article-border">
                                 <div className="other-articles">
                                     <div className="bright-text">
-                                        <a href="http://localhost:3000/more/FAQ/How-We-Fix-It">HOW WE FIX IT</a>
+                                        <a href="/more/FAQ/How-We-Fix-It">HOW WE FIX IT</a>
                                         <br />
-                                        <a href="http://localhost:3000/more/FAQ/What-We-Provide">WHAT WE PROVIDE</a>
+                                        <a href="/more/FAQ/What-We-Provide">WHAT WE PROVIDE</a>
                                         <br />
-                                        <a href="http://localhost:3000/more/FAQ/How-Esports-Can-Be-Better">HOW ESPORTS CAN BE BETTER</a>
+                                        <a href="/more/FAQ/How-Esports-Can-Be-Better">HOW ESPORTS CAN BE BETTER</a>
                                         <br />
-                                        <a href="http://localhost:3000/more/FAQ/How-to-Join-an-Esports-League">HOW TO JOIN AN ESPORTS LEAGUE</a>
+                                        <a href="/more/FAQ/How-to-Join-an-Esports-League">HOW TO JOIN AN ESPORTS LEAGUE</a>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@ const Problem = () => {
                             <div className="article-border">
                                 <div className="league-article-img">
                                     <div className="bright-text">
-                                        <a href="http://localhost:3000/leagues">CLICK HERE FOR LEAGUES</a>
+                                        <a href="/leagues">CLICK HERE FOR LEAGUES</a>
                                     </div>
                                 </div>
                             </div>

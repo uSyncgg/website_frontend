@@ -12,15 +12,15 @@ const Frontpage_OCE = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1'>Division 1 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>$5100 Team Salary cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -28,15 +28,15 @@ const Frontpage_OCE = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1'>Division 2 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>$3100 Team Salary cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -46,15 +46,15 @@ const Frontpage_OCE = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1'>Division 3 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>$1300 Team Salary Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/RocketLeague/leagues/oce-leagues/divisions'>
+                                <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

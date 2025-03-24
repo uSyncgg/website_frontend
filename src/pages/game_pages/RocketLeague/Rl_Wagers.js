@@ -17,15 +17,15 @@ const Rl_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/cmg'>
+                                <a href='/games/RocketLeague/wagers/cmg'>
                                     <h1 className='Leagueh1'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/cmg'>
+                                <a href='/games/RocketLeague/wagers/cmg'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
 
@@ -34,14 +34,14 @@ const Rl_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/dropingaming'>
+                                <a href='/games/RocketLeague/wagers/dropingaming'>
                                     <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/dropingaming'>
+                                <a href='/games/RocketLeague/wagers/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -51,14 +51,14 @@ const Rl_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/gamersaloon'>
+                                <a href='/games/RocketLeague/wagers/gamersaloon'>
                                     <h1 className='Leagueh1'>GamerSaloon</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/gamersaloon"><img src="https://i.imgur.com/M8da8S6.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/wagers/gamersaloon"><img src="https://i.imgur.com/M8da8S6.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/gamersaloon'>
+                                <a href='/games/RocketLeague/wagers/gamersaloon'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -66,14 +66,14 @@ const Rl_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/dubbz'>
+                                <a href='/games/RocketLeague/wagers/dubbz'>
                                     <h1 className='Leagueh1'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/dubbz'>
+                                <a href='/games/RocketLeague/wagers/dubbz'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -83,14 +83,14 @@ const Rl_Wagers = () => {
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/ewagers'>
+                                <a href='/games/RocketLeague/wagers/ewagers'>
                                     <h1 className='Leagueh1'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
+                                    <a href="/games/RocketLeague/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/ewagers'>
+                                <a href='/games/RocketLeague/wagers/ewagers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

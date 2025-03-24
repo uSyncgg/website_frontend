@@ -12,15 +12,15 @@ const Frontpage_Cobalt = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division1'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division1'>
                                     <h1 className='Leagueh1'>Division 1 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division1"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division1"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Masters</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division1'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division1'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -28,15 +28,15 @@ const Frontpage_Cobalt = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division2'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division2'>
                                     <h1 className='Leagueh1'>Division 2 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division2"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division2"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 1 - Emerald 1</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division2'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division2'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -45,15 +45,15 @@ const Frontpage_Cobalt = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division3'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division3'>
                                     <h1 className='Leagueh1'>Division 3 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division3"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division3"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 1 - Plat 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division3'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division3'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

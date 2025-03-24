@@ -21,11 +21,11 @@ const Wz_Leagues = () => {
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/airforce">
+                  <a href="/games/warzone/leagues/airforce">
                     <h1 className="Leagueh1">Air Force Gaming League</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/airforce">
+                    <a href="/games/warzone/leagues/airforce">
                       <img
                         src="https://i.imgur.com/4o2rJWS.png"
                         className="league-img"
@@ -33,7 +33,7 @@ const Wz_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA/EU/APAC</p>
-                  <a href="http://localhost:3000/games/warzone/leagues/airforce">
+                  <a href="/games/warzone/leagues/airforce">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -43,11 +43,11 @@ const Wz_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/ghml">
+                  <a href="/games/warzone/leagues/ghml">
                     <h1 className="Leagueh1">GMHL Gaming</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/ghml">
+                    <a href="/games/warzone/leagues/ghml">
                       <img
                         src="https://i.imgur.com/hDF13fh.png"
                         className="league-img"
@@ -55,7 +55,7 @@ const Wz_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  <a href="http://localhost:3000/games/warzone/leagues/ghml">
+                  <a href="/games/warzone/leagues/ghml">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -77,11 +77,11 @@ const Wz_Leagues = () => {
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/njcaae">
+                  <a href="/games/warzone/leagues/njcaae">
                     <h1 className="Leagueh1">NJCAAE</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/njcaae">
+                    <a href="/games/warzone/leagues/njcaae">
                       <img
                         src="https://i.imgur.com/Yer31Qr.png"
                         className="league-img"
@@ -89,7 +89,7 @@ const Wz_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  <a href="http://localhost:3000/games/warzone/leagues/njcaae">
+                  <a href="/games/warzone/leagues/njcaae">
                     <button type="submit" className="info-button">
                       More Info
                     </button>

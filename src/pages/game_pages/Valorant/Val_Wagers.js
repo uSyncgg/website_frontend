@@ -17,14 +17,14 @@ const Val_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/Valorant/wagers/dropingaming'>
+                                <a href='/games/Valorant/wagers/dropingaming'>
                                     <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
+                                    <a href="/games/Valorant/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/Valorant/wagers/dropingaming'>
+                                <a href='/games/Valorant/wagers/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -32,14 +32,14 @@ const Val_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/Valorant/wagers/ewagers'>
+                                <a href='/games/Valorant/wagers/ewagers'>
                                     <h1 className='Leagueh1'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
+                                    <a href="/games/Valorant/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/Valorant/wagers/ewagers'>
+                                <a href='/games/Valorant/wagers/ewagers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

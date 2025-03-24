@@ -18,7 +18,7 @@ const Val = () => {
               {" "}
               {/* add justify-content-center class to center the columns */}
               <div className="col-lg-4" id="bubblel">
-                <a href="http://localhost:3000/Comingsoon">
+                <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/pRnsLUn.png"
                     alt="Valorant LANs"
@@ -27,7 +27,7 @@ const Val = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubble">
-                <a href="http://localhost:3000/Comingsoon">
+                <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/S6xUnmR.png"
                     alt="Valorant Tournaments"
@@ -36,7 +36,7 @@ const Val = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubbler">
-                <a href="http://localhost:3000/games/Valorant/leagues">
+                <a href="/games/Valorant/leagues">
                   <img
                     src="https://i.imgur.com/D9hSzYi.png"
                     alt="Valorant Leagues"
@@ -47,7 +47,7 @@ const Val = () => {
             </div>
             <div className="row justify-content-center games-row-2">
               <div className="col-lg-4" id="bubblelb">
-                <a href="http://localhost:3000/games/Valorant/wagers">
+                <a href="/games/Valorant/wagers">
                   <img
                     src="https://i.imgur.com/q3EujhS.png"
                     alt="Valorant Wagers"
@@ -56,7 +56,7 @@ const Val = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubblerb">
-                <a href="http://localhost:3000/games/Valorant/head-to-head">
+                <a href="/games/Valorant/head-to-head">
                   <img
                     src="https://i.imgur.com/Eb0q3VJ.png"
                     alt="Valorant head-to-head"

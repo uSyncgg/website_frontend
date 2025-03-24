@@ -17,7 +17,7 @@ function CodTourneys() {
     const cardsPerPage = 10;
 
     useEffect(() => {
-        axios.get("http://localhost:5000/usyncapp/tournaments").then(res => {
+        axios.get("https://website-backend-5m32.onrender.com").then(res => {
             setTournaments(res.data)
         }).catch(err => {
             console.log(err)

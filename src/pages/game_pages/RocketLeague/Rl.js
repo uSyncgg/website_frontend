@@ -17,7 +17,7 @@ const Rl = () => {
               {" "}
               {/* add justify-content-center class to center the columns */}
               <div className="col-lg-4" id="bubblel">
-                <a href="http://localhost:3000/Comingsoon">
+                <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/5ETdmF8.png"
                     alt="RocketLeague LANs"
@@ -26,7 +26,7 @@ const Rl = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubble">
-                <a href="http://localhost:3000/Comingsoon">
+                <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/8ZFHAM6.png"
                     alt="RocketLeague Tournaments"
@@ -35,7 +35,7 @@ const Rl = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubbler">
-                <a href="http://localhost:3000/games/RocketLeague/leagues">
+                <a href="/games/RocketLeague/leagues">
                   <img
                     src="https://i.imgur.com/C2VoFOV.png"
                     alt="RocketLeague Leagues"
@@ -46,7 +46,7 @@ const Rl = () => {
             </div>
             <div className="row justify-content-center games-row-2">
               <div className="col-lg-4" id="bubblelb">
-                <a href="http://localhost:3000/games/RocketLeague/wagers">
+                <a href="/games/RocketLeague/wagers">
                   <img
                     src="https://i.imgur.com/ylkoL6L.png"
                     alt="RocketLeague Wagers"
@@ -55,7 +55,7 @@ const Rl = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubblerb">
-                <a href="http://localhost:3000/games/RocketLeague/head-to-head">
+                <a href="/games/RocketLeague/head-to-head">
                   <img
                     src="https://i.imgur.com/vC5N7DW.png"
                     alt="RocketLeague head-to-head"

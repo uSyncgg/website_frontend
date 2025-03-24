@@ -12,14 +12,14 @@ const HOE_Leagues = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
+                                <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
                                     <h1 className='Leagueh1'>Amateurs League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
+                                <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -27,15 +27,15 @@ const HOE_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
+                                <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
                                     <h1 className='Leagueh1'>Challengers League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
+                                <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

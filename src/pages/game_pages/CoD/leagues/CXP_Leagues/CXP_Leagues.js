@@ -12,14 +12,14 @@ const CXP_Leagues = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
                                     <h1 className='Leagueh1'>Varsity Division</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-varsity"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-varsity"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -27,14 +27,14 @@ const CXP_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
                                     <h1 className='Leagueh1'>Open Division</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-open"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-open"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -44,14 +44,14 @@ const CXP_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
                                     <h1 className='Leagueh1'>Club Division</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-club"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-club"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
+                                <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

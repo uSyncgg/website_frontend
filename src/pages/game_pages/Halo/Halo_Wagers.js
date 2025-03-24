@@ -16,14 +16,14 @@ const Halo_Wagers = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/halo/wagers/cmg'>
+                                <a href='/games/halo/wagers/cmg'>
                                     <h1 className='Leagueh1'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/halo/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
+                                    <a href="/games/halo/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/halo/wagers/cmg'>
+                                <a href='/games/halo/wagers/cmg'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -31,14 +31,14 @@ const Halo_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/halo/wagers/oneup'>
+                                <a href='/games/halo/wagers/oneup'>
                                     <h1 className='Leagueh1'>One Up (App)</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/halo/wagers/oneup"><img src="https://i.imgur.com/wkSz5Le.png" className='league-img' /></a>
+                                    <a href="/games/halo/wagers/oneup"><img src="https://i.imgur.com/wkSz5Le.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/halo/wagers/oneup'>
+                                <a href='/games/halo/wagers/oneup'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -48,14 +48,14 @@ const Halo_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/halo/wagers/esport-wagers'>
+                                <a href='/games/halo/wagers/esport-wagers'>
                                     <h1 className='Leagueh1'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/halo/wagers/esport-wagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
+                                    <a href="/games/halo/wagers/esport-wagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/halo/wagers/esport-wagers'>
+                                <a href='/games/halo/wagers/esport-wagers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

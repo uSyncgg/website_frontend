@@ -1,9 +1,6 @@
 import '../game_pages/CoD/Cod.css';
 import Footer from '../../Footer';
 
-
-
-
 const Becomeverified = () => {
     return (
       <div className="report-container">

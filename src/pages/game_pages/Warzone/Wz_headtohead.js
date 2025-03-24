@@ -16,15 +16,15 @@ const Wz_headtohead = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/warzone/head-to-head/cmg'>
+                                <a href='/games/warzone/head-to-head/cmg'>
                                     <h1 className='Leagueh1'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/warzone/head-to-head/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
+                                    <a href="/games/warzone/head-to-head/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/warzone/head-to-head/cmg'>
+                                <a href='/games/warzone/head-to-head/cmg'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -32,14 +32,14 @@ const Wz_headtohead = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/warzone/head-to-head/esport-rivals'>
+                                <a href='/games/warzone/head-to-head/esport-rivals'>
                                     <h1 className='Leagueh1'>Esport Rivals</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/warzone/head-to-head/esport-rivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
+                                    <a href="/games/warzone/head-to-head/esport-rivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/warzone/head-to-head/esport-rivals'>
+                                <a href='/games/warzone/head-to-head/esport-rivals'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import styles from '../Home.module.css';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
               </h2>
             </div>
             <div>
-              <a href="http://localhost:3000/games">
+              <a href="/games">
                 {" "}
                 <button type="submit" className={styles.getStarted}>
                   Get Started
@@ -35,35 +36,35 @@ const Home = () => {
               alt="underline"
             />
             <div className={styles.backgroundImages}>
-            <a href="http://localhost:3000/games/call-of-duty">
+                <a href="/games/call-of-duty">
                 <img
                   src="https://i.imgur.com/lt94bkC.png"
                   alt="Call of Duty"
                   className="home-games-images"
                 />
               </a>
-              <a href="http://localhost:3000/games/warzone">
+              <a href="/games/warzone">
                 <img
                   src="https://i.imgur.com/IBGIbY2.png"
                   alt="Warzone"
                   className="home-games-images"
                 />
               </a>
-              <a href="http://localhost:3000/games/halo">
+              <a href="/games/halo">
                 <img
                   src="https://i.imgur.com/wqKJfEu.png"
                   alt="Halo Infinite"
                   className="home-games-images"
                 />
               </a>
-              <a href="http://localhost:3000/games/LoL">
+              <a href="/games/LoL">
                 <img
                   src="https://i.imgur.com/5riYNow.png"
                   alt="League of Legends"
                   className="home-games-images"
                 />
               </a>
-              <a href="http://localhost:3000/games/RocketLeague">
+              <a href="/games/RocketLeague">
                 <img
                   src="https://i.imgur.com/GJO8JIZ.png"
                   alt="Rocket League"
@@ -71,7 +72,7 @@ const Home = () => {
                 />
               </a>
 
-              <a href="http://localhost:3000/games/Valorant">
+              <a href="/games/Valorant">
                 <img
                   src="https://i.imgur.com/Gsl3oIp.png"
                   alt="Valorant"
@@ -79,7 +80,7 @@ const Home = () => {
                 />
               </a>
 
-              <a href="http://localhost:3000/games/CS2">
+              <a href="/games/CS2">
                 <img
                   src="https://i.imgur.com/60FwDKN.png"
                   alt="Counter-Strike 2"
@@ -123,20 +124,20 @@ const Home = () => {
             />
 
             <div className={styles.backgroundImages}>
-            <a href="http://localhost:3000/Comingsoon">
+            <a href="/Comingsoon">
                 <img src="https://i.imgur.com/ybSqQK4.png" alt="Fortnite" />{" "}
               </a>
 
-              <a href="http://localhost:3000/Comingsoon">
+              <a href="/Comingsoon">
                 <img src="https://i.imgur.com/MUcaqmt.png" alt="Apex Legends" />{" "}
               </a>
 
-              <a href="http://localhost:3000/Comingsoon">
+              <a href="/Comingsoon">
                 <img
                   src="https://i.imgur.com/qpQDtRJ.png" alt="Super Smash Brothers" />{" "}
               </a>
 
-              <a href="http://localhost:3000/Comingsoon">
+              <a href="/Comingsoon">
                 <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2" />{" "}
               </a>
             </div>

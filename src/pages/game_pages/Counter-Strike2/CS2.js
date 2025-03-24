@@ -16,7 +16,7 @@ const CS2 = () => {
               {" "}
               {/* add justify-content-center class to center the columns */}
               <div className="col-lg-4" id="bubblel">
-              <a href="http://localhost:3000/Comingsoon">
+              <a href="/Comingsoon">
               <img
                     src="https://i.imgur.com/ciqy3Bd.png"
                     alt="CS2 LANs"
@@ -25,7 +25,7 @@ const CS2 = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubble">
-              <a href="http://localhost:3000/Comingsoon">
+              <a href="/Comingsoon">
               <img
                     src="https://i.imgur.com/ugKIhLq.png"
                     alt="CS2 Tournaments"
@@ -34,7 +34,7 @@ const CS2 = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubbler">
-                <a href="http://localhost:3000/games/CS2/leagues">
+                <a href="/games/CS2/leagues">
                   <img
                     src="https://i.imgur.com/gE6ZfqX.png"
                     alt="CS2 Leagues"
@@ -45,7 +45,7 @@ const CS2 = () => {
             </div>
             <div className="row justify-content-center games-row-2">
               <div className="col-lg-4" id="bubblelb">
-                <a href="http://localhost:3000/games/CS2/wagers">
+                <a href="/games/CS2/wagers">
                   <img
                     src="https://i.imgur.com/SzMtvPy.png"
                     alt="CS2 Wagers"
@@ -54,7 +54,7 @@ const CS2 = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubblerb">
-                <a href="http://localhost:3000/games/CS2/head-to-head">
+                <a href="/games/CS2/head-to-head">
                   <img
                     src="https://i.imgur.com/b9B93ig.png"
                     alt="CS2 head-to-head"

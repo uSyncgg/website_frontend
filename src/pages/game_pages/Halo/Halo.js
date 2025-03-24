@@ -19,7 +19,7 @@ const Halo = () => {
               {" "}
               {/* add justify-content-center class to center the columns */}
               <div className="col-lg-4" id="bubblel">
-                <a href="http://localhost:3000/games/halo/lans">
+                <a href="/games/halo/lans">
                   <img
                     src="https://i.imgur.com/5JagjfE.png"
                     alt="Halo LANs"
@@ -28,7 +28,7 @@ const Halo = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubble">
-                <a href="http://localhost:3000/Comingsoon">
+                <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/XcbF4hG.png"
                     alt="Halo Tournaments"
@@ -37,7 +37,7 @@ const Halo = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubbler">
-                <a href="http://localhost:3000/games/halo/leagues">
+                <a href="/games/halo/leagues">
                   <img
                     src="https://i.imgur.com/oq9dG7T.png"
                     alt="Halo Leagues"
@@ -48,7 +48,7 @@ const Halo = () => {
             </div>
             <div className="row justify-content-center games-row-2">
               <div className="col-lg-4" id="bubblelb">
-                <a href="http://localhost:3000/games/halo/wagers">
+                <a href="/games/halo/wagers">
                   <img
                     src="https://i.imgur.com/aXgvEAv.png"
                     alt="Halo Wagers"
@@ -57,7 +57,7 @@ const Halo = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubblerb">
-                <a href="http://localhost:3000/games/halo/head-to-head">
+                <a href="/games/halo/head-to-head">
                   <img
                     src="https://i.imgur.com/UC6wGwa.png"
                     alt="Halo head-to-head"

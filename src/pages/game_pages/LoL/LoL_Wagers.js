@@ -16,14 +16,14 @@ const LoL_Wagers = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/wagers/dropingaming'>
+                                <a href='/games/LoL/wagers/dropingaming'>
                                     <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
+                                    <a href="/games/LoL/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/LoL/wagers/dropingaming'>
+                                <a href='/games/LoL/wagers/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -31,14 +31,14 @@ const LoL_Wagers = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/wagers/dubbz'>
+                                <a href='/games/LoL/wagers/dubbz'>
                                     <h1 className='Leagueh1'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
+                                    <a href="/games/LoL/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/LoL/wagers/dubbz'>
+                                <a href='/games/LoL/wagers/dubbz'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -48,14 +48,14 @@ const LoL_Wagers = () => {
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/wagers/ewagers'>
+                                <a href='/games/LoL/wagers/ewagers'>
                                     <h1 className='Leagueh1'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
+                                    <a href="/games/LoL/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                <a href='http://localhost:3000/games/LoL/wagers/ewagers'>
+                                <a href='/games/LoL/wagers/ewagers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

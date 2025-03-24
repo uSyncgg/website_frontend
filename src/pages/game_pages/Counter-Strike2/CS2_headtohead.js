@@ -16,16 +16,16 @@ const CS2_headtohead = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/CS2/head-to-head/faceit'>
+                                <a href='/games/CS2/head-to-head/faceit'>
                                     <h1 className='Leagueh1'>FACEIT</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/CS2/head-to-head/faceit"><img src="https://i.imgur.com/4GwagUk.png" className='league-img' /></a>
+                                    <a href="/games/CS2/head-to-head/faceit"><img src="https://i.imgur.com/4GwagUk.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/CS2/head-to-head/faceit'>
+                                <a href='/games/CS2/head-to-head/faceit'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -33,15 +33,15 @@ const CS2_headtohead = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/CS2/head-to-head/pracc'>
+                                <a href='/games/CS2/head-to-head/pracc'>
                                     <h1 className='Leagueh1'>Pracc</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/CS2/head-to-head/pracc"><img src="https://i.imgur.com/XERVRrh.png" className='league-img' /></a>
+                                    <a href="/games/CS2/head-to-head/pracc"><img src="https://i.imgur.com/XERVRrh.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/CS2/head-to-head/pracc'>
+                                <a href='/games/CS2/head-to-head/pracc'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -49,15 +49,15 @@ const CS2_headtohead = () => {
                         <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/CS2/head-to-head/esport-scrim'>
+                                <a href='/games/CS2/head-to-head/esport-scrim'>
                                     <h1 className='Leagueh1'>Esport Scrim</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/CS2/head-to-head/esport-scrim"><img src="https://i.imgur.com/KIPClg9.png" className='league-img' /></a>
+                                    <a href="/games/CS2/head-to-head/esport-scrim"><img src="https://i.imgur.com/KIPClg9.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/CS2/head-to-head/esport-scrim'>
+                                <a href='/games/CS2/head-to-head/esport-scrim'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -65,15 +65,15 @@ const CS2_headtohead = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/CS2/head-to-head/ckras'>
+                                <a href='/games/CS2/head-to-head/ckras'>
                                     <h1 className='Leagueh1'>CKRAS</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/CS2/head-to-head/ckras"><img src="https://i.imgur.com/ry9oAAw.png" className='league-img' /></a>
+                                    <a href="/games/CS2/head-to-head/ckras"><img src="https://i.imgur.com/ry9oAAw.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/CS2/head-to-head/ckras'>
+                                <a href='/games/CS2/head-to-head/ckras'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

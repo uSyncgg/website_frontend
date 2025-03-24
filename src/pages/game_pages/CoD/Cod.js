@@ -17,7 +17,7 @@ const Cod = () => {
               {" "}
               {/* add justify-content-center class to center the columns */}
               <div className="col-lg-4" id="bubblel">
-                <a href="http://localhost:3000/games/call-of-duty/lans">
+                <a href="/games/call-of-duty/lans">
                   <img
                     src="https://i.imgur.com/NXTgpHd.png"
                     alt="Cod LANs"
@@ -26,7 +26,7 @@ const Cod = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubble">
-                <a href="http://localhost:3000/games/call-of-duty/NEEED PATTTHHHHH">
+                <a href="/games/call-of-duty/tournaments">
                   <img
                     src="https://i.imgur.com/nVx3C4M.png"
                     alt="Cod Tournaments"
@@ -35,7 +35,7 @@ const Cod = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubbler">
-                <a href="http://localhost:3000/games/call-of-duty/leagues">
+                <a href="/games/call-of-duty/leagues">
                   <img
                     src="https://i.imgur.com/Zj3dVpv.png"
                     alt="Cod Leagues"
@@ -46,7 +46,7 @@ const Cod = () => {
             </div>
             <div className="row justify-content-center games-row-2">
               <div className="col-lg-4" id="bubblelb">
-                <a href="http://localhost:3000/games/call-of-duty/wagers">
+                <a href="/games/call-of-duty/wagers">
                   <img
                     src="https://i.imgur.com/EgBRBVS.png"
                     alt="Cod Wagers"
@@ -55,7 +55,7 @@ const Cod = () => {
                 </a>
               </div>
               <div className="col-lg-4" id="bubblerb">
-                <a href="http://localhost:3000/games/call-of-duty/head-to-head">
+                <a href="/games/call-of-duty/head-to-head">
                   <img
                     src="https://i.imgur.com/CiO5ViA.png"
                     alt="Cod head-to-head"

@@ -20,17 +20,17 @@ const Halo_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/halo/leagues/halo-rec-league">
+                  <a href="/games/halo/leagues/halo-rec-league">
                     <h1 className="Leagueh1">Halo Rec League</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/halo/leagues/halo-rec-league">
+                    <a href="/games/halo/leagues/halo-rec-league">
                       <img
                         src="https://i.imgur.com/6cA46YH.png"
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
+                    <a href="/more/verification">
                       <img
                         src="https://i.imgur.com/PCHIHQB.png"
                         title="uSync Verified"
@@ -39,7 +39,7 @@ const Halo_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  <a href="http://localhost:3000/games/halo/leagues/halo-rec-league">
+                  <a href="/games/halo/leagues/halo-rec-league">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -49,11 +49,11 @@ const Halo_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/halo/leagues/halo-agent">
+                  <a href="/games/halo/leagues/halo-agent">
                     <h1 className="Leagueh1">Halo Agent</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/halo/leagues/halo-agent">
+                    <a href="/games/halo/leagues/halo-agent">
                       <img
                         src="https://i.imgur.com/bHzfdu8.png"
                         className="league-img"
@@ -61,7 +61,7 @@ const Halo_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">All Regions</p>
-                  <a href="http://localhost:3000/games/halo/leagues/halo-agent">
+                  <a href="/games/halo/leagues/halo-agent">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -82,11 +82,11 @@ const Halo_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/halo/leagues/ugc-halo">
+                  <a href="/games/halo/leagues/ugc-halo">
                     <h1 className="Leagueh1">College Halo</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/halo/leagues/ugc-halo">
+                    <a href="/games/halo/leagues/ugc-halo">
                       <img
                         src="https://i.imgur.com/JeMuXtx.png"
                         className="league-img"
@@ -101,7 +101,7 @@ const Halo_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  <a href="http://localhost:3000/games/halo/leagues/ugc-halo">
+                  <a href="/games/halo/leagues/ugc-halo">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -121,11 +121,11 @@ const Halo_Leagues = () => {
               </div>
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/halo/leagues/hsel">
+                  <a href="/games/halo/leagues/hsel">
                     <h1 className="Leagueh1">High School Esports League</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/halo/leagues/hsel">
+                    <a href="/games/halo/leagues/hsel">
                       <img
                         src="https://i.imgur.com/fYpPNR1.png"
                         className="league-img"
@@ -140,7 +140,7 @@ const Halo_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  <a href="http://localhost:3000/games/halo/leagues/hsel">
+                  <a href="/games/halo/leagues/hsel">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
