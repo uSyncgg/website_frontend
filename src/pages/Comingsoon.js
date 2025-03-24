@@ -2,6 +2,8 @@ import '../Info.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../Footer';
 import styles from '../Home.module.css';
+import {useEffect} from 'react';
+import TwitterEmbed from './TwitterEmbed';
 
 const Comingsoon = () => {
     return (
@@ -91,17 +93,14 @@ const Comingsoon = () => {
                 Unfortunately, implementing this feature is costly and our services are free which places a heavy burden on us. However, in the meantime keep up to date with what we are working on with our Twitter!
               </h1>
 
-              <blockquote class="twitter-tweet">
-                <p lang="en" dir="ltr">
-                  Why YOU should use OUR SITE.
-                  <br/>
-                  A thread of what uSync does and how it can help you compete or host competitions in Esports. 🧵 
-                  <a href="https://t.co/LiXoUeutrs">pic.twitter.com/LiXoUeutrs</a>
-                </p>&mdash; uSync (@uSyncGG) <a href="https://twitter.com/uSyncGG/status/1812969871845827047?ref_src=twsrc%5Etfw">July 15, 2024</a>
-              </blockquote> 
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-              
+              {/* <blockquote className="twitter-tweet"><p lang="en" dir="ltr">Why YOU should use OUR SITE.<br/>A thread of what uSync does and how it can help you compete or host competitions in Esports. 🧵 <a href="https://t.co/LiXoUeutrs">pic.twitter.com/LiXoUeutrs</a></p>&mdash; uSync (@uSyncGG) <a href="https://twitter.com/uSyncGG/status/1812969871845827047?ref_src=twsrc%5Etfw">July 15, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-lg-6 offset-3'>
+                    <TwitterEmbed />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
