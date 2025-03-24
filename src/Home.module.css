@@ -54,7 +54,6 @@ body {
   text-align: center;
   font-size: 3rem;
   padding-top: .9rem;
-  padding-bottom: .6rem;
 }
 
 .nameLogo {
@@ -189,12 +188,14 @@ body {
 .Map {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
+  border: rgb(142, 106, 206) .3rem solid;
+  border-radius: .5rem;
 }
 
 .hr {
   border-top: .1rem solid white;
-  margin: 0 3rem;
+  margin: 0 10rem;
 }
 
 .eventhost{

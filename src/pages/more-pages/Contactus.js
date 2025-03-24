@@ -143,7 +143,7 @@ const Contactus = () => {
               <div className="row justify-content-center">
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/Q22mI5e.png"
+                    src="https://i.imgur.com/ZbCuZKi.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Jake Bruscino</h1>
@@ -151,23 +151,23 @@ const Contactus = () => {
                 </div>
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/cBWEv6G.png"
+                    src="https://i.imgur.com/M4qM9ng.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Matthew O'Connor</h1>
-                  <h1 className="cofounder-subtitle">Co-Founder</h1>
+                  <h1 className="cofounder-subtitle">CTO / Co-Founder</h1>
                 </div>
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/MHnmk8V.png"
+                    src="https://i.imgur.com/t0vqLB4.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Mason Wiley</h1>
-                  <h1 className="cofounder-subtitle">Co-Founder</h1>
+                  <h1 className="cofounder-subtitle">CSO / Co-Founder</h1>
                 </div>
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/ECcvMfl.png"
+                    src="https://i.imgur.com/AX1uMWJ.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Tony Gomez</h1>

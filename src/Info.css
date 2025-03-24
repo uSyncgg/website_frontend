@@ -384,7 +384,7 @@ header {
 }
 
 .contact-socials {
-  width: 100%;
+  width: 65%;
   height: auto;
   margin-top: 2rem;
 }
@@ -405,13 +405,13 @@ header {
   color: white;
   width: 100%;
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: .75rem;
 }
 .info-title-contactus2 {
   color: white;
   width: 100%;
   font-size: 1.2rem;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 .Background-mid-contact {
   background-color: rgb(49, 49, 49);
@@ -438,19 +438,19 @@ header {
   width: 100%;
 }
 .about-us-image {
-  width: 100%; /* Increase the width */
+  width: 65%; /* Increase the width */
   height: auto; /* Make the height adjust to the width to prevent stretching */
+  border-radius: 2%;
 }
 
 .cofounder-title {
   color: white;
-  font-size: 2rem;
-  margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
 .cofounder-subtitle {
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 2.5rem;
 }
 
