@@ -17,7 +17,7 @@ function CodTourneys() {
     const cardsPerPage = 10;
 
     useEffect(() => {
-        axios.get("https://website-backend-5m32.onrender.com").then(res => {
+        axios.get("https://website-backend-5m32.onrender.com/usyncapp/tournaments").then(res => {
             setTournaments(res.data)
         }).catch(err => {
             console.log(err)
@@ -288,6 +288,7 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
 
     console.log(selectedFormats)
     console.log(selectedSkills)
+    console.log(`TOURNAMENTS: ${tournaments}`)
     return (
         <div>
             {tournaments
