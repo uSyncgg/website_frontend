@@ -64,6 +64,8 @@ const Home = () => {
                   className="home-games-images"
                 />
               </a>
+              <br />
+              <br />
               <a href="/games/RocketLeague">
                 <img
                   src="https://i.imgur.com/GJO8JIZ.png"

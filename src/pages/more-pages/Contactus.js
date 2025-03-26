@@ -101,7 +101,7 @@ const Contactus = () => {
                   >
                     <img 
                       src="https://imgur.com/za685rg.png"
-                      className="img-fluid"
+                      className="img-fluid contact-email"
                     />
                   </a>
                 </div>
