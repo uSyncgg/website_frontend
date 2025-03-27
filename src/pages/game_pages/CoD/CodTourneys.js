@@ -152,8 +152,10 @@ function CodTourneys() {
                     
                     {/* Right side tournament list */}
                     <div style={{ width: '70%', padding: '2rem' }}>
-                        <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Featured Tournaments</h1>
-                        
+                        <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Featured</h1>
+                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
+                        </div>
                         {/* {currentTournaments.map((tournament) => {
                             selectedFormats === "all" || tournament[selectedFormats]
                             return <TournamentList tournaments={currentTournaments} />
