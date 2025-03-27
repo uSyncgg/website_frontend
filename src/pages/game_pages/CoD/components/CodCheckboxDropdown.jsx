@@ -86,7 +86,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
           alignItems: 'center',
           justifyContent: 'space-between',
           minWidth: '200px',
-          backgroundColor: 'rgb(49,49,49)',
+          backgroundColor: 'rgb(39,39,39)',
           color: 'white'
         }}
       >
@@ -116,7 +116,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
             padding: '8px 0',
             margin: '2px 0 0',
             fontSize: '1rem',
-            backgroundColor: 'rgb(49,49,49)',
+            backgroundColor: 'rgb(39,39,39)',
             backgroundClip: 'padding-box',
             border: '1px solid rgba(3, 3, 3, 0.15)',
             borderRadius: '4px',

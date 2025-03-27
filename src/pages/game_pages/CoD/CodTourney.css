@@ -269,12 +269,12 @@ margin-bottom: 15px;
 .tourney-borders {
     border: 5px solid rgb(142,106,206);
     border-radius: 4px;
-    background-color: rgb(49,49,49);
+    background-color: rgb(39,39,39);
 }
 
   /* Border image wrapper */
 .tournament-card-wrapper {
-    /* position: relative; */
+    position: relative;
     /* padding: 12px; */
     /* width: 100%; */
     width: 80rem;
@@ -282,6 +282,9 @@ margin-bottom: 15px;
     border-width: 10000%; */
     /* border: 8% solid blueviolet; */
     /* border-radius: 2%; */
+    border: none;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .tournament-card-wrapper::before {
@@ -291,15 +294,20 @@ margin-bottom: 15px;
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-image: url(https://imgur.com/QPubU6y.png); Replace with your image path */
+    background-image: url(https://i.imgur.com/M4FR1qC.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* border-radius: 8px; */
-    /* border-color: blueviolet; */
+    background-position: center;
     pointer-events: none; /* Allows clicking through to the card */
-    z-index: 1;
-    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
   }
+
+
+  .tournament-card-wrapper .list-group-item {
+    background-color: transparent !important;
+    border: none !important;
+}
 
   /* .tournament-card {
     position: relative;
@@ -362,9 +370,20 @@ margin-bottom: 15px;
     border-color: rgb(142,106,206);
 }
 
-.hoster-banner {
+/* .hoster-banner {
     height: auto;
     width: 5rem;
     padding-bottom: 1rem;
-    /* border-radius: 5px; */
+} */
+
+/* .cmg {
+    background-image: url('https://i.imgur.com/M4FR1qC.png');
+    width: 100%;
+    height: auto;
 }
+
+.codagent {
+    background-image: url('https://i.imgur.com/R12yczc.png');
+    width: 100%;
+    height: auto;
+} */

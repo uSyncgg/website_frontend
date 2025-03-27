@@ -313,8 +313,8 @@ function Tournament(props) {
     const { tournament } = props;
 
     const hosterBanners = {
-        'cmg': 'https://i.imgur.com/XOKpA8d.png',
-        'codagent': 'https://i.imgur.com/H8SulFm.png'
+        'cmg': 'https://i.imgur.com/M4FR1qC.png',
+        'codagent': 'https://i.imgur.com/R12yczc.png'
     }
 
     // const iseco = tournament.iseco;
@@ -331,7 +331,7 @@ function Tournament(props) {
     // const ischallenger = tournament.challenger
     // var hoster = tournament.company
 
-    // var tournament_class = ''
+    var tournament_class = tournament.company
 
     // if (iseco === true) { tournament_class += 'eco ' }
     // if (is1v1 === true) { tournament_class += '1v1 ' }
@@ -352,12 +352,12 @@ function Tournament(props) {
         
 
         <div className={"container-fluid d-flex justify-content-md-start"} style={{ paddingLeft: '12.5%', height: '60%' }}>
-            <CCard style={{ marginRight: '5rem' }} className='mb-4 tournament-card-wrapper tourney-borders'>
+            <CCard style={{ marginRight: '5rem' }} className={'mb-4 tournament-card-wrapper'}>
                 <CCardBody className='py-3'>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center">
-                            <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/>
+                            {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <CCardTitle className='white-text'>{tournament.gamemode.toUpperCase()}</CCardTitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.team_size}</CCardSubtitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.series}</CCardSubtitle>
@@ -370,15 +370,15 @@ function Tournament(props) {
                                 <CRow>
                                     <CCol xs={12} sm={6} md={4} lg={6} className="mb-0">
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 tourney-background white-text'>Time</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 tourney-background purple-text'>{tournament.time} EST</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Time</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.time} EST</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
                                     <CCol xs={12} sm={6} md={4} lg={6} className="mb-0">
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 tourney-background white-text'>Entry</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 tourney-background purple-text'>{tournament.entry}</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Entry</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
                                 </CRow>
@@ -386,22 +386,22 @@ function Tournament(props) {
                                 <CRow>
                                     <CCol xs={12} sm={6} md={4} lg={4} className="mb-0">
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 tourney-background white-text'>Region</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 tourney-background purple-text'>{tournament.region}</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Region</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.region}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
                                     <CCol xs={12} sm={6} md={4} lg={3} className="mb-0">
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 tourney-background white-text'>Skill</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 tourney-background purple-text'>{tournament.skill}</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Skill</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.skill}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
                                     <CCol xs={12} sm={6} md={4} lg={5}className="mb-0" >
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 tourney-background white-text'>Restrictions</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 tourney-background purple-text'>{tournament.requirements}</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Restrictions</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.requirements}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
                                 </CRow>

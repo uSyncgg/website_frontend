@@ -283,9 +283,11 @@ a {
 }
 
 
-#league-header {
-  position: relative;
-}
+/* #League-header { */
+  /* position: block; */
+  /* height: 150%; */
+  /* height: 100rem */
+/* } */
 
 
 #league-title1 {
