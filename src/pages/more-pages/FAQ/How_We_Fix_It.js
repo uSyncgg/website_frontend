@@ -36,7 +36,7 @@ const Fix = () => {
                             <div className="article-border middle-box">
                                 <div className="map-img">
                                     <div className="bright-text">
-                                        <a href="/">CLICK HERE FOR OUR LAN MAP</a>
+                                        <a href="/LanMap">CLICK HERE FOR OUR LAN MAP</a>
                                     </div>
                                 </div>
                             </div>
