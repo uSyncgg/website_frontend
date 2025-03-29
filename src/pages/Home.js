@@ -104,7 +104,7 @@ const Home = () => {
               title="lanMap"
               id="map"
               className={styles.Map}
-              src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F"
+              src="https://www.google.com/maps/d/u/2/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F"
               width="640"
               height="480"
             ></iframe>
