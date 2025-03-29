@@ -508,3 +508,10 @@ header {
 .home-games-img-row {
   margin: 1rem 0;
 }
+
+.full-map {
+  width: 100vw;
+  height: calc(100vh - 60px); /* Adjust based on navbar/footer height */
+  border: none;
+  display: block;
+}

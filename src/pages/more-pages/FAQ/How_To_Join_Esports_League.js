@@ -8,16 +8,48 @@ const Join = () => {
             <div className="total-container-FAQ">
                 <div className="container-fluid">
                     <div className="row FAQ-container">
-                        <div className="col-lg-8">
-                            <h5 className="purple-text">HOW TO JOIN AN ESPORTS LEAGUE</h5>
-                        </div>
-
                         <div className="col-lg-4">
                             <h5 className="purple-text">OTHER ARTICLES</h5>
+                        </div>
+
+                        <div className="col-lg-8">
+                            <h5 className="purple-text">HOW TO JOIN AN ESPORTS LEAGUE</h5>
                         </div>
                     </div>
 
                     <div className="row">
+                        <div className="col-lg-4">
+                            <div className="article-border">
+                                <div className="other-articles">
+                                    <div className="bright-text">
+                                        <a href="/more/FAQ/The-Problem-With-Esports">THE PROBLEM WITH ESPORTS</a>
+                                        <br />
+                                        <a href="/more/FAQ/What-We-Provide">WHAT WE PROVIDE</a>
+                                        <br />
+                                        <a href="/more/FAQ/How-Esports-Can-Be-Better">HOW ESPORTS CAN BE BETTER</a>
+                                        <br />
+                                        <a href="/more/FAQ/How-We-Fix-It">HOW WE FIX IT</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="article-border middle-box">
+                                <div className="map-img">
+                                    <div className="bright-text">
+                                        <a href="/">CLICK HERE FOR OUR LAN MAP</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="article-border">
+                                <div className="league-article-img">
+                                    <div className="bright-text">
+                                        <a href="/leagues">CLICK HERE FOR LEAGUES</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="col-lg-8 article-border article-background">
                             <h7 className="black-text">How to Join an Esports League: A Complete Guide</h7>
                             <p className="white-text">
@@ -240,36 +272,6 @@ const Join = () => {
                             </p>
                             <br />
                             <p className="white-text">Join an esports league today and start competing in the best leagues in gaming!</p>
-                        </div>
-
-                        <div className="col-lg-4">
-                            <div className="article-border">
-                                <div className="other-articles">
-                                    <div className="bright-text">
-                                        <a href="/more/FAQ/The-Problem-With-Esports">THE PROBLEM WITH ESPORTS</a>
-                                        <br />
-                                        <a href="/more/FAQ/What-We-Provide">WHAT WE PROVIDE</a>
-                                        <br />
-                                        <a href="/more/FAQ/How-Esports-Can-Be-Better">HOW ESPORTS CAN BE BETTER</a>
-                                        <br />
-                                        <a href="/more/FAQ/How-We-Fix-It">HOW WE FIX IT</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="article-border">
-                                <div className="map-img">
-
-                                </div>
-                            </div>
-                            
-                            <div className="article-border">
-                                <div className="league-article-img">
-                                    <div className="bright-text">
-                                        <a href="/leagues">CLICK HERE FOR LEAGUES</a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

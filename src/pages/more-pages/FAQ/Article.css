@@ -15,9 +15,13 @@
     /* filter: brightness(50%); */
 }
 
-/* .map-img {
-
-} */
+.map-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/gvdIL9C.png);
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    width: 100%;
+}
 
 .league-article-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/Ag3UcjZ.png');
@@ -26,6 +30,11 @@
     height: 10rem;
     width: 100%;
     /* filter: brightness(50%); */
+}
+
+.middle-box {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .bright-text {

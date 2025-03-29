@@ -370,6 +370,12 @@ margin-bottom: 15px;
     border-color: rgb(142,106,206);
 }
 
+.filter-box {
+    position: sticky !important;
+    top: 3rem;
+    overflow-y: auto;
+}
+
 /* .hoster-banner {
     height: auto;
     width: 5rem;

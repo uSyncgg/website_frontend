@@ -18,6 +18,7 @@ import Navbar from './Navbar';
 import Playground from './Playground';
 import PlaygroundTwo from './pages/more-pages/PlaygroundTwo';
 import { Helmet } from 'react-helmet';
+import LanMap from './pages/LanMap';
 
 import Cod_headtohead from './pages/game_pages/CoD/Cod_headtohead'
 import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers'
@@ -1781,6 +1782,10 @@ function App() {
       case "/more/FAQ/How-to-Join-an-Esports-League":
         title = "How to Join an Esports League | uSync";
         component = <Join />
+        break;
+      case "/LanMap":
+        title = "Lan Map | uSync";
+        component = <LanMap />
         break;
   } 
 

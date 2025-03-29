@@ -16,6 +16,15 @@ function CodTourneys() {
     const [currentPage, setCurrentPage] = useState(1);
     const cardsPerPage = 10;
 
+    const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
+    
+        React.useEffect(() => {
+            const navbar = document.querySelector('.navbar'); // Adjust based on your class
+            if (navbar) {
+                setNavHeight(navbar.offsetHeight);
+            }
+        }, []);
+
     useEffect(() => {
         axios.get("https://website-backend-5m32.onrender.com/usyncapp/tournaments").then(res => {
             setTournaments(res.data)
@@ -94,67 +103,69 @@ function CodTourneys() {
         <div>
             <div className="tourney-background">
                 <div className="d-flex">
-                    <div className="sidebar" style={{ width: '50%', padding: '2rem', marginLeft: '5rem' }}>
-                        <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
+                    <div className="sidebar" style={{ width: '50%', padding: '2rem', marginLeft: '5rem', position: 'relative' }}>
+                        <div className='filter-box'>
+                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
 
-                        {/* <CCard style={{ height: '10%' }}>
-                            <CCardBody>
-                                <CCardTitle>Tournament Filters</CCardTitle>
-                                <CCardText>
-                                    <p>Filter by region, entry fee, etc.</p>
+                            {/* <CCard style={{ height: '10%' }}>
+                                <CCardBody>
+                                    <CCardTitle>Tournament Filters</CCardTitle>
+                                    <CCardText>
+                                        <p>Filter by region, entry fee, etc.</p>
 
-                                    <label>
-                                        <input type="checkbox" name='Free Entry'/> Free Entry
-                                    </label>
-                                </CCardText>
-                            </CCardBody>
-                        </CCard>
-                    </div> */}
+                                        <label>
+                                            <input type="checkbox" name='Free Entry'/> Free Entry
+                                        </label>
+                                    </CCardText>
+                                </CCardBody>
+                            </CCard>
+                        </div> */}
 
-                    {/* <div className="filters-container d-flex gap-3 mb-4"> */}
-                        <div className="tourney-borders">
-                            <CheckboxDropdown 
-                            title="Team Size" 
-                            options={teamOptions} 
-                            onChange={handleFormatChange}
-                            selectedOptions={selectedFormats}
-                            />
+                        {/* <div className="filters-container d-flex gap-3 mb-4"> */}
+                            <div className="tourney-borders">
+                                <CheckboxDropdown 
+                                title="Team Size" 
+                                options={teamOptions} 
+                                onChange={handleFormatChange}
+                                selectedOptions={selectedFormats}
+                                />
 
-                            <CheckboxDropdown 
-                            title="Regions" 
-                            options={regionOptions}
-                            onChange={handleRegionChange}
-                            selectedOptions={selectedRegions} 
-                            />
-                            
-                            <CheckboxDropdown 
-                            title="Platform" 
-                            options={consoleOptions}
-                            onChange={handlePlatformChange}
-                            selectedOptions={selectedPlatforms} 
-                            />
+                                <CheckboxDropdown 
+                                title="Regions" 
+                                options={regionOptions}
+                                onChange={handleRegionChange}
+                                selectedOptions={selectedRegions} 
+                                />
+                                
+                                <CheckboxDropdown 
+                                title="Platform" 
+                                options={consoleOptions}
+                                onChange={handlePlatformChange}
+                                selectedOptions={selectedPlatforms} 
+                                />
 
-                            <CheckboxDropdown 
-                            title="Skill" 
-                            options={skillOptions}
-                            onChange={handleSkillChange}
-                            selectedOptions={selectedSkills} 
-                            />
+                                <CheckboxDropdown 
+                                title="Skill" 
+                                options={skillOptions}
+                                onChange={handleSkillChange}
+                                selectedOptions={selectedSkills} 
+                                />
 
-                            <CheckboxDropdown 
-                            title="Entry Fee" 
-                            options={entryOptions}
-                            onChange={handleEntryChange}
-                            selectedOptions={selectedEntry} 
-                            />
+                                <CheckboxDropdown 
+                                title="Entry Fee" 
+                                options={entryOptions}
+                                onChange={handleEntryChange}
+                                selectedOptions={selectedEntry} 
+                                />
+                            </div>
                         </div>
                     </div>
                     
                     {/* Right side tournament list */}
                     <div style={{ width: '70%', padding: '2rem' }}>
                         <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Featured</h1>
-                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
+                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: 'white' }}>Featured</h1>
+                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
                         </div>
                         {/* {currentTournaments.map((tournament) => {
                             selectedFormats === "all" || tournament[selectedFormats]
