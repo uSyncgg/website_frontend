@@ -376,6 +376,19 @@ margin-bottom: 15px;
     overflow-y: auto;
 }
 
+.page-buttons button {
+    outline: none !important; /* Removes the focus outline */
+    box-shadow: none !important; /* Removes the shadow effect */
+}
+
+.page-buttons button:disabled {
+    opacity: 0.5; /* Adjust this to control the faded look */
+    pointer-events: none; /* Prevents interaction */
+    box-shadow: none !important; /* Ensures no focus ring on disabled buttons */
+    outline: none !important;
+    border: none !important;
+}
+
 /* .hoster-banner {
     height: auto;
     width: 5rem;
