@@ -311,6 +311,14 @@ function CodTourneys() {
 
         return formatMatch && regionMatch && platformMatch && skillMatch && entryMatch;
     });
+
+    const clearFilters = () => {
+        setSelectedFormats([]);
+        setSelectedRegions([]);
+        setSelectedPlatforms([]);
+        setSelectedSkills([]);
+        setSelectedEntry([]);
+    }
     
     const indexOfLastTournament = currentPage * cardsPerPage;
     const indexOfFirstTournament = indexOfLastTournament - cardsPerPage;
@@ -333,6 +341,10 @@ function CodTourneys() {
                                 <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms, selectedPlatforms)} selectedOptions={selectedPlatforms} />
                                 <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills, selectedSkills)} selectedOptions={selectedSkills} />
                                 <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry, selectedEntry)} selectedOptions={selectedEntry} />
+                                
+                                <span className='purple-text' onClick={clearFilters} style={{ cursor: 'pointer' }}>
+                                    Reset Filters
+                                </span>
                             </div>
                         </div>
                     </div>
