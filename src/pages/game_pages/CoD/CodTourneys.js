@@ -320,6 +320,9 @@ function CodTourneys() {
         setSelectedEntry([]);
     }
     
+    
+    const totalFilteredPages = Math.ceil(filteredTournaments.length / cardsPerPage);
+
     const indexOfLastTournament = currentPage * cardsPerPage;
     const indexOfFirstTournament = indexOfLastTournament - cardsPerPage;
     const currentTournaments = filteredTournaments.slice(indexOfFirstTournament, indexOfLastTournament);
@@ -328,13 +331,25 @@ function CodTourneys() {
     const nextPage = () => setCurrentPage(prev => prev < Math.ceil(filteredTournaments.length / cardsPerPage) ? prev + 1 : prev);
     const prevPage = () => setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
 
+    const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
+
+    React.useEffect(() => {
+        const navbar = document.querySelector('.navbar'); // Adjust based on your class
+        if (navbar) {
+            setNavHeight(navbar.offsetHeight);
+        }
+    }, []);
+
+    // console.log(`NAV Height: ${navHeight}`)
+    console.log(`FILTERED TOURNAMENTS: ${filteredTournaments.length}`)
+
     return (
         <div>
             <div className="tourney-background">
                 <div className='d-flex'>
-                    <div className="sidebar" style={{ width: '50%', padding: '2rem', marginLeft: '5rem', position: 'relative' }}>
+                    <div className="sidebar">
                         <div className='filter-box'>
-                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
+                            <h1 className="filters">Filters</h1>
                             <div className="tourney-borders">
                                 <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats, selectedFormats)} selectedOptions={selectedFormats} />
                                 <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions, selectedRegions)} selectedOptions={selectedRegions} />
@@ -348,15 +363,17 @@ function CodTourneys() {
                             </div>
                         </div>
                     </div>
-                    <div style={{ width: '70%', padding: '2rem' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
-                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: 'white' }}>Featured</h1>
-                            <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
+                    <div className="tournament-container">
+                        <div className='tourney-header'>
+                            <h1 className='featured-tournaments-white'>Featured</h1>
+                            <h1 className='featured-tournaments-purple'>Tournaments</h1>
                         </div>
 
-                        <TournamentList 
-                            tournaments={currentTournaments}
-                        />
+                        <div className='tournament-list'>
+                            <TournamentList 
+                                tournaments={currentTournaments}
+                            />
+                        </div>
                     </div>
                 </div>
             
@@ -369,11 +386,11 @@ function CodTourneys() {
                         &larr; Previous
                     </CButton>
                     <div className="d-flex align-items-center">
-                        Page {currentPage} of {Math.ceil(filteredTournaments.length ? filteredTournaments.length >= 1 : 1 / cardsPerPage)}
+                        Page {currentPage} of {Math.ceil(filteredTournaments.length ? totalFilteredPages  : 1 / cardsPerPage)}
                     </div>
                     <CButton 
                         onClick={nextPage} 
-                        disabled={currentPage === Math.ceil(filteredTournaments.length ? filteredTournaments.length >= 1 : 1 / cardsPerPage)}
+                        disabled={currentPage === Math.ceil(filteredTournaments.length ? totalFilteredPages : 1 / cardsPerPage)}
                         className="mx-2 white-text"
                     >
                         Next &rarr;
@@ -515,12 +532,12 @@ function Tournament(props) {
     return (
         
 
-        <div className={"container-fluid d-flex justify-content-md-start"} style={{ paddingLeft: '12.5%', height: '60%' }}>
-            <CCard style={{ marginRight: '5rem' }} className={'mb-4 tournament-card-wrapper'}>
+        <div className={"container-fluid d-flex justify-content-md-start tournament-card"}>
+            <CCard className={'mb-4 tournament-card-wrapper'}>
                 <CCardBody className='py-3'>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
-                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center" style={{ paddingLeft: '1.5rem', paddingTop: '1rem'}}>
+                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title">
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <CCardTitle className='white-text'>{tournament.gamemode.toUpperCase()}</CCardTitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.team_size}</CCardSubtitle>
@@ -529,17 +546,17 @@ function Tournament(props) {
                         
                         {/* Right side: Information in CListGroups */}
                         <CCol xs={12} md={8} lg={6}>
-                            <CContainer fluid className="p-0">
+                            <CContainer fluid className="p-0 tourney-info">
                             <CRow>
                                 <CRow>
-                                    <CCol xs={12} sm={6} md={4} lg={6} className="mb-0">
+                                    <CCol xs={12} sm={12} md={8} lg={6} className="mb-0">
                                     <CListGroup flush className="border-0">
                                         <CListGroupItem className='py-1 px-2 white-text'>Time</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.time} EST</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
-                                    <CCol xs={12} sm={6} md={4} lg={6} className="mb-0">
+                                    <CCol xs={12} sm={12} md={8} lg={6} className="mb-0">
                                     <CListGroup flush className="border-0">
                                         <CListGroupItem className='py-1 px-2 white-text'>Entry</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
@@ -548,21 +565,21 @@ function Tournament(props) {
                                 </CRow>
 
                                 <CRow>
-                                    <CCol xs={12} sm={6} md={4} lg={4} className="mb-0">
+                                    <CCol xs={12} sm={12} md={8} lg={4} className="mb-0">
                                     <CListGroup flush className="border-0">
                                         <CListGroupItem className='py-1 px-2 white-text'>Region</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.region}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
-                                    <CCol xs={12} sm={6} md={4} lg={3} className="mb-0">
+                                    <CCol xs={12} sm={12} md={8} lg={3} className="mb-0">
                                     <CListGroup flush className="border-0">
                                         <CListGroupItem className='py-1 px-2 white-text'>Skill</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.skill}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>
 
-                                    <CCol xs={12} sm={6} md={4} lg={5}className="mb-0" >
+                                    <CCol xs={12} sm={12} md={8} lg={5}className="mb-0" >
                                     <CListGroup flush className="border-0">
                                         <CListGroupItem className='py-1 px-2 white-text'>Restrictions</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.requirements}</CListGroupItem>
@@ -575,7 +592,7 @@ function Tournament(props) {
 
                         {/* Right side: Join Now - Now vertically centered */}
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center">
-                            <button className="btn btn-primary white-text purple-color" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
+                            <button className="btn btn-primary white-text purple-color tourney-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
                         </CCol>
                     </CRow>
                     {/* <CCardTitle>{tournament.gamemode.toUpperCase()}</CCardTitle>

@@ -233,8 +233,8 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
       style={{ 
         position: 'relative', 
         display: 'flex', 
-        flexDirection: 'column',
-        width: '15rem',
+        // flexDirection: 'column',
+        width: '90%',
         transition: 'margin-bottom 0.3s ease-out',
         marginBottom: isOpen ? `${dropdownHeight}px` : '0' // Adjusts space dynamically
       }}
