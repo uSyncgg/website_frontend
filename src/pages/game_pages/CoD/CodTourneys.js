@@ -264,7 +264,7 @@ function CodTourneys() {
 
     const teamOptions = ['1v1', '2v2', '3v3', '4v4']; 
     const regionOptions = ['NA', 'EU', 'LATAM', 'United States'];
-    const consoleOptions = ['Console Only'];
+    const consoleOptions = ['PC', 'Console'];
     const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger'];
     const entryOptions = ['Free Entry', 'ECO'];
 
