@@ -1,0 +1,8 @@
+  .dropdown-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    margin-left: 0.68rem;
+  }
+
+      

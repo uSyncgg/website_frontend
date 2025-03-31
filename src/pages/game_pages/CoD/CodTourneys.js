@@ -520,7 +520,7 @@ function Tournament(props) {
                 <CCardBody className='py-3'>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
-                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center">
+                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center" style={{ paddingLeft: '1.5rem', paddingTop: '1rem'}}>
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <CCardTitle className='white-text'>{tournament.gamemode.toUpperCase()}</CCardTitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.team_size}</CCardSubtitle>

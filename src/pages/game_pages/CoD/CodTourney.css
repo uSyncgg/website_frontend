@@ -339,11 +339,13 @@ margin-bottom: 15px;
 }
 
 .white-text {
-    color: white
+    color: white;
+    font-weight: bold;
 }
 
 .purple-text {
-    color: rgb(146,106,206)
+    color: rgb(146,106,206);
+    font-weight: bold;
 }
 
 .page-buttons {

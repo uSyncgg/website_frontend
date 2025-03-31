@@ -144,6 +144,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { CFormCheck } from '@coreui/react';
+import './filter.css'
 
 const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalSelectedOptions }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -224,7 +225,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
   // Determine if main checkbox should be checked or indeterminate
   const isChecked = selectedOptions.length > 0;
   const isIndeterminate = selectedOptions.length > 0 && selectedOptions.length < options.length;
-  console.log(`DROPDOWN HEIGHT: ${dropdownHeight}`)
+  // console.log(`DROPDOWN HEIGHT: ${dropdownHeight}`)
   return (
     <div 
       className="checkbox-dropdown" 
