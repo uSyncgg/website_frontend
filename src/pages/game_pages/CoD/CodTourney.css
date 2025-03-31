@@ -46,6 +46,9 @@
 
 .tourney-background {
   background-color: rgb(49, 49, 49);
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 .white-text {
