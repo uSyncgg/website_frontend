@@ -212,10 +212,19 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
     }
   };
 
+  const [dropdownHeight, setDropdownHeight] = useState(0);
+  const dropdownContentRef = useRef(null);
+
+  useEffect(() => {
+      if (dropdownContentRef.current) {
+          setDropdownHeight(dropdownContentRef.current.scrollHeight); // Get content height dynamically
+      }
+  }, [isOpen]); // Recalculate height when isOpen changes
+
   // Determine if main checkbox should be checked or indeterminate
   const isChecked = selectedOptions.length > 0;
   const isIndeterminate = selectedOptions.length > 0 && selectedOptions.length < options.length;
-
+  console.log(`DROPDOWN HEIGHT: ${dropdownHeight}`)
   return (
     <div 
       className="checkbox-dropdown" 
@@ -226,7 +235,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
         flexDirection: 'column',
         width: '15rem',
         transition: 'margin-bottom 0.3s ease-out',
-        marginBottom: isOpen ? '200px' : '0' // Adjusts space dynamically
+        marginBottom: isOpen ? `${dropdownHeight}px` : '0' // Adjusts space dynamically
       }}
     >
       {/* Main checkbox that opens dropdown */}
@@ -260,6 +269,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
       {/* Dropdown menu with checkboxes */}
       <div 
         className="dropdown-menu"
+        ref={dropdownContentRef}
         style={{
           overflow: 'hidden',
           transition: 'max-height 0.3s ease-out, opacity 0.2s ease-in-out',
