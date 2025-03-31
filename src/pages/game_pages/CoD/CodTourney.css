@@ -348,6 +348,22 @@ margin-bottom: 15px;
     font-weight: bold;
 }
 
+.reset-filter-text {
+    color: rgb(146,106,206);
+    /* font-weight: bold; */
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+    /* opacity: 1; */
+}
+
+.reset-filter-text:hover {
+    /* color: rgb(158, 119, 217); */
+    /* box-shadow: 0 0 1.563rem .188rem rgba(153, 102, 255, 0.8); */
+    /* text-shadow: 0.1rem 0.1rem rgba(153, 102, 255, 0.8); */
+    font-weight: bold;
+    /* opacity: 2; */
+}
+
 .page-buttons {
     padding-bottom: 2rem
 }

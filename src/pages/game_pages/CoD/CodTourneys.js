@@ -342,7 +342,7 @@ function CodTourneys() {
                                 <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills, selectedSkills)} selectedOptions={selectedSkills} />
                                 <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry, selectedEntry)} selectedOptions={selectedEntry} />
                                 
-                                <span className='purple-text' onClick={clearFilters} style={{ cursor: 'pointer' }}>
+                                <span className='reset-filter-text' onClick={clearFilters} style={{ cursor: 'pointer' }}>
                                     Reset Filters
                                 </span>
                             </div>
