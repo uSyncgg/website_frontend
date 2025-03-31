@@ -1,190 +1,338 @@
-import React, { useEffect, useState } from 'react';
-import { CButton, CCard, CCardBody, CCardImage, CCardText, CCardTitle, CCardSubtitle, CListGroup, CListGroupItem, CContainer, CRow, CCol } from '@coreui/react'
-import axios from 'axios';
-import check from '../../../website_images/games/check-under-image.png';
-import snd_league from '../../../website_images/games/cod/cod-leagues/snd-league.png';
-// import './Cod.css';
-import './CodTourney.css';
-// import styles from './CodTourney.module.css';
-import EventTime from '../EventTime';
-import CheckboxDropdown from './components/CodCheckboxDropdown';
-import { string } from 'prop-types';
+// import React, { useEffect, useState } from 'react';
+import { CCardSubtitle, CListGroup, CListGroupItem } from '@coreui/react'
+// import axios from 'axios';
+// import check from '../../../website_images/games/check-under-image.png';
+// import snd_league from '../../../website_images/games/cod/cod-leagues/snd-league.png';
+// // import './Cod.css';
+// import './CodTourney.css';
+// // import styles from './CodTourney.module.css';
+// import EventTime from '../EventTime';
+// import CheckboxDropdown from './components/CodCheckboxDropdown';
+// import { string } from 'prop-types';
 import Footer from '../../../Footer';
+
+// function CodTourneys() {
+//     const [tournaments, setTournaments] = useState([]);
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const cardsPerPage = 10;
+
+//     const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
+    
+//         React.useEffect(() => {
+//             const navbar = document.querySelector('.navbar'); // Adjust based on your class
+//             if (navbar) {
+//                 setNavHeight(navbar.offsetHeight);
+//             }
+//         }, []);
+
+//     useEffect(() => {
+//         axios.get("https://website-backend-5m32.onrender.com/usyncapp/tournaments").then(res => {
+//             setTournaments(res.data)
+//         }).catch(err => {
+//             console.log(err)
+//         });
+//     }, []);
+
+//     // Get current tournaments
+//     const indexOfLastTournament = currentPage * cardsPerPage;
+//     const indexOfFirstTournament = indexOfLastTournament - cardsPerPage;
+//     const currentTournaments = tournaments.slice(indexOfFirstTournament, indexOfLastTournament);
+    
+//     // Change page
+//     const paginate = (pageNumber) => setCurrentPage(pageNumber);
+//     const nextPage = () => setCurrentPage(prev => prev < Math.ceil(tournaments.length / cardsPerPage) ? prev + 1 : prev);
+//     const prevPage = () => setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
+
+//     const [selectedFormats, setSelectedFormats] = useState([]);
+//     const [selectedRegions, setSelectedRegions] = useState([]);
+//     const [selectedPlatforms, setSelectedPlatforms] = useState([]);
+//     const [selectedSkills, setSelectedSkills] = useState([]);
+//     const [selectedEntry, setSelectedEntry] = useState([]);
+    
+//     // Available filter options
+//     const teamOptions = ['1v1', '2v2', '3v3', '4v4']; 
+//     const regionOptions = ['NA', 'EU', 'LATAM', 'USA'];
+//     const consoleOptions = ['Console']
+//     const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger']
+//     const entryOptions = ['Free', 'ECO']
+
+//     const handleFormatChange = (selectedOptions) => {
+//         setSelectedFormats(selectedOptions);
+//     };
+    
+//     // Handle region filter changes
+//     const handleRegionChange = (selectedOptions) => {
+//         setSelectedRegions(selectedOptions);
+//     };
+
+//     // Handle region filter changes
+//     const handlePlatformChange = (selectedOptions) => {
+//         setSelectedPlatforms(selectedOptions);
+//     };
+
+//     // Handle region filter changes
+//     const handleSkillChange = (selectedOptions) => {
+//         setSelectedSkills(selectedOptions);
+//     };
+
+//     // Handle region filter changes
+//     const handleEntryChange = (selectedOptions) => {
+//         setSelectedEntry(selectedOptions);
+//     };
+
+//     // const filteredTournaments = tournaments.filter(tournament => {
+//     //     const formatMatch = selectedFormats.length === 0 ||
+//     //         (tournament['1v1'] && selectedFormats.includes('1v1')) ||
+//     //         (tournament['2v2'] && selectedFormats.includes('2v2')) ||
+//     //         (tournament['3v3'] && selectedFormats.includes('3v3')) ||
+//     //         (tournament['4v4'] && selectedFormats.includes('4v4'))
+
+//     //     // const regionMatch = selectedRegions.length === 0 ||
+//     //     //     (tournament.region)
+
+//     //     return formatMatch
+//     // })
+
+//     // console.log("CURRENT TOURNAMENTS:", JSON.stringify(currentTournaments, null, 2));
+//     // console.log(`SELECTED FORMAT: ${selectedFormats}`)
+//     // console.log(`FORMATTED MATCH: ${JSON.stringify(filteredTournaments)}`)
+//     // console.log(filteredTournaments.length)
+//     // console.log(tournaments.length)
+//     console.log(`selected skill ${selectedSkills}`)
+//     return (
+//         <div>
+//             <div className="tourney-background">
+//                 <div className="d-flex">
+//                     <div className="sidebar" style={{ width: '50%', padding: '2rem', marginLeft: '5rem', position: 'relative' }}>
+//                         <div className='filter-box'>
+//                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
+
+//                             {/* <CCard style={{ height: '10%' }}>
+//                                 <CCardBody>
+//                                     <CCardTitle>Tournament Filters</CCardTitle>
+//                                     <CCardText>
+//                                         <p>Filter by region, entry fee, etc.</p>
+
+//                                         <label>
+//                                             <input type="checkbox" name='Free Entry'/> Free Entry
+//                                         </label>
+//                                     </CCardText>
+//                                 </CCardBody>
+//                             </CCard>
+//                         </div> */}
+
+//                         {/* <div className="filters-container d-flex gap-3 mb-4"> */}
+//                             <div className="tourney-borders">
+//                                 <CheckboxDropdown 
+//                                 title="Team Size" 
+//                                 options={teamOptions} 
+//                                 onChange={handleFormatChange}
+//                                 selectedOptions={selectedFormats}
+//                                 />
+
+//                                 <CheckboxDropdown 
+//                                 title="Regions" 
+//                                 options={regionOptions}
+//                                 onChange={handleRegionChange}
+//                                 selectedOptions={selectedRegions} 
+//                                 />
+                                
+//                                 <CheckboxDropdown 
+//                                 title="Platform" 
+//                                 options={consoleOptions}
+//                                 onChange={handlePlatformChange}
+//                                 selectedOptions={selectedPlatforms} 
+//                                 />
+
+//                                 <CheckboxDropdown 
+//                                 title="Skill" 
+//                                 options={skillOptions}
+//                                 onChange={handleSkillChange}
+//                                 selectedOptions={selectedSkills} 
+//                                 />
+
+//                                 <CheckboxDropdown 
+//                                 title="Entry Fee" 
+//                                 options={entryOptions}
+//                                 onChange={handleEntryChange}
+//                                 selectedOptions={selectedEntry} 
+//                                 />
+//                             </div>
+//                         </div>
+//                     </div>
+                    
+//                     {/* Right side tournament list */}
+//                     <div style={{ width: '70%', padding: '2rem' }}>
+//                         <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+//                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: 'white' }}>Featured</h1>
+//                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
+//                         </div>
+//                         {/* {currentTournaments.map((tournament) => {
+//                             selectedFormats === "all" || tournament[selectedFormats]
+//                             return <TournamentList tournaments={currentTournaments} />
+//                         })} */}
+//                         {/* <TournamentList tournaments={currentTournaments} /> */}
+
+//                         <TournamentList 
+//                             tournaments={currentTournaments}
+//                             format={selectedFormats}
+//                             region={selectedRegions}
+//                             platform={selectedPlatforms}
+//                             skill={selectedSkills}
+//                             entry={selectedEntry} 
+//                         />
+//                     </div>
+//                 </div>
+                        
+//                 {/* Pagination Controls */}
+//                 <div className="d-flex justify-content-center mt-4 white-text page-buttons">
+//                     <CButton 
+//                         onClick={prevPage} 
+//                         disabled={currentPage === 1}
+//                         className="mx-2 white-text"
+//                     >
+//                         &larr; Previous
+//                     </CButton>
+//                     <div className="d-flex align-items-center">
+//                         Page {currentPage} of {Math.ceil(tournaments.length / cardsPerPage)}
+//                     </div>
+//                     <CButton 
+//                         onClick={nextPage} 
+//                         disabled={currentPage === Math.ceil(tournaments.length / cardsPerPage)}
+//                         className="mx-2 white-text"
+//                     >
+//                         Next &rarr;
+//                     </CButton>
+//                 </div>
+//             </div>
+//         <Footer />
+//     </div>
+//     );
+// }
+
+// // function CodTourneys() {
+// //     const [tournaments, setTournaments] = useState([]);
+
+// //     useEffect(() => {
+// //         axios.get("http://localhost:5000/usyncapp/tournaments").then(res => {
+// //             setTournaments(res.data)
+// //         }).catch(err => {
+// //             console.log(err)
+// //         });
+// //     }, []);
+
+// //     return (
+// //         <div>
+// //             <h1>Tournaments</h1>
+// //             <div>
+// //                 <TournamentList tournaments={tournaments} />
+                
+// //                 {/* <div className="container d-flex justify-content-md-start" style={{ paddingRight: '30%' }}>
+// //                    <p>Hello</p> 
+// //                 </div> */}
+// //                 {/* PUT TOURNEY SORTER HERE ^ Right idea*/}
+// //             </div>
+// //         </div>
+// //     );
+// // }
+
+import React, { useEffect, useState } from 'react';
+import { CButton, CCard, CCardBody, CCardText, CCardTitle, CContainer, CRow, CCol } from '@coreui/react';
+import axios from 'axios';
+import CheckboxDropdown from './components/CodCheckboxDropdown';
+// import TournamentList from './TournamentList';
+import './CodTourney.css';
+
+// export default CodTourneys;
 
 function CodTourneys() {
     const [tournaments, setTournaments] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const cardsPerPage = 10;
 
-    const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
-    
-        React.useEffect(() => {
-            const navbar = document.querySelector('.navbar'); // Adjust based on your class
-            if (navbar) {
-                setNavHeight(navbar.offsetHeight);
-            }
-        }, []);
-
     useEffect(() => {
-        axios.get("https://website-backend-5m32.onrender.com/usyncapp/tournaments").then(res => {
-            setTournaments(res.data)
-        }).catch(err => {
-            console.log(err)
-        });
+        axios.get("https://website-backend-5m32.onrender.com/usyncapp/tournaments")
+            .then(res => setTournaments(res.data))
+            .catch(err => console.log(err));
     }, []);
-
-    // Get current tournaments
-    const indexOfLastTournament = currentPage * cardsPerPage;
-    const indexOfFirstTournament = indexOfLastTournament - cardsPerPage;
-    const currentTournaments = tournaments.slice(indexOfFirstTournament, indexOfLastTournament);
-    
-    // Change page
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
-    const nextPage = () => setCurrentPage(prev => prev < Math.ceil(tournaments.length / cardsPerPage) ? prev + 1 : prev);
-    const prevPage = () => setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
 
     const [selectedFormats, setSelectedFormats] = useState([]);
     const [selectedRegions, setSelectedRegions] = useState([]);
     const [selectedPlatforms, setSelectedPlatforms] = useState([]);
     const [selectedSkills, setSelectedSkills] = useState([]);
     const [selectedEntry, setSelectedEntry] = useState([]);
-    
-    // Available filter options
+
     const teamOptions = ['1v1', '2v2', '3v3', '4v4']; 
-    const regionOptions = ['NA', 'EU', 'LATAM'];
-    const consoleOptions = ['Console']
-    const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger']
-    const entryOptions = ['Free', 'ECO']
+    const regionOptions = ['NA', 'EU', 'LATAM', 'United States'];
+    const consoleOptions = ['Console Only'];
+    const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger'];
+    const entryOptions = ['Free Entry', 'ECO'];
 
-    const handleFormatChange = (selectedOptions) => {
-        setSelectedFormats(selectedOptions);
-    };
+    const handleFilterChange = (setter) => (selectedOptions) => setter(selectedOptions);
+
+    const filteredTournaments = tournaments.filter(tournament => {
+        if (selectedEntry[0] == 'ECO' && !selectedEntry.includes('Free Entry')) {
+            selectedEntry.push('Free Entry')
+            selectedEntry.push('$1')
+            selectedEntry.push('1 credit')
+        }
+
+        if (selectedPlatforms[0] == 'Console Only' && !selectedPlatforms.includes('console only')) {
+            selectedPlatforms.push('console only')
+        }
+        
+        if (selectedSkills.includes('Novice') && !selectedSkills.includes('Nov')) {
+            selectedSkills.push('Nov')
+        }
+
+        if (selectedSkills.includes('Amateur') && !selectedSkills.includes('Am')) {
+            selectedSkills.push('Am')
+        }
+
+        const formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament[format]);
+        const regionMatch = selectedRegions.length === 0 || selectedRegions.includes(tournament.region);
+        const platformMatch = selectedPlatforms.length === 0 || selectedPlatforms.includes(tournament.platform);
+        const skillMatch = selectedSkills.length === 0 || selectedSkills.some(skill => tournament.skill.includes(skill));
+        const entryMatch = selectedEntry.length === 0 || selectedEntry.includes(tournament.entry);
+        return formatMatch && regionMatch && platformMatch && skillMatch && entryMatch;
+    });
     
-    // Handle region filter changes
-    const handleRegionChange = (selectedOptions) => {
-        setSelectedRegions(selectedOptions);
-    };
+    const indexOfLastTournament = currentPage * cardsPerPage;
+    const indexOfFirstTournament = indexOfLastTournament - cardsPerPage;
+    const currentTournaments = filteredTournaments.slice(indexOfFirstTournament, indexOfLastTournament);
 
-    // Handle region filter changes
-    const handlePlatformChange = (selectedOptions) => {
-        setSelectedPlatforms(selectedOptions);
-    };
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const nextPage = () => setCurrentPage(prev => prev < Math.ceil(filteredTournaments.length / cardsPerPage) ? prev + 1 : prev);
+    const prevPage = () => setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
 
-    // Handle region filter changes
-    const handleSkillChange = (selectedOptions) => {
-        setSelectedSkills(selectedOptions);
-    };
-
-    // Handle region filter changes
-    const handleEntryChange = (selectedOptions) => {
-        setSelectedEntry(selectedOptions);
-    };
-
-    // const filteredTournaments = tournaments.filter(tournament => {
-    //     const formatMatch = selectedFormats.length === 0 ||
-    //         (tournament['1v1'] && selectedFormats.includes('1v1')) ||
-    //         (tournament['2v2'] && selectedFormats.includes('2v2')) ||
-    //         (tournament['3v3'] && selectedFormats.includes('3v3')) ||
-    //         (tournament['4v4'] && selectedFormats.includes('4v4'))
-
-    //     // const regionMatch = selectedRegions.length === 0 ||
-    //     //     (tournament.region)
-
-    //     return formatMatch
-    // })
-
-    // console.log("CURRENT TOURNAMENTS:", JSON.stringify(currentTournaments, null, 2));
-    // console.log(`SELECTED FORMAT: ${selectedFormats}`)
-    // console.log(`FORMATTED MATCH: ${JSON.stringify(filteredTournaments)}`)
-    // console.log(filteredTournaments.length)
-    // console.log(tournaments.length)
-    console.log(`selected skill ${selectedSkills}`)
     return (
         <div>
             <div className="tourney-background">
-                <div className="d-flex">
+                <div className='d-flex'>
                     <div className="sidebar" style={{ width: '50%', padding: '2rem', marginLeft: '5rem', position: 'relative' }}>
                         <div className='filter-box'>
                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
-
-                            {/* <CCard style={{ height: '10%' }}>
-                                <CCardBody>
-                                    <CCardTitle>Tournament Filters</CCardTitle>
-                                    <CCardText>
-                                        <p>Filter by region, entry fee, etc.</p>
-
-                                        <label>
-                                            <input type="checkbox" name='Free Entry'/> Free Entry
-                                        </label>
-                                    </CCardText>
-                                </CCardBody>
-                            </CCard>
-                        </div> */}
-
-                        {/* <div className="filters-container d-flex gap-3 mb-4"> */}
                             <div className="tourney-borders">
-                                <CheckboxDropdown 
-                                title="Team Size" 
-                                options={teamOptions} 
-                                onChange={handleFormatChange}
-                                selectedOptions={selectedFormats}
-                                />
-
-                                <CheckboxDropdown 
-                                title="Regions" 
-                                options={regionOptions}
-                                onChange={handleRegionChange}
-                                selectedOptions={selectedRegions} 
-                                />
-                                
-                                <CheckboxDropdown 
-                                title="Platform" 
-                                options={consoleOptions}
-                                onChange={handlePlatformChange}
-                                selectedOptions={selectedPlatforms} 
-                                />
-
-                                <CheckboxDropdown 
-                                title="Skill" 
-                                options={skillOptions}
-                                onChange={handleSkillChange}
-                                selectedOptions={selectedSkills} 
-                                />
-
-                                <CheckboxDropdown 
-                                title="Entry Fee" 
-                                options={entryOptions}
-                                onChange={handleEntryChange}
-                                selectedOptions={selectedEntry} 
-                                />
+                                <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats)} selectedOptions={selectedFormats} />
+                                <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions)} selectedOptions={selectedRegions} />
+                                <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms)} selectedOptions={selectedPlatforms} />
+                                <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills)} selectedOptions={selectedSkills} />
+                                <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry)} selectedOptions={selectedEntry} />
                             </div>
                         </div>
                     </div>
-                    
-                    {/* Right side tournament list */}
                     <div style={{ width: '70%', padding: '2rem' }}>
                         <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: 'white' }}>Featured</h1>
                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '4rem', color: "rgb(142,106,206)", marginLeft: '0.5rem' }}>Tournaments</h1>
                         </div>
-                        {/* {currentTournaments.map((tournament) => {
-                            selectedFormats === "all" || tournament[selectedFormats]
-                            return <TournamentList tournaments={currentTournaments} />
-                        })} */}
-                        {/* <TournamentList tournaments={currentTournaments} /> */}
 
                         <TournamentList 
                             tournaments={currentTournaments}
-                            format={selectedFormats}
-                            region={selectedRegions}
-                            platform={selectedPlatforms}
-                            skill={selectedSkills}
-                            entry={selectedEntry} 
                         />
                     </div>
                 </div>
-                        
-                {/* Pagination Controls */}
+            
                 <div className="d-flex justify-content-center mt-4 white-text page-buttons">
                     <CButton 
                         onClick={prevPage} 
@@ -194,70 +342,44 @@ function CodTourneys() {
                         &larr; Previous
                     </CButton>
                     <div className="d-flex align-items-center">
-                        Page {currentPage} of {Math.ceil(tournaments.length / cardsPerPage)}
+                        Page {currentPage} of {Math.ceil(filteredTournaments.length ? filteredTournaments.length >= 1 : 1 / cardsPerPage)}
                     </div>
                     <CButton 
                         onClick={nextPage} 
-                        disabled={currentPage === Math.ceil(tournaments.length / cardsPerPage)}
+                        disabled={currentPage === Math.ceil(filteredTournaments.length ? filteredTournaments.length >= 1 : 1 / cardsPerPage)}
                         className="mx-2 white-text"
                     >
                         Next &rarr;
                     </CButton>
                 </div>
             </div>
-        <Footer />
-    </div>
+            <Footer />
+        </div>
     );
 }
 
-// function CodTourneys() {
-//     const [tournaments, setTournaments] = useState([]);
-
-//     useEffect(() => {
-//         axios.get("http://localhost:5000/usyncapp/tournaments").then(res => {
-//             setTournaments(res.data)
-//         }).catch(err => {
-//             console.log(err)
-//         });
-//     }, []);
-
-//     return (
-//         <div>
-//             <h1>Tournaments</h1>
-//             <div>
-//                 <TournamentList tournaments={tournaments} />
-                
-//                 {/* <div className="container d-flex justify-content-md-start" style={{ paddingRight: '30%' }}>
-//                    <p>Hello</p> 
-//                 </div> */}
-//                 {/* PUT TOURNEY SORTER HERE ^ Right idea*/}
-//             </div>
-//         </div>
-//     );
-// }
-
 function TournamentList({tournaments, format, region, platform, skill, entry}) {
     var is1v1, is2v2, is3v3, is4v4, isEco, isNov, isAm, isExp, isAgent, isMaster, isChall
-    var isNa, isEu, isLatam
+    var isNa, isEu, isLatam, isUSA
     var selectedFormats = []
     var selectedEntry = []
     var selectedPlatforms = []
     var selectedRegions = []
     var selectedSkills = []
     // const { tournaments } = props;
-    console.log(`FORMAT: ${format}`)
-    console.log(`'FORMAT TYPE: ${typeof format}`)
-    console.log(platform)
-    console.log(skill)
-    console.log(entry)
-    console.log(region)
+    // console.log(`FORMAT: ${format}`)
+    // console.log(`'FORMAT TYPE: ${typeof format}`)
+    // console.log(platform)
+    // console.log(skill)
+    // console.log(entry)
+    // console.log(region)
 
 
-    if (typeof platform === "string" || Array.isArray(platform)) {
+    if (Array.isArray(platform)) {
         platform = platform === 'Console' ? selectedPlatforms.push('console_only') : ''
     } else { platform = '' }
 
-    if (typeof format === "string" || Array.isArray(format)) {
+    if (Array.isArray(format)) {
         is1v1 = format.includes('1v1') ? selectedFormats.push('1v1') : ''
         is2v2 = format.includes('2v2') ? selectedFormats.push('2v2') : ''
         is3v3 = format.includes('3v3') ? selectedFormats.push('3v3') : ''
@@ -269,21 +391,23 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
         is4v4 = ''
     }
 
-    if (typeof region === "string" || Array.isArray(region)) {
+    if (Array.isArray(region)) {
         isNa = region.includes('NA') ? selectedRegions.push('isNa') : ''
         isEu = region.includes('EU') ? selectedRegions.push('isEu') : ''
         isLatam = region.includes('LATAM') ? selectedRegions.push('isLatam'): ''
+        isUSA = region.includes('USA') | region.includes('United States') ? selectedRegions.push('isUSA'): ''
     } else {
         isNa = ''
         isEu = ''
         isLatam = ''
+        isUSA = ''
     }
     
-    if (typeof entry === "string" || Array.isArray(entry)) {
+    if (Array.isArray(entry)) {
         isEco = entry.includes('ECO') ? selectedEntry.push('iseco') : ''
     } else { isEco = '' }
 
-    if (typeof skill === "string" || Array.isArray(skill)) {
+    if (Array.isArray(skill)) {
         isNov = skill.includes('Novice') ? selectedSkills.push('novice') : ''
         isAm = skill.includes('Amateur') ? selectedSkills.push('amateur') : ''
         isExp = skill.includes('Expert') ? selectedSkills.push('expert') : ''
@@ -299,9 +423,9 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
         isChall = ''
     }
 
-    console.log(selectedFormats)
-    console.log(selectedSkills)
-    console.log(`TOURNAMENTS: ${tournaments}`)
+    // console.log(selectedFormats)
+    // console.log(selectedSkills)
+    // console.log(`TOURNAMENTS: ${tournaments}`)
     return (
         <div>
             {tournaments
@@ -447,3 +571,4 @@ function Tournament(props) {
 }
 
 export default CodTourneys;
+
