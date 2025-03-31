@@ -268,32 +268,47 @@ function CodTourneys() {
     const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger'];
     const entryOptions = ['Free Entry', 'ECO'];
 
-    const handleFilterChange = (setter) => (selectedOptions) => setter(selectedOptions);
+    // const handleFilterChange = (setter) => (selectedOptions) => setter(selectedOptions);
+
+    const handleFilterChange = (setter, currentValues) => (selectedOptions) => {
+        // If selectedOptions is an array, ensure deselected options are removed
+        if (Array.isArray(selectedOptions)) {
+            setter(selectedOptions);
+        } else {
+            // If it's a single value toggle (boolean), remove if unchecked
+            const updatedValues = currentValues.includes(selectedOptions)
+                ? currentValues.filter(item => item !== selectedOptions) // Remove if unchecked
+                : [...currentValues, selectedOptions]; // Add if checked
+    
+            setter(updatedValues);
+        }
+    };    
 
     const filteredTournaments = tournaments.filter(tournament => {
-        if (selectedEntry[0] == 'ECO' && !selectedEntry.includes('Free Entry')) {
-            selectedEntry.push('Free Entry')
-            selectedEntry.push('$1')
-            selectedEntry.push('1 credit')
-        }
+        // if (selectedEntry[0] == 'ECO' && !selectedEntry.includes('Free Entry')) {
+        //     selectedEntry.push('Free Entry')
+        //     selectedEntry.push('$1')
+        //     selectedEntry.push('1 credit')
+        // }
 
-        if (selectedPlatforms[0] == 'Console Only' && !selectedPlatforms.includes('console only')) {
-            selectedPlatforms.push('console only')
-        }
+        // if (selectedPlatforms[0] == 'Console Only' && !selectedPlatforms.includes('console only')) {
+        //     selectedPlatforms.push('console only')
+        // }
         
-        if (selectedSkills.includes('Novice') && !selectedSkills.includes('Nov')) {
-            selectedSkills.push('Nov')
-        }
+        // if (selectedSkills.includes('Novice') && !selectedSkills.includes('Nov')) {
+        //     selectedSkills.push('Nov')
+        // }
 
-        if (selectedSkills.includes('Amateur') && !selectedSkills.includes('Am')) {
-            selectedSkills.push('Am')
-        }
+        // if (selectedSkills.includes('Amateur') && !selectedSkills.includes('Am')) {
+        //     selectedSkills.push('Am')
+        // }
 
         const formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament[format]);
-        const regionMatch = selectedRegions.length === 0 || selectedRegions.includes(tournament.region);
+        const regionMatch = selectedRegions.length === 0 || selectedRegions.some(region => tournament.region.includes(region));
         const platformMatch = selectedPlatforms.length === 0 || selectedPlatforms.includes(tournament.platform);
         const skillMatch = selectedSkills.length === 0 || selectedSkills.some(skill => tournament.skill.includes(skill));
         const entryMatch = selectedEntry.length === 0 || selectedEntry.includes(tournament.entry);
+
         return formatMatch && regionMatch && platformMatch && skillMatch && entryMatch;
     });
     
@@ -313,11 +328,11 @@ function CodTourneys() {
                         <div className='filter-box'>
                             <h1 style={{ position: 'relative', zIndex: 2, marginTop: '3rem', color: 'white' }}>Filters</h1>
                             <div className="tourney-borders">
-                                <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats)} selectedOptions={selectedFormats} />
-                                <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions)} selectedOptions={selectedRegions} />
-                                <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms)} selectedOptions={selectedPlatforms} />
-                                <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills)} selectedOptions={selectedSkills} />
-                                <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry)} selectedOptions={selectedEntry} />
+                                <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats, selectedFormats)} selectedOptions={selectedFormats} />
+                                <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions, selectedRegions)} selectedOptions={selectedRegions} />
+                                <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms, selectedPlatforms)} selectedOptions={selectedPlatforms} />
+                                <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills, selectedSkills)} selectedOptions={selectedSkills} />
+                                <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry, selectedEntry)} selectedOptions={selectedEntry} />
                             </div>
                         </div>
                     </div>
