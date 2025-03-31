@@ -350,11 +350,10 @@ margin-bottom: 15px;
 
 .reset-filter-text {
     color: rgb(146,106,206);
-    font-weight: bold;
 }
 
 .reset-filter-text:hover {
-    filter: contrast(150%);
+    filter: contrast(140%);
 }
 
 .page-buttons {
