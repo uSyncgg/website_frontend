@@ -258,6 +258,10 @@
 
 
 
+.btn-primary.white-text.purple-color:hover {
+    filter: contrast(140%);
+    transition: filter 0.3s;
+}
 /* .hoster-banner {
     height: auto;
     width: 5rem;

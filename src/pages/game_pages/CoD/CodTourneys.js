@@ -592,7 +592,7 @@ function Tournament(props) {
 
                         {/* Right side: Join Now - Now vertically centered */}
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center">
-                            <button className="btn btn-primary white-text purple-color tourney-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
+                            <button className="btn btn-primary white-text purple-color tourney-button hover-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
                         </CCol>
                     </CRow>
                     {/* <CCardTitle>{tournament.gamemode.toUpperCase()}</CCardTitle>

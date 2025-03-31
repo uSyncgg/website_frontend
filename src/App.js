@@ -52,6 +52,7 @@ import CXP_Leagues from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Leagues'
 import CXP_Varsity from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Varsity';
 import CXP_Club from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Club';
 import CXP_Open from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Open';
+import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -324,7 +325,7 @@ import VantaGG_VAL from './pages/game_pages/Valorant/Leagues/VantaGG_VAL'
 import CorporateVAL from './pages/game_pages/Valorant/Leagues/CorporateVAL'
 import FACEITVal from './pages/game_pages/Valorant/Leagues/FACEITVal'
 import NSEVal from './pages/game_pages/Valorant/Leagues/NSEVal'
-//VALORANT LEAGUES JAKE
+//VALORANT LEAGUES
 
 //COUNTERSTIKE 2 HEAD TO HEAD
 import EsportScrimCS2 from './pages/game_pages/Counter-Strike2/Head-To-Head/EsportScrimCS2'
@@ -367,7 +368,207 @@ import Challenger_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagu
 import Intermediate_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Intermediate_SCL'
 import Masters_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Masters_SCL'
 import Public_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Public_SCL'
+import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2';
 //COUNTERSTIKE 2 LEAGUES
+
+
+
+//MASON & JAKE LANs - Current
+import CyphaCon_2025 from './pages/game_pages/LANs/CyphaCon_2025'
+import HCS_Optic_2025 from './pages/game_pages/LANs/HCS_Optic_2025'
+import MACS_COD_Spring_25 from './pages/game_pages/LANs/MACS_COD_Spring_25'
+import MACS_Spring_25 from './pages/game_pages/LANs/MACS_Spring_25'
+import Premier_Circuit_BO6_Major_3 from './pages/game_pages/LANs/Premier_Circuit_BO6_Major_3'
+import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
+import RMCS_COD_Spring_25 from './pages/game_pages/LANs/RMCS_COD_Spring_25'
+import RMCS_Spring_25 from './pages/game_pages/LANs/RMCS_Spring_25'
+import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
+import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
+import CDL_Major_4_Open25 from './pages/game_pages/LANs/CDL_Major_4_Open25'
+import Valhallan_lol from './pages/game_pages/LANs/Valhallan_lol'
+import HCS_DreamHack from './pages/game_pages/LANs/HCS_DreamHack'
+import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
+import DreamHack_Dallas25 from './pages/game_pages/LANs/DreamHack_Dallas25'
+import Gamers_For_Giving_2025 from './pages/game_pages/LANs/Gamers_For_Giving_2025'
+import PDX_LAN_Spring_2025 from './pages/game_pages/LANs/PDX_LAN_Spring_2025'
+import RocLAN_25 from './pages/game_pages/LANs/RocLAN_25'
+import Frag_x_LVLUP from './pages/game_pages/LANs/Frag_x_LVLUP'
+//MASON & JAKE LANs - Current
+
+
+//MASONS & JAKE LANs - Archived 2025
+import BelowZero_LAN from './pages/game_pages/LANs/2025-Archive/BelowZero_LAN'
+import Champions_Gauntlet_1 from './pages/game_pages/LANs/2025-Archive/Champions_Gauntlet_1'
+import Emerald_City_LAN from './pages/game_pages/LANs/2025-Archive/Emerald_City_LAN'
+import FragJersey_6 from './pages/game_pages/LANs/2025-Archive/FragJersey_6'
+import GACS_Operation_Winter from './pages/game_pages/LANs/2025-Archive/GACS_Operation_Winter'
+import GatorLAN_Spring_2025 from './pages/game_pages/LANs/2025-Archive/GatorLAN_Spring_2025'
+import GAVAL_Act_III from './pages/game_pages/LANs/2025-Archive/GAVAL_Act_III'
+import GCU_2025_Spring_Intramural from './pages/game_pages/LANs/2025-Archive/GCU_2025_Spring_Intramural'
+import Heartland_Showdown_2025 from './pages/game_pages/LANs/2025-Archive/Heartland_Showdown_2025'
+import InfernaLAN_Winter_2025 from './pages/game_pages/LANs/2025-Archive/InfernaLAN_Winter_2025'
+import Kami_Con_S16 from './pages/game_pages/LANs/2025-Archive/Kami_Con_S16'
+import LAN_All_Night_11 from './pages/game_pages/LANs/2025-Archive/LAN_All_Night_11'
+import LANWAR_73 from './pages/game_pages/LANs/2025-Archive/LANWAR_73'
+import Legends_Landing_FFA from './pages/game_pages/LANs/2025-Archive/Legends_Landing_FFA'
+import MassiveLAN_Winter_25 from './pages/game_pages/LANs/2025-Archive/MassiveLAN_Winter_25'
+import Midwest_Battleground_2025 from './pages/game_pages/LANs/2025-Archive/Midwest_Battleground_2025'
+import New_England_College_LAN_25 from './pages/game_pages/LANs/2025-Archive/New_England_College_LAN_25'
+import Norfolk_Winter_2025 from './pages/game_pages/LANs/2025-Archive/Norfolk_Winter_2025'
+import Premier_Circuit_BO6_Major_2 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_BO6_Major_2'
+import Premier_Circuit_BO6_Major_I from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_BO6_Major_I'
+import Summoners_Series_Spring_25 from './pages/game_pages/LANs/2025-Archive/Summoners_Series_Spring_25'
+import TomorrowLAN_2025_BO6 from './pages/game_pages/LANs/2025-Archive/TomorrowLAN_2025_BO6'
+import TomorrowLAN_2025_LOL from './pages/game_pages/LANs/2025-Archive/TomorrowLAN_2025_LOL'
+import UFGL_BO6_LAN_1 from './pages/game_pages/LANs/2025-Archive/UFGL_BO6_LAN_1'
+import UFGL_BO6_LAN_2 from './pages/game_pages/LANs/2025-Archive/UFGL_BO6_LAN_2'
+import UP1_Mix_Up_Zombies from './pages/game_pages/LANs/2025-Archive/UP1_Mix_Up_Zombies'
+import Valorant_Precision_Protocol from './pages/game_pages/LANs/2025-Archive/Valorant_Precision_Protocol'
+//MASON & JAKE LANs - Archived 2025
+
+
+//MASON & JAKE LANs - Archived 2024
+import Arena_Showcase_July_2024 from './pages/game_pages/LANs/2024-Archive/Arena_Showcase_July_2024'
+import Aurora_Womens_Playoff_LAN from './pages/game_pages/LANs/2024-Archive/Aurora_Womens_Playoff_LAN'
+import AWL_Austin from './pages/game_pages/LANs/2024-Archive/AWL_Austin'
+import Battle_of_the_Bay_2 from './pages/game_pages/LANs/2024-Archive/Battle_of_the_Bay_2'
+import Battle_of_The_Bulls_2024 from './pages/game_pages/LANs/2024-Archive/Battle_of_The_Bulls_2024'
+import Battle_On_The_Hudson_IV from './pages/game_pages/LANs/2024-Archive/Battle_On_The_Hudson_IV'
+import Battle_on_the_Hudson_V from './pages/game_pages/LANs/2024-Archive/Battle_on_the_Hudson_V'
+import BelowZero_Summer_24 from './pages/game_pages/LANs/2024-Archive/BelowZero_Summer_24'
+import BO6_Weekly_Fall_Gun_Game from './pages/game_pages/LANs/2024-Archive/BO6_Weekly_Fall_Gun_Game'
+import BO6_Weekly_Fall_Gunfight from './pages/game_pages/LANs/2024-Archive/BO6_Weekly_Fall_Gunfight'
+import Boilerfrag_XVII from './pages/game_pages/LANs/2024-Archive/Boilerfrag_XVII'
+import Breach_vs_LAG_Watch_Party from './pages/game_pages/LANs/2024-Archive/Breach_vs_LAG_Watch_Party'
+import CCL_x_Knox_Esports from './pages/game_pages/LANs/2024-Archive/CCL_x_Knox_Esports'
+import Champions_of_Vegas_VIII from './pages/game_pages/LANs/2024-Archive/Champions_of_Vegas_VIII'
+import COGlan_12 from './pages/game_pages/LANs/2024-Archive/COGlan_12'
+import Contender_Irvine_5k from './pages/game_pages/LANs/2024-Archive/Contender_Irvine_5k'
+import CPE_Clash_of_Champions from './pages/game_pages/LANs/2024-Archive/CPE_Clash_of_Champions'
+import CPE_Home_Series from './pages/game_pages/LANs/2024-Archive/CPE_Home_Series'
+import CS2_Game_Arena from './pages/game_pages/LANs/2024-Archive/CS2_Game_Arena'
+import CyPhaCon_2024 from './pages/game_pages/LANs/2024-Archive/CyPhaCon_2024'
+import Destro_East_Coast_Takeover from './pages/game_pages/LANs/2024-Archive/Destro_East_Coast_Takeover'
+import DragonCon from './pages/game_pages/LANs/2024-Archive/DragonCon'
+import Elite_Squad_Showdown from './pages/game_pages/LANs/2024-Archive/Elite_Squad_Showdown'
+import ETG_x_EZone_4k from './pages/game_pages/LANs/2024-Archive/ETG_x_EZone_4k'
+import EZone_4k_New_Jersey from './pages/game_pages/LANs/2024-Archive/EZone_4k_New_Jersey'
+import EZone_BO6_Kickoff from './pages/game_pages/LANs/2024-Archive/EZone_BO6_Kickoff'
+import Forge_LAN_21 from './pages/game_pages/LANs/2024-Archive/Forge_LAN_21'
+import FortLAN_2024 from './pages/game_pages/LANs/2024-Archive/FortLAN_2024'
+import G_Site_Gauntlet_Of_Glory_II from './pages/game_pages/LANs/2024-Archive/G_Site_Gauntlet_Of_Glory_II'
+import G_SITE_x_VIPERS_Q1 from './pages/game_pages/LANs/2024-Archive/G_SITE_x_VIPERS_Q1'
+import Galaxycon_2024 from './pages/game_pages/LANs/2024-Archive/Galaxycon_2024'
+import Game_Arena_BO6_Launch from './pages/game_pages/LANs/2024-Archive/Game_Arena_BO6_Launch'
+import GamerLounge_4v4_100 from './pages/game_pages/LANs/2024-Archive/GamerLounge_4v4_100'
+import Gamers_For_Giving_2024 from './pages/game_pages/LANs/2024-Archive/Gamers_For_Giving_2024'
+import Gamers_Lounge_4v4_MWIII_2 from './pages/game_pages/LANs/2024-Archive/Gamers_Lounge_4v4_MWIII_2'
+import GatorLAN_Fall_2024 from './pages/game_pages/LANs/2024-Archive/GatorLAN_Fall_2024'
+import GatorLAN_Spring_2024 from './pages/game_pages/LANs/2024-Archive/GatorLAN_Spring_2024'
+import Gauntlet_Of_Glory_2024_Q2 from './pages/game_pages/LANs/2024-Archive/Gauntlet_Of_Glory_2024_Q2'
+import Gunfight_Gunlock_Bi_Weekly from './pages/game_pages/LANs/2024-Archive/Gunfight_Gunlock_Bi_Weekly'
+import Halo_World_Championship_2024 from './pages/game_pages/LANs/2024-Archive/Halo_World_Championship_2024'
+import HCS_Arlington_2024 from './pages/game_pages/LANs/2024-Archive/HCS_Arlington_2024'
+import HCS_Atlanta_2024_Major from './pages/game_pages/LANs/2024-Archive/HCS_Atlanta_2024_Major'
+import HCS_Salt_Lake_City from './pages/game_pages/LANs/2024-Archive/HCS_Salt_Lake_City'
+import Heartland_Showdown from './pages/game_pages/LANs/2024-Archive/Heartland_Showdown'
+import HyperX_Arena_2v2_Gunfight from './pages/game_pages/LANs/2024-Archive/HyperX_Arena_2v2_Gunfight'
+import HyperX_Arena_Resurgence_Duos from './pages/game_pages/LANs/2024-Archive/HyperX_Arena_Resurgence_Duos'
+import HyperX_Duels_Duos from './pages/game_pages/LANs/2024-Archive/HyperX_Duels_Duos'
+import HyperX_Holiday_1v1 from './pages/game_pages/LANs/2024-Archive/HyperX_Holiday_1v1'
+import Illini_Esports_Invitational from './pages/game_pages/LANs/2024-Archive/Illini_Esports_Invitational'
+import InfernaLAN_Summer_24 from './pages/game_pages/LANs/2024-Archive/InfernaLAN_Summer_24'
+import Kami_Con_S15 from './pages/game_pages/LANs/2024-Archive/Kami_Con_S15'
+import Knox_Esports_2v2_Gunfight from './pages/game_pages/LANs/2024-Archive/Knox_Esports_2v2_Gunfight'
+import Knox_Esports_Halo_2 from './pages/game_pages/LANs/2024-Archive/Knox_Esports_Halo_2'
+import Knox_Esports_Halo_3 from './pages/game_pages/LANs/2024-Archive/Knox_Esports_Halo_3'
+import Knox_Esports_Halo from './pages/game_pages/LANs/2024-Archive/Knox_Esports_Halo'
+import Knox_Esports_LoL from './pages/game_pages/LANs/2024-Archive/Knox_Esports_LoL'
+import Knox_Esports_Tourney_2 from './pages/game_pages/LANs/2024-Archive/Knox_Esports_Tourney_2'
+import Knox_Esports_x_Home_Series from './pages/game_pages/LANs/2024-Archive/Knox_Esports_x_Home_Series'
+import LAN_All_Night_IX from './pages/game_pages/LANs/2024-Archive/LAN_All_Night_IX'
+import LAN_King from './pages/game_pages/LANs/2024-Archive/LAN_King'
+import LANFEST_Chicago_2024 from './pages/game_pages/LANs/2024-Archive/LANFEST_Chicago_2024'
+import LANFEST_Colorado_2024 from './pages/game_pages/LANs/2024-Archive/LANFEST_Colorado_2024'
+import LANWAR_71 from './pages/game_pages/LANs/2024-Archive/LANWAR_71'
+import Last_Chance_MW3_LAN from './pages/game_pages/LANs/2024-Archive/Last_Chance_MW3_LAN'
+import Launch_2024 from './pages/game_pages/LANs/2024-Archive/Launch_2024'
+import Lo6_Major_III from './pages/game_pages/LANs/2024-Archive/Lo6_Major_III'
+import Lowtier_Circuit_x_MamaMia from './pages/game_pages/LANs/2024-Archive/Lowtier_Circuit_x_MamaMia'
+import LULAN_2024 from './pages/game_pages/LANs/2024-Archive/LULAN_2024'
+import MAGFest_Prime from './pages/game_pages/LANs/2024-Archive/MAGFest_Prime'
+import MassiveLAN_Summer_2024 from './pages/game_pages/LANs/2024-Archive/MassiveLAN_Summer_2024'
+import MassiveLAN_Winter_2024 from './pages/game_pages/LANs/2024-Archive/MassiveLAN_Winter_2024'
+import Midwest_Fest_24 from './pages/game_pages/LANs/2024-Archive/Midwest_Fest_24'
+import Midwest_MW3_LAN from './pages/game_pages/LANs/2024-Archive/Midwest_MW3_LAN'
+import Mini_Mini_Cons_2024 from './pages/game_pages/LANs/2024-Archive/Mini_Mini_Cons_2024'
+import Monthly_Local_Host_Denver from './pages/game_pages/LANs/2024-Archive/Monthly_Local_Host_Denver'
+import MW3_Localhost_Denver from './pages/game_pages/LANs/2024-Archive/MW3_Localhost_Denver'
+import MWIII_Monthly_Free_For_All from './pages/game_pages/LANs/2024-Archive/MWIII_Monthly_Free_For_All'
+import NETWAR_43 from './pages/game_pages/LANs/2024-Archive/NETWAR_43'
+import NETWAR_44 from './pages/game_pages/LANs/2024-Archive/NETWAR_44'
+import NYXP_2v2_SND_Pop_Up_2 from './pages/game_pages/LANs/2024-Archive/NYXP_2v2_SND_Pop_Up_2'
+import NYXP_2v2_SND_Pop_Up from './pages/game_pages/LANs/2024-Archive/NYXP_2v2_SND_Pop_Up'
+import NYXP_BO6_2v2_SND_Showdown from './pages/game_pages/LANs/2024-Archive/NYXP_BO6_2v2_SND_Showdown'
+import Pax_East_2024 from './pages/game_pages/LANs/2024-Archive/Pax_East_2024'
+import PDX_LAN_Spring_2024 from './pages/game_pages/LANs/2024-Archive/PDX_LAN_Spring_2024'
+import PDXLAN_Fall_2024 from './pages/game_pages/LANs/2024-Archive/PDXLAN_Fall_2024'
+import Premier_Circuit_Element_Major_II from './pages/game_pages/LANs/2024-Archive/Premier_Circuit_Element_Major_II'
+import Premier_Circuit_Major_1 from './pages/game_pages/LANs/2024-Archive/Premier_Circuit_Major_1'
+import Prodigy_Games_LANs from './pages/game_pages/LANs/2024-Archive/Prodigy_Games_LANs'
+import Rally_Esports_The_Battleground from './pages/game_pages/LANs/2024-Archive/Rally_Esports_The_Battleground'
+import Ready_Up_RUST_2 from './pages/game_pages/LANs/2024-Archive/Ready_Up_RUST_2'
+import ReadyUp_Rust_1v1 from './pages/game_pages/LANs/2024-Archive/ReadyUp_Rust_1v1'
+import RGB_LAN_6 from './pages/game_pages/LANs/2024-Archive/RGB_LAN_6'
+import RGB_LAN_7 from './pages/game_pages/LANs/2024-Archive/RGB_LAN_7'
+import RocLAN_Fall_24 from './pages/game_pages/LANs/2024-Archive/RocLAN_Fall_24'
+import RocLAN_Spring_24 from './pages/game_pages/LANs/2024-Archive/RocLAN_Spring_24'
+import Rumble_at_Valhallan from './pages/game_pages/LANs/2024-Archive/Rumble_at_Valhallan'
+import RVA_1v1_Gunfight_2024 from './pages/game_pages/LANs/2024-Archive/RVA_1v1_Gunfight_2024'
+import SBG_2v2_Gunfight from './pages/game_pages/LANs/2024-Archive/SBG_2v2_Gunfight'
+import SBG_3v3_SND from './pages/game_pages/LANs/2024-Archive/SBG_3v3_SND'
+import SBG_LoL_Tournament_2 from './pages/game_pages/LANs/2024-Archive/SBG_LoL_Tournament_2'
+import SBG_LoL_Tourney from './pages/game_pages/LANs/2024-Archive/SBG_LoL_Tourney'
+import SBG_Summoners_Showdown_1 from './pages/game_pages/LANs/2024-Archive/SBG_Summoners_Showdown_1'
+import Scrims_Center_CS2_2024 from './pages/game_pages/LANs/2024-Archive/Scrims_Center_CS2_2024'
+import Scrims_Center_MW3 from './pages/game_pages/LANs/2024-Archive/Scrims_Center_MW3'
+import Skill_Check_2v2 from './pages/game_pages/LANs/2024-Archive/Skill_Check_2v2'
+import Skullz_Arena_BYOC from './pages/game_pages/LANs/2024-Archive/Skullz_Arena_BYOC'
+import Stateline_Showdown_24_WZ from './pages/game_pages/LANs/2024-Archive/Stateline_Showdown_24_WZ'
+import Stateline_Showdown_24 from './pages/game_pages/LANs/2024-Archive/Stateline_Showdown_24'
+import Team_Fish_Taco_Frag_18 from './pages/game_pages/LANs/2024-Archive/Team_Fish_Taco_Frag_18'
+import Tekko_Arena_2024 from './pages/game_pages/LANs/2024-Archive/Tekko_Arena_2024'
+import The_Ring_2 from './pages/game_pages/LANs/2024-Archive/The_Ring_2'
+import The_Tournament_June_FFA from './pages/game_pages/LANs/2024-Archive/The_Tournament_June_FFA'
+import Titans_of_Orlando from './pages/game_pages/LANs/2024-Archive/Titans_of_Orlando'
+import TorontoXP_2024 from './pages/game_pages/LANs/2024-Archive/TorontoXP_2024'
+import Ultra_Gaming_Expo_2024 from './pages/game_pages/LANs/2024-Archive/Ultra_Gaming_Expo_2024'
+import Vanguard_SND_Pop_Up from './pages/game_pages/LANs/2024-Archive/Vanguard_SND_Pop_Up'
+import Velocity_Esports_2v2_SND from './pages/game_pages/LANs/2024-Archive/Velocity_Esports_2v2_SND'
+import Vyral_x_Size from './pages/game_pages/LANs/2024-Archive/Vyral_x_Size'
+import Waffle_Games_7 from './pages/game_pages/LANs/2024-Archive/Waffle_Games_7'
+import Wichita_LANFest_37 from './pages/game_pages/LANs/2024-Archive/Wichita_LANFest_37'
+import XPL from './pages/game_pages/LANs/2024-Archive/XPL'
+//MASON & JAKE LANs - Archived 2024
+
+
+//MASON & JAKE LANs - Archived 2023
+import TusLAN from './pages/game_pages/LANs/2023-Archive/TusLAN'
+import Torg_Gaming_Expo from './pages/game_pages/LANs/2023-Archive/Torg_Gaming_Expo'
+import PDX_LAN from './pages/game_pages/LANs/2023-Archive/PDX_LAN'
+import Paradise_Kickoff from './pages/game_pages/LANs/2023-Archive/Paradise_Kickoff'
+import Operation_Broken_Arrow_FFA from './pages/game_pages/LANs/2023-Archive/Operation_Broken_Arrow_FFA'
+import NYSL_Warzone_Gauntlet from './pages/game_pages/LANs/2023-Archive/NYSL_Warzone_Gauntlet'
+import MW3_Lock_In from './pages/game_pages/LANs/2023-Archive/MW3_Lock_In'
+import KCGO94 from './pages/game_pages/LANs/2023-Archive/KCGO94'
+import InfernaLAN_Winter from './pages/game_pages/LANs/2023-Archive/InfernaLAN_Winter'
+import Halo_Baby_One_More_Time from './pages/game_pages/LANs/2023-Archive/Halo_Baby_One_More_Time'
+import Gamers_Lounge_4v4_MWIII from './pages/game_pages/LANs/2023-Archive/Gamers_Lounge_4v4_MWIII'
+import Game_Arena_MWIII_Launch from './pages/game_pages/LANs/2023-Archive/Game_Arena_MWIII_Launch'
+import Frostfire_Series from './pages/game_pages/LANs/2023-Archive/Frostfire_Series'
+import EZone_Philly from './pages/game_pages/LANs/2023-Archive/EZone_Philly'
+import Dreamhack_Atlanta from './pages/game_pages/LANs/2023-Archive/Dreamhack_Atlanta'
+//MASON & JAKE LANs - Archived 2023
 
 
 import Halo_headtohead from './pages/game_pages/Halo/Halo_headtohead'
@@ -413,7 +614,6 @@ import Contactus from './pages/more-pages/Contactus';
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
 // Also make sure to have the name after import be spelled the exact same as the filename otherwise it will not work
-import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
 import './Navbar.css'
 //import './pages/more-pages/Verification.css';
 //import './pages/more-pages/Eventhost.css';
@@ -425,7 +625,6 @@ import './pages/more-pages/Contactus.css';
 import Report from './pages/game_pages/Report';
 import './pages/Comingsoon.css';
 import './pages/more-pages/FAQ.css';
-import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -1602,7 +1801,7 @@ function App() {
         title = "NSE Valorant League | uSync";
       component = <NSEVal />
       break;
-    // VALORANT LEAGUES JAKE
+    // VALORANT LEAGUES
 
     // COUNTERSTRIKE 2 HEAD TO HEAD
     case "/games/CS2/head-to-head/esport-scrim":
@@ -1752,6 +1951,756 @@ function App() {
     component = <Public_SCL />
     break;
   // COUNTERSTRIKE 2 LEAGUES
+
+
+
+
+
+//MASON & JAKE LANs - Current
+case "/lans/cyphacon2025":
+title = "CyphaCon 2025 | uSync";
+component = <CyphaCon_2025 />
+break;
+case "/lans/hcs-optic-2025":
+title = "HCS Optic 2025 | uSync";
+component = <HCS_Optic_2025 />
+break;
+case "/lans/macs-cod-spring-25":
+title = "MACS COD Spring 25 | uSync";
+component = <MACS_COD_Spring_25 />
+break;
+case "/lans/macs-spring-25":
+title = "MACS Spring 25 | uSync";
+component = <MACS_Spring_25 />
+break;
+case "/lans/premier-circuit-bo6-major-3":
+title = "Premier Circuit BO6 Major 3 | uSync";
+component = <Premier_Circuit_BO6_Major_3 />
+break;
+case "/lans/premier-circuit-major-4":
+title = "Premier Circuit Major 4 | uSync";
+component = <Premier_Circuit_Major_4 />
+break;
+case "/lans/rmcs-cod-spring-25":
+title = "RMCS COD Spring 25 | uSync";
+component = <RMCS_COD_Spring_25 />
+break;
+case "/lans/rmcs-spring-25":
+title = "RMCS Spring 25 | uSync";
+component = <RMCS_Spring_25 />
+break;
+case "/lans/rva-gunfight-2025":
+title = "RVA Gunfight 2025 | uSync";
+component = <RVA_Gunfight_2025 />
+break;
+case "/lans/waffle-games-8":
+title = "Waffle Games 8 | uSync";
+component = <Waffle_Games_8 />
+break;
+case "/lans/cdl-major-4-open25":
+title = "CDL Major 4 Open | uSync";
+component = <CDL_Major_4_Open25 />
+break;
+case "/lans/valhallan-lol":
+title = "Valhallan | uSync";
+component = <Valhallan_lol />
+break;
+case "/lans/hcs-dreamhack":
+title = "HCS DreamHack | uSync";
+component = <HCS_DreamHack />
+break;
+case "/lans/thomas-college-expo":
+title = "Thomas College Expo | uSync";
+component = <Thomas_College_Expo />
+break;
+case "/lans/dreamhack-dallas-25":
+title = "DreamHack Dallas | uSync";
+component = <DreamHack_Dallas25 />
+break;
+case "/lans/gamers-for-giving-2025":
+title = "Gamers For Giving | uSync";
+component = <Gamers_For_Giving_2025 />
+break;
+case "/lans/pdx-lan-spring-2025":
+title = "XXXXXXXXXXX | uSync";
+component = <PDX_LAN_Spring_2025 />
+break;
+case "/lans/roclan-25":
+title = "RocLAN 2025 | uSync";
+component = <RocLAN_25 />
+break;
+case "/lans/frag-x-lvlup":
+title = "Frag x LVLUP | uSync";
+component = <Frag_x_LVLUP />
+break;
+//MASON & JAKE LANs - Current
+
+
+
+//MASONS & JAKE LANs - Archived 2025
+case "/lans/belowzero-lan":
+title = "BelowZero LAN | uSync";
+component = <BelowZero_LAN />
+break;
+case "/lans/champions-gauntlet-1":
+title = "Champions Gauntlet #1 | uSync";
+component = <Champions_Gauntlet_1 />
+break;
+case "/lans/emerald-city-lan":
+title = "Emerald City LAN | uSync";
+component = <Emerald_City_LAN />
+break;
+case "/lans/fragjersey-6":
+title = "FragJersey #6 | uSync";
+component = <FragJersey_6 />
+break;
+case "/lans/gacs-operation-winter":
+title = "GA:CS Operation Winter | uSync";
+component = <GACS_Operation_Winter />
+break;
+case "/lans/gatorlan-spring-2025":
+title = "GatorLAN Spring 2025 | uSync";
+component = <GatorLAN_Spring_2025 />
+break;
+case "/lans/gaval-act-iii":
+title = "GA:VAL Act III | uSync";
+component = <GAVAL_Act_III />
+break;
+case "/lans/gcu-2025-spring-intramural":
+title = "GCU 2025 Spring Intramural | uSync";
+component = <GCU_2025_Spring_Intramural />
+break;
+case "/lans/heartland-showdown-2025":
+title = "Heartland Showdown 2025 | uSync";
+component = <Heartland_Showdown_2025 />
+break;
+case "/lans/infernalan-winter-2025":
+title = "InfernaLAN Winter 2025 | uSync";
+component = <InfernaLAN_Winter_2025 />
+break;
+case "/lans/kami-con-s16":
+title = "Kami-Con S16 | uSync";
+component = <Kami_Con_S16 />
+break;
+case "/lans/lan-all-night-11":
+title = "LAN All Night 11 | uSync";
+component = <LAN_All_Night_11 />
+break;
+case "/lans/lanwar-73":
+title = "LANWAR 73 | uSync";
+component = <LANWAR_73 />
+break;
+case "/lans/legends-landing-ffa":
+title = "Legends Landing FFA | uSync";
+component = <Legends_Landing_FFA />
+break;
+case "/lans/massivelan-winter-25":
+title = "MassiveLAN Winter 25 | uSync";
+component = <MassiveLAN_Winter_25 />
+break;
+case "/lans/midwest-battleground-2025":
+title = "Midwest Battleground 2025 | uSync";
+component = <Midwest_Battleground_2025 />
+break;
+case "/lans/new-england-college-lan-25":
+title = "New England College LAN 25 | uSync";
+component = <New_England_College_LAN_25 />
+break;
+case "/lans/norfolk-winter-2025":
+title = "Norfolk Winter 2025 | uSync";
+component = <Norfolk_Winter_2025 />
+break;
+case "/lans/premier-circuit-bo6-major-2":
+title = "Premier Circuit BO6 Major 2 | uSync";
+component = <Premier_Circuit_BO6_Major_2 />
+break;
+case "/lans/premier-circuit-bo6-major-i":
+title = "Premier Circuit BO6 Major I | uSync";
+component = <Premier_Circuit_BO6_Major_I />
+break;
+case "/lans/summoners-series-spring-25":
+title = "Summoners Series Spring 25 | uSync";
+component = <Summoners_Series_Spring_25 />
+break;
+case "/lans/tomorrowlan-2025-bo6":
+title = "TomorrowLAN 2025 BO6 | uSync";
+component = <TomorrowLAN_2025_BO6 />
+break;
+case "/lans/tomorrowlan-2025-lol":
+title = "TomorrowLAN 2025 LOL | uSync";
+component = <TomorrowLAN_2025_LOL />
+break;
+case "/lans/ufgl-bo6-lan-1":
+title = "UFGL BO6 LAN #1 | uSync";
+component = <UFGL_BO6_LAN_1 />
+break;
+case "/lans/ufgl-bo6-lan-2":
+title = "UFGL BO6 LAN 2 | uSync";
+component = <UFGL_BO6_LAN_2 />
+break;
+case "/lans/1up-mix-up-zombies":
+title = "1UP Mix Up Zombies | uSync";
+component = <UP1_Mix_Up_Zombies />
+break;
+case "/lans/valorant-precision-protocol":
+title = "Valorant Precision Protocol | uSync";
+component = <Valorant_Precision_Protocol />
+break;
+//MASON & JAKE LANs - Archived 2025
+
+
+//MASON & JAKE LANs - Archived 2024
+case "/lans/arena-showcase-july-2024":
+title = "Arena Showcase July 2024 | uSync";
+component = <Arena_Showcase_July_2024 />
+break;
+case "/lans/aurora-womens-playoff-lan":
+title = "Aurora Womens Playoff LAN | uSync";
+component = <Aurora_Womens_Playoff_LAN />
+break;
+case "/lans/awl-austin":
+title = "AWL Austin | uSync";
+component = <AWL_Austin />
+break;
+case "/lans/battle-of-the-bay-2":
+title = "Battle of the Bay 2 | uSync";
+component = <Battle_of_the_Bay_2 />
+break;
+case "/lans/battle-of-the-bulls-2024":
+title = "Battle of The Bulls 2024 | uSync";
+component = <Battle_of_The_Bulls_2024 />
+break;
+case "/lans/battle-on-the-hudson-iv":
+title = "Battle On The Hudson IV | uSync";
+component = <Battle_On_The_Hudson_IV />
+break;
+case "/lans/battle-on-the-hudson-v":
+title = "Battle on the Hudson V | uSync";
+component = <Battle_on_the_Hudson_V />
+break;
+case "/lans/belowzero-summer-24":
+title = "BelowZero Summer 24 | uSync";
+component = <BelowZero_Summer_24 />
+break;
+case "/lans/bo6-weekly-fall-gun-game":
+title = "BO6 Weekly Fall Gun Game | uSync";
+component = <BO6_Weekly_Fall_Gun_Game />
+break;
+case "/lans/bo6-weekly-fall-gunfight":
+title = "BO6 Weekly Fall Gunfight | uSync";
+component = <BO6_Weekly_Fall_Gunfight />
+break;
+case "/lans/boilerfrag-xvii":
+title = "Boilerfrag XVII | uSync";
+component = <Boilerfrag_XVII />
+break;
+case "/lans/breach-vs-lag-watch-party":
+title = "Breach vs LAG Watch Party | uSync";
+component = <Breach_vs_LAG_Watch_Party />
+break;
+case "/lans/ccl-x-knox-esports":
+title = "CCL x Knox Esports | uSync";
+component = <CCL_x_Knox_Esports />
+break;
+case "/lans/champions-of-vegas-viii":
+title = "Champions of Vegas VIII | uSync";
+component = <Champions_of_Vegas_VIII />
+break;
+case "/lans/coglan-12":
+title = "COGlan 12 | uSync";
+component = <COGlan_12 />
+break;
+case "/lans/contender-irvine-5k":
+title = "Contender Irvine 5k | uSync";
+component = <Contender_Irvine_5k />
+break;
+case "/lans/cpe-clash-of-champions":
+title = "CPE Clash of Champions | uSync";
+component = <CPE_Clash_of_Champions />
+break;
+case "/lans/cpe-home-series":
+title = "CPE Home Series | uSync";
+component = <CPE_Home_Series />
+break;
+case "/lans/cs2-game-arena":
+title = "CS2 Game Arena | uSync";
+component = <CS2_Game_Arena />
+break;
+case "/lans/cyphacon-2024":
+title = "CyPhaCon 2024 | uSync";
+component = <CyPhaCon_2024 />
+break;
+case "/lans/destro-east-coast-takeover":
+title = "Destro East Coast Takeover | uSync";
+component = <Destro_East_Coast_Takeover />
+break;
+case "/lans/dragoncon":
+title = "DragonCon | uSync";
+component = <DragonCon />
+break;
+case "/lans/elite-squad-showdown":
+title = "Elite Squad Showdown | uSync";
+component = <Elite_Squad_Showdown />
+break;
+case "/lans/etg-x-ezone-4k":
+title = "ETG x EZone 4k | uSync";
+component = <ETG_x_EZone_4k />
+break;
+case "/lans/ezone-4k-new-jersey":
+title = "EZone 4k New Jersey | uSync";
+component = <EZone_4k_New_Jersey />
+break;
+case "/lans/ezone-bo6-kickoff":
+title = "EZone BO6 Kickoff | uSync";
+component = <EZone_BO6_Kickoff />
+break;
+case "/lans/forge-lan-21":
+title = "Forge LAN 21 | uSync";
+component = <Forge_LAN_21 />
+break;
+case "/lans/fortlan-2024":
+title = "FortLAN 2024 | uSync";
+component = <FortLAN_2024 />
+break;
+case "/lans/g-site-gauntlet-of-glory-ii":
+title = "G-Site Gauntlet Of Glory II | uSync";
+component = <G_Site_Gauntlet_Of_Glory_II />
+break;
+case "/lans/g-site-x-vipers-q1":
+title = "G-SITE x VIPERS Q1 | uSync";
+component = <G_SITE_x_VIPERS_Q1 />
+break;
+case "/lans/galaxycon-2024":
+title = "Galaxycon 2024 | uSync";
+component = <Galaxycon_2024 />
+break;
+case "/lans/game-arena-bo6-launch":
+title = "Game Arena BO6 Launch | uSync";
+component = <Game_Arena_BO6_Launch />
+break;
+case "/lans/gamerlounge-4v4-100":
+title = "GamerLounge 4v4 100 | uSync";
+component = <GamerLounge_4v4_100 />
+break;
+case "/lans/gamers-for-giving-2024":
+title = "Gamers For Giving 2024 | uSync";
+component = <Gamers_For_Giving_2024 />
+break;
+case "/lans/gamers-lounge-4v4-mwiii-2":
+title = "Gamers Lounge 4v4 MWIII 2 | uSync";
+component = <Gamers_Lounge_4v4_MWIII_2 />
+break;
+case "/lans/gatorlan-fall-2024":
+title = "GatorLAN Fall 2024 | uSync";
+component = <GatorLAN_Fall_2024 />
+break;
+case "/lans/gatorlan-spring-2024":
+title = "GatorLAN Spring 2024 | uSync";
+component = <GatorLAN_Spring_2024 />
+break;
+case "/lans/gauntlet-of-glory-2024-q2":
+title = "Gauntlet Of Glory 2024 Q2 | uSync";
+component = <Gauntlet_Of_Glory_2024_Q2 />
+break;
+case "/lans/gunfight-gunlock-bi-weekly":
+title = "Gunfight Gunlock Bi-Weekly | uSync";
+component = <Gunfight_Gunlock_Bi_Weekly />
+break;
+case "/lans/halo-world-championship-2024":
+title = "Halo World Championship 2024 | uSync";
+component = <Halo_World_Championship_2024 />
+break;
+case "/lans/hcs-arlington-2024":
+title = "HCS Arlington 2024 | uSync";
+component = <HCS_Arlington_2024 />
+break;
+case "/lans/hcs-atlanta-2024-major":
+title = "HCS Atlanta 2024 Major | uSync";
+component = <HCS_Atlanta_2024_Major />
+break;
+case "/lans/hcs-salt-lake-city":
+title = "HCS Salt Lake City | uSync";
+component = <HCS_Salt_Lake_City />
+break;
+case "/lans/heartland-showdown":
+title = "Heartland Showdown | uSync";
+component = <Heartland_Showdown />
+break;
+case "/lans/hyperx-arena-2v2-gunfight":
+title = "HyperX Arena 2v2 Gunfight | uSync";
+component = <HyperX_Arena_2v2_Gunfight />
+break;
+case "/lans/hyperx-arena-resurgence-duos":
+title = "HyperX Arena Resurgence Duos | uSync";
+component = <HyperX_Arena_Resurgence_Duos />
+break;
+case "/lans/hyperx-duels-duos":
+title = "HyperX Duels Duos | uSync";
+component = <HyperX_Duels_Duos />
+break;
+case "/lans/hyperx-holiday-1v1":
+title = "HyperX Holiday 1v1 | uSync";
+component = <HyperX_Holiday_1v1 />
+break;
+case "/lans/illini-esports-invitational":
+title = "Illini Esports Invitational | uSync";
+component = <Illini_Esports_Invitational />
+break;
+case "/lans/infernalan-summer-24":
+title = "InfernaLAN Summer 24 | uSync";
+component = <InfernaLAN_Summer_24 />
+break;
+case "/lans/kami-con-s15":
+title = "Kami Con S15 | uSync";
+component = <Kami_Con_S15 />
+break;
+case "/lans/knox-esports-2v2-gunfight":
+title = "Knox Esports 2v2 Gunfight | uSync";
+component = <Knox_Esports_2v2_Gunfight />
+break;
+case "/lans/knox-esports-halo-2":
+title = "Knox Esports Halo 2 | uSync";
+component = <Knox_Esports_Halo_2 />
+break;
+case "/lans/knox-esports-halo-3":
+title = "Knox Esports Halo 3 | uSync";
+component = <Knox_Esports_Halo_3 />
+break;
+case "/lans/knox-esports-halo":
+title = "Knox Esports Halo | uSync";
+component = <Knox_Esports_Halo />
+break;
+case "/lans/knox-esports-lol":
+title = "Knox Esports LoL | uSync";
+component = <Knox_Esports_LoL />
+break;
+case "/lans/knox-esports-tourney-2":
+title = "Knox Esports Tourney 2 | uSync";
+component = <Knox_Esports_Tourney_2 />
+break;
+case "/lans/knox-esports-x-home-series":
+title = "Knox Esports x Home Series | uSync";
+component = <Knox_Esports_x_Home_Series />
+break;
+case "/lans/lan-all-night-ix":
+title = "LAN All Night IX | uSync";
+component = <LAN_All_Night_IX />
+break;
+case "/lans/lan-king":
+title = "LAN King | uSync";
+component = <LAN_King />
+break;
+case "/lans/lanfest-chicago-2024":
+title = "LANFEST Chicago 2024 | uSync";
+component = <LANFEST_Chicago_2024 />
+break;
+case "/lans/lanfest-colorado-2024":
+title = "LANFEST Colorado 2024 | uSync";
+component = <LANFEST_Colorado_2024 />
+break;
+case "/lans/lanwar-71":
+title = "LANWAR 71 | uSync";
+component = <LANWAR_71 />
+break;
+case "/lans/last-chance-mw3-lan":
+title = "Last Chance MW3 LAN | uSync";
+component = <Last_Chance_MW3_LAN />
+break;
+case "/lans/launch-2024":
+title = "Launch 2024 | uSync";
+component = <Launch_2024 />
+break;
+case "/lans/lo6-major-iii":
+title = "Lo6 Major III | uSync";
+component = <Lo6_Major_III />
+break;
+case "/lans/lowtier-circuit-x-mamamia":
+title = "Lowtier Circuit x MamaMia | uSync";
+component = <Lowtier_Circuit_x_MamaMia />
+break;
+case "/lans/lulan-2024":
+title = "LULAN 2024 | uSync";
+component = <LULAN_2024 />
+break;
+case "/lans/magfest-prime":
+title = "MAGFest Prime | uSync";
+component = <MAGFest_Prime />
+break;
+case "/lans/massivelan-summer-2024":
+title = "MassiveLAN Summer 2024 | uSync";
+component = <MassiveLAN_Summer_2024 />
+break;
+case "/lans/massivelan-winter-2024":
+title = "MassiveLAN Winter 2024 | uSync";
+component = <MassiveLAN_Winter_2024 />
+break;
+case "/lans/midwest-fest-24":
+title = "Midwest Fest 24 | uSync";
+component = <Midwest_Fest_24 />
+break;
+case "/lans/midwest-mw3-lan":
+title = "Midwest MW3 LAN | uSync";
+component = <Midwest_MW3_LAN />
+break;
+case "/lans/mini-mini-cons-2024":
+title = "Mini Mini Cons 2024 | uSync";
+component = <Mini_Mini_Cons_2024 />
+break;
+case "/lans/monthly-local-host-denver":
+title = "Monthly Local Host Denver | uSync";
+component = <Monthly_Local_Host_Denver />
+break;
+case "/lans/mw3-localhost-denver":
+title = "MW3 Localhost Denver | uSync";
+component = <MW3_Localhost_Denver />
+break;
+case "/lans/mwiii-monthly-free-for-all":
+title = "MWIII Monthly Free For All | uSync";
+component = <MWIII_Monthly_Free_For_All />
+break;
+case "/lans/netwar-43":
+title = "NETWAR 43 | uSync";
+component = <NETWAR_43 />
+break;
+case "/lans/netwar-44":
+title = "NETWAR 44 | uSync";
+component = <NETWAR_44 />
+break;
+case "/lans/nyxp-2v2-snd-pop-up-2":
+title = "NYXP 2v2 SND Pop-Up 2 | uSync";
+component = <NYXP_2v2_SND_Pop_Up_2 />
+break;
+case "/lans/nyxp-2v2-snd-pop-up":
+title = "NYXP 2v2 SND Pop-Up | uSync";
+component = <NYXP_2v2_SND_Pop_Up />
+break;
+case "/lans/nyxp-bo6-2v2-snd-showdown":
+title = "NYXP BO6 2v2 SND Showdown | uSync";
+component = <NYXP_BO6_2v2_SND_Showdown />
+break;
+case "/lans/pax-east-2024":
+title = "Pax East 2024 | uSync";
+component = <Pax_East_2024 />
+break;
+case "/lans/pdx-lan-spring-2024":
+title = "PDX LAN Spring 2024 | uSync";
+component = <PDX_LAN_Spring_2024 />
+break;
+case "/lans/pdxlan-fall-2024":
+title = "PDXLAN Fall 2024 | uSync";
+component = <PDXLAN_Fall_2024 />
+break;
+case "/lans/premier-circuit-element-major-ii":
+title = "Premier Circuit Element Major II | uSync";
+component = <Premier_Circuit_Element_Major_II />
+break;
+case "/lans/premier-circuit-major-1":
+title = "Premier Circuit Major 1 | uSync";
+component = <Premier_Circuit_Major_1 />
+break;
+case "/lans/prodigy-games-lans":
+title = "Prodigy Games LANs | uSync";
+component = <Prodigy_Games_LANs />
+break;
+case "/lans/rally-esports-the-battleground":
+title = "Rally Esports The Battleground | uSync";
+component = <Rally_Esports_The_Battleground />
+break;
+case "/lans/ready-up-rust-2":
+title = "Ready Up RUST 2 | uSync";
+component = <Ready_Up_RUST_2 />
+break;
+case "/lans/readyup-rust-1v1":
+title = "ReadyUp Rust 1v1 | uSync";
+component = <ReadyUp_Rust_1v1 />
+break;
+case "/lans/rgb-lan-6":
+title = "RGB LAN 6 | uSync";
+component = <RGB_LAN_6 />
+break;
+case "/lans/rgb-lan-7":
+title = "RGB LAN 7 | uSync";
+component = <RGB_LAN_7 />
+break;
+case "/lans/roclan-fall-24":
+title = "RocLAN Fall 24 | uSync";
+component = <RocLAN_Fall_24 />
+break;
+case "/lans/roclan-spring-24":
+title = "RocLAN Spring 24 | uSync";
+component = <RocLAN_Spring_24 />
+break;
+case "/lans/rumble-at-valhallan":
+title = "Rumble at Valhallan | uSync";
+component = <Rumble_at_Valhallan />
+break;
+case "/lans/rva-1v1-gunfight-2024":
+title = "RVA 1v1 Gunfight 2024 | uSync";
+component = <RVA_1v1_Gunfight_2024 />
+break;
+case "/lans/sbg-2v2-gunfight":
+title = "SBG 2v2 Gunfight | uSync";
+component = <SBG_2v2_Gunfight />
+break;
+case "/lans/sbg-3v3-snd":
+title = "SBG 3v3 SND | uSync";
+component = <SBG_3v3_SND />
+break;
+case "/lans/sbg-lol-tournament-2":
+title = "SBG LoL Tournament_2 | uSync";
+component = <SBG_LoL_Tournament_2 />
+break;
+case "/lans/sbg-lol-tourney":
+title = "SBG LoL Tourney | uSync";
+component = <SBG_LoL_Tourney />
+break;
+case "/lans/sbg-summoners-showdown-1":
+title = "SBG Summoners Showdown 1 | uSync";
+component = <SBG_Summoners_Showdown_1 />
+break;
+case "/lans/scrims-center-cs2-2024":
+title = "Scrims Center CS2 2024 | uSync";
+component = <Scrims_Center_CS2_2024 />
+break;
+case "/lans/scrims-center-mw3":
+title = "Scrims Center MW3 | uSync";
+component = <Scrims_Center_MW3 />
+break;
+case "/lans/skill-check-2v2":
+title = "Skill Check 2v2 | uSync";
+component = <Skill_Check_2v2 />
+break;
+case "/lans/skullz-arena-byoc":
+title = "Skullz Arena BYOC | uSync";
+component = <Skullz_Arena_BYOC />
+break;
+case "/lans/stateline-showdown-24-wz":
+title = "Stateline Showdown 24 WZ | uSync";
+component = <Stateline_Showdown_24_WZ />
+break;
+case "/lans/stateline-showdown-24":
+title = "Stateline Showdown 24 | uSync";
+component = <Stateline_Showdown_24 />
+break;
+case "/lans/team-fish-taco-frag-18":
+title = "Team Fish Taco Frag 18 | uSync";
+component = <Team_Fish_Taco_Frag_18 />
+break;
+case "/lans/tekko-arena-2024":
+title = "Tekko Arena 2024 | uSync";
+component = <Tekko_Arena_2024 />
+break;
+case "/lans/the-ring-2":
+title = "The Ring 2 | uSync";
+component = <The_Ring_2 />
+break;
+case "/lans/the-tournament-june-ffa":
+title = "The Tournament June FFA | uSync";
+component = <The_Tournament_June_FFA />
+break;
+case "/lans/titans-of-orlando":
+title = "Titans of Orlando | uSync";
+component = <Titans_of_Orlando />
+break;
+case "/lans/torontoxp-2024":
+title = "TorontoXP 2024 | uSync";
+component = <TorontoXP_2024 />
+break;
+case "/lans/ultra-gaming-expo-2024":
+title = "Ultra Gaming Expo 2024 | uSync";
+component = <Ultra_Gaming_Expo_2024 />
+break;
+case "/lans/vanguard-snd-pop-up":
+title = "Vanguard SND Pop Up | uSync";
+component = <Vanguard_SND_Pop_Up />
+break;
+case "/lans/velocity-esports-2v2-snd":
+title = "Velocity Esports 2v2 SND | uSync";
+component = <Velocity_Esports_2v2_SND />
+break;
+case "/lans/vyral-x-size":
+title = "Vyral x Size | uSync";
+component = <Vyral_x_Size />
+break;
+case "/lans/waffle-games-7":
+title = "Waffle Games 7 | uSync";
+component = <Waffle_Games_7 />
+break;
+case "/lans/wichita-lanfest-37":
+title = "Wichita LANFest 37 | uSync";
+component = <Wichita_LANFest_37 />
+break;
+case "/lans/xpl":
+title = "XPL | uSync";
+component = <XPL />
+break;
+//MASON & JAKE LANs - Archived 2024
+
+
+//MASON & JAKE LANs - Archived 2023
+case "/lans/tuslan":
+title = "TusLAN | uSync";
+component = <TusLAN />
+break;
+case "/lans/torg-gaming-expo":
+title = "Torg Gaming Expo | uSync";
+component = <Torg_Gaming_Expo />
+break;
+case "/lans/pdx-lan":
+title = "PDX LAN | uSync";
+component = <PDX_LAN />
+break;
+case "/lans/paradise-kickoff":
+title = "Paradise Kickoff | uSync";
+component = <Paradise_Kickoff />
+break;
+case "/lans/operation-broken-arrow-ffa":
+title = "Operation Broken Arrow FFA | uSync";
+component = <Operation_Broken_Arrow_FFA />
+break;
+case "/lans/nysl-warzone-gauntlet":
+title = "NYSL Warzone Gauntlet | uSync";
+component = <NYSL_Warzone_Gauntlet />
+break;
+case "/lans/mw3-lock-in":
+title = "MW3 Lock In | uSync";
+component = <MW3_Lock_In />
+break;
+case "/lans/kcgo94":
+title = "KCGO94 | uSync";
+component = <KCGO94 />
+break;
+case "/lans/infernalan-winter":
+title = "InfernaLAN Winter | uSync";
+component = <InfernaLAN_Winter />
+break;
+case "/lans/halo-baby-one-more-time":
+title = "Halo Baby One More Time | uSync";
+component = <Halo_Baby_One_More_Time />
+break;
+case "/lans/gamers-lounge-4v4-mwiii":
+title = "Gamers Lounge 4v4 MWIII | uSync";
+component = <Gamers_Lounge_4v4_MWIII />
+break;
+case "/lans/game-arena-mwiii-launch":
+title = "Game Arena MWIII Launch | uSync";
+component = <Game_Arena_MWIII_Launch />
+break;
+case "/lans/frostfire-series":
+title = "Frostfire Series | uSync";
+component = <Frostfire_Series />
+break;
+case "/lans/ezone-philly":
+title = "EZone Philly | uSync";
+component = <EZone_Philly />
+break;
+case "/lans/dreamhack-atlanta":
+title = "Dreamhack Atlanta | uSync";
+component = <Dreamhack_Atlanta />
+break;
+//MASON & JAKE LANs - Archived 2023
+
+
 
       case "/playground":
       component = <Playground />
