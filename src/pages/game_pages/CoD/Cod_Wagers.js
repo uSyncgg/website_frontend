@@ -21,7 +21,7 @@ const Cod_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -38,7 +38,7 @@ const Cod_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/eagent"><img src="https://i.imgur.com/mued0Qd.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

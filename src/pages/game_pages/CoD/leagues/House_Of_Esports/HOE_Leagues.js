@@ -44,7 +44,7 @@ const HOE_Leagues = () => {
 
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/call-of-duty/leagues">
+              <a href="/games/call-of-duty/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

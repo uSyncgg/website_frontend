@@ -18,7 +18,7 @@ const Frontpage_LPL = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/gold"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -35,7 +35,7 @@ const Frontpage_LPL = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/silver"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -54,7 +54,7 @@ const Frontpage_LPL = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/bronze"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Qualified Teams</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -71,7 +71,7 @@ const Frontpage_LPL = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/open"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Open</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -85,7 +85,7 @@ const Frontpage_LPL = () => {
 
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/Valorant/leagues">
+              <a href="/games/Valorant/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

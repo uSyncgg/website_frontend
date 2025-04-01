@@ -22,7 +22,7 @@ const College_Hub = () => {
                 Add id="checkmark-link" to the .Checkmark a tag
                 Add id='join-button-link' to the .join-button a tag*/}
           <a
-            href="https://www.usync.gg/more/verification"
+            href="/more/verification"
             id="checkmark-title-link"
             className="mx-auto my-2"
           >
@@ -31,7 +31,7 @@ const College_Hub = () => {
               className="Checkmark-title"
             />
           </a>
-          <a href="https://www.usync.gg/more/verification" id="checkmark-link">
+          <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
@@ -62,13 +62,13 @@ const College_Hub = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="https://www.usync.gg/games/Valorant/head-to-head">
+        <a href="/games/Valorant/head-to-head">
           <button className="back-button">Back</button>
         </a>
         </div>
         <div className="become-verified">
           <h6>
-            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+            Become <a href="/more/verification">Verified</a>
           </h6>
         </div>
       </div>

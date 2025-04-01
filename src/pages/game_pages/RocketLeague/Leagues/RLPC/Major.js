@@ -23,7 +23,7 @@ const Major = () => {
                 Add id="checkmark-link" to the .Checkmark a tag
                 Add id='join-button-link' to the .join-button a tag*/}
           <a
-            href="https://www.usync.gg/more/verification"
+            href="/more/verification"
             id="checkmark-title-link"
             className="mx-auto my-2"
           >
@@ -32,7 +32,7 @@ const Major = () => {
               className="Checkmark-title"
             />
           </a>
-          <a href="https://www.usync.gg/more/verification" id="checkmark-link">
+          <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
@@ -68,13 +68,13 @@ const Major = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/RocketLeague/leagues/rlpc-leagues" id='league-back-button-a'>
+          <a href="/games/RocketLeague/leagues/rlpc-leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
         <div className="become-verified">
           <h6>
-            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+             <a href="/more/verification"></a>
           </h6>
         </div>
       </div>

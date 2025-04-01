@@ -20,7 +20,7 @@ const Cod_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/xp-league-cod"><img src="https://i.imgur.com/d4kQBH4.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA/EU</p>
                                 <a href='/games/call-of-duty/leagues/xp-league-cod'>

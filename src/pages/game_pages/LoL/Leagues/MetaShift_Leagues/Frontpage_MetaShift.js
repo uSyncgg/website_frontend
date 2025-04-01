@@ -114,7 +114,7 @@ const Frontpage_MetaShift = () => {
 
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/LoL/leagues">
+              <a href="/games/LoL/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>
