@@ -245,18 +245,16 @@
 }
 
 /* Add these to your CSS */
-.navbar, .footer {
+/* .navbar, .footer {
     width: 100% !important;
     max-width: 100vw !important;
     box-sizing: border-box !important;
     overflow-x: hidden !important;
-  }
+  } */
 
 /* * {
     outline: 1px solid red;
 } */
-
-
 
 .btn-primary.white-text.purple-color:hover {
     filter: contrast(140%);
