@@ -240,7 +240,6 @@ import React, { useEffect, useState } from 'react';
 import { CButton, CCard, CCardBody, CCardText, CCardTitle, CContainer, CRow, CCol } from '@coreui/react';
 import axios from 'axios';
 import CheckboxDropdown from './components/CodCheckboxDropdown';
-import ResponsiveStickyElement from './components/ResponsiveStickyElement';
 // import TournamentList from './TournamentList';
 import './CodTourney.css';
 
