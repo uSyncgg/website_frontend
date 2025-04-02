@@ -1,7 +1,8 @@
 * {
     margin: 0;
-    border: 0;
+    /* border: 0; */
     box-sizing: border-box;
+    text-align: center; /* Might want to look into giving this to the elemts containers? */
   }
 
 

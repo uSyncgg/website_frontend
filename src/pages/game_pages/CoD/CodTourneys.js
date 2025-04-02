@@ -240,6 +240,7 @@ import React, { useEffect, useState } from 'react';
 import { CButton, CCard, CCardBody, CCardText, CCardTitle, CContainer, CRow, CCol } from '@coreui/react';
 import axios from 'axios';
 import CheckboxDropdown from './components/CodCheckboxDropdown';
+import ResponsiveStickyElement from './components/ResponsiveStickyElement';
 // import TournamentList from './TournamentList';
 import './CodTourney.css';
 
@@ -347,22 +348,24 @@ function CodTourneys() {
         <div>
             <div className="tourney-background">
                 <div className='d-flex'>
-                    <div className="sidebar">
-                        <div className='filter-box'>
-                            <h1 className="filters">Filters</h1>
-                            <div className="tourney-borders">
-                                <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats, selectedFormats)} selectedOptions={selectedFormats} />
-                                <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions, selectedRegions)} selectedOptions={selectedRegions} />
-                                <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms, selectedPlatforms)} selectedOptions={selectedPlatforms} />
-                                <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills, selectedSkills)} selectedOptions={selectedSkills} />
-                                <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry, selectedEntry)} selectedOptions={selectedEntry} />
-                                
-                                <span className='reset-filter-text' onClick={clearFilters} style={{ cursor: 'pointer' }}>
-                                    Reset Filters
-                                </span>
+                    {/* <ResponsiveStickyElement className="sidebar-wrapper"> */}
+                        <div className='sidebar'>
+                            <div className='filter-box'>
+                                <h1 className="filters">Filters</h1>
+                                <div className="tourney-borders">
+                                    <CheckboxDropdown title="Team Size" options={teamOptions} onChange={handleFilterChange(setSelectedFormats, selectedFormats)} selectedOptions={selectedFormats} />
+                                    <CheckboxDropdown title="Regions" options={regionOptions} onChange={handleFilterChange(setSelectedRegions, selectedRegions)} selectedOptions={selectedRegions} />
+                                    <CheckboxDropdown title="Platform" options={consoleOptions} onChange={handleFilterChange(setSelectedPlatforms, selectedPlatforms)} selectedOptions={selectedPlatforms} />
+                                    <CheckboxDropdown title="Skill" options={skillOptions} onChange={handleFilterChange(setSelectedSkills, selectedSkills)} selectedOptions={selectedSkills} />
+                                    <CheckboxDropdown title="Entry Fee" options={entryOptions} onChange={handleFilterChange(setSelectedEntry, selectedEntry)} selectedOptions={selectedEntry} />
+                                    
+                                    <span className='reset-filter-text' onClick={clearFilters} style={{ cursor: 'pointer' }}>
+                                        Reset Filters
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </div>  
+                    {/* </ResponsiveStickyElement> */}
                     <div className="tournament-container">
                         <div className='tourney-header'>
                             <h1 className='featured-tournaments-white'>Featured</h1>
@@ -615,4 +618,3 @@ function Tournament(props) {
 }
 
 export default CodTourneys;
-

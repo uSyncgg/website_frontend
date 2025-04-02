@@ -1,5 +1,5 @@
   /* Container for positioning the tournament card */
-.tournament-container {
+  .tournament-container {
     width: 70%;
     max-width: 100%;
     padding: 2rem;
@@ -29,7 +29,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(https://i.imgur.com/M4FR1qC.png);
+    background-image: url(https://i.imgur.com/M4FR1qC.png); /* MAKE SURE TO MAKE A CODAGENT ONE AS WELL */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,7 @@
   background-color: rgb(49, 49, 49);
   max-width: 100% !important;
   width: 100% !important;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 .white-text {
@@ -116,7 +116,7 @@
 }
 
 .filter-box {
-    position: sticky !important;
+    position: sticky;
     top: 3rem;
     overflow-y: auto;
 }
@@ -168,6 +168,10 @@
 }
 
 @media (max-width: 768px) {
+    .tourney-background {
+        overflow-x: hidden !important;
+    }
+
     .d-flex {
         flex-direction: column !important;
         align-items: center; /* Center content */
@@ -222,6 +226,7 @@
         width: 80%;
         max-width: 100%;
         margin-left: 2rem;
+        /* position: fixed; */
     }
     
     .filters {

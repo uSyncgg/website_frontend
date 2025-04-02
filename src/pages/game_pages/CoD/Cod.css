@@ -1,9 +1,3 @@
-
-* {
-    box-sizing: border-box;
-    text-align:center;
-}
-
 .total-container {
   position: relative;
 }
@@ -206,10 +200,10 @@ transition {
     width: 90%; 
   }
 }
-
+/* 
 .col-2 {
   margin: 3rem;
-}
+} */
 
 a {
   text-decoration: none !important;

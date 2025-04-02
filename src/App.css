@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
 .CallOfDuty, .ComingSoon, .ContactUs, .EventHost, .Games, .Halo, .Home,
 .LeagueOfLegends, .RocketLeague, .Valorant, .Verification, .Warzone {
     display: flex;
@@ -31,7 +25,7 @@
 }
 
 /* For all browsers */
-body {
+/* body {
   overflow: overlay;
   background-color: transparent;
-}
+} */

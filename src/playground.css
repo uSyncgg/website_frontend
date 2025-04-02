@@ -58,6 +58,7 @@ li .item-active {
     transition: color .3s ease;
     font-size: 1.25rem;
     transform: translateY(-.35rem);
+    border: 0;
 }
 
 .nav-button:hover{
@@ -135,7 +136,7 @@ li .item-active {
 
     .dropdown-menu {
         border: none;
-        width: 12rem;
+        width: 12rem; 
         margin: 0 auto;
         text-align: center;
         border: solid .1rem white;

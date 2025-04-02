@@ -3,6 +3,7 @@
     align-items: center !important;
     justify-content: flex-start !important;
     margin-left: 0.68rem;
+    overflow: hidden !important;
   }
 
 /* Mobile responsiveness */
