@@ -25,7 +25,7 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/YhpeqKK.png"
+                    src="https://i.imgur.com/p0wIHEq.png"
                     className="contact-socials"
                   />
                 </a>

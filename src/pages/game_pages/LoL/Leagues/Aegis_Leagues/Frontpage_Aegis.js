@@ -17,7 +17,7 @@ const Frontpage_Aegis = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/champ"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Uncapped</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +34,7 @@ const Frontpage_Aegis = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/marauder"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Master 600LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -53,7 +53,7 @@ const Frontpage_Aegis = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/defenders"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>100LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -70,7 +70,7 @@ const Frontpage_Aegis = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/executioners"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -89,7 +89,7 @@ const Frontpage_Aegis = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/protectors"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -102,7 +102,7 @@ const Frontpage_Aegis = () => {
                         <p className='hr' />
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/LoL/leagues">
+              <a href="/games/LoL/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

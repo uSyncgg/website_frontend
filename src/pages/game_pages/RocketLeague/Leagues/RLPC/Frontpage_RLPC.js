@@ -17,7 +17,7 @@ const Frontpage_RLPC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/major"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1800 MMR & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +34,7 @@ const Frontpage_RLPC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/aaa"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1575-1799 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +52,7 @@ const Frontpage_RLPC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/aa"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1350-1574 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -69,7 +69,7 @@ const Frontpage_RLPC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/a"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1021-1349 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -82,7 +82,7 @@ const Frontpage_RLPC = () => {
 
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/RocketLeague/leagues">
+              <a href="/games/RocketLeague/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

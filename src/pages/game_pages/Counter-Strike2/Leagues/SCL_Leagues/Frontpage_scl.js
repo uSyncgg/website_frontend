@@ -78,7 +78,7 @@ const Frontpage_scl = () => {
                         <p className='hr' />
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/CS2/leagues">
+              <a href="/games/CS2/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

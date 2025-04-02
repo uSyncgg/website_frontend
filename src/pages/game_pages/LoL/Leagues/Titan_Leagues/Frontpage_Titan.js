@@ -17,7 +17,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/immortal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>600LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +34,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/vanquisher"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>M100 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -53,7 +53,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/eternal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -71,7 +71,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -90,7 +90,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -107,7 +107,7 @@ const Frontpage_Titan = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/gladiator"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -121,7 +121,7 @@ const Frontpage_Titan = () => {
                     <p className='hr' />
 
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/LoL/leagues">
+              <a href="/games/LoL/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

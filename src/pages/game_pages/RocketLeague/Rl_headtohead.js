@@ -22,7 +22,7 @@ const Rl_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/head-to-head/gankster"><img src="https://i.imgur.com/ljDANVi.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 <a href='/games/RocketLeague/head-to-head/gankster'>

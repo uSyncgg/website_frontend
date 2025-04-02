@@ -31,7 +31,7 @@ const Val_Leagues = () => {
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
+                    <a href="/more/verification">
                       <img
                         src="https://i.imgur.com/PCHIHQB.png"
                         title="uSync Verified"
@@ -139,7 +139,7 @@ const Val_Leagues = () => {
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
+                    <a href="/more/verification">
                       <img
                         src="https://i.imgur.com/PCHIHQB.png"
                         title="uSync Verified"
@@ -386,7 +386,7 @@ const Val_Leagues = () => {
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
+                    <a href="/more/verification">
                       <img
                         src="https://i.imgur.com/PCHIHQB.png"
                         title="uSync Verified"

@@ -87,8 +87,13 @@
     color: rgb(146,106,206);
 }
 
+.reset-filter-text {
+    filter: brightness(100%);
+    transition: filter 0.3s ease; /* Apply transition to both hover on and off */
+}
+
 .reset-filter-text:hover {
-    filter: contrast(140%);
+    filter: brightness(120%);
 }
 
 .page-buttons {
@@ -261,10 +266,17 @@
     outline: 1px solid red;
 } */
 
-.btn-primary.white-text.purple-color:hover {
-    filter: contrast(140%);
-    transition: filter 0.3s;
+
+
+.btn-primary.white-text.purple-color {
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
 }
+
+.btn-primary.white-text.purple-color:hover {
+    filter: brightness(112%);
+}
+
 /* .hoster-banner {
     height: auto;
     width: 5rem;

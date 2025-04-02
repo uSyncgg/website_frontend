@@ -61,7 +61,7 @@ const Frontpage_ECAC = () => {
                         <p className='hr' />
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/Valorant/leagues">
+              <a href="/games/Valorant/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

@@ -64,7 +64,7 @@ const Frontpage_OCE = () => {
 
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/RocketLeague/leagues">
+              <a href="/games/RocketLeague/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>

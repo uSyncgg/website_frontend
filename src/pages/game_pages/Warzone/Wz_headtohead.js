@@ -21,7 +21,7 @@ const Wz_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/head-to-head/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 <a href='/games/warzone/head-to-head/cmg'>

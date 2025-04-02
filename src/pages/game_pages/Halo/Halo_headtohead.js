@@ -21,7 +21,7 @@ const Halo_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/head-to-head/ugc-scrim"><img src="https://i.imgur.com/JeMuXtx.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 <a href='/games/halo/head-to-head/ugc-scrim'>

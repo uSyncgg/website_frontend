@@ -152,7 +152,7 @@ body {
   text-align: center;
   padding-bottom: .03%;
   z-index: 99999 !important;
-  padding-top: 0.1rem;
+  padding-top: 1.5rem;
 }
 
 .contactus{
@@ -170,6 +170,7 @@ body {
   color: black;
   font-weight: 600;
   z-index: 99999 !important;
+  padding-bottom: .25rem;
 }
 
 .btn-block {
@@ -188,10 +189,35 @@ body {
 .Map {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 80%; /* Keeps the existing width */
+  height: 30rem;
   border: rgb(142, 106, 206) .25rem solid;
   border-radius: .5rem;
+  position: relative; /* Ensures the box can overlay it */
 }
+
+.GrayBox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 30rem;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+}
+
+.GrayBoxText {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 .hr {
   border-top: .1rem solid white;

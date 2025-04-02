@@ -17,7 +17,7 @@ function PlaygroundTwo() {
                 Add id="checkmark-link" to the .Checkmark a tag
                 Add id='join-button-link' to the .join-button a tag*/}
           <a
-            href="https://www.usync.gg/more/verification"
+            href="/more/verification"
             id="checkmark-title-link"
             className="mx-auto my-2"
           >
@@ -26,7 +26,7 @@ function PlaygroundTwo() {
               className="Checkmark-title"
             />
           </a>
-          <a href="https://www.usync.gg/more/verification" id="checkmark-link">
+          <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
@@ -59,12 +59,12 @@ function PlaygroundTwo() {
             </div>
           </div>
         </div>
-        <a href="https://www.usync.gg/games/call-of-duty/leagues">
+        <a href="/games/call-of-duty/leagues">
           <button className="back-button">Back</button>
         </a>
         <div className="become-verified">
           <h6>
-            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+            Become <a href="/more/verification">Verified</a>
           </h6>
         </div>
       </div>

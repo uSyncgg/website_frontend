@@ -11,7 +11,7 @@ const FACEITCS2 = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/ABLzHic.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UUcERxd.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -22,7 +22,7 @@ const FACEITCS2 = () => {
                 Add id="checkmark-link" to the .Checkmark a tag
                 Add id='join-button-link' to the .join-button a tag*/}
           <a
-            href="https://www.usync.gg/more/verification"
+            href="/more/verification"
             id="checkmark-title-link"
             className="mx-auto my-2"
           >
@@ -31,7 +31,7 @@ const FACEITCS2 = () => {
               className="Checkmark-title"
             />
           </a>
-          <a href="https://www.usync.gg/more/verification" id="checkmark-link">
+          <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
@@ -64,13 +64,13 @@ const FACEITCS2 = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="https://www.usync.gg/games/CS2/head-to-head">
+        <a href="/games/CS2/head-to-head">
           <button className="back-button">Back</button>
         </a>
         </div>
         <div className="become-verified">
           <h6>
-            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+             <a href="/more/verification"></a>
           </h6>
         </div>
       </div>

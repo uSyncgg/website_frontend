@@ -21,7 +21,7 @@ const Wz_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

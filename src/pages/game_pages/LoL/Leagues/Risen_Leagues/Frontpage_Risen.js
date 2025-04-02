@@ -17,7 +17,7 @@ const Frontpage_Risen = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/champions"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Must Qualify</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +34,7 @@ const Frontpage_Risen = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/dominate"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -53,7 +53,7 @@ const Frontpage_Risen = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/unstoppable"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -70,7 +70,7 @@ const Frontpage_Risen = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/rampage"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -89,7 +89,7 @@ const Frontpage_Risen = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/draft"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Account Level 100</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -103,7 +103,7 @@ const Frontpage_Risen = () => {
                         
                     </div>
                     <div className="league-back-button-container">
-              <a href="https://www.usync.gg/games/LoL/leagues">
+              <a href="/games/LoL/leagues">
                 <button className="back-button">Back</button>
               </a>
             </div>
