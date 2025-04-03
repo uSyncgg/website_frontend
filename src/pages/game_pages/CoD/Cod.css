@@ -200,6 +200,12 @@ transition {
     padding-top: calc(var(--nav-height) * 3.5) !important;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .Header-Img-l {
+    padding-top: calc(var(--nav-height) * 4.3) !important;
+  }
+}
 /* 
 .col-2 {
   margin: 3rem;
