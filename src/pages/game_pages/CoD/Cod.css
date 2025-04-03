@@ -158,16 +158,6 @@ transition {
     text-align: center;
   }
 
-@media only screen and (max-width: 768px) {
-  #league-title, #league-title1 {
-    font-size: 3rem !important;
-  }
-
-  .games-leagues-header-title {
-    margin-top: -11rem;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   #league-title, #league-title1 {
     font-size: 2rem !important;
@@ -184,20 +174,30 @@ transition {
   width: 100%;  
 }
 
-@media only screen and (max-width: 767px) {
-  .Underline-h-lol {
-    width: 90%; 
-    left: 5%; 
-  }
-}
-
 .Underline-h {
   width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+  #league-title, #league-title1 {
+    font-size: 3rem !important;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -11rem;
+  }
+
+  .Underline-h-lol {
+    width: 90%; 
+    left: 5%; 
+  }
+
   .Underline-h {
     width: 90%; 
+  }
+
+  .Header-Img-l {
+    padding-top: calc(var(--nav-height) * 3.5) !important;
   }
 }
 /* 
@@ -218,8 +218,13 @@ a {
 }
 
 .Header-Img-l {
-  width: 100%;
-  height: 100%;
+  background-image: url("https://i.imgur.com/S9U4H7T.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: calc(var(--nav-height) * 5);
+  /* width: 100%;
+  height: 100%; */
 }
 
 .Header-Img-l-cod {

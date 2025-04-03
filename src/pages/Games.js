@@ -1,12 +1,34 @@
 import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
+import React from 'react';
 
 const Games = () => {
+  const [navHeight, setNavHeight] = React.useState(4); // Default to 4rem (adjust as needed)
+
+  React.useEffect(() => {
+      const updateNavHeight = () => {
+          const navbar = document.querySelector('.navbar');
+          if (navbar) {
+              const navHeightInPx = navbar.offsetHeight;
+              const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize); // Get base rem value
+              const navHeightInRem = navHeightInPx / rootFontSize; // Convert px to rem
+              setNavHeight(navHeightInRem);
+              document.documentElement.style.setProperty('--nav-height', `${navHeightInRem}rem`);
+          }
+      };
+
+      updateNavHeight();
+      window.addEventListener("resize", updateNavHeight); // Update on window resize
+
+      return () => window.removeEventListener("resize", updateNavHeight);
+  }, []);
+    
+    console.log(navHeight)
     return (
       <div>
         <div>
-          <header id="League-header">
+          {/* <header id="League-header">
             <img
               src="https://i.imgur.com/S9U4H7T.png"
               className="Header-Img-l"
@@ -19,10 +41,26 @@ const Games = () => {
               className="Underline-h"
             />
             </div>
-          </header>
+          </header> */}
+
+          <div className='Header-Img-l'>
+            
+          {/* <img
+              src="https://i.imgur.com/S9U4H7T.png"
+              className="Header-Img-l"
+            /> */}
+            <div className="games-leagues-header-title">
+            <h2 id="league-title">uSync Titles</h2>
+            <img
+              src="https://i.imgur.com/eNhKhTI.png"
+              alt="underline"
+              className="Underline-h"
+            />
+            </div>
+          </div>
 
           <div className="Background-leagues">
-            <div class={styles.backgroundMid}>
+            <div className={styles.backgroundMid}>
               <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty">
                   <img
