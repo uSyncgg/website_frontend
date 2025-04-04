@@ -190,9 +190,10 @@ transition {
     width: 90%; 
   }
 
-  .Header-Img-l {
-    padding-top: calc(var(--nav-height) * 3.5) !important;
-  }
+  /* .Header-Img-l { */
+    /* padding-top: calc(var(--nav-height) * 3.5) !important; */
+    /* padding-top: 300px; */
+  /* } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -201,7 +202,8 @@ transition {
   }
 
   .Header-Img-l {
-    padding-top: calc(var(--nav-height) * 4) !important;
+    /* padding-top: calc(var(--nav-height) * 4) !important; */
+    padding-top: 300px !important;
   }
 
   .games-leagues-header-title {
