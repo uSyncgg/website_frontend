@@ -1,5 +1,6 @@
 import '../game_pages/CoD/Cod.css';
 import Footer from '../../Footer';
+import useNavHeight from '../hooks/NavbarHeight';
 
 
 
@@ -8,10 +9,10 @@ const Eventhost = () => {
     const handleFeatureEventClick = () => {
       window.location.href = '/more/eventhost/eventhostrequest'
     }
-
+    useNavHeight();
     return (
       <div className="report-container">
-        <header id="League-header">
+        {/* <header id="League-header">
           <img src="https://i.imgur.com/S9U4H7T.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Our Events</h2>
@@ -21,7 +22,18 @@ const Eventhost = () => {
               className="Underline-h"
             />
           </div>
-        </header>
+        </header> */}
+        <div className='Header-Img-l games-img'>
+          <div className="games-leagues-header-title">
+              <h2 id="league-title">Our Events</h2>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
+          </div>
+        </div>
+
         <button className="verified-button" onClick={handleFeatureEventClick}>Post Your Event</button>
 
         <div className="Background-leagues col-lg-8 offset-2">

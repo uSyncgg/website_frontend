@@ -1,12 +1,14 @@
 import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
+import useNavHeight from './hooks/NavbarHeight';
  
 const Leagues = () => {
+  useNavHeight();
     return (
       <div>
         <div>
-          <header id="League-header">
+          {/* <header id="League-header">
             <img
               src="https://i.imgur.com/fackjly.png"
               className="Header-Img-l"
@@ -19,7 +21,18 @@ const Leagues = () => {
               className="Underline-h"
             />
             </div>
-          </header>
+          </header> */}
+
+          <div className='Header-Img-l league-header-img'>
+            <div className="games-leagues-header-title">
+              <h2 id="league-title">League Titles</h2>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
+            </div>
+          </div>
 
           <div className="Background-leagues">
             <div class={styles.backgroundMid}>

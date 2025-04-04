@@ -1,11 +1,12 @@
 import '../../Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from '../../../../hooks/NavbarHeight';
 const HOE_Leagues = () => {
+    useNavHeight();
     return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+            <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

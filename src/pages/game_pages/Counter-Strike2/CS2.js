@@ -1,15 +1,13 @@
 import '../Game.css';
 import Footer from '../../../Footer';
+import useNavHeight from '../../hooks/NavbarHeight';
 
 const CS2 = () => {
+  useNavHeight();
     return (
       <div className="total-container">
-        <header id="League-header">
-          <img
-            src="https://i.imgur.com/8dwjkca.png"
-            className="Header-Img-l"
-          />
-        </header>
+        <div className='Header-Img-l cs2-general-header-img' />
+
         <div className="Background-game">
           <div className="container">
             <div className="row justify-content-center games-row-1">

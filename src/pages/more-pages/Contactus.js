@@ -1,11 +1,13 @@
 import '../../Info.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
+import useNavHeight from '../hooks/NavbarHeight';
 
 const Contactus = () => {
+  useNavHeight();
     return (
       <div>
-        <header>
+        {/* <header>
           <img src="https://i.imgur.com/YeUPAmO.png" className="Header-Img" />
           <div className="contact-us-find-us">
             <h1 className="event-title-contactus">Find Us</h1>
@@ -14,7 +16,18 @@ const Contactus = () => {
               className="Underline-h-verification-event"
             />
           </div>
-        </header>
+        </header> */}
+        <div className='Header-Img-l lans-img'>
+            <div className="games-leagues-header-title">
+              <h2 id="league-title">Find Us</h2>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
+            </div>
+          </div>
+
         <div id="league-body1">
           <div className="container">
             <div className="row justify-content-center">

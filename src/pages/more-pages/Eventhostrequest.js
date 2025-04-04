@@ -1,13 +1,15 @@
 import '../game_pages/CoD/Cod.css';
 import Footer from '../../Footer';
+import useNavHeight from '../hooks/NavbarHeight';
 
 
 
 
 const Eventhostrequest = () => {
+  useNavHeight();
     return (
       <div className="report-container">
-        <header id="League-header">
+        {/* <header id="League-header">
           <img src="https://i.imgur.com/S9U4H7T.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Feature Your Event</h2>
@@ -17,7 +19,18 @@ const Eventhostrequest = () => {
               className="Underline-h"
             />
           </div>
-        </header>
+        </header> */}
+
+        <div className='Header-Img-l games-img'>
+          <div className="games-leagues-header-title">
+              <h2 id="league-title">Feature Your Event</h2>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
+          </div>
+        </div>
 
         <div className="Background-leagues">
           <iframe

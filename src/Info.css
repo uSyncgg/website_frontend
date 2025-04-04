@@ -13,6 +13,7 @@ header {
 
 #league-header {
   height: 15rem;
+  z-index: -1;
 }
 
 .become-verified {
@@ -96,6 +97,18 @@ header {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .leagues-entry-fee {
+    margin-top: 2rem;
+  }
+
+  .verified-button {
+    width: 100%;
+  }
+
+  .eventhost-button {
+    width: 100%;
+  }
 }
 
 .join-button:hover {
@@ -156,11 +169,11 @@ header {
     margin: 3rem;
   } */
   
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .leagues-entry-fee {
     margin-top: 2rem;
   }
-}
+} */
 
 .header-img-zoom {
   transform: scale(2);
@@ -293,11 +306,11 @@ header {
   padding: .5rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .verified-button {
     width: 100%;
   }
-}
+} */
 
 .verified-button:hover {
   background-color: rgb(141, 125, 181);
@@ -355,11 +368,11 @@ header {
   padding: .5rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .eventhost-button {
     width: 100%;
   }
-} 
+}  */
 
 .eventhost-button:hover {
   background-color: rgb(141, 125, 181);

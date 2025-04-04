@@ -4,12 +4,14 @@ import Footer from '../Footer';
 import styles from '../Home.module.css';
 import {useEffect} from 'react';
 import TwitterEmbed from './TwitterEmbed';
+import useNavHeight from './hooks/NavbarHeight';
 
 const Comingsoon = () => {
+  useNavHeight();
     return (
       <div className="total-coming-soon-container">
         <div id="league-body2">
-        <header id="League-header">
+        {/* <header id="League-header">
           <img src="https://i.imgur.com/gbB3YxJ.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Coming Soon</h2>
@@ -19,7 +21,18 @@ const Comingsoon = () => {
               className="Underline-h"
             />
           </div>
-        </header>
+        </header> */}
+        <div className='Header-Img-l coming-soon-header-img'>
+          <div className="games-leagues-header-title">
+            <h2 id="league-title">Coming Soon</h2>
+            <img
+              src="https://i.imgur.com/eNhKhTI.png"
+              alt="underline"
+              className="Underline-h"
+            />
+          </div>
+        </div>
+
           <div className="Background-mid-contact">
             <div className="game-titles">
               <h1 className="event-title-contactus">Game Titles</h1>

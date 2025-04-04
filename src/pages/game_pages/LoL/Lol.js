@@ -1,16 +1,13 @@
 import '../Game.css';
 import Footer from '../../../Footer';
+import useNavHeight from '../../hooks/NavbarHeight';
 
 
 const Lol = () => {
+  useNavHeight();
     return (
       <div>
-        <header id="League-header">
-          <img
-            src="https://i.imgur.com/W9afnxj.png"
-            className="Header-Img-l-lol"
-          />
-        </header>
+        <div className='Header-Img-l lol-general-header-img' />
 
         <div className="Background-game">
           <div className="container">

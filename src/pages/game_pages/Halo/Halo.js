@@ -1,17 +1,14 @@
 import '../Game.css';
 import '../CoD/Cod.css'
 import Footer from '../../../Footer';
+import useNavHeight from '../../hooks/NavbarHeight';
 
 
 const Halo = () => {
+  useNavHeight();
     return (
       <div>
-        <header id="League-header">
-          <img
-            src="https://i.imgur.com/0aE94AJ.png"
-            className="Header-Img-l-halo"
-          />
-        </header>
+        <div className='Header-Img-l halo-general-header-img' />
 
         <div className="Background-game">
           <div className="container">

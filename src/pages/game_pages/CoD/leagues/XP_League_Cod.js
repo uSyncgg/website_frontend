@@ -6,14 +6,14 @@ import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
-
+import '../../leagues.css';
+import useNavHeight from '../../../hooks/NavbarHeight';
 // Make sure the name following const is the same as the file name
 const XP_League_Cod = () => {
+  useNavHeight();
     return (
-        <div className="total-playground">
-      <header class="headerImg">
-        <img src="https://i.imgur.com/4mWXiTM.png" className="Header-Img" />
-      </header>
+      <div className="total-playground">
+      <div className="Header-Img-l xp-league-verified-banner" />
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

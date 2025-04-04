@@ -6,13 +6,14 @@ import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
+import '../../wagers.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
 // Make sure the name following const is the same as the file name
 const EAgent_Wagers = () => {
+  useNavHeight();
   return (
     <div className="total-playground">
-      <header class="headerImg">
-        <img src="https://i.imgur.com/oNFYoiV.png" className="Header-Img" />
-      </header>
+      <div className="Header-Img-l codagent-verified-wagers" />
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

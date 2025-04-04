@@ -2,29 +2,31 @@ import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 import React from 'react';
+import useNavHeight from './hooks/NavbarHeight';
 
 const Games = () => {
-  const [navHeight, setNavHeight] = React.useState(4); // Default to 4rem (adjust as needed)
+  // const [navHeight, setNavHeight] = React.useState(4); // Default to 4rem (adjust as needed)
 
-  React.useEffect(() => {
-      const updateNavHeight = () => {
-          const navbar = document.querySelector('.navbar');
-          if (navbar) {
-              const navHeightInPx = navbar.offsetHeight;
-              const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize); // Get base rem value
-              const navHeightInRem = navHeightInPx / rootFontSize; // Convert px to rem
-              setNavHeight(navHeightInRem);
-              document.documentElement.style.setProperty('--nav-height', `${navHeightInRem}rem`);
-          }
-      };
+  // React.useEffect(() => {
+  //     const updateNavHeight = () => {
+  //         const navbar = document.querySelector('.navbar');
+  //         if (navbar) {
+  //             const navHeightInPx = navbar.offsetHeight;
+  //             const rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize); // Get base rem value
+  //             const navHeightInRem = navHeightInPx / rootFontSize; // Convert px to rem
+  //             setNavHeight(navHeightInRem);
+  //             document.documentElement.style.setProperty('--nav-height', `${navHeightInRem}rem`);
+  //         }
+  //     };
 
-      updateNavHeight();
-      window.addEventListener("resize", updateNavHeight); // Update on window resize
+  //     updateNavHeight();
+  //     window.addEventListener("resize", updateNavHeight); // Update on window resize
 
-      return () => window.removeEventListener("resize", updateNavHeight);
-  }, []);
+  //     return () => window.removeEventListener("resize", updateNavHeight);
+  // }, []);
     
-    console.log(navHeight)
+    // console.log(navHeight)
+    useNavHeight();
     return (
       <div>
         <div>
@@ -43,7 +45,7 @@ const Games = () => {
             </div>
           </header> */}
 
-          <div className='Header-Img-l'>
+          <div className='Header-Img-l games-img'>
             
           {/* <img
               src="https://i.imgur.com/S9U4H7T.png"

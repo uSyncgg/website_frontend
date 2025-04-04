@@ -1,15 +1,25 @@
 import './Cod.css'
 import Footer from '../../../Footer';
+import useNavHeight from '../../hooks/NavbarHeight';
+
 const Cod_Wagers = () => {
+    useNavHeight();
     return (
         <div>
-            <header id='League-header'>
+            {/* <header id='League-header'>
                 <img src="https://i.imgur.com/wvSwn4l.png" className='Header-Img-l' />
                 <div className="games-leagues-header-title">
                     <h2 id="league-title">Wagers</h2>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
                 </div>
-            </header>
+            </header> */}
+
+            <div className='Header-Img-l cod-wagers-header-img'>
+                <div className="games-leagues-header-title">
+                    <h2 id="league-title">Wagers</h2>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

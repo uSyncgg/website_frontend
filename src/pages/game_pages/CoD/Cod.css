@@ -229,14 +229,192 @@ a {
 }
 
 .Header-Img-l {
-  background-image: url("https://i.imgur.com/S9U4H7T.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   padding-top: calc(var(--nav-height) * 5);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.games-img {
+  background-image: url("https://i.imgur.com/S9U4H7T.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lans-img {
+  background-image: url('https://i.imgur.com/YeUPAmO.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.league-header-img {
+  background-image: url('https://i.imgur.com/fackjly.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tournaments-header-img {
+  background-image: url('https://i.imgur.com/6nqLPyu.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coming-soon-header-img {
+  background-image: url('https://i.imgur.com/gbB3YxJ.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.report-header-img {
+  background-image: url('https://i.imgur.com/PoCqBT9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cod-general-header-img {
+  background-image: url('https://i.imgur.com/kZaSdKo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cod-headtohead-header {
+  background-image: url('https://i.imgur.com/8Psf9G6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cod-wagers-header-img {
+  background-image: url('https://i.imgur.com/wvSwn4l.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rl-general-header-img {
+  background-image: url('https://i.imgur.com/fomqXSz.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rl-league-header {
+  background-image: url('https://i.imgur.com/7mjxr12.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rl-h2h-header-img {
+  background-image: url('https://i.imgur.com/lw7RZun.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+.cs2-general-header-img {
+  background-image: url('https://i.imgur.com/8dwjkca.png');
+  background-size: 110% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cs2-h2h-header {
+  background-image: url('https://i.imgur.com/JU7dWGw.png');
+  background-size: 110% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cs2-wagers-header {
+  background-image: url('https://i.imgur.com/hIpj6hZ.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cs2-league-header {
+  background-image: url('https://i.imgur.com/uzLeW90.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.halo-general-header-img {
+  background-image: url('https://i.imgur.com/0aE94AJ.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.halo-wagers-header {
+  background-image: url('https://i.imgur.com/1Kelw3D.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.halo-league-header {
+  background-image: url('https://i.imgur.com/Jsdvjf3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lol-general-header-img {
+  background-image: url('https://i.imgur.com/W9afnxj.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lol-wagers-header {
+  background-image: url('https://i.imgur.com/IG80Jig.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lol-league-header {
+  background-image: url('https://i.imgur.com/NycBCVA.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.val-general-header-img {
+  background-image: url('https://i.imgur.com/HqldA9u.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.val-league-header {
+  background-image: url('https://i.imgur.com/4Hsf0iz.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wz-general-header-img {
+  background-image: url('https://i.imgur.com/BdD5G0Y.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wz-league-header {
+  background-image: url('https://i.imgur.com/5uwlggv.pngg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Header-Img-l-cod {

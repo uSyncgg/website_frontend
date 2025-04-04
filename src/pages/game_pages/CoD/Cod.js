@@ -1,16 +1,22 @@
 import '../Game.css';
 import './Cod.css'
 import Footer from '../../../Footer';
+import useNavHeight from '../../hooks/NavbarHeight';
 
 const Cod = () => {
+  useNavHeight();
     return (
       <div className="total-container">
-        <header id="League-header">
+        {/* <header id="League-header">
           <img
             src="https://i.imgur.com/kZaSdKo.png"
             className="Header-Img-l"
           />
-        </header>
+        </header> */}
+        <div className='Header-Img-l cod-general-header-img'>
+
+        </div>
+
         <div className="Background-game">
           <div className="container">
             <div className="row justify-content-center games-row-1">

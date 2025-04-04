@@ -40,60 +40,59 @@ const Home = () => {
             src="https://i.imgur.com/eNhKhTI.png"
             alt="underline"
           />
-          <div className={styles.backgroundImages}>
+            <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty">
-              <img
-                src="https://i.imgur.com/lt94bkC.png"
-                alt="Call of Duty"
-                className="home-games-images"
-              />
-            </a>
-            <a href="/games/warzone">
-              <img
-                src="https://i.imgur.com/IBGIbY2.png"
-                alt="Warzone"
-                className="home-games-images"
-              />
-            </a>
-            <a href="/games/halo">
-              <img
-                src="https://i.imgur.com/wqKJfEu.png"
-                alt="Halo Infinite"
-                className="home-games-images"
-              />
-            </a>
-            <a href="/games/LoL">
-              <img
-                src="https://i.imgur.com/5riYNow.png"
-                alt="League of Legends"
-                className="home-games-images"
-              />
-            </a>
+                <img
+                  src="https://i.imgur.com/lt94bkC.png"
+                  alt="Call of Duty"
+                  className="home-games-images"
+                />
+                
+              </a>
+              <a href="/games/warzone">
+                <img
+                  src="https://i.imgur.com/IBGIbY2.png"
+                  alt="Warzone"
+                  className="home-games-images"
+                />
+              </a>
+              <a href="/games/halo">
+                <img
+                  src="https://i.imgur.com/wqKJfEu.png"
+                  alt="Halo Infinite"
+                  className="home-games-images"
+                />
+              </a>
+              <a href="/games/LoL">
+                <img
+                  src="https://i.imgur.com/5riYNow.png"
+                  alt="League of Legends"
+                  className="home-games-images"
+                />
+              </a>
             <br />
             <br />
-            <a href="/games/RocketLeague">
-              <img
-                src="https://i.imgur.com/GJO8JIZ.png"
-                alt="Rocket League"
-                className="home-games-images"
-              />
-            </a>
-
-            <a href="/games/Valorant">
-              <img
-                src="https://i.imgur.com/Gsl3oIp.png"
-                alt="Valorant"
-                className="home-games-images"
-              />
-            </a>
-
-            <a href="/games/CS2">
-              <img
-                src="https://i.imgur.com/60FwDKN.png"
-                alt="Counter-Strike 2"
-                className="home-games-images"
-              />
-            </a>
+              <a href="/games/RocketLeague">
+                <img
+                  src="https://i.imgur.com/GJO8JIZ.png"
+                  alt="Rocket League"
+                  className="home-games-images"
+                />
+              </a>
+              <a href="/games/Valorant">
+                <img
+                  src="https://i.imgur.com/Gsl3oIp.png"
+                  alt="Valorant"
+                  className="home-games-images"
+                />
+              </a>
+              <a href="/games/CS2">
+                <img
+                  src="https://i.imgur.com/60FwDKN.png"
+                  alt="Counter-Strike 2"
+                  className="home-games-images"
+                />
+              </a>
           </div>
 
           <div className={styles.hr}></div>
