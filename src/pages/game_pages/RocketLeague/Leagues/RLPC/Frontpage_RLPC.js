@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import useNavHeight from '../../../../hooks/NavbarHeight';
+import '../../../leagues.css';
 const Frontpage_RLPC = () => {
+    useNavHeight();
     return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/TFi8yMS.png" className='Header-Img-l' />
-            </header>
+            <div className="Header-Img-l rlpc-verified-league" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

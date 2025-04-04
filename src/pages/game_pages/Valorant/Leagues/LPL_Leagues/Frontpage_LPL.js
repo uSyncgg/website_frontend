@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import useNavHeight from '../../../../hooks/NavbarHeight';
+import '../../../leagues.css';
 const Frontpage_LPL = () => {
+    useNavHeight();
     return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/PGxAVgC.png" className='Header-Img-l' />
-            </header>
+            <div className="Header-Img-l lpl-verified-league" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

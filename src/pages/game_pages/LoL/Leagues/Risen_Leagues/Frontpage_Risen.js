@@ -1,11 +1,13 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import useNavHeight from '../../../../hooks/NavbarHeight';
+import '../../../leagues.css';
+
 const Frontpage_Risen = () => {
+    useNavHeight();
     return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/wL0VUZr.png" className='Header-Img-l' />
-            </header>
+            <div className="Header-Img-l risen-verified-league" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

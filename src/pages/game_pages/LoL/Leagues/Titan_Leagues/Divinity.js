@@ -6,14 +6,15 @@ import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
+import '../../../leagues.css';
+import useNavHeight from '../../../../hooks/NavbarHeight';
 
 // Make sure the name following const is the same as the file name
 const Divinity = () => {
+  useNavHeight();
     return (
         <div className="total-playground">
-      <header class="headerImg">
-        <img src="https://i.imgur.com/UdgQpu1.png" className="Header-Img" />
-      </header>
+            <div className="Header-Img-l titan-verified-league" />
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

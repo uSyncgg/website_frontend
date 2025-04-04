@@ -6,14 +6,15 @@ import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
+import useNavHeight from '../../../hooks/NavbarHeight';
+import '../../leagues.css';
 
 // Make sure the name following const is the same as the file name
 const HSEL_CS2 = () => {
+  useNavHeight();
     return (
         <div className="total-playground">
-      <header class="headerImg">
-        <img src="https://i.imgur.com/cyBSNQB.png" className="Header-Img" />
-      </header>
+          <div className="Header-Img-l hsel-verified-league" />
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
@@ -67,7 +68,7 @@ const HSEL_CS2 = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="/games/LoL/leagues" id='league-back-button-a'>
+          <a href="/games/CS2/leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
