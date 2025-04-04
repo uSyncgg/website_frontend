@@ -149,7 +149,7 @@ transition {
 }
 
 .games-leagues-header-title {
-  margin-top: -13.5rem;
+  margin-top: -18.5rem;
 }
 
 #league-title {
@@ -157,12 +157,6 @@ transition {
     font-size: 5rem; 
     text-align: center;
   }
-
-@media only screen and (max-width: 480px) {
-  #league-title, #league-title1 {
-    font-size: 2rem !important;
-  }
-}
   
 #league-title-lol {
   color: white;
@@ -180,7 +174,7 @@ transition {
 
 @media only screen and (max-width: 768px) {
   #league-title, #league-title1 {
-    font-size: 3rem !important;
+    font-size: 3rem;
   }
 
   .games-leagues-header-title {
@@ -201,11 +195,20 @@ transition {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
+  #league-title, #league-title1 {
+    font-size: 2rem;
+  }
+
   .Header-Img-l {
-    padding-top: calc(var(--nav-height) * 4.3) !important;
+    padding-top: calc(var(--nav-height) * 4) !important;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -15rem;
   }
 }
+
 /* 
 .col-2 {
   margin: 3rem;
@@ -229,8 +232,9 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: calc(var(--nav-height) * 5);
-  /* width: 100%;
-  height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Header-Img-l-cod {
