@@ -18,7 +18,7 @@ body {
   background-size: cover;
   height: auto;
   width: 100%;
-  background-image: url("./website_images/home-images/home_background.png"); /* Needs to be changed to imgur */
+  background-image: url("./website_images/home-images/home_background.png");
   background-position: center;
   background-attachment: scroll;
 }
@@ -79,8 +79,27 @@ body {
 
   .Slogan {
     font-size: 2rem;
+    color: rgb(48 189, 123);
+    text-align: center;
+    padding-bottom: 7.5rem;
+    margin-bottom: 0;
   }
-}
+  .hr {
+    border-top: .1rem solid white;
+    margin: 0 10rem;
+    width: 70%;
+    transform: translateX(-39%);
+  }
+  .backgroundTop img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+    
+  }
 
 
 .Intro h2{

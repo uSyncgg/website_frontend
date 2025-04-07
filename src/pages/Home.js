@@ -116,7 +116,7 @@ const Home = () => {
                 className={styles.GrayBox}
                 onClick={handleGrayBoxClick} // Adds click event to hide the GrayBox
               >
-                <p className={styles.GrayBoxText}>Click to interact with map</p> {/* Added text here */}
+                <p className={styles.GrayBoxText}>Click to interact with the map</p> {/* Added text here */}
               </div>
             )}
           </div>
