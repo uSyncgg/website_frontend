@@ -2,8 +2,11 @@ import "../../../Info.css";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../Footer";
+import '../head-to-head.css';
+import useNavHeight from "../../hooks/NavbarHeight";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const DreamHack_Dallas25 = () => {
+  useNavHeight();
   return (
     <div className='total-container'>
     <header id='League-header'>
@@ -13,6 +16,7 @@ const DreamHack_Dallas25 = () => {
             <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
     </header>
+    {/* STILL NEED TO DO */}
       <div className="background-mid">
         <div className="Background-mid-top">
           <a

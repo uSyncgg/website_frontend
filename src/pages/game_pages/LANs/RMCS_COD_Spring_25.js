@@ -2,17 +2,19 @@ import "../../../Info.css";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../Footer";
+import '../head-to-head.css';
+import useNavHeight from "../../hooks/NavbarHeight";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const RMCS_COD_Spring_25 = () => {
+  useNavHeight();
   return (
     <div className='total-container'>
-    <header id='League-header'>
-        <img src="https://i.imgur.com/MewGRdo.png" className='Header-Img' />
+      <div className="Header-Img-l not-verified-banner-img"> 
         <div className="games-leagues-header-title">
-            <h2 id="league-title">RMCS Spring 25</h2>
-            <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+          <h2 id="league-title">RMCS Spring 25</h2>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
-    </header>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           <a
