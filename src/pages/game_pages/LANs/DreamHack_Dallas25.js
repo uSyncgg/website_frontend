@@ -4,8 +4,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const DreamHack_Dallas25 = () => {
   useNavHeight();
@@ -16,12 +14,7 @@ const DreamHack_Dallas25 = () => {
           <h2 id="league-title">DreamHack Dallas 25</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
-<<<<<<< Updated upstream
-    </header>
-    {/* STILL NEED TO DO */}
-=======
       </div>
->>>>>>> Stashed changes
       <div className="background-mid">
         <div className="Background-mid-top">
           <a

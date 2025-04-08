@@ -4,18 +4,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const RMCS_COD_Spring_25 = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<<<<<<< Updated upstream
-      <div className="Header-Img-l not-verified-banner-img"> 
-=======
 <div className="Header-Img-l not-verified-banner-img"> 
->>>>>>> Stashed changes
         <div className="games-leagues-header-title">
           <h2 id="league-title">RMCS Spring 25</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
