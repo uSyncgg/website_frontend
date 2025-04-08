@@ -40,6 +40,11 @@ body {
   background-color: rgb(49, 49, 49);
 }
 
+.backgroundMidWithBanner {
+  background-color: rgb(49, 49, 49);
+  padding-top: 3rem;
+}
+
 .Intro {
   color: white;
   white-space: pre-line;
@@ -204,7 +209,7 @@ body {
 
 .Slogan {
   font-size: 3.125rem;
-  color: rgb(48 189, 123);
+  color: rgb(48, 189, 123);
   text-align: center;
   padding-bottom: 7.5rem;
   margin-bottom: 0;

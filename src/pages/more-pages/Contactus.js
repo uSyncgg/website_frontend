@@ -92,11 +92,11 @@ const Contactus = () => {
               />
             </div>
 
-            <p class="hr-border" />
+            {/* <p class="hr-border" /> */}
 
             <div className='container info-title-contactus'>
               <div className='row'>
-                <div className='col-12 col-lg-4'>
+                <div className='col-12 col-lg-3'>
                   <a
                     href="mailto:usyncgg@gmail.com"
                     target="_blank"
@@ -107,8 +107,9 @@ const Contactus = () => {
                       className="img-fluid contact-email"
                     />
                   </a>
+                  <h4 className="hide-on-mobile">Email us!</h4>
                 </div>
-                <div className='col-12 col-lg-8'>
+                <div className='col-12 col-lg-9'>
                       {/* <h1 className="info-title-contactus"> */}
                         <p className="report-link" id="verification-post-event">
                           We support plenty of different events/websites but may miss a few from time to time in our search to support all games. 
@@ -120,15 +121,9 @@ const Contactus = () => {
                       {/* </h1> */}
                 </div>
               </div>
-
-              <div className='row email-us'>
-                <div className='col-lg-4'>
-                  <h4 className="hide-on-mobile">Email us!</h4>
-                </div>
-              </div>
             </div>
 
-            <div className="hr-border"></div>
+            <div className="hr-border shorter-top-increased"></div>
 
             <div className="contact-us-about-us">
               <h1 className="event-title-contactus2">About Us</h1>
@@ -179,7 +174,7 @@ const Contactus = () => {
 
               </div>
             </div>
-            <div className="hr-border space-on-bottom"></div>
+            <div className="hr-border space-on-bottom-double"></div>
           </div>
         </div>
         <Footer />
