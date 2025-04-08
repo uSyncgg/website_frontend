@@ -97,8 +97,8 @@ const Games = () => {
                     width="12.5rem"
                   />
                 </a>
-                <br />
-                <br />
+                <br className='hide-on-mobile' />
+                <br className='hide-on-mobile' />
                 <a href="/games/RocketLeague">
                   <img
                     src="https://i.imgur.com/GJO8JIZ.png"

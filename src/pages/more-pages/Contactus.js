@@ -179,7 +179,7 @@ const Contactus = () => {
 
               </div>
             </div>
-            <div className="hr-border"></div>
+            <div className="hr-border space-on-bottom"></div>
           </div>
         </div>
         <Footer />

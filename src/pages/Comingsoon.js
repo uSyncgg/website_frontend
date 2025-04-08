@@ -41,9 +41,9 @@ const Comingsoon = () => {
                 className="Underline-h-verification-coming"
               />
             </div>
-            <div className="container">
+            {/* <div className="container">
               <div className="row justify-content-center coming-soon-row">
-              <div className="col-sm-2">
+              <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/ybSqQK4.png"
                     alt="Fortnite"
@@ -51,14 +51,14 @@ const Comingsoon = () => {
                   />
                 </div>
 
-                <div className="col-sm-2">
+                <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/MUcaqmt.png"
                     alt="Apex Legends"
                     className="coming-soon-img"
                   />
                 </div>
-                <div className="col-sm-2">
+                <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/qpQDtRJ.png"
                     alt="Super Smash Brothers"
@@ -72,6 +72,38 @@ const Comingsoon = () => {
                     className="coming-soon-img"
                   />
                 </div>
+              </div>
+            </div> */}
+
+            <div className={styles.backgroundMid}>
+              <div className={styles.backgroundImages}>
+                <img
+                  src="https://i.imgur.com/ybSqQK4.png"
+                  alt="Fortnite"
+                  height="12.5rem"
+                  width="12.5rem"
+                />
+
+                <img
+                  src="https://i.imgur.com/MUcaqmt.png"
+                  alt="Apex Legends"
+                  height="12.5rem"
+                  width="12.5rem"
+                />
+
+                <img
+                  src="https://i.imgur.com/qpQDtRJ.png"
+                  alt="Super Smash Brothers"
+                  height="12.5rem"
+                  width="12.5rem"
+                />
+]
+                <img
+                  src="https://i.imgur.com/XxOYZiE.png"
+                  alt="Overwatch 2"
+                  height="12.5rem"
+                  width="12.5rem"
+                />
               </div>
             </div>
             <div className="coming-soon-background-mid-bottom">
