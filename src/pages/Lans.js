@@ -8,7 +8,6 @@ const Lans = () => {
   
     return (
       <div>
-        <div>
           {/* <header id="League-header">
             <img
               src="https://i.imgur.com/YeUPAmO.png"
@@ -35,23 +34,24 @@ const Lans = () => {
             </div>
           </div>
 
-          <div className="Background-leagues">
-            <div class={styles.backgroundMid}>
+          <div className={styles.backgroundMidWithBanner}>
               <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty/lans">
                   <img
                     src="https://i.imgur.com/lt94bkC.png"
                     alt="Call of Duty"
-                    height="12.5rem"
-                    width="12.5rem"
+                    className='home-games-images'
+                    // height="12.5rem"
+                    // width="12.5rem"
                   />
                 </a>
                 <a href="/games/warzone/lans">
                   <img
                     src="https://i.imgur.com/IBGIbY2.png"
                     alt="Warzone"
-                    height="12.5rem"
-                    width="12.5rem"
+                    className='home-games-images'
+                    // height="12.5rem"
+                    // width="12.5rem"
                   />
                 </a>
 
@@ -59,24 +59,25 @@ const Lans = () => {
                   <img
                     src="https://i.imgur.com/wqKJfEu.png"
                     alt="Halo Infinite"
-                    height="12.5rem"
-                    width="12.5rem"
+                    className='home-games-images'
+                    // height="12.5rem"
+                    // width="12.5rem"
                   />
                 </a>
                 <a href="/games/LoL/lans">
                   <img
                     src="https://i.imgur.com/5riYNow.png"
                     alt="League of Legends"
-                    height="12.5rem"
-                    width="12.5rem"
+                    className='home-games-images'
+                    // height="12.5rem"
+                    // width="12.5rem"
                   />
                 </a>
                 <hr />
               </div>
+              <Footer />
             </div>
-          </div>
-          <Footer />
-        </div>
+
       </div>
     );
 }
