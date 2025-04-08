@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_scl = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_scl = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/challenger'>
-                                    <h1 className='Leagueh1'>Challenger Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Challenger Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/challenger"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_scl = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/masters'>
-                                    <h1 className='Leagueh1'>Masters Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Masters Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/masters"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_scl = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/intermediate'>
-                                    <h1 className='Leagueh1'>Intermediate Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Intermediate Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/intermediate"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_scl = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/public'>
-                                    <h1 className='Leagueh1'>Public Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Public Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/public"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>

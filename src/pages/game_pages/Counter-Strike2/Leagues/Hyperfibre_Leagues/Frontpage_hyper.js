@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_hyper = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_hyper = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/elite'>
-                                    <h1 className='Leagueh1'>Elite Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Elite Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/hyperfibre-leagues/elite"><img src="https://i.imgur.com/Cx4N8HW.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_hyper = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/social'>
-                                    <h1 className='Leagueh1'>Social Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Social Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/hyperfibre-leagues/social"><img src="https://i.imgur.com/Cx4N8HW.png" className='league-img' /></a>

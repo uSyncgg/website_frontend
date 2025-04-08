@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Frontline = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Frontline = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/champ'>
-                                    <h1 className='Leagueh1'>Champ League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Champ League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontline-leagues/champ"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Frontline = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/vanguard'>
-                                    <h1 className='Leagueh1'>Vanguard League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Vanguard League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontline-leagues/vanguard"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_Frontline = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/challenger'>
-                                    <h1 className='Leagueh1'>Challenger League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontline-leagues/challenger"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_Frontline = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/prospect'>
-                                    <h1 className='Leagueh1'>Prospect League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Prospect League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontline-leagues/prospect"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>

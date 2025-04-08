@@ -15,7 +15,7 @@ const Frontpage_Risen = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/champions'>
-                                    <h1 className='Leagueh1'>Champions League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Champions League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/champions"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
@@ -32,7 +32,7 @@ const Frontpage_Risen = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/dominate'>
-                                    <h1 className='Leagueh1'>Dominate League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Dominate League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/dominate"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
@@ -51,7 +51,7 @@ const Frontpage_Risen = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/unstoppable'>
-                                    <h1 className='Leagueh1'>Unstoppable League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Unstoppable League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/unstoppable"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
@@ -68,7 +68,7 @@ const Frontpage_Risen = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/rampage'>
-                                    <h1 className='Leagueh1'>Rampage League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Rampage League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/rampage"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
@@ -87,7 +87,7 @@ const Frontpage_Risen = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/draft'>
-                                    <h1 className='Leagueh1'>Draft League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Draft League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/risen-leagues/draft"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>

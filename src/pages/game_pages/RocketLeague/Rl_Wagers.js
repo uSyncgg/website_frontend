@@ -24,7 +24,7 @@ const Rl_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/cmg'>
-                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
@@ -41,7 +41,7 @@ const Rl_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/dropingaming'>
-                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
@@ -58,7 +58,7 @@ const Rl_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/gamersaloon'>
-                                    <h1 className='Leagueh1'>GamerSaloon</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/wagers/gamersaloon"><img src="https://i.imgur.com/M8da8S6.png" className='league-img' /></a>
@@ -73,7 +73,7 @@ const Rl_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/dubbz'>
-                                    <h1 className='Leagueh1'>Dubbz</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
@@ -90,7 +90,7 @@ const Rl_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/ewagers'>
-                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>

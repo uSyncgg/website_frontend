@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_LPLCS = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_LPLCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-gold'>
-                                    <h1 className='Leagueh1'>Gold Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gold Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-gold"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_LPLCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-silver'>
-                                    <h1 className='Leagueh1'>Silver Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Silver Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-silver"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_LPLCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-bronze'>
-                                    <h1 className='Leagueh1'>Bronze Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Bronze Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-bronze"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_LPLCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-open'>
-                                    <h1 className='Leagueh1'>Open Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Open Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-open"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>

@@ -27,7 +27,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/cmg'>
-                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
@@ -44,7 +44,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/eagent'>
-                                    <h1 className='Leagueh1'>Esports Agent</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esports Agent</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/eagent"><img src="https://i.imgur.com/mued0Qd.png" className='league-img' /></a>
@@ -63,7 +63,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/oneup'>
-                                    <h1 className='Leagueh1'>One Up (App)</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>One Up (App)</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/oneup"><img src="https://i.imgur.com/wkSz5Le.png" className='league-img' /></a>
@@ -80,7 +80,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/dropin'>
-                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/dropin"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
@@ -97,7 +97,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/1v1me'>
-                                    <h1 className='Leagueh1'>1v1 Me (App)</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>1v1 Me (App)</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/1v1me"><img src="https://i.imgur.com/BFNJpgg.png" className='league-img' /></a>
@@ -113,7 +113,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/dubbz'>
-                                    <h1 className='Leagueh1'>Dubbz</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
@@ -130,7 +130,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/the-esports-hub'>
-                                    <h1 className='Leagueh1'>The Esports Hub</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>The Esports Hub</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/the-esports-hub"><img src="https://i.imgur.com/2t8zzc5.png" className='league-img' /></a>
@@ -145,7 +145,7 @@ const Cod_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/ewagers'>
-                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>

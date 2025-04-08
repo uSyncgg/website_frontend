@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_URL = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_URL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/url-leagues/2s'>
-                                    <h1 className='Leagueh1'>2v2 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>2v2 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/url-leagues/2s"><img src="https://i.imgur.com/MAt6qsf.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_URL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/url-leagues/3s'>
-                                    <h1 className='Leagueh1'>3v3 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>3v3 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/url-leagues/3s"><img src="https://i.imgur.com/MAt6qsf.png" className='league-img' /></a>

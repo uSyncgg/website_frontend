@@ -18,7 +18,7 @@ const CS2_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/dubbzcs2'>
-                                    <h1 className='Leagueh1'>Dubbz</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/wagers/dubbzcs2"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
@@ -34,7 +34,7 @@ const CS2_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/showdowngaming_cs2'>
-                                    <h1 className='Leagueh1'>Showdown Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Showdown Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/wagers/showdowngaming_cs2"><img src="https://i.imgur.com/1UTQLkh.png" className='league-img' /></a>
@@ -50,7 +50,7 @@ const CS2_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/gamersaloon_cs2'>
-                                    <h1 className='Leagueh1'>GamerSaloon</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/wagers/gamersaloon_cs2"><img src="https://i.imgur.com/MFqfurA.png" className='league-img' /></a>

@@ -22,7 +22,7 @@ const Val_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/gankster'>
-                                    <h1 className='Leagueh1'>Gankster GG</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gankster GG</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/head-to-head/gankster"><img src="https://i.imgur.com/ljDANVi.png" className='league-img' /></a>
@@ -39,7 +39,7 @@ const Val_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/esport-scrim'>
-                                    <h1 className='Leagueh1'>Esport Scrim</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/head-to-head/esport-scrim"><img src="https://i.imgur.com/irkzmva.png" className='league-img' /></a>
@@ -56,7 +56,7 @@ const Val_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/dropingaming'>
-                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/head-to-head/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
@@ -71,7 +71,7 @@ const Val_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/college-hub'>
-                                    <h1 className='Leagueh1'>Collegiate Valorant Hub Scrims</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Collegiate Valorant Hub Scrims</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/head-to-head/college-hub"><img src="https://i.imgur.com/InYxRbE.png" className='league-img' /></a>
@@ -88,7 +88,7 @@ const Val_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/pracc'>
-                                    <h1 className='Leagueh1'>Pracc</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/head-to-head/pracc"><img src="https://i.imgur.com/jqe9CCc.png" className='league-img' /></a>

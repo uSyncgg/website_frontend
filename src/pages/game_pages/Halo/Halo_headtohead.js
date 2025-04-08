@@ -18,7 +18,7 @@ const Halo_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/ugc-scrim'>
-                                    <h1 className='Leagueh1'>UGC College Halo Scrims</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>UGC College Halo Scrims</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/head-to-head/ugc-scrim"><img src="https://i.imgur.com/JeMuXtx.png" className='league-img' /></a>
@@ -34,7 +34,7 @@ const Halo_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/rec-xp'>
-                                    <h1 className='Leagueh1'>Halo Rec League Scrims</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Halo Rec League Scrims</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/head-to-head/rec-xp"><img src="https://i.imgur.com/6cA46YH.png" className='league-img' /></a>
@@ -50,7 +50,7 @@ const Halo_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/arena'>
-                                    <h1 className='Leagueh1'>The Arena | 8 Mans</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>The Arena | 8 Mans</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/head-to-head/arena"><img src="https://i.imgur.com/rBPapid.png" className='league-img' /></a>
@@ -65,7 +65,7 @@ const Halo_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/sauna'>
-                                    <h1 className='Leagueh1'>The Sauna Scrims</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>The Sauna Scrims</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/head-to-head/sauna"><img src="https://i.imgur.com/Oqt4YIJ.png" className='league-img' /></a>

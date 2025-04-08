@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Playfly = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Playfly = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/playfly-leagues/varsity'>
-                                    <h1 className='Leagueh1'>Varsity League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Varsity League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/playfly-leagues/varsity"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Playfly = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/playfly-leagues/open'>
-                                    <h1 className='Leagueh1'>Open League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Open League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/playfly-leagues/open"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>

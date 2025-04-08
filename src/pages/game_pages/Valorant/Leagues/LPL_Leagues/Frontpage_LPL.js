@@ -15,7 +15,7 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/gold'>
-                                    <h1 className='Leagueh1'>Gold Division League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gold Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/gold"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -32,7 +32,7 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/silver'>
-                                    <h1 className='Leagueh1'>Silver Division League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Silver Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/silver"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -51,7 +51,7 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/bronze'>
-                                    <h1 className='Leagueh1'>Bronze Division League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Bronze Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/bronze"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
@@ -68,7 +68,7 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/open'>
-                                    <h1 className='Leagueh1'>Open Division League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Open Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/lpl-leagues/open"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>

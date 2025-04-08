@@ -22,7 +22,7 @@ const Wz_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/cmg'>
-                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
@@ -39,7 +39,7 @@ const Wz_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/oneup'>
-                                    <h1 className='Leagueh1'>One Up (App)</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>One Up (App)</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/oneup"><img src="https://i.imgur.com/wkSz5Le.png" className='league-img' /></a>
@@ -56,7 +56,7 @@ const Wz_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/1v1me'>
-                                    <h1 className='Leagueh1'>1v1 Me (App)</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>1v1 Me (App)</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/1v1me"><img src="https://i.imgur.com/BFNJpgg.png" className='league-img' /></a>
@@ -71,7 +71,7 @@ const Wz_Wagers = () => {
                        <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/gamersaloon'>
-                                    <h1 className='Leagueh1'>GamerSaloon</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/gamersaloon"><img src="https://i.imgur.com/M8da8S6.png" className='league-img' /></a>
@@ -88,7 +88,7 @@ const Wz_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/dropingaming'>
-                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
@@ -103,7 +103,7 @@ const Wz_Wagers = () => {
                        <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/dubbz'>
-                                    <h1 className='Leagueh1'>Dubbz</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
@@ -120,7 +120,7 @@ const Wz_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/warzone/wagers/ewagers'>
-                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/warzone/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>

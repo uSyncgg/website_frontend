@@ -131,10 +131,11 @@ body {
 .backgroundImages img {
   margin: 1%;
   width: 12rem;
-  height: 16rem;
+  height: auto;
   border-radius: 1.563rem;
   transition: box-shadow 0.3s ease-in-out;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
+  margin-top: -1rem;
 }
 
 .backgroundImages img:hover {

@@ -14,7 +14,7 @@ const Frontpage_Aegis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/champ'>
-                                    <h1 className='Leagueh1'>Champions League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Champions League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/champ"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
@@ -31,7 +31,7 @@ const Frontpage_Aegis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/marauder'>
-                                    <h1 className='Leagueh1'>Marauder League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Marauder League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/marauder"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
@@ -50,7 +50,7 @@ const Frontpage_Aegis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/defenders'>
-                                    <h1 className='Leagueh1'>Defenders League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Defenders League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/defenders"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
@@ -67,7 +67,7 @@ const Frontpage_Aegis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/executioners'>
-                                    <h1 className='Leagueh1'>Executioners League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Executioners League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/executioners"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
@@ -86,7 +86,7 @@ const Frontpage_Aegis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/protectors'>
-                                    <h1 className='Leagueh1'>Protectors League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Protectors League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/aegis-leagues/protectors"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>

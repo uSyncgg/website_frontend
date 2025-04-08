@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Otter = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -14,7 +15,7 @@ const Frontpage_Otter = () => {
                     <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/masters'>
-                                    <h1 className='Leagueh1'>Masters League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Masters League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/masters"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
@@ -30,7 +31,7 @@ const Frontpage_Otter = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/diamond'>
-                                    <h1 className='Leagueh1'>Diamond League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Diamond League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/diamond"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
@@ -48,7 +49,7 @@ const Frontpage_Otter = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/emerald'>
-                                    <h1 className='Leagueh1'>Emerald League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Emerald League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/emerald"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
@@ -64,7 +65,7 @@ const Frontpage_Otter = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/plat'>
-                                    <h1 className='Leagueh1'>Platinum League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Platinum League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/plat"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
@@ -82,7 +83,7 @@ const Frontpage_Otter = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/gold'>
-                                    <h1 className='Leagueh1'>Gold League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gold League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/gold"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
@@ -98,7 +99,7 @@ const Frontpage_Otter = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/draft'>
-                                    <h1 className='Leagueh1'>Draft League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Draft League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/draft"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>

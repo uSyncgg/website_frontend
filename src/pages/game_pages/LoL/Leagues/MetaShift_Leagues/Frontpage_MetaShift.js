@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_MetaShift = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/radon'>
-                                    <h1 className='Leagueh1'>Radon League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Radon League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/radon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/xenon'>
-                                    <h1 className='Leagueh1'>Xenon League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Xenon League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/xenon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/krypton'>
-                                    <h1 className='Leagueh1'>Krypton League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Krypton League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/krypton"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/argon'>
-                                    <h1 className='Leagueh1'>Argon League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Argon League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/argon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
@@ -80,7 +81,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/nitrogen'>
-                                    <h1 className='Leagueh1'>Nitrogen League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Nitrogen League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/nitrogen"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
@@ -96,7 +97,7 @@ const Frontpage_MetaShift = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/neon'>
-                                    <h1 className='Leagueh1'>Neon League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Neon League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/neon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>

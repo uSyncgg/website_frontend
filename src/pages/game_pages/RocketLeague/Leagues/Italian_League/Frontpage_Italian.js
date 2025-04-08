@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Italian = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Italian = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-a'>
-                                    <h1 className='Leagueh1'>Serie A League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Serie A League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/italian-leagues/serie-a"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Italian = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-b'>
-                                    <h1 className='Leagueh1'>Serie B League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Serie B League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/italian-leagues/serie-b"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
