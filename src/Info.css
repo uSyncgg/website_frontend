@@ -564,4 +564,8 @@ header {
   .about-us-image {
     width: 100%;
   }
+
+  .shorter-top-increased {
+    margin-top: 0rem;
+  }
 }
