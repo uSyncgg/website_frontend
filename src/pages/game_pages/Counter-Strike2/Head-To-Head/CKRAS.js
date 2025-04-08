@@ -4,15 +4,16 @@
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
 // Make sure the name following const is the same as the file name
 const CKRAS = () => {
+  useNavHeight();
   return (
     <div className="total-playground">
-      <header class="headerImg">
-      <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
-      </header>
+    <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

@@ -18,7 +18,7 @@ const Lol_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/head-to-head/gankster'>
-                                    <h1 className='Leagueh1'>Gankster GG</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gankster GG</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/head-to-head/gankster"><img src="https://i.imgur.com/ljDANVi.png" className='league-img' /></a>
@@ -34,7 +34,7 @@ const Lol_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/head-to-head/esport-scrim'>
-                                    <h1 className='Leagueh1'>Esport Scrim</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/head-to-head/esport-scrim"><img src="https://i.imgur.com/irkzmva.png" className='league-img' /></a>
@@ -51,7 +51,7 @@ const Lol_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/head-to-head/pracc'>
-                                    <h1 className='Leagueh1'>Pracc</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/head-to-head/pracc"><img src="https://i.imgur.com/XERVRrh.png" className='league-img' /></a>

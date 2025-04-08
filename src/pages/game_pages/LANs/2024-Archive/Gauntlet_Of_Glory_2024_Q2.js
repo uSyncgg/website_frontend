@@ -1,18 +1,20 @@
 import "../../../../Info.css";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
 import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const Gauntlet_Of_Glory_2024_Q2 = () => {
+  useNavHeight();
   return (
     <div className='total-container'>
-    <header id='League-header'>
-        <img src="https://i.imgur.com/MewGRdo.png" className='Header-Img' />
+<div className="Header-Img-l not-verified-banner-img"> 
         <div className="games-leagues-header-title">
-            <h2 id="league-title">G-Site (Q2) | Gauntlet Of Glory</h2>
-            <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+          <h2 id="league-title">Gauntlet Of Glory 2024 Q2</h2>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
-    </header>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           <a

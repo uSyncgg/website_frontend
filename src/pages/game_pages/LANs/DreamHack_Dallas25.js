@@ -1,6 +1,8 @@
 import "../../../Info.css";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
+import '../head-to-head.css';
+import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
@@ -9,14 +11,17 @@ const DreamHack_Dallas25 = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-    <header id='League-header'>
-        <img src="https://i.imgur.com/MewGRdo.png" className='Header-Img' />
+<div className="Header-Img-l not-verified-banner-img"> 
         <div className="games-leagues-header-title">
-            <h2 id="league-title">DreamHack Dallas</h2>
-            <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+          <h2 id="league-title">DreamHack Dallas 25</h2>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
+<<<<<<< Updated upstream
     </header>
     {/* STILL NEED TO DO */}
+=======
+      </div>
+>>>>>>> Stashed changes
       <div className="background-mid">
         <div className="Background-mid-top">
           <a

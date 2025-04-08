@@ -23,7 +23,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/lpl-leagues">
-                    <h1 className="Leagueh1">LPL Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">LPL Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/lpl-leagues">
@@ -52,7 +52,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/frontline-leagues">
-                    <h1 className="Leagueh1">Team Frontline League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Team Frontline League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/frontline-leagues">
@@ -76,7 +76,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/corporate">
-                    <h1 className="Leagueh1">Corporate League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Corporate League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/corporate">
@@ -98,7 +98,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/unified">
-                    <h1 className="Leagueh1">Unified Premier League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Unified Premier League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/unified">
@@ -131,7 +131,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/riot">
-                    <h1 className="Leagueh1">College Valorant League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">College Valorant League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/riot">
@@ -160,7 +160,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/ecac-leagues">
-                    <h1 className="Leagueh1">ECAC Esports</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">ECAC Esports</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/ecac-leagues">
@@ -184,7 +184,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/njcaae">
-                    <h1 className="Leagueh1">NJCAAE</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">NJCAAE</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/njcaae">
@@ -206,7 +206,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/necc">
-                    <h1 className="Leagueh1">NECC</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">NECC</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/necc">
@@ -230,7 +230,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/egfc">
-                    <h1 className="Leagueh1">EGFC League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">EGFC League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/egfc">
@@ -252,7 +252,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/playfly-leagues">
-                    <h1 className="Leagueh1">Playfly College</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Playfly College</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/playfly-leagues">
@@ -276,7 +276,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/csmg">
-                    <h1 className="Leagueh1">CSMG League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">CSMG League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/csmg">
@@ -298,7 +298,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/faceit">
-                    <h1 className="Leagueh1">FACEIT Collegiate</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">FACEIT Collegiate</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/faceit">
@@ -322,7 +322,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/nse">
-                    <h1 className="Leagueh1">National Student Esports</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">National Student Esports</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/nse">
@@ -344,7 +344,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/ugc-college">
-                    <h1 className="Leagueh1">UGC Battle Academy</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">UGC Battle Academy</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/ugc-college">
@@ -378,7 +378,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/hsel">
-                    <h1 className="Leagueh1">High School Esports League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/hsel">
@@ -407,7 +407,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/tec">
-                    <h1 className="Leagueh1">The Esports Company League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">The Esports Company League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/tec">
@@ -430,7 +430,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/Valorant/leagues/vantagg">
-                    <h1 className="Leagueh1">VantaGG</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">VantaGG</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/vantagg">
@@ -452,7 +452,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/nasef">
-                    <h1 className="Leagueh1">NASEF League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">NASEF League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/nasef">
@@ -475,7 +475,7 @@ const Val_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/Valorant/leagues/egfh">
-                    <h1 className="Leagueh1">EGFH League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">EGFH League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/Valorant/leagues/egfh">

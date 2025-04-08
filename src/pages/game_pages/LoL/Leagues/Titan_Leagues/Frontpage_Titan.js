@@ -15,7 +15,7 @@ const Frontpage_Titan = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/immortal'>
-                                    <h1 className='Leagueh1'>Immortal</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Immortal</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/immortal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
@@ -32,7 +32,7 @@ const Frontpage_Titan = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/vanquisher'>
-                                    <h1 className='Leagueh1'>Vanquisher</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Vanquisher</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/vanquisher"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
@@ -51,7 +51,7 @@ const Frontpage_Titan = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/eternal'>
-                                    <h1 className='Leagueh1'>Eternal</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Eternal</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/eternal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
@@ -69,7 +69,7 @@ const Frontpage_Titan = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/conqueror'>
-                                    <h1 className='Leagueh1'>Conqueror</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Conqueror</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
@@ -88,7 +88,7 @@ const Frontpage_Titan = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/divinity'>
-                                    <h1 className='Leagueh1'>Divinity</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Divinity</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
@@ -105,7 +105,7 @@ const Frontpage_Titan = () => {
                     <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/gladiator'>
-                                    <h1 className='Leagueh1'>Gladiator</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Gladiator</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/titan-leagues/gladiator"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>

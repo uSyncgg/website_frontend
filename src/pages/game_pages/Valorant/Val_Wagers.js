@@ -19,7 +19,7 @@ const Val_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/wagers/dropingaming'>
-                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
@@ -34,7 +34,7 @@ const Val_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/wagers/ewagers'>
-                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>

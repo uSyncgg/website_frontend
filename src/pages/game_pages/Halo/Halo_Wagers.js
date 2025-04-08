@@ -22,7 +22,7 @@ const Halo_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/wagers/cmg'>
-                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/wagers/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
@@ -37,7 +37,7 @@ const Halo_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/wagers/oneup'>
-                                    <h1 className='Leagueh1'>One Up (App)</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>One Up (App)</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/wagers/oneup"><img src="https://i.imgur.com/wkSz5Le.png" className='league-img' /></a>
@@ -54,7 +54,7 @@ const Halo_Wagers = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/halo/wagers/esport-wagers'>
-                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/halo/wagers/esport-wagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>

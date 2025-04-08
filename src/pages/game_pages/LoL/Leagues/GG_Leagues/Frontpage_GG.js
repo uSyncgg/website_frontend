@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_GG = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_GG = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/gg-leagues/division-a'>
-                                    <h1 className='Leagueh1'>Division A League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division A League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/gg-leagues/division-a"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_GG = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/gg-leagues/division-b'>
-                                    <h1 className='Leagueh1'>Division B League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division B League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/gg-leagues/division-b"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_GG = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/gg-leagues/division-c'>
-                                    <h1 className='Leagueh1'>Division C League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division C League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/gg-leagues/division-c"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>

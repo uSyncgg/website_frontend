@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_LCS = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_LCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/executive'>
-                                    <h1 className='Leagueh1'>Executive League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Executive League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/low-budget-leagues/executive"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_LCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/financial'>
-                                    <h1 className='Leagueh1'>Financial League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Financial League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/low-budget-leagues/financial"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_LCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/commercial'>
-                                    <h1 className='Leagueh1'>Commercial League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Commercial League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/low-budget-leagues/commercial"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_LCS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/economy'>
-                                    <h1 className='Leagueh1'>Economy League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Economy League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/low-budget-leagues/economy"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>

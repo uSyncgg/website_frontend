@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Frontline_val = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Frontline_val = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/frontline-leagues/prime'>
-                                    <h1 className='Leagueh1'>Prime League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Prime League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/frontline-leagues/prime"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Frontline_val = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/frontline-leagues/academy'>
-                                    <h1 className='Leagueh1'>Academy League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Academy League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/frontline-leagues/academy"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>

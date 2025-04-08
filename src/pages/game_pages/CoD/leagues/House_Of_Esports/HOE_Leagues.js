@@ -14,7 +14,7 @@ const HOE_Leagues = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
-                                    <h1 className='Leagueh1'>Amateurs League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Amateurs League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
@@ -29,7 +29,7 @@ const HOE_Leagues = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
-                                    <h1 className='Leagueh1'>Challengers League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Challengers League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>

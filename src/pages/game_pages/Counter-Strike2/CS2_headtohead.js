@@ -18,7 +18,7 @@ const CS2_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/faceit'>
-                                    <h1 className='Leagueh1'>FACEIT</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>FACEIT</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/head-to-head/faceit"><img src="https://i.imgur.com/4GwagUk.png" className='league-img' /></a>
@@ -35,7 +35,7 @@ const CS2_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/pracc'>
-                                    <h1 className='Leagueh1'>Pracc</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/head-to-head/pracc"><img src="https://i.imgur.com/XERVRrh.png" className='league-img' /></a>
@@ -51,7 +51,7 @@ const CS2_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/esport-scrim'>
-                                    <h1 className='Leagueh1'>Esport Scrim</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/head-to-head/esport-scrim"><img src="https://i.imgur.com/KIPClg9.png" className='league-img' /></a>
@@ -67,7 +67,7 @@ const CS2_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/ckras'>
-                                    <h1 className='Leagueh1'>CKRAS</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>CKRAS</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/CS2/head-to-head/ckras"><img src="https://i.imgur.com/ry9oAAw.png" className='league-img' /></a>

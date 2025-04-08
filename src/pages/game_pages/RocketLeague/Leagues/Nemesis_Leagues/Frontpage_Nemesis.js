@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Nemesis = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-            <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Nemesis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/titan'>
-                                    <h1 className='Leagueh1'>Titan League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Titan League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/titan"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Nemesis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/rival'>
-                                    <h1 className='Leagueh1'>Rival League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Rival League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/rival"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_Nemesis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/challenger'>
-                                    <h1 className='Leagueh1'>Challenger League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/challenger"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
@@ -62,7 +63,7 @@ const Frontpage_Nemesis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/prospect'>
-                                    <h1 className='Leagueh1'>Prospect League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Prospect League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/prospect"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
@@ -78,7 +79,7 @@ const Frontpage_Nemesis = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/novice'>
-                                    <h1 className='Leagueh1'>Novice League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Novice League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/novice"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>

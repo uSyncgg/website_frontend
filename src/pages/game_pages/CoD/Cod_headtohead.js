@@ -26,7 +26,7 @@ const Cod_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/cmg'>
-                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/head-to-head/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
@@ -43,7 +43,7 @@ const Cod_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/eagent'>
-                                    <h1 className='Leagueh1'>Esports Agent</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esports Agent</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/head-to-head/eagent"><img src="https://i.imgur.com/mued0Qd.png" className='league-img' /></a>
@@ -59,7 +59,7 @@ const Cod_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/erivals'>
-                                    <h1 className='Leagueh1'>Esport Rivals</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Rivals</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/head-to-head/erivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
@@ -75,7 +75,7 @@ const Cod_headtohead = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/arena'>
-                                    <h1 className='Leagueh1'>The Arena</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>The Arena</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/head-to-head/arena"><img src="https://i.imgur.com/rBPapid.png" className='league-img' /></a>

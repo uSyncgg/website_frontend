@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_RSC = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/8Gq4nYp.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_RSC = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/3v3-na'>
-                                    <h1 className='Leagueh1'>3v3 NA League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>3v3 NA League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/3v3-na"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_RSC = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/3v3-eu'>
-                                    <h1 className='Leagueh1'>3v3 EU League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>3v3 EU League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/3v3-eu"><img src="https://i.imgur.com/uQgW3Kj.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_RSC = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/2v2'>
-                                    <h1 className='Leagueh1'>2v2 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>2v2 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/2v2"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>

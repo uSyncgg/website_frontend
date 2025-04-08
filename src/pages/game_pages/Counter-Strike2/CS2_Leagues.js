@@ -17,7 +17,7 @@ const CS2_Leagues = () => {
             <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitesea">
-                    <h1 className="Leagueh1">FACEIT ESEA</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">FACEIT ESEA</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/faceitesea">
@@ -47,7 +47,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/lpl-leagues">
-                    <h1 className="Leagueh1">LPL Pathfinder Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">LPL Pathfinder Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/lpl-leagues">
@@ -70,7 +70,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/fastcup">
-                    <h1 className="Leagueh1">Fast Cup</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Fast Cup</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/fastcup">
@@ -93,7 +93,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/corporate">
-                    <h1 className="Leagueh1">Corporate CS2 League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Corporate CS2 League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/corporate">
@@ -117,7 +117,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/fireleague">
-                    <h1 className="Leagueh1">FiReLEAGUE</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">FiReLEAGUE</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/fireleague">
@@ -140,7 +140,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/unitedtwentyone">
-                    <h1 className="Leagueh1">United TwentyOne</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">United TwentyOne</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/unitedtwentyone">
@@ -164,7 +164,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/scl-leagues">
-                    <h1 className="Leagueh1">SCL Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">SCL Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/scl-leagues">
@@ -188,7 +188,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/hyperfibre-leagues">
-                    <h1 className="Leagueh1">Hyperfibre Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Hyperfibre Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/hyperfibre-leagues">
@@ -222,7 +222,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/njcaae">
-                    <h1 className="Leagueh1">NJCAAE</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">NJCAAE</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/njcaae">
@@ -245,7 +245,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/necc">
-                    <h1 className="Leagueh1">NECC</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">NECC</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/necc">
@@ -269,7 +269,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/ecac">
-                    <h1 className="Leagueh1">ECAC</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">ECAC</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/ecac">
@@ -292,7 +292,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/egfc">
-                    <h1 className="Leagueh1">EGFC League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">EGFC League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/egfc">
@@ -316,7 +316,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitcollegiate">
-                    <h1 className="Leagueh1">FACEIT Collegiate</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">FACEIT Collegiate</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/faceitcollegiate">
@@ -339,7 +339,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/nse">
-                    <h1 className="Leagueh1">National Student Esports</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">National Student Esports</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/nse">
@@ -363,7 +363,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/playfly">
-                    <h1 className="Leagueh1">Playfly College</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Playfly College</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/playfly">
@@ -386,7 +386,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/ael">
-                    <h1 className="Leagueh1">Australian Esports Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Australian Esports Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/ael">
@@ -420,7 +420,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/hsel">
-                    <h1 className="Leagueh1">High School Esports League</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/hsel">
@@ -450,7 +450,7 @@ const CS2_Leagues = () => {
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/vantagg">
-                    <h1 className="Leagueh1">VantaGG</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">VantaGG</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/CS2/leagues/vantagg">

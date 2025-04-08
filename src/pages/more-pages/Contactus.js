@@ -164,7 +164,7 @@ const Contactus = () => {
                 </div>
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/M4qM9ng.png"
+                    src="https://i.imgur.com/gGXFOdn.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Matthew O'Connor</h1>

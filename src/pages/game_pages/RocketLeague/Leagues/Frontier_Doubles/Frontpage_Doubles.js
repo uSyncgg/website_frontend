@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Doubles = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Doubles = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/elite'>
-                                    <h1 className='Leagueh1'>Elite League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Elite League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/elite"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Doubles = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/star'>
-                                    <h1 className='Leagueh1'>Star League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Star League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/star"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_Doubles = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/expert'>
-                                    <h1 className='Leagueh1'>Expert League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Expert League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/expert"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
@@ -63,7 +64,7 @@ const Frontpage_Doubles = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/origin'>
-                                    <h1 className='Leagueh1'>Origin League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Origin League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/origin"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>

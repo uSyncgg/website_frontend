@@ -1,11 +1,12 @@
 import '../../../CoD/Cod.css';
 import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Cobalt = () => {
-    return (
+  useNavHeight();
+  return (
         <div>
-            <header id='League-header'>
-                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
-            </header>
+    <div className="Header-Img-l not-verified-banner-img" />
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
@@ -13,7 +14,7 @@ const Frontpage_Cobalt = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/division1'>
-                                    <h1 className='Leagueh1'>Division 1 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division 1 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/division1"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
@@ -29,7 +30,7 @@ const Frontpage_Cobalt = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/division2'>
-                                    <h1 className='Leagueh1'>Division 2 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division 2 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/division2"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
@@ -46,7 +47,7 @@ const Frontpage_Cobalt = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/division3'>
-                                    <h1 className='Leagueh1'>Division 3 League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Division 3 League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/division3"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
