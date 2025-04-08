@@ -7,9 +7,9 @@
     background-size: auto 20rem;
 }
 
-.verification-container {
+/* .verification-container {
     min-width: 266px;
-}
+} */
 
 .verified-checks-row {
     height: 100%;
@@ -21,12 +21,17 @@
 }
 
 .verification-header-img-container {
-    height: 20rem;
+    /* height: 20rem;
     background-image: url("https://i.imgur.com/r1fPsVm.png");
     display: flex;
     align-items: center;
     top: 4.262rem;
-    padding-top: 6.5rem;
+    padding-top: 6.5rem; */
+    background-image: url('https://i.imgur.com/r1fPsVm.png');
+    background-size: 120% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 #verification-header-image {
@@ -34,21 +39,25 @@
     width: 100%;
 }
 
-.verification-header-checks {
+/* .verification-header-checks {
     width: 100%;
     margin-top: -3.5rem;
-}
+} */
 
 .veri-checkmark {
-    width: 15%; /* Increase the width */
-    height: 15%; /* Make the height adjust to the width to prevent stretching */
+    width: 15%; 
+    height: 15%;
     padding: 2rem;
+    margin-top: -14rem;
+    margin-bottom: 2rem;;
 }
 
 @media only screen and (max-width: 768px) {
     .veri-checkmark {
         width: 33%;
         padding: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -75,14 +84,14 @@
     margin-bottom: 13.5rem;
 }
 
-#verification-post-event-a {
+/* #verification-post-event-a {
     text-decoration: underline !important;
     color: rgb(141, 125, 181);
 }
 
 #verification-post-event-a:hover {
     color: purple;
-}
+} */
 
 .info-button-verification {
     background-color: rgb(49, 49, 49);
@@ -100,4 +109,23 @@
 .info-button-verification:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
+}
+
+@media only screen and (max-width: 768px) {
+    #verification-post-event {
+        margin-bottom: 2rem;
+    }
+
+    .no-force-width {
+        width: 50% !important;
+      }
+
+    .info-button-verification {
+        width: 100%;
+    }
+
+    .verification-sub-img {
+        width: 10% !important;
+        display: block;
+    }
 }

@@ -7,16 +7,6 @@ const Contactus = () => {
   useNavHeight();
     return (
       <div>
-        {/* <header>
-          <img src="https://i.imgur.com/YeUPAmO.png" className="Header-Img" />
-          <div className="contact-us-find-us">
-            <h1 className="event-title-contactus">Find Us</h1>
-            <img
-              src="https://i.imgur.com/eNhKhTI.png"
-              className="Underline-h-verification-event"
-            />
-          </div>
-        </header> */}
         <div className='Header-Img-l lans-img'>
             <div className="games-leagues-header-title">
               <h2 id="league-title">Find Us</h2>
@@ -31,7 +21,7 @@ const Contactus = () => {
         <div id="league-body1">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-3">
+              <div className="col-6 col-lg-3 no-force-width">
                 <a
                   href="https://twitter.com/uSyncGG"
                   target="_blank"
@@ -43,7 +33,7 @@ const Contactus = () => {
                   />
                 </a>
               </div>
-              <div className="col-3">
+              <div className="col-6 col-lg-3 no-force-width">
                 <a
                   href="https://www.instagram.com/usyncgg/?next=%2F"
                   target="_blank"
@@ -55,7 +45,7 @@ const Contactus = () => {
                   />
                 </a>
               </div>
-              <div className="col-3">
+              <div className="col-6 col-lg-3 no-force-width">
                 <a
                   href="https://www.youtube.com/@usyncGG"
                   target="_blank"
@@ -67,7 +57,7 @@ const Contactus = () => {
                   />
                 </a>
               </div>
-              <div className="col-3">
+              <div className="col-6 col-lg-3 no-force-width">
                 <a
                   href="https://www.twitch.tv/usyncgg"
                   target="_blank"
@@ -106,7 +96,7 @@ const Contactus = () => {
 
             <div className='container info-title-contactus'>
               <div className='row'>
-                <div className='col-lg-4'>
+                <div className='col-12 col-lg-4'>
                   <a
                     href="mailto:usyncgg@gmail.com"
                     target="_blank"
@@ -118,7 +108,7 @@ const Contactus = () => {
                     />
                   </a>
                 </div>
-                <div className='col-lg-8'>
+                <div className='col-12 col-lg-8'>
                       {/* <h1 className="info-title-contactus"> */}
                         <p className="report-link" id="verification-post-event">
                           We support plenty of different events/websites but may miss a few from time to time in our search to support all games. 
@@ -133,7 +123,7 @@ const Contactus = () => {
 
               <div className='row email-us'>
                 <div className='col-lg-4'>
-                  <h4>Email us!</h4>
+                  <h4 className="hide-on-mobile">Email us!</h4>
                 </div>
               </div>
             </div>
@@ -154,7 +144,7 @@ const Contactus = () => {
             </h1>
             <div className="container-fluid">
               <div className="row justify-content-center">
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <img
                     src="https://i.imgur.com/ZbCuZKi.png"
                     className="about-us-image"
@@ -162,7 +152,7 @@ const Contactus = () => {
                   <h1 className="cofounder-title">Jake Bruscino</h1>
                   <h1 className="cofounder-subtitle">CEO / Co-Founder</h1>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <img
                     src="https://i.imgur.com/M4qM9ng.png"
                     className="about-us-image"
@@ -170,7 +160,7 @@ const Contactus = () => {
                   <h1 className="cofounder-title">Matthew O'Connor</h1>
                   <h1 className="cofounder-subtitle">CTO / Co-Founder</h1>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <img
                     src="https://i.imgur.com/t0vqLB4.png"
                     className="about-us-image"
@@ -178,7 +168,7 @@ const Contactus = () => {
                   <h1 className="cofounder-title">Mason Wiley</h1>
                   <h1 className="cofounder-subtitle">CSO / Co-Founder</h1>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-lg-4">
                   <img
                     src="https://i.imgur.com/AX1uMWJ.png"
                     className="about-us-image"

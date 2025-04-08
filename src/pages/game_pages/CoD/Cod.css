@@ -172,43 +172,10 @@ transition {
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-  #league-title, #league-title1 {
-    font-size: 3rem;
-  }
-
-  .games-leagues-header-title {
-    margin-top: -11rem;
-  }
-
-  .Underline-h-lol {
-    width: 90%; 
-    left: 5%; 
-  }
-
-  .Underline-h {
-    width: 90%; 
-  }
-
-  /* .Header-Img-l { */
-    /* padding-top: calc(var(--nav-height) * 3.5) !important; */
-    /* padding-top: 300px; */
-  /* } */
-}
-
-@media only screen and (max-width: 480px) {
-  #league-title, #league-title1 {
-    font-size: 2rem;
-  }
-
-  .Header-Img-l {
-    /* padding-top: calc(var(--nav-height) * 4) !important; */
-    padding-top: 300px !important;
-  }
-
-  .games-leagues-header-title {
-    margin-top: -15rem;
-  }
+#league-title1 {
+  color: white;
+  position: relative;
+  font-size: 5rem;
 }
 
 /* 
@@ -481,13 +448,6 @@ a {
   /* height: 100rem */
 /* } */
 
-
-#league-title1 {
-  color: white;
-  position: relative;
-  font-size: 5rem;
-}
-
 .Underline-h1 {
   width: 100%;
 }
@@ -504,4 +464,47 @@ a {
 #verification-post-event-a:hover{
   color: rgb(142, 106, 206) !important;
   filter: brightness(140%);
+}
+
+@media only screen and (max-width: 768px) {
+  #league-title, #league-title1 {
+    font-size: 3rem;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -11rem;
+  }
+
+  .Underline-h-lol {
+    width: 90%; 
+    left: 5%; 
+  }
+
+  .Underline-h {
+    width: 90%; 
+  }
+
+  /* .Header-Img-l { */
+    /* padding-top: calc(var(--nav-height) * 3.5) !important; */
+    /* padding-top: 300px; */
+  /* } */
+}
+
+@media only screen and (max-width: 480px) {
+  #league-title, #league-title1 {
+    font-size: 2rem;
+  }
+
+  .Header-Img-l {
+    /* padding-top: calc(var(--nav-height) * 4) !important; */
+    padding-top: 300px !important;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -15rem;
+  }
+
+  .space-on-bottom {
+    margin-bottom: 1.5rem;
+  }
 }

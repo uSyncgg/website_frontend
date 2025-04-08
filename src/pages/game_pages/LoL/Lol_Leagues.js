@@ -19,7 +19,7 @@ const Lol_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-            <div className="col-lg-6">
+            <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/titan-leagues">
                     <h1 className="Leagueh1">Titan Esports Leagues</h1>
@@ -49,7 +49,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/risen-leagues">
                     <h1 className="Leagueh1">Risen Leagues</h1>
@@ -80,7 +80,7 @@ const Lol_Leagues = () => {
               </div>
               <p className="hr" />
               
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/aegis-leagues">
                     <h1 className="Leagueh1">Aegis Leagues</h1>
@@ -110,7 +110,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/blue-otter-leagues">
                     <h1 className="Leagueh1">Blue Otter Leagues</h1>
@@ -135,7 +135,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
               
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/black-twitch-league">
                     <h1 className="Leagueh1">Black Twitch League</h1>
@@ -158,7 +158,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/low-budget-leagues">
                     <h1 className="Leagueh1">Low Budget LCS Leagues</h1>
@@ -183,7 +183,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/meta-shift-leagues">
                     <h1 className="Leagueh1">MetaShift Leagues</h1>
@@ -206,7 +206,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/sdc">
                     <h1 className="Leagueh1">SDC League</h1>
@@ -231,7 +231,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/cobalt-winds-leagues">
                     <h1 className="Leagueh1">Cobalt Winds Leagues</h1>
@@ -254,7 +254,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/corporate-league">
                     <h1 className="Leagueh1">Corporate LoL League</h1>
@@ -288,7 +288,7 @@ const Lol_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/clol">
                     <h1 className="Leagueh1">CLOL</h1>
@@ -318,7 +318,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/playfly">
                     <h1 className="Leagueh1">Playfly College</h1>
@@ -349,7 +349,7 @@ const Lol_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/necc">
                     <h1 className="Leagueh1">NECC</h1>
@@ -372,7 +372,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/ecac">
                     <h1 className="Leagueh1">ECAC Esports</h1>
@@ -397,7 +397,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/nse">
                     <h1 className="Leagueh1">National Student Esports</h1>
@@ -431,7 +431,7 @@ const Lol_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/LoL/leagues/vantagg">
                     <h1 className="Leagueh1">VantaGG</h1>
@@ -454,7 +454,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
               
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/LoL/leagues/playvs">
                     <h1 className="Leagueh1">PlayVS</h1>

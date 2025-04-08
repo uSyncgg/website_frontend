@@ -1,13 +1,14 @@
 import '../../Info.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
+import './Verification.css';
+import useNavHeight from '../hooks/NavbarHeight';
 
 const Verification = () => {
+  useNavHeight();
     return (
-      <div className='verification-container'>
-        <div>
-          <div className="verification-header-img-container">
-            <div className="verification-header-checks justify-content-center">
+      <div className='verification-container'> 
+          <div className="Header-Img-l verification-header-img-container">
               <img
                 src="https://i.imgur.com/PCHIHQB.png"
                 className="veri-checkmark"
@@ -16,7 +17,6 @@ const Verification = () => {
                 src="https://i.imgur.com/0MPIBOK.png"
                 className="veri-checkmark"
               />
-            </div>
           </div>
           <div className="Background-mid-veri">
             <div className="verified-features-img">
@@ -30,11 +30,14 @@ const Verification = () => {
             <div className='container-fluid'>
               <div className='row'>
                 <div className='col-12 col-lg-5 offset-lg-1'>
-                  <a href='/more/verification/verified-game-selection'>
+                  <a href='/more/verification/verified-game-selection' className='verification-sub-img'>
                     <img
                       src="https://i.imgur.com/NZAEkGt.png"
-                      // className="Underline-h-verification-2"
+                      // className="verification-sub-img"
                     />
+                  </a>
+                  <a href="/more/verification/verified-game-selection">
+                    <button className="info-button-verification">Choose Your Game</button>
                   </a>
                 </div>
 
@@ -45,16 +48,6 @@ const Verification = () => {
                       // className="Underline-h-verification-2"
                     />
                   </a>
-                </div>
-              </div>
-              <div className='row'>
-                <div className='col-12 col-lg-5 offset-lg-1'>
-                  <a href="/more/verification/verified-game-selection">
-                    <button className="info-button-verification">Choose Your Game</button>
-                  </a>
-                </div>
-
-                <div className='col-12 col-lg-5'>
                   <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
                     <button className="info-button-verification">Subscribe Now</button>
                   </a>
@@ -93,7 +86,6 @@ const Verification = () => {
               </a>
             </p>
           </div>
-        </div>
         <Footer />
       </div>
     );

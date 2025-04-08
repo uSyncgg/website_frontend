@@ -20,7 +20,7 @@ const Halo_Leagues = () => {
           <div className="container-fluid">
             <div className="row">
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/halo/leagues/halo-rec-league">
                     <h1 className="Leagueh1">Halo Rec League</h1>
@@ -49,7 +49,7 @@ const Halo_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/halo/leagues/halo-agent">
                     <h1 className="Leagueh1">Halo Agent</h1>
@@ -82,7 +82,7 @@ const Halo_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/halo/leagues/ugc-halo">
                     <h1 className="Leagueh1">College Halo</h1>
@@ -121,7 +121,7 @@ const Halo_Leagues = () => {
                 />
                 <p className="hr" />
               </div>
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/halo/leagues/hsel">
                     <h1 className="Leagueh1">High School Esports League</h1>

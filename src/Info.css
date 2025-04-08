@@ -78,39 +78,6 @@ header {
   margin: 1.5rem auto;
 }
 
-@media only screen and (max-width: 768px) {
-  #checkmark-link {
-    width: 15%;
-    margin: 2rem auto;
-  }
-
-  #checkmark-title-link {
-    width: 70%;
-  }
-
-  #join-button-link {
-    width: 90%;
-    margin: 2rem auto;
-  }
-
-  .Background-mid-bottom {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .leagues-entry-fee {
-    margin-top: 2rem;
-  }
-
-  .verified-button {
-    width: 100%;
-  }
-
-  .eventhost-button {
-    width: 100%;
-  }
-}
-
 .join-button:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
@@ -476,6 +443,7 @@ header {
   padding-left: 10rem;
   padding-right: 10rem;
 }
+
 .coming-soon-text {
   color: white;
   width: 100%;
@@ -529,4 +497,59 @@ header {
   height: calc(100vh - 60px); /* Adjust based on navbar/footer height */
   border: none;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  #checkmark-link {
+    width: 15%;
+    margin: 2rem auto;
+  }
+
+  #checkmark-title-link {
+    width: 70%;
+  }
+
+  #join-button-link {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .Background-mid-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .leagues-entry-fee {
+    margin-top: 2rem;
+  }
+
+  .verified-button {
+    width: 100%;
+  }
+
+  .eventhost-button {
+    width: 100%;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  #league-body1 {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info-title-contactus {
+    font-size: 1.5rem;
+  }
+
+  .contact-socials {
+    width: 90%;
+    }
+
+  .about-us-image {
+    width: 100%;
+  }
 }

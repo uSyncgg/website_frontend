@@ -20,7 +20,7 @@ const Rl = () => {
             <div className="row justify-content-center games-row-1">
               {" "}
               {/* add justify-content-center class to center the columns */}
-              <div className="col-lg-4" id="bubblel">
+              <div className="col-lg-4 space-on-bottom" id="bubblel">
                 <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/5ETdmF8.png"
@@ -29,7 +29,7 @@ const Rl = () => {
                   />{" "}
                 </a>
               </div>
-              <div className="col-lg-4" id="bubble">
+              <div className="col-lg-4 space-on-bottom" id="bubble">
                 <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/8ZFHAM6.png"
@@ -38,7 +38,7 @@ const Rl = () => {
                   />
                 </a>
               </div>
-              <div className="col-lg-4" id="bubbler">
+              <div className="col-lg-4 space-on-bottom" id="bubbler">
                 <a href="/games/RocketLeague/leagues">
                   <img
                     src="https://i.imgur.com/C2VoFOV.png"
@@ -49,7 +49,7 @@ const Rl = () => {
               </div>
             </div>
             <div className="row justify-content-center games-row-2">
-              <div className="col-lg-4" id="bubblelb">
+              <div className="col-lg-4 space-on-bottom" id="bubblelb">
                 <a href="/games/RocketLeague/wagers">
                   <img
                     src="https://i.imgur.com/ylkoL6L.png"

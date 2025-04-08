@@ -7,14 +7,14 @@ const CS2_Leagues = () => {
       <div>
         <div className='Header-Img-l cs2-league-header'>
           <div className="games-leagues-header-title">
-              <h2 id="league-title">Head-to-Head</h2>
+              <h2 id="league-title">Counter-Strike 2 Leagues</h2>
               <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
           </div>
         </div>
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-            <div className="col-lg-6">
+            <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitesea">
                     <h1 className="Leagueh1">FACEIT ESEA</h1>
@@ -44,7 +44,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/lpl-leagues">
                     <h1 className="Leagueh1">LPL Pathfinder Leagues</h1>
@@ -67,7 +67,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
               <p className="hr" />
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/fastcup">
                     <h1 className="Leagueh1">Fast Cup</h1>
@@ -90,7 +90,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/corporate">
                     <h1 className="Leagueh1">Corporate CS2 League</h1>
@@ -137,7 +137,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/unitedtwentyone">
                     <h1 className="Leagueh1">United TwentyOne</h1>
@@ -185,7 +185,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/hyperfibre-leagues">
                     <h1 className="Leagueh1">Hyperfibre Leagues</h1>
@@ -219,7 +219,7 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/njcaae">
                     <h1 className="Leagueh1">NJCAAE</h1>
@@ -242,7 +242,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/necc">
                     <h1 className="Leagueh1">NECC</h1>
@@ -266,7 +266,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/ecac">
                     <h1 className="Leagueh1">ECAC</h1>
@@ -289,7 +289,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
               
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/egfc">
                     <h1 className="Leagueh1">EGFC League</h1>
@@ -313,7 +313,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitcollegiate">
                     <h1 className="Leagueh1">FACEIT Collegiate</h1>
@@ -336,7 +336,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/nse">
                     <h1 className="Leagueh1">National Student Esports</h1>
@@ -360,7 +360,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/playfly">
                     <h1 className="Leagueh1">Playfly College</h1>
@@ -417,7 +417,7 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-12 col-lg-6">
                 <div className="league">
                   <a href="/games/CS2/leagues/hsel">
                     <h1 className="Leagueh1">High School Esports League</h1>
@@ -447,7 +447,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/CS2/leagues/vantagg">
                     <h1 className="Leagueh1">VantaGG</h1>

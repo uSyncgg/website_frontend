@@ -27,10 +27,10 @@ const Cod_Leagues = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                    <div className='col-lg-6'>
+                    <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/xp-league-cod'>
-                                    <h1 className='Leagueh1'>XP League</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>XP League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/xp-league-cod"><img src="https://i.imgur.com/d4kQBH4.png" className='league-img' /></a>
@@ -42,7 +42,7 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cod-rec-league'>
                                     <h1 className='Leagueh1'>COD Rec League</h1>
@@ -57,7 +57,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cod-beer-league'>
                                     <h1 className='Leagueh1'>COD Beer League (21+)</h1>
@@ -72,7 +72,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/u18-league'>
                                     <h1 className='Leagueh1'>U18 COD League</h1>
@@ -104,7 +104,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/tpc-womens-cod'>
                                     <h1 className='Leagueh1'>TPC Womens COD</h1>
@@ -121,7 +121,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/fcl'>
                                     <h1 className='Leagueh1'>Female COD League</h1>
@@ -136,7 +136,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/zoned-out'>
                                     <h1 className='Leagueh1'>Zoned Out Gaming League</h1>
@@ -168,7 +168,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/corporate-cod-league'>
                                     <h1 className='Leagueh1'>Corporate COD League</h1>
@@ -200,7 +200,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/House-of-esports-leagues'>
                                     <h1 className='Leagueh1'>House of Esports Leagues</h1>
@@ -232,7 +232,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ixi-esports'>
                                     <h1 className='Leagueh1'>IXI Esports</h1>
@@ -255,7 +255,7 @@ const Cod_Leagues = () => {
                         </div>
 
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-leagues'>
                                     <h1 className='Leagueh1'>College XP</h1>
@@ -270,7 +270,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/playfly-cod-league'>
                                     <h1 className='Leagueh1'>Playfly College</h1>
@@ -287,7 +287,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
                         
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ccl-league'>
                                     <h1 className='Leagueh1'>College COD</h1>
@@ -302,7 +302,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ecac'>
                                     <h1 className='Leagueh1'>ECAC Esports</h1>

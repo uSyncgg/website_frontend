@@ -14,7 +14,7 @@ const Val = () => {
             <div className="row justify-content-center games-row-1">
               {" "}
               {/* add justify-content-center class to center the columns */}
-              <div className="col-lg-4" id="bubblel">
+              <div className="col-lg-4 space-on-bottom" id="bubblel">
                 <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/pRnsLUn.png"
@@ -23,7 +23,7 @@ const Val = () => {
                   />{" "}
                 </a>
               </div>
-              <div className="col-lg-4" id="bubble">
+              <div className="col-lg-4 space-on-bottom" id="bubble">
                 <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/S6xUnmR.png"
@@ -32,7 +32,7 @@ const Val = () => {
                   />
                 </a>
               </div>
-              <div className="col-lg-4" id="bubbler">
+              <div className="col-lg-4 space-on-bottom" id="bubbler">
                 <a href="/games/Valorant/leagues">
                   <img
                     src="https://i.imgur.com/D9hSzYi.png"
@@ -43,7 +43,7 @@ const Val = () => {
               </div>
             </div>
             <div className="row justify-content-center games-row-2">
-              <div className="col-lg-4" id="bubblelb">
+              <div className="col-lg-4 space-on-bottom" id="bubblelb">
                 <a href="/games/Valorant/wagers">
                   <img
                     src="https://i.imgur.com/q3EujhS.png"

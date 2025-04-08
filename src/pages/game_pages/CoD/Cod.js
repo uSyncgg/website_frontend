@@ -22,7 +22,7 @@ const Cod = () => {
             <div className="row justify-content-center games-row-1">
               {" "}
               {/* add justify-content-center class to center the columns */}
-              <div className="col-lg-4" id="bubblel">
+              <div className="col-lg-4 space-on-bottom" id="bubblel">
                 <a href="/games/call-of-duty/lans">
                   <img
                     src="https://i.imgur.com/NXTgpHd.png"
@@ -31,7 +31,7 @@ const Cod = () => {
                   />{" "}
                 </a>
               </div>
-              <div className="col-lg-4" id="bubble">
+              <div className="col-lg-4 space-on-bottom" id="bubble">
                 <a href="/games/call-of-duty/tournaments">
                   <img
                     src="https://i.imgur.com/nVx3C4M.png"
@@ -40,7 +40,7 @@ const Cod = () => {
                   />
                 </a>
               </div>
-              <div className="col-lg-4" id="bubbler">
+              <div className="col-lg-4 space-on-bottom" id="bubbler">
                 <a href="/games/call-of-duty/leagues">
                   <img
                     src="https://i.imgur.com/Zj3dVpv.png"
@@ -51,7 +51,7 @@ const Cod = () => {
               </div>
             </div>
             <div className="row justify-content-center games-row-2">
-              <div className="col-lg-4" id="bubblelb">
+              <div className="col-lg-4 space-on-bottom" id="bubblelb">
                 <a href="/games/call-of-duty/wagers">
                   <img
                     src="https://i.imgur.com/EgBRBVS.png"

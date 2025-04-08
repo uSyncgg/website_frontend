@@ -15,7 +15,7 @@ const Halo = () => {
             <div className="row justify-content-center games-row-1">
               {" "}
               {/* add justify-content-center class to center the columns */}
-              <div className="col-lg-4" id="bubblel">
+              <div className="col-lg-4 space-on-bottom" id="bubblel">
                 <a href="/games/halo/lans">
                   <img
                     src="https://i.imgur.com/5JagjfE.png"
@@ -24,7 +24,7 @@ const Halo = () => {
                   />{" "}
                 </a>
               </div>
-              <div className="col-lg-4" id="bubble">
+              <div className="col-lg-4 space-on-bottom" id="bubble">
                 <a href="/Comingsoon">
                   <img
                     src="https://i.imgur.com/XcbF4hG.png"
@@ -33,7 +33,7 @@ const Halo = () => {
                   />
                 </a>
               </div>
-              <div className="col-lg-4" id="bubbler">
+              <div className="col-lg-4 space-on-bottom" id="bubbler">
                 <a href="/games/halo/leagues">
                   <img
                     src="https://i.imgur.com/oq9dG7T.png"
@@ -44,7 +44,7 @@ const Halo = () => {
               </div>
             </div>
             <div className="row justify-content-center games-row-2">
-              <div className="col-lg-4" id="bubblelb">
+              <div className="col-lg-4 space-on-bottom" id="bubblelb">
                 <a href="/games/halo/wagers">
                   <img
                     src="https://i.imgur.com/aXgvEAv.png"
