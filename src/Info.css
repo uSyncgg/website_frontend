@@ -511,6 +511,11 @@ header {
   margin-top: -6rem;
 }
 
+.less-space-right-left {
+  margin-right: -2rem;
+  margin-left: -2rem;
+}
+
 @media only screen and (max-width: 768px) {
   #checkmark-link {
     width: 15%;
@@ -567,5 +572,10 @@ header {
 
   .shorter-top-increased {
     margin-top: 0rem;
+  }
+
+  .less-space-right-left {
+    margin-right: 0;
+    margin-left: 0;
   }
 }

@@ -569,7 +569,7 @@ function Tournament(props) {
 
                                     <CCol xs={12} sm={12} md={8} lg={6} className="mb-0">
                                     <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Entry</CListGroupItem>
+                                        <CListGroupItem className='py-1 px-2 white-text'>Entry Fee</CListGroupItem>
                                         <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
                                     </CListGroup>
                                     </CCol>

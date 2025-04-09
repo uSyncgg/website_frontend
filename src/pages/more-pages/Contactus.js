@@ -147,7 +147,7 @@ const Contactus = () => {
                   <h1 className="cofounder-title">Jake Bruscino</h1>
                   <h1 className="cofounder-subtitle">CEO / Co-Founder</h1>
                 </div>
-                <div className="col-12 col-lg-4">
+                <div className="col-12 col-lg-4 less-space-right-left">
                   <img
                     src="https://i.imgur.com/gGXFOdn.png"
                     className="about-us-image"
