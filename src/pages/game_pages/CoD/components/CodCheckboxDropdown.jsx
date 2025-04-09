@@ -217,15 +217,25 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
   const dropdownContentRef = useRef(null);
 
   useEffect(() => {
-      if (dropdownContentRef.current) {
-          setDropdownHeight(dropdownContentRef.current.scrollHeight); // Get content height dynamically
-      }
-  }, [isOpen]); // Recalculate height when isOpen changes
-
+    if (isOpen && dropdownContentRef.current) {
+      setTimeout(() => {
+        if (dropdownContentRef.current) {
+          const height = dropdownContentRef.current.scrollHeight;
+          // console.log(`MEASURED HEIGHT: ${dropdownContentRef.scrollHeight}`)
+          if (height > 0) setDropdownHeight(height);
+        }
+      }, 0);
+    } else {
+      setDropdownHeight(0); // collapse on close
+    }
+  }, [isOpen, options]);
+  
+  // console.log(`DROPDOWN HEIGHT: ${dropdownHeight}`)
   // Determine if main checkbox should be checked or indeterminate
   const isChecked = selectedOptions.length > 0;
   const isIndeterminate = selectedOptions.length > 0 && selectedOptions.length < options.length;
   // console.log(`DROPDOWN HEIGHT: ${dropdownHeight}`)
+  const dropdownHeightWithMargin = isOpen ? `${dropdownHeight * 3.5}px` : '0';
   return (
     <div 
       className="checkbox-dropdown" 
@@ -236,7 +246,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
         // flexDirection: 'column',
         width: '90%',
         transition: 'margin-bottom 0.3s ease-out',
-        marginBottom: isOpen ? `${dropdownHeight}px` : '0' // Adjusts space dynamically
+        marginBottom: dropdownHeightWithMargin // Adjusts space dynamically
       }}
     >
       {/* Main checkbox that opens dropdown */}
@@ -273,6 +283,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
         ref={dropdownContentRef}
         style={{
           overflow: 'hidden',
+          // height: isOpen ? `${dropdownHeight}px` : '0px',
           transition: 'max-height 0.3s ease-out, opacity 0.2s ease-in-out',
           maxHeight: isOpen ? '20rem' : '0',
           opacity: isOpen ? '1' : '0',
@@ -281,6 +292,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
           borderRadius: '4px',
           boxShadow: '0 0.5rem 1rem rgba(0, 0, 0, 0.15)',
           minWidth: '200px',
+          width: '100%',
           padding: isOpen ? '0.5rem 0' : '0',
           display: 'flex',
           flexDirection: 'column'
