@@ -302,12 +302,12 @@ function CodTourneys() {
         // if (selectedSkills.includes('Amateur') && !selectedSkills.includes('Am')) {
         //     selectedSkills.push('Am')
         // }
-
+        
         const formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament[format]);
         const regionMatch = selectedRegions.length === 0 || selectedRegions.some(region => tournament.region.includes(region));
-        const platformMatch = selectedPlatforms.length === 0 || selectedPlatforms.includes(tournament.platform);
-        const skillMatch = selectedSkills.length === 0 || selectedSkills.some(skill => tournament.skill.includes(skill));
-        const entryMatch = selectedEntry.length === 0 || selectedEntry.includes(tournament.entry);
+        const platformMatch = selectedPlatforms.length === 0 || selectedPlatforms.some(plat => tournament.Platforms_for_filter.includes(plat));
+        const skillMatch = selectedSkills.length === 0 || selectedSkills.some(skill => tournament.Skills_for_filter.includes(skill));
+        const entryMatch = selectedEntry.length === 0 || selectedEntry.some(entr => tournament.iseco.includes(entr));
 
         return formatMatch && regionMatch && platformMatch && skillMatch && entryMatch;
     });
@@ -342,7 +342,6 @@ function CodTourneys() {
 
     // console.log(`NAV Height: ${navHeight}`)
     console.log(`FILTERED TOURNAMENTS: ${filteredTournaments.length}`)
-
     return (
         <div>
             <div className="tourney-background">
