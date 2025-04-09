@@ -13,7 +13,7 @@ const Halo_Lan = () => {
     }, []); 
 
     return (
-        <div style={{ height: `calc(100vh - ${navHeight}px)`, paddingTop: `${navHeight}px` }}>
+        <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden'  }}>
             <a href='/games/halo'>
                 <button type="submit" className='info-button-lans'>Back to Halo</button>
             </a>

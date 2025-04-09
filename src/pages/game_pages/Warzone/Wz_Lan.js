@@ -12,7 +12,7 @@ const Wz_Lan = () => {
         }, []);
 
     return (
-        <div style={{ height: `calc(100vh - ${navHeight}px)`, paddingTop: `${navHeight}px` }}>
+        <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden'  }}>
             <a href='/games/warzone'>
                 <button type="submit" className='info-button-lans'>Back to Warzone</button>
             </a>

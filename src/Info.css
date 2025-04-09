@@ -517,8 +517,8 @@ header {
 }
 
 .less-space-on-left {
-  margin-right: 5rem;
-  margin-left: -5rem;
+  margin-right: 7rem;
+  margin-left: -7rem;
 }
 
 @media only screen and (max-width: 768px) {
