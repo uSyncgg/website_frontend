@@ -47,7 +47,7 @@ const Eventhostrequest = () => {
         <p className="hr-report" />
         <p className="report-link" id="verification-post-event">
         Already Featured? Become{" "}
-          <a id="verification-post-event-a" href="/more/eventhost">
+          <a id="verification-post-event-a" href="/more/verification">
             Verified
           </a>
         </p>
