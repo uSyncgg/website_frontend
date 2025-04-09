@@ -822,7 +822,7 @@ function App() {
         break;
   
 
-    case "/games/call-of-duty/tournaments":
+    case "/tournaments/call-of-duty-tournaments":
       title = "Call of Duty Tournaments | uSync";
       component = <CodTourneys />
       break;

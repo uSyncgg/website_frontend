@@ -65,7 +65,7 @@ function Playground() {
               <a className={`dropdown-item ${location === '/games/CS2' ? 'item-active' : ''}`} href="/games/CS2">Counter-Strike 2</a>
             </div> */}
           </li>
-          <li className={`nav-item dropdown ${location.includes('/leagues') ? 'title-active' : ''}`}>
+          <li className={`nav-item dropdown`}>
             <button className="nav-button" onClick={handleLeaguesButtonClick}>
               Leagues ⏷
             </button>
@@ -92,7 +92,7 @@ function Playground() {
               <a className={`dropdown-item ${location === '/games/Valorant/lans' ? 'item-active' : ''}`} href="/games/Valorant/lans">Valorant</a>*/}
             </div>
           </li>
-          <li className={`nav-item dropdown ${location.includes('/Tournaments') ? 'title-active' : ''}`}>
+          <li className={`nav-item dropdown ${location.includes('/tournaments') ? 'title-active' : ''}`}>
             <button className="nav-button" onClick={handleTournamentsButtonClick}>
               Tournaments
             </button>
