@@ -375,7 +375,7 @@ function CodTourneys() {
                             </div>
                         </div>  
                     {/* </ResponsiveStickyElement> */}
-                    <div className="tournament-container">
+                    <div className="tournament-container less-space-on-left">
                         <div className='tourney-header'>
                             <h1 className='featured-tournaments-white'>Featured</h1>
                             <h1 className='featured-tournaments-purple'>Tournaments</h1>

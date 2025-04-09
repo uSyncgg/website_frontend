@@ -123,7 +123,7 @@
 .filter-box {
     position: sticky;
     top: 3rem;
-    overflow-y: auto;
+    overflow-y: visible;
 }
 
 .page-buttons button {
