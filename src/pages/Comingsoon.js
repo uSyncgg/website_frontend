@@ -11,39 +11,28 @@ const Comingsoon = () => {
     return (
       <div className="total-coming-soon-container">
         <div id="league-body2">
-        {/* <header id="League-header">
-          <img src="https://i.imgur.com/gbB3YxJ.png" className="Header-Img-l" />
-          <div className="games-leagues-header-title">
-            <h2 id="league-title">Coming Soon</h2>
-            <img
-              src="https://i.imgur.com/eNhKhTI.png"
-              alt="underline"
-              className="Underline-h"
-            />
+          <div className='Header-Img-l coming-soon-header-img'>
+            <div className="games-leagues-header-title">
+              <h2 id="league-title">Coming Soon</h2>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
+            </div>
           </div>
-        </header> */}
-        <div className='Header-Img-l coming-soon-header-img'>
-          <div className="games-leagues-header-title">
-            <h2 id="league-title">Coming Soon</h2>
-            <img
-              src="https://i.imgur.com/eNhKhTI.png"
-              alt="underline"
-              className="Underline-h"
-            />
-          </div>
-        </div>
 
-          <div className="Background-mid-contact">
-            <div className="game-titles">
+          {/* <div className="Background-mid-contact"> */}
+            {/* <div className="game-titles">
               <h1 className="event-title-contactus">Game Titles</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 className="Underline-h-verification-coming"
               />
-            </div>
-            <div className="container">
+            </div> */}
+            {/* <div className="container">
               <div className="row justify-content-center coming-soon-row">
-              <div className="col-sm-2">
+              <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/ybSqQK4.png"
                     alt="Fortnite"
@@ -51,14 +40,14 @@ const Comingsoon = () => {
                   />
                 </div>
 
-                <div className="col-sm-2">
+                <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/MUcaqmt.png"
                     alt="Apex Legends"
                     className="coming-soon-img"
                   />
                 </div>
-                <div className="col-sm-2">
+                <div className="col-sm-2 space-on-bottom">
                   <img
                     src="https://i.imgur.com/qpQDtRJ.png"
                     alt="Super Smash Brothers"
@@ -73,9 +62,55 @@ const Comingsoon = () => {
                   />
                 </div>
               </div>
+            </div> */}
+          {/* </div> */}
+          <div className={styles.backgroundMidWithBanner}>
+            <div className="game-titles">
+              <h1 className="event-title-contactus">Game Titles</h1>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                className="Underline-h-verification-coming"
+              />
             </div>
+
+              <div className={styles.backgroundImages}>
+                <img
+                  src="https://i.imgur.com/ybSqQK4.png"
+                  alt="Fortnite"
+                  className='home-games-images-unreleased'
+                  // height="12.5rem"
+                  // width="12.5rem"
+                />
+
+                <img
+                  src="https://i.imgur.com/MUcaqmt.png"
+                  alt="Apex Legends"
+                  // className='home-games-images'
+                  // height="12.5rem"
+                  // width="12.5rem"
+                />
+
+                <img
+                  src="https://i.imgur.com/qpQDtRJ.png"
+                  alt="Super Smash Brothers"
+                  // className='home-games-images'
+                  // height="12.5rem"
+                  // width="12.5rem"
+                />
+
+                <img
+                  src="https://i.imgur.com/XxOYZiE.png"
+                  alt="Overwatch 2"
+                  // className='home-games-images'
+                  // height="12.5rem"
+                  // width="12.5rem"
+                />
+              </div>
+            </div>
+            
+          <div className="Background-mid-contact">
             <div className="coming-soon-background-mid-bottom">
-              <h1 className="coming-soon-text">
+              <h1 className="coming-soon-text shorter-top">
               We are actively working on different titles in order to bring the best competition to you. 
               These take time due to the competitive scenes varying from title to title. Your continued use of our services allow 
               for us to keep working on new titles for the future. Thank you!

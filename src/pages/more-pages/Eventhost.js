@@ -50,7 +50,7 @@ const Eventhost = () => {
         <p className="hr-report" />
         <p className="report-link" id="verification-post-event">
         Already Posted on uSync? Become{" "}
-          <a id="verification-post-event-a" href="/more/verification/becomeverified">
+          <a id="verification-post-event-a" href="/more/verification">
             Verified
           </a>
         </p>

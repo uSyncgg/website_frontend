@@ -499,6 +499,18 @@ header {
   display: block;
 }
 
+/* .header-bottom-space {
+  padding-bottom: 5rem;
+} */
+
+.shorter-top {
+  margin-top: -1.5rem;
+}
+
+.shorter-top-increased {
+  margin-top: -6rem;
+}
+
 @media only screen and (max-width: 768px) {
   #checkmark-link {
     width: 15%;
@@ -551,5 +563,9 @@ header {
 
   .about-us-image {
     width: 100%;
+  }
+
+  .shorter-top-increased {
+    margin-top: 0rem;
   }
 }

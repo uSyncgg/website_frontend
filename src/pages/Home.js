@@ -70,8 +70,8 @@ const Home = () => {
                   className="home-games-images"
                 />
               </a>
-            <br />
-            <br />
+            <br className='hide-on-mobile' />
+            <br className='hide-on-mobile' />
               <a href="/games/RocketLeague">
                 <img
                   src="https://i.imgur.com/GJO8JIZ.png"
