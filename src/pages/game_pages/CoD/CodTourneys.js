@@ -271,6 +271,7 @@ function CodTourneys() {
     // const handleFilterChange = (setter) => (selectedOptions) => setter(selectedOptions);
 
     const handleFilterChange = (setter, currentValues) => (selectedOptions) => {
+        setCurrentPage(1);
         // If selectedOptions is an array, ensure deselected options are removed
         if (Array.isArray(selectedOptions)) {
             setter(selectedOptions);
