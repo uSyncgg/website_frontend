@@ -382,9 +382,19 @@ function CodTourneys() {
                         </div>
 
                         <div className='tournament-list'>
-                            <TournamentList 
-                                tournaments={currentTournaments}
-                            />
+                        {currentTournaments.length === 0 ? (
+                            <div>
+                            {/* //     <div className='row-flex'> */}
+                                <div className="container-fluid d-flex justify-content-md-start tournament-card">
+                                    <CCard className='mb-4 tourney-background' style={{ border: 'transparent' }}>
+                                        <div className='white-text'><h1>No Tournaments for Today, please check back later</h1></div>
+                                    </CCard>
+                                </div>
+                            {/* //     </div> */}
+                            </div>
+                        ) : (
+                            <TournamentList tournaments={currentTournaments} />
+                        )}
                         </div>
                     </div>
                 </div>
@@ -522,10 +532,10 @@ function Tournament(props) {
     // const isagent = tournament.agent
     // const ismaster = tournament.master
     // const ischallenger = tournament.challenger
-    var hoster = tournament.company
-
+    // var hoster = tournament.company
+    var gamemode = tournament.gamemode
     var tournament_class = tournament.company
-
+    var title_class = '';
     // if (iseco === true) { tournament_class += 'eco ' }
     // if (is1v1 === true) { tournament_class += '1v1 ' }
     // if (is2v2 === true) { tournament_class += '2v2 ' }
@@ -538,8 +548,11 @@ function Tournament(props) {
     // if (isagent === true) { tournament_class += 'agent ' }
     // if (ismaster === true) { tournament_class += 'master ' }
     // if (ischallenger === true) { tournament_class += 'challenger ' }
-    if (hoster === 'cmg') {tournament_class = 'cmg'}
-    if (hoster === 'codagent') {tournament_class = 'codagent'}
+    // if (hoster === 'cmg') {tournament_class = 'cmg'}
+    // if (hoster === 'codagent') {tournament_class = 'codagent'}
+    if (gamemode != 'snd') {
+        title_class = 'not-snd'
+    }
 
     return (
         
@@ -547,66 +560,76 @@ function Tournament(props) {
         <div className={"container-fluid d-flex justify-content-md-start tournament-card"}>
             <CCard className={'mb-4 tournament-card-wrapper-' + tournament_class}>
                 <CCardBody className='py-3'>
+                    <CContainer>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title">
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
-                            <CCardTitle className='white-text'>{tournament.gamemode.toUpperCase()}</CCardTitle>
+                            <CCardTitle className={'white-text ' + title_class}>{tournament.gamemode.toUpperCase()}</CCardTitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.team_size}</CCardSubtitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.series}</CCardSubtitle>
+                            <CCardSubtitle className='mb-0 purple-text'>{tournament.date}</CCardSubtitle>
                         </CCol>
                         
                         {/* Right side: Information in CListGroups */}
-                        <CCol xs={12} md={8} lg={6}>
-                            <CContainer fluid className="p-0 tourney-info">
-                            <CRow>
-                                <CRow>
-                                    <CCol xs={12} sm={12} md={8} lg={6} className="mb-0">
-                                    <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Time</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.time} EST</CListGroupItem>
-                                    </CListGroup>
-                                    </CCol>
+                        <CCol xs={12} md={8} lg={2} className='mb-0 tourney-info'>
+                            {/* <CContainer fluid className="p-0 tourney-info"> */}
+                            {/* <CCol xs={12} sm={12} md={8} lg={6} className="mb-0"> */}
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Time</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.time} EST</CListGroupItem>
+                            </CListGroup>
 
-                                    <CCol xs={12} sm={12} md={8} lg={6} className="mb-0">
-                                    <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Entry Fee</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
-                                    </CListGroup>
-                                    </CCol>
-                                </CRow>
-
-                                <CRow>
-                                    <CCol xs={12} sm={12} md={8} lg={4} className="mb-0">
-                                    <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Region</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.region}</CListGroupItem>
-                                    </CListGroup>
-                                    </CCol>
-
-                                    <CCol xs={12} sm={12} md={8} lg={3} className="mb-0">
-                                    <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Skill</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.skill}</CListGroupItem>
-                                    </CListGroup>
-                                    </CCol>
-
-                                    <CCol xs={12} sm={12} md={8} lg={5}className="mb-0" >
-                                    <CListGroup flush className="border-0">
-                                        <CListGroupItem className='py-1 px-2 white-text'>Restrictions</CListGroupItem>
-                                        <CListGroupItem className='py-1 px-2 purple-text'>{tournament.requirements}</CListGroupItem>
-                                    </CListGroup>
-                                    </CCol>
-                                </CRow>
-                            </CRow>
-                            </CContainer>
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Region</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.region}</CListGroupItem>
+                            </CListGroup>
                         </CCol>
 
+                        <CCol xs={12} sm={12} md={8} lg={2} className="mb-0 tourney-info">
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Platform</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.platforms}</CListGroupItem>
+                            </CListGroup>
+
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Skill</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.skill}</CListGroupItem>
+                            </CListGroup>
+                        </CCol>
+
+                        <CCol xs={12} sm={12} md={8} lg={2} className="mb-0 tourney-info">
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Entry Fee</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
+                            </CListGroup>
+
+                            <CListGroup flush className="border-0">
+                                <CListGroupItem className='py-1 px-2 white-text'>Restrictions</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.requirements}</CListGroupItem>
+                            </CListGroup>
+                            
+                            {/* <button className="btn btn-primary white-text purple-color tourney-button hover-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button> */}
+                        </CCol>
+
+                                    {/* <CCol xs={12} sm={12} md={8} lg={3} className="mb-0"> */}
+                                    
+                                    {/* </CCol> */}
+
+                                    {/* <CCol xs={12} sm={12} md={8} lg={5}className="mb-0" > */}
+                                    
+                                    {/* </CCol> */}
+                            {/* </CContainer> */}
+                        {/* </CCol> */}
+
                         {/* Right side: Join Now - Now vertically centered */}
+                        
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center">
                             <button className="btn btn-primary white-text purple-color tourney-button hover-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
                         </CCol>
-                    </CRow>
+
+                        </CRow>
+                        </CContainer>
                     {/* <CCardTitle>{tournament.gamemode.toUpperCase()}</CCardTitle>
                     <CCardSubtitle>CHANGE TEAM SIZE TO TEAM_SIZE IN DB</CCardSubtitle>
                     <CCardSubtitle>{tournament.series}</CCardSubtitle>

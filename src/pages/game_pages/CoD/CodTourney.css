@@ -159,18 +159,22 @@
     /* width: 100%; */
     max-width: 100%;
     max-height: 8rem;
-    overflow: hidden;
+    overflow: visible;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding-left: 1.5rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+    /* margin-right: 1rem; */
 }
 
 .tournament-card {
     padding-left: 12.5%;
     height: 60%;
     max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .tourney-header {
@@ -182,12 +186,23 @@
 }
 
 .sidebar {
-    width: 50%;
+    width: 30%;
     max-width: 100%;
     padding: 2rem;
     margin-left: 5rem;
-    position: relative;
+    /* position: relative; */
 }
+
+.tourney-info,
+.tourney-button {
+  overflow: visible;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* .not-snd { 
+    text-align: left !important;
+} */
 
 @media (max-width: 768px) {
     .tourney-background {

@@ -146,6 +146,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CFormCheck } from '@coreui/react';
 import './filter.css'
 
+var current_height = 0;
+
 const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalSelectedOptions }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState(externalSelectedOptions || []);
@@ -214,6 +216,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
   };
 
   const [dropdownHeight, setDropdownHeight] = useState(0);
+  const [currentHeight, setCurrentHeight] = useState(0);
   const dropdownContentRef = useRef(null);
 
   useEffect(() => {
@@ -221,12 +224,16 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
       setTimeout(() => {
         if (dropdownContentRef.current) {
           const height = dropdownContentRef.current.scrollHeight;
-          // console.log(`MEASURED HEIGHT: ${dropdownContentRef.scrollHeight}`)
-          if (height > 0) setDropdownHeight(height);
+          // console.log(`MEASURED HEIGHT: ${dropdownContentRef.current.scrollHeight}`)
+          // console.log(`CURRENT HEIGHT: ${currentHeight}`)
+          if (height > 0 && currentHeight == 0) setDropdownHeight(height);
+          setCurrentHeight(height)
         }
-      }, 0);
+      }, 
+      console.log('ello'), 0);
     } else {
       setDropdownHeight(0); // collapse on close
+      setCurrentHeight(0);
     }
   }, [isOpen, options]);
   
