@@ -522,7 +522,7 @@ function Tournament(props) {
     // const isagent = tournament.agent
     // const ismaster = tournament.master
     // const ischallenger = tournament.challenger
-    // var hoster = tournament.company
+    var hoster = tournament.company
 
     var tournament_class = tournament.company
 
@@ -538,14 +538,14 @@ function Tournament(props) {
     // if (isagent === true) { tournament_class += 'agent ' }
     // if (ismaster === true) { tournament_class += 'master ' }
     // if (ischallenger === true) { tournament_class += 'challenger ' }
-    // if (hoster === 'cmg') {tournament_class += 'cmg'}
-    // if (hoster === 'codagent') {tournament_class += 'codagent'}
+    if (hoster === 'cmg') {tournament_class = 'cmg'}
+    if (hoster === 'codagent') {tournament_class = 'codagent'}
 
     return (
         
 
         <div className={"container-fluid d-flex justify-content-md-start tournament-card"}>
-            <CCard className={'mb-4 tournament-card-wrapper'}>
+            <CCard className={'mb-4 tournament-card-wrapper-' + tournament_class}>
                 <CCardBody className='py-3'>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
