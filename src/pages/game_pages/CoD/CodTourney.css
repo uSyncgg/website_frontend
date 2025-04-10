@@ -36,6 +36,7 @@
     pointer-events: none; /* Allows clicking through to the card */
     background-color: rgba(0, 0, 0, 0);
     z-index: -1;
+    margin-right: -4rem;
   }
 
   .tournament-card-wrapper-codagent::before {
@@ -52,6 +53,7 @@
     pointer-events: none; /* Allows clicking through to the card */
     background-color: rgba(0, 0, 0, 0);
     z-index: -1;
+    margin-right: -4rem;
   }
 
 
@@ -200,9 +202,13 @@
   text-overflow: ellipsis;
 }
 
-/* .not-snd { 
-    text-align: left !important;
-} */
+.small-bottom-space {
+    padding-bottom: 0.25rem !important;  
+}
+
+.small-less-space-bottom {
+    margin-bottom: -0.05rem !important;
+}
 
 @media (max-width: 768px) {
     .tourney-background {
@@ -286,6 +292,14 @@
         width: 100%;
         max-width: 100%;
       }
+
+    .small-bottom-space {
+        padding-bottom: 0;  
+    }
+    
+    .small-less-space-bottom {
+        margin-bottom: 0;
+    }
 }
 
 /* Add these to your CSS */

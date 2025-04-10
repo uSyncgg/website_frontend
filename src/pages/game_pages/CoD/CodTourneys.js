@@ -565,10 +565,10 @@ function Tournament(props) {
                         {/* Left side: Title and subtitle - Now vertically centered */}
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title">
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
+                            <CCardTitle className='white-text small-less-space-bottom'>{tournament.time} EST</CCardTitle>
                             <CCardTitle className={'white-text ' + title_class}>{tournament.gamemode.toUpperCase()}</CCardTitle>
-                            <CCardSubtitle className='mb-0 purple-text'>{tournament.team_size}</CCardSubtitle>
+                            <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle>
                             <CCardSubtitle className='mb-0 purple-text'>{tournament.series}</CCardSubtitle>
-                            <CCardSubtitle className='mb-0 purple-text'>{tournament.date}</CCardSubtitle>
                         </CCol>
                         
                         {/* Right side: Information in CListGroups */}
@@ -576,8 +576,8 @@ function Tournament(props) {
                             {/* <CContainer fluid className="p-0 tourney-info"> */}
                             {/* <CCol xs={12} sm={12} md={8} lg={6} className="mb-0"> */}
                             <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Time</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.time} EST</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 white-text'>Date</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.date} EST</CListGroupItem>
                             </CListGroup>
 
                             <CListGroup flush className="border-0">
