@@ -111,6 +111,12 @@
     color: rgb(49, 49, 49);
 }
 
+#verification-title {
+    color: white;
+    font-size: 4rem; 
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     #verification-post-event {
         margin-bottom: 2rem;

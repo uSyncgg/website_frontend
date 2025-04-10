@@ -626,6 +626,7 @@ import './pages/more-pages/Contactus.css';
 import Report from './pages/game_pages/Report';
 import './pages/Comingsoon.css';
 import './pages/more-pages/FAQ.css';
+import ChooseGame from './pages/more-pages/ChooseGame';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -2740,6 +2741,10 @@ break;
       case "/more/FAQ/ECO-Tourneys":
         title = "ECO Tourneys | uSync";
         component = <ECO_Tourneys />
+        break;
+      case "/more/verification/verified-game-selection":
+        title = "Choose Title for Verification | uSync";
+        component = <ChooseGame />
         break;
   } 
 
