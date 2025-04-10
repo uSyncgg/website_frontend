@@ -9,14 +9,14 @@
 .other-articles {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/CPvWCYw.png');
     background-size: cover;
-    width: 100%;
+    width: 60%;
     height: 10rem;
     background-position: center;
     /* filter: brightness(50%); */
 }
 
 .map-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/gvdIL9C.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/gvdIL9C.png');
     background-size: cover;
     background-position: center;
     height: 10rem;
@@ -30,6 +30,10 @@
     height: 10rem;
     width: 100%;
     /* filter: brightness(50%); */
+}
+
+.move-right-little {
+    margin-left: 6rem;
 }
 
 .middle-box {
@@ -60,4 +64,95 @@
 .black-text {
     color: black;
     font-weight: bold;
+}
+
+.left-center {
+    text-align: left !important;
+}
+
+.controller-img-faq {
+    background-image: url('https://i.imgur.com/TTV0RZS.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.esports-img-faq {
+    background-image: url('https://i.imgur.com/4lgBfVg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.esports-league-img-faq {
+    background-image: url('https://i.imgur.com/Jr6Iq9h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.stadium-img-faq {
+    background-image: url('https://i.imgur.com/zvYfTtx.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.player-img-faq {
+    background-image: url('https://i.imgur.com/7MQUXKl.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.eco-img-faq {
+    background-image: url('https://i.imgur.com/UVqOfZy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
+    width: 25%;
+    height: auto;
+    /* padding: 1rem; */
+    padding: 1rem;
+}
+
+.slight-left {
+    margin-left: 6rem;
+}
+
+.bottom-space-faq {
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
+        padding: 0;
+    }
+    
+    .slight-left {
+        margin-left: 0;
+    }
+
+    .move-right-little {
+        margin-left: 0;
+    }
+
+    .bottom-space-faq {
+        margin-bottom: 3rem;
+    }
 }

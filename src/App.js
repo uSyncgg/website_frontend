@@ -12,6 +12,7 @@ import Fix from './pages/more-pages/FAQ/How_We_Fix_It';
 import Better from './pages/more-pages/FAQ/How_Esports_Can_Be_Better';
 import Problem from './pages/more-pages/FAQ/Problem_With_Esports';
 import Provide from './pages/more-pages/FAQ/What_We_Provide';
+import ECO_Tourneys from './pages/more-pages/FAQ/ECO_Tourneys';
 import Join from './pages/more-pages/FAQ/How_To_Join_Esports_League';
 import './App.css';
 import Navbar from './Navbar';
@@ -2735,6 +2736,10 @@ break;
       case "/LanMap":
         title = "Lan Map | uSync";
         component = <LanMap />
+        break;
+      case "/more/FAQ/ECO-Tourneys":
+        title = "ECO Tourneys | uSync";
+        component = <ECO_Tourneys />
         break;
   } 
 
