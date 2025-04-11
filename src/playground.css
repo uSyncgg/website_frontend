@@ -67,10 +67,6 @@ li .item-active {
     transition: color .3s ease;
 }
 
-.more-dropdown-container {
-    border: none;
-}
-
 
 @media only screen and (min-width: 992px) {
     .navbar-total-container {
@@ -86,10 +82,6 @@ li .item-active {
         color: white;
         width: 100%;
         padding: 1rem;
-    }
-
-    .dropdown-menu {
-        border: none;
     }
 
     .navbar-nav li {
@@ -144,13 +136,17 @@ li .item-active {
         border: none;
         width: 12rem; 
         margin: 0 auto;
+        margin-bottom: 1rem;
         text-align: center;
-        border: solid .1rem white;
+        /* border: solid .1rem white; */
     }
 
     .dropdown-item {
         color: white;
         width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: 0 !important;
     }
 
     .nav-button {
