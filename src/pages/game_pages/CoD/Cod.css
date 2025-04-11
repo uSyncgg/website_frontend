@@ -525,4 +525,34 @@ a {
   .space-on-bottom-double {
     margin-bottom: 6rem;
   }
+
+  .league-img {
+    width: 20rem;
+    border-radius: 1rem;
+    margin-left: -1.6rem;
+  }
+
+  .over-img {
+    transform: translateX(-10%);
+    top: 10%;
+    right: 0;
+    width: 8%;
+    margin-right: -1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .league-img {
+    width: 20rem;
+    border-radius: 1rem;
+    margin-left: -3rem;
+  }
+
+  .over-img {
+    transform: translateX(-10%);
+    top: 10%;
+    right: 0;
+    width: 8%;
+    margin-right: -2.5rem;
+  }
 }
