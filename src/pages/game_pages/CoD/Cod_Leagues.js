@@ -27,7 +27,7 @@ const Cod_Leagues = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                    <div className='col-12 col-lg-6'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/xp-league-cod'>
                                     <h1 className='Leagueh1 hide-on-mobile'>XP League</h1>

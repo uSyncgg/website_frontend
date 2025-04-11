@@ -553,6 +553,10 @@ header {
     width: 100%;
   }
 
+  .smaller-width-mobile {
+    width: 80%
+  }
+
   .eventhost-button {
     width: 100%;
   }

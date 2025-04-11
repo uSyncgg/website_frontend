@@ -34,9 +34,9 @@ const Eventhost = () => {
           </div>
         </div>
 
-        <button className="verified-button" onClick={handleFeatureEventClick}>Post Your Event</button>
+        <button className="verified-button smaller-width-mobile" onClick={handleFeatureEventClick}>Post Your Event</button>
 
-        <div className="Background-leagues col-lg-8 offset-2">
+        <div className="Background-leagues col-lg-8 offset-lg-2">
           <p id="eventhost-p">
           All of our posted events are taken through a certification process that ensures that the event is legitimate and in good standing with payouts (if applicable). 
           At uSync you can trust the events you are entering without having to do extensive research, we take care of it all for you in one place!
