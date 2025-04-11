@@ -30,22 +30,22 @@ const Verification = () => {
             <div className='container-fluid'>
               <div className='row'>
                 <div className='col-12 col-lg-5 offset-lg-1'>
-                  <a href='/more/verification/verified-game-selection' className='verification-sub-img'>
+                  <a href='/more/verification/verified-game-selection'>
                     <img
                       src="https://i.imgur.com/NZAEkGt.png"
-                      // className="verification-sub-img"
+                      className="verification-sub-img"
                     />
                   </a>
                   <a href="/more/verification/verified-game-selection">
-                    <button className="info-button-verification">Choose Your Game</button>
+                    <button className="info-button-verification space-bottom-veri">Choose Your Game</button>
                   </a>
-                </div>
+                </div> 
 
                 <div className='col-12 col-lg-5'>
                   <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
                     <img
                       src="https://i.imgur.com/IGLQYqK.png"
-                      // className="Underline-h-verification-2"
+                      className="verification-sub-img"
                     />
                   </a>
                   <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
@@ -60,7 +60,7 @@ const Verification = () => {
             <div className="usync-veri-image">
               <img
                 src="https://i.imgur.com/OSMYolc.png"
-                className="Checkmark-title-verification"
+                className="Checkmark-title-verification-veri"
               />
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
