@@ -545,7 +545,7 @@ a {
   .league-img {
     width: 20rem;
     border-radius: 1rem;
-    margin-left: -3rem;
+    margin-left: -2.5rem;
   }
 
   .over-img {
@@ -553,6 +553,6 @@ a {
     top: 10%;
     right: 0;
     width: 8%;
-    margin-right: -2.5rem;
+    margin-right: -1.6rem;
   }
 }
