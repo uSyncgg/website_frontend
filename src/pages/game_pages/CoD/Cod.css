@@ -92,7 +92,7 @@
 
 .parent {
     position: relative;
-}
+} 
 
 .over-img {
     position: absolute;
@@ -482,6 +482,19 @@ a {
 
   .Underline-h {
     width: 90%; 
+  }
+
+  .league-img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .over-img {
+    transform: translateX(-10%);
+    top: 10%;
+    right: 3.5%;
+    width: 8%;
+
   }
 
   /* .Header-Img-l { */
