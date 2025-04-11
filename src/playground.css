@@ -67,6 +67,10 @@ li .item-active {
     transition: color .3s ease;
 }
 
+.more-dropdown-container {
+    border: none;
+}
+
 
 @media only screen and (min-width: 992px) {
     .navbar-total-container {
