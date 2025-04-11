@@ -9,13 +9,13 @@ function Footer() {
                     <img src="https://i.imgur.com/BgGzaKS.png" alt="Youtube" /></a>
 
                 <a href='https://www.instagram.com/usyncgg/?next=%2F'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/YOav7r1.png" alt="Instagram" /></a>
+                    <img src="https://i.imgur.com/YOav7r1.png" alt="Instagram"/></a>
 
                 <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/p0wIHEq.png" alt="Twitter or X" /></a>
+                    <img src="https://i.imgur.com/p0wIHEq.png" alt="Twitter or X"/></a>
 
                 <a href='mailto:usyncgg@gmail.com'>
-                    <img src="https://i.imgur.com/mUzX7o1.png" alt="Gmail" /></a>
+                    <img src="https://i.imgur.com/mUzX7o1.png" alt="Gmail"/></a>
 
             </div>
 
