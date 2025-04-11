@@ -306,7 +306,7 @@ const CheckboxDropdown = ({ title, options, onChange, selectedOptions: externalS
         }}
       >
         {options.map((option, index) => (
-          <div key={index} className="dropdown-item" style={{ padding: '0.25rem 1rem' }}>
+          <div key={index} className="dropdown-item tourney-dropdown" style={{ padding: '0.25rem 1rem' }}>
             <CFormCheck
               id={`${title}-option-${index}`}
               checked={selectedOptions.includes(option)}

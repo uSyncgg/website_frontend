@@ -1,10 +1,18 @@
-  .dropdown-item {
-    display: flex !important;
+  /* .dropdown-item {
+    display: flex;
     align-items: center !important;
     justify-content: flex-start !important;
     margin-left: 0.68rem;
     overflow: hidden !important;
-  }
+  } */
+
+.tourney-dropdown {
+  align-items: center !important;
+  justify-content: flex-start !important;
+  margin-left: 0.68rem;
+  overflow: hidden !important;
+  display: flex !important;
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {

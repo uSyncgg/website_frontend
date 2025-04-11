@@ -145,7 +145,7 @@ li .item-active {
         color: white;
         width: 100%;
         text-align: center;
-        display: block;
+        display: block !important;
         margin-left: 0 !important;
     }
 
