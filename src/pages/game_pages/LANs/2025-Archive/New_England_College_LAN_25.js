@@ -9,7 +9,7 @@ const New_England_College_LAN_25 = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img"> 
+<div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
           <h2 id="league-title">New England College LAN 25</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />

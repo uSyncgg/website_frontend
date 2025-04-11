@@ -9,7 +9,7 @@ const GACS_Operation_Winter = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img"> 
+<div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
           <h2 id="league-title">GA:CS Operation Winter</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />

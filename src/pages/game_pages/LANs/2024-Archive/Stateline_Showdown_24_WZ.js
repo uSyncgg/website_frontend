@@ -9,7 +9,7 @@ const Stateline_Showdown_24_WZ = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img"> 
+<div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
           <h2 id="league-title">Stateline Showdown 24 WZ</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />

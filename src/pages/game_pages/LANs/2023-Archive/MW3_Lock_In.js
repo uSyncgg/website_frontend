@@ -9,7 +9,7 @@ const MW3_Lock_In = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img"> 
+<div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
           <h2 id="league-title">MW3 Lock-In</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />

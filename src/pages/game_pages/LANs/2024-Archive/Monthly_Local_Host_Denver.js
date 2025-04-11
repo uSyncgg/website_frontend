@@ -9,7 +9,7 @@ const Monthly_Local_Host_Denver = () => {
   useNavHeight();
   return (
     <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img"> 
+<div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
           <h2 id="league-title">Monthly Local Host Denver</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
