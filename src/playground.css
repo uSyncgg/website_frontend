@@ -119,9 +119,10 @@ li .item-active {
         top: 1rem;
     }
 
-    .dropdown .dropdown-menu {
+    /* .dropdown .dropdown-menu {
         display: none;
-    }
+        text-align: left !important;
+    } */
 
     .navbar-brand {
         margin-left: 5rem;
@@ -134,19 +135,19 @@ li .item-active {
 
     .dropdown-menu {
         border: none;
-        width: 12rem; 
+        /* width: 12rem;  */
         margin: 0 auto;
         margin-bottom: 1rem;
-        text-align: center;
+        text-align: left;
         /* border: solid .1rem white; */
     }
 
     .dropdown-item {
         color: white;
         width: 100%;
-        text-align: center;
-        display: block !important;
-        margin-left: 0 !important;
+        /* text-align: left; */
+        /* display: block !important;
+        margin-left: 0 !important; */
     }
 
     .nav-button {
@@ -162,8 +163,13 @@ li .item-active {
         margin-top: -0.5rem;
     }
 
-    .move-right-nav {
+    /* .move-right-nav {
         margin-left: 1rem;
+    } */
+
+    .nav-item {
+        text-align: left;
+        padding-left: 1rem;
     }
 }
 
