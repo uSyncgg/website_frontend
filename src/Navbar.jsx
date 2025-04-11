@@ -13,47 +13,48 @@ const Navbar = () => {
           <a href="/" className="site-title">
               <img src="https://i.imgur.com/F5lNU1H.png" alt="uSync logo" />
           </a>
-          <div className='menu-icon' onClick={handleClick}>
+          <div className='menu-icon' onClick={handleClick}> 
             <i className={click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'}></i>
           </div>
           <div className={click ? 'mobile-menu' : 'hide-mobile'}>
             <ul className='mobile-menu-ul'>
-                <CustomLink className="cLink-mobile" href="/">Home</CustomLink>
+                <CustomLink className="cLink-mobile" to="/">Home</CustomLink>
                 <MobileCustomLinkDropdown className="cLinkDropdown-mobile" title="Games">
-                    <CustomDropLink className='cLinkText-mobile' href="/games/call-of-duty">Call of Duty</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/halo">Halo</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/LoL">League of Legends</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/RocketLeague">Rocket League</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/Valorant">Valorant</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/warzone">Warzone</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/games/CS2">Counter-Strike 2</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/call-of-duty">Call of Duty</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/halo">Halo</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/LoL">League of Legends</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/RocketLeague">Rocket League</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/Valorant">Valorant</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/warzone">Warzone</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/games/CS2">Counter-Strike 2</CustomDropLink>
                 </MobileCustomLinkDropdown>
-                <CustomLink className="cLink-mobile" href="/Comingsoon">Coming Soon</CustomLink>
+                <CustomLink className="cLink-mobile" to="/Comingsoon">Coming Soon</CustomLink>
                 <MobileCustomLinkDropdown className="cLinkDropdown-mobile" title="More">
-                    <CustomDropLink className='cLinkText-mobile' href="/more/verification">Verification</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/more/eventhost">Event Host</CustomDropLink>
-                    <CustomDropLink className='cLinkText-mobile' href="/more/contactus">Contact Us</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/more/verification">Verification</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/more/eventhost">Event Host</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/more/contactus">Contact Us</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' to="/more/FAQ">FAQ</CustomDropLink>
                 </MobileCustomLinkDropdown>
             </ul>
           </div>
           <ul className='webpage-ul'>
-              <CustomLink className="cLink" href="/">Home</CustomLink>
+              <CustomLink className="cLink" to="/">Home</CustomLink>
               <CustomLinkGameDropdown className="cLinkDropdown" title="Games">
-                  <CustomDropLink className='cLinkText' href="/games/call-of-duty">Call of Duty</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/halo">Halo</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/LoL">League of Legends</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/RocketLeague">Rocket League</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/Valorant">Valorant</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/warzone">Warzone</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/games/CS2">Counter-Strike 2</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/call-of-duty">Call of Duty</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/halo">Halo</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/LoL">League of Legends</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/RocketLeague">Rocket League</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/Valorant">Valorant</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/warzone">Warzone</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/games/CS2">Counter-Strike 2</CustomDropLink>
               </CustomLinkGameDropdown>
-              <CustomLink className="cLink" href="/Comingsoon">Coming Soon</CustomLink>
+              <CustomLink className="cLink" to="/Comingsoon">Coming Soon</CustomLink>
               <CustomLinkMoreDropdown className="cLinkDropdown" title="More">
-                  <CustomDropLink className='cLinkText' href="/more/verification">Verification</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/more/eventhost">Event Host</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/more/contactus">Contact Us</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/playground">Playground</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/more/playground-two">Playground Two</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/more/verification">Verification</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/more/eventhost">Event Host</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/more/contactus">Contact Us</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/playground">Playground</CustomDropLink>
+                  <CustomDropLink className='cLinkText' to="/more/playground-two">Playground Two</CustomDropLink>
               </CustomLinkMoreDropdown>
           </ul>
         </nav>
@@ -135,22 +136,15 @@ const CustomLinkMoreDropdown = ({ title, children }) => {
 const MobileCustomLinkDropdown = ({ title, children }) => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const handleMouseEnter = () => {
-    setShowMenu(true);
-  };
+  const toggleMenu = () => setShowMenu(prev => !prev);
 
-  const handleMouseLeave = () => {
-    setShowMenu(false);
-  };
-  
   return (
-    <li className="dropdown dropdown-wrapper mNavLink"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <span className="dropbtn mNavLink"><i className='fa-solid fa-caret-down'></i>{title}</span>
+    <li className="dropdown-wrapper mNavLink">
+      <span className="dropbtn mNavLink" onClick={toggleMenu}>
+        {title} <i className='fa-solid fa-caret-down'></i>
+      </span>
       {showMenu && (
-        <ul className="dropdown-content">{children}</ul>
+        <ul className="dropdown-content-mobile">{children}</ul>
       )}
     </li>
   );

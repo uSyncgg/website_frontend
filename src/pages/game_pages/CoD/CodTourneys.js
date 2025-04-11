@@ -493,7 +493,8 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
     // console.log(selectedSkills)
     // console.log(`TOURNAMENTS: ${tournaments}`)
     return (
-        <div>
+        // <div>
+        <React.Fragment>
             {tournaments
             .filter(tournament => {
                 var formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament[format] === true);
@@ -508,7 +509,8 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
             .map(tournament => (
                 <Tournament key={tournament._id} tournament={tournament} />
             ))}
-        </div>
+        </React.Fragment>
+        // </div>
     );
 }
 
@@ -535,7 +537,12 @@ function Tournament(props) {
     // var hoster = tournament.company
     var gamemode = tournament.gamemode
     var tournament_class = tournament.company
+    var reqs = tournament.requirements
     var title_class = '';
+    var res_class = '';
+    var region_class = '';
+    var plat_class = '';
+    var skill_class = '';
     // if (iseco === true) { tournament_class += 'eco ' }
     // if (is1v1 === true) { tournament_class += '1v1 ' }
     // if (is2v2 === true) { tournament_class += '2v2 ' }
@@ -554,6 +561,33 @@ function Tournament(props) {
         title_class = 'not-snd'
     }
 
+    if (reqs.length > 8) {
+        res_class = 'long'
+    } else {
+        res_class = 'short'
+    }
+
+    if (tournament.region.includes('+')) {
+        region_class = 'none'
+    } else {
+        region_class = 'little'
+    }
+
+    if (tournament.skill.includes('All') || tournament.skill.includes('all')) { 
+        skill_class = 'little'
+    } else {
+        skill_class = 'none'
+    }
+
+    if (tournament.platforms.includes('All') || tournament.platforms.includes('all')) {
+        plat_class = 'little'
+    } else {
+        plat_class = 'none'
+    }
+
+    // console.log(`RES CLASS LENGTH: ${reqs.length}`)
+    // console.log(reqs)
+
     return (
         
 
@@ -563,52 +597,63 @@ function Tournament(props) {
                     <CContainer>
                     <CRow>
                         {/* Left side: Title and subtitle - Now vertically centered */}
-                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title">
+                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title" id='tournament-items'>
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
-                            <CCardTitle className='white-text small-less-space-bottom'>{tournament.time} EST</CCardTitle>
-                            <CCardTitle className={'white-text ' + title_class}>{tournament.gamemode.toUpperCase()}</CCardTitle>
-                            <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle>
-                            <CCardSubtitle className='mb-0 purple-text'>{tournament.series}</CCardSubtitle>
+                            <div className='responsive-mobile-container'>
+                                <CCardTitle className='white-text small-less-space-bottom'>
+                                    {tournament.time} <span className="hide-on-mobile">EST</span>
+                                </CCardTitle>
+                                {/* <CCardTitle className='white-text small-less-space-bottom hide-on-mobile'>EST</CCardTitle> */}
+                                <CCardTitle className={'white-text mobile-space-left ' + title_class}>{tournament.gamemode.toUpperCase()}</CCardTitle>
+                            </div>
+                            <div className='responsive-mobile-container'>
+                                <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle>
+                                <CCardSubtitle className='mb-0 purple-text  mobile-space-left'>{tournament.series}</CCardSubtitle>
+                            </div>
                         </CCol>
+                    {/* </CRow>
+                    <CRow> */}
+                    <div className='hide-on-pc'></div>
                         
                         {/* Right side: Information in CListGroups */}
-                        <CCol xs={12} md={8} lg={2} className='mb-0 tourney-info'>
+                        <CCol xs={12} sm={6} md={4} lg={2} className='mb-0 tourney-info move-up-little' id='tournament-items'>
                             {/* <CContainer fluid className="p-0 tourney-info"> */}
                             {/* <CCol xs={12} sm={12} md={8} lg={6} className="mb-0"> */}
                             <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Date</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.date} EST</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 white-text push-right-mobile-little'>Date</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.date}</CListGroupItem>
                             </CListGroup>
 
                             <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Region</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.region}</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 white-text push-right-mobile-tiny'>Region</CListGroupItem>
+                                <CListGroupItem className={'py-1 px-2 purple-text push-right-mobile-' + region_class}>{tournament.region}</CListGroupItem>
                             </CListGroup>
                         </CCol>
 
-                        <CCol xs={12} sm={12} md={8} lg={2} className="mb-0 tourney-info">
+                        <CCol xs={12} sm={6} md={4} lg={2} className="mb-0 tourney-info move-up-little" id='tournament-items'>
                             <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Platform</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.platforms}</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 white-text push-right-mobile-puny'>Platform</CListGroupItem>
+                                <CListGroupItem className={'py-1 px-2 purple-text push-right-mobile-' + plat_class}>{tournament.platforms}</CListGroupItem>
                             </CListGroup>
 
                             <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Skill</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.skill}</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 white-text push-right-mobile-little'>Skill</CListGroupItem>
+                                <CListGroupItem className={'py-1 px-2 purple-text push-right-mobile-' + skill_class}>{tournament.skill}</CListGroupItem>
                             </CListGroup>
                         </CCol>
 
-                        <CCol xs={12} sm={12} md={8} lg={2} className="mb-0 tourney-info">
-                            <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Entry Fee</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
-                            </CListGroup>
-
-                            <CListGroup flush className="border-0">
-                                <CListGroupItem className='py-1 px-2 white-text'>Restrictions</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.requirements}</CListGroupItem>
-                            </CListGroup>
-                            
+                        <CCol xs={12} sm={6} md={4} lg={2} className="mb-0 tourney-info" id='tournament-items'>   
+                            <div className='responsive-mobile-container-content'>
+                                <CListGroup flush className="border-0">
+                                    <CListGroupItem className='py-1 px-2 white-text'>Entry Fee</CListGroupItem>
+                                    <CListGroupItem className='py-1 px-2 purple-text'>{tournament.entry}</CListGroupItem>
+                                </CListGroup>
+                                
+                                <CListGroup flush className="border-0">
+                                    <CListGroupItem className='py-1 px-2 white-text push-right-mobile-title'>Restrictions</CListGroupItem>
+                                    <CListGroupItem className={'py-1 px-2 purple-text push-right-mobile-content-' + res_class}>{tournament.requirements}</CListGroupItem>
+                                </CListGroup>
+                            </div>
                             {/* <button className="btn btn-primary white-text purple-color tourney-button hover-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button> */}
                         </CCol>
 
@@ -623,8 +668,8 @@ function Tournament(props) {
                         {/* </CCol> */}
 
                         {/* Right side: Join Now - Now vertically centered */}
-                        
-                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center">
+
+                        <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center move-right-mobile" id='tournament-items'>
                             <button className="btn btn-primary white-text purple-color tourney-button hover-button" onClick={() => window.open(tournament.url, '_blank')}>Join Now</button>
                         </CCol>
 

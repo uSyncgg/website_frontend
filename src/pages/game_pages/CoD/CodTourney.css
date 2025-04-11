@@ -210,9 +210,27 @@
     margin-bottom: -0.05rem !important;
 }
 
+.responsive-mobile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-mobile-container-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide-on-pc {
+    display: none
+}
+
 @media (max-width: 768px) {
     .tourney-background {
         overflow-x: hidden !important;
+    }
+
+    .hide-on-pc {
+        display: block
     }
 
     .d-flex {
@@ -230,41 +248,43 @@
     .tournament-container {
         width: 100% !important;
         max-width: 100% !important;
-        margin-left: 2.7rem;
+        /* margin-left: 2.7rem; */
+        padding: 0;
+    }
+
+    .tournament-card {
+        /* padding: 1rem; */
+        
+        padding-right: 1rem;
+        padding-left: 2rem;
     }
 
     .tournament-card-wrapper-cmg, .tournament-card-wrapper-codagent {
         width: 100%;
         max-width: 100%;
-        /* margin-left: 3rem; */
-        /* padding-left: 2rem;
-        padding-right: 2rem; */
-        /* margin-left: -1rem; */
-        /* padding-left: 1rem; */
     }
 
     .tourney-header {
         width: 100%;
         max-width: 100%;
-        padding-right: 2.5rem;
+        padding-right: 0;
         padding-left: 0;
     }
 
-    .tournament-card-wrapper-cmg::before .tournament-card-wrapper-codagent::before {
-        /* background-size: contain; */
-        /* min-height: 150px; */
+    /* .tournament-card-wrapper-cmg::before .tournament-card-wrapper-codagent::before {
         background-image: none;
         border: 5px solid rgb(142,106,206);
         border-radius: 4px;
-    }
-
-    .tourney-title {
-        padding-right: 1.3rem;
-    }
-
-    /* .tourney-info {
-        margin-left: 0.5rem;
     } */
+
+    /* .tourney-title {
+        padding-right: 1.3rem;
+        padding-bottom: 1rem;
+    } */
+
+    .tourney-info {
+        padding-left: 5rem;
+    }
 
     .filter-box {
         width: 80%;
@@ -282,9 +302,12 @@
         /* display: flex; */
         flex-wrap: wrap;
         justify-content: center; /* Adjusts tournaments to fit */
+        /* width: 105%; */
+        /* margin-left: -3rem; */
+        margin: 0;
     }
 
-    .container, .row, [class*="col-"] {
+    .container, .row {
         /* padding-left: 15px;
         padding-right: 15px; */
         margin-left: 0;
@@ -293,6 +316,76 @@
         max-width: 100%;
       }
 
+      /* [class*="col-"] {
+        width: 50%;
+      } */
+
+    #tournament-items {
+        width: 50%;
+    }
+
+    .move-up-little {
+        margin-top: -0.5rem;
+    }
+
+    /* .expand-container-mobile {
+        width: 120%;
+    } */
+
+    .tourney-button {
+        margin-left: 16rem;
+        width: 15rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .responsive-mobile-container {
+        flex-direction: row;
+        margin-left: 15rem;
+    }
+
+    .responsive-mobile-container-content {
+        /* flex-direction: row; */
+        /* margin-left: 15rem; */
+        display: grid;
+        grid-template-columns: minmax(80px, 40%) minmax(100px, 60%); /* First column fixed, second takes remaining space */
+        gap: 10px;
+    }
+
+    .move-right-mobile {
+        margin-left: 0.1rem;
+        padding-bottom: 1rem;
+        /* padding-left: 6.6rem; */
+    }
+
+    .push-right-mobile-content-short {
+        margin-left: 5rem;
+    }
+
+    .push-right-mobile-little {
+        margin-left: 1rem ; 
+    }
+
+    .push-right-mobile-tiny {
+        margin-left: 0.5rem ; 
+    }
+
+    .push-right-mobile-puny {
+        margin-left: 0.25rem ; 
+    }
+
+    .push-right-mobile-content-long {
+        margin-left: 2rem;
+    }
+
+    .push-right-mobile-title {
+        margin-left: 3.5rem;
+    }
+
+    .mobile-space-left {
+        padding-left: 0.25rem;
+    }
+
     .small-bottom-space {
         padding-bottom: 0;  
     }
@@ -300,6 +393,17 @@
     .small-less-space-bottom {
         margin-bottom: 0;
     }
+
+    .tournament-card-wrapper-cmg::before {
+        /* background-image: url(https://i.imgur.com/RC561xz.png); */
+        background-image: url(https://i.imgur.com/ma6KICI.png);
+        /* background-size: 85% 90%; */
+      }
+    
+      .tournament-card-wrapper-codagent::before {
+        background-image: url(https://i.imgur.com/daP1uyP.png);
+      }
+    
 }
 
 /* Add these to your CSS */
