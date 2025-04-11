@@ -65,8 +65,8 @@ function Playground() {
               <a className={`dropdown-item ${location === '/games/CS2' ? 'item-active' : ''}`} href="/games/CS2">Counter-Strike 2</a>
             </div> */}
           </li>
-          <li className={`nav-item dropdown`}>
-            <button className="nav-button" onClick={handleLeaguesButtonClick}>
+          <li className={`nav-item dropdown ${location.includes('/leagues') ? 'title-active' : ''}`}>
+            <button className="nav-button move-right-nav" onClick={handleLeaguesButtonClick}>
               Leagues ⏷
             </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -77,10 +77,10 @@ function Playground() {
               <a className={`dropdown-item ${location === '/games/RocketLeague/leagues' ? 'item-active' : ''}`} href="/games/RocketLeague/leagues">Rocket League</a>
               <a className={`dropdown-item ${location === '/games/Valorant/leagues' ? 'item-active' : ''}`} href="/games/Valorant/leagues">Valorant</a>
               <a className={`dropdown-item ${location === '/games/CS2/leagues' ? 'item-active' : ''}`} href="/games/CS2/leagues">Counter-Strike 2</a>
-            </div>
+            </div> 
           </li>
           <li className={`nav-item dropdown ${location.includes('/lans') ? 'title-active' : ''}`}>
-            <button className="nav-button" onClick={handleLansButtonClick}>
+            <button className="nav-button move-right-nav" onClick={handleLansButtonClick}>
               LANs ⏷
             </button>
             <div className="dropdown-menu bg-dark">
@@ -103,7 +103,7 @@ function Playground() {
   <a className={`dropdown-item ${location === '/games/Valorant' ? 'item-active' : ''}`} href="/games/Valorant">Valorant</a> */}
           </li>
           <li className={`nav-item dropdown ${location.startsWith('/more') ? 'title-active' : ''}`}>
-            <button className="nav-button" href="#" id="navbarDropdownMenuLink">
+            <button className="nav-button move-right-nav" href="#" id="navbarDropdownMenuLink">
               More ⏷
             </button>
             <div className="dropdown-menu bg-dark more-dropdown-container" aria-labelledby="navbarDropdownMenuLink">

@@ -13,7 +13,7 @@
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-repeat: no-repeat;
     background-position: center center;
-  }
+  } 
     
 .navbar-brand {
     width: 12rem;
@@ -129,6 +129,7 @@ li .item-active {
 
     .navbar-brand {
         margin-left: 5rem;
+        margin-bottom: 0;
     }
 
     #navbarNav {
@@ -154,6 +155,15 @@ li .item-active {
 
     .navbar {
         height: 55px;
+    }
+
+    .navbar-total-container {
+        background-color: #212529;
+        margin-top: -0.5rem;
+    }
+
+    .move-right-nav {
+        margin-left: 1rem;
     }
 }
 
