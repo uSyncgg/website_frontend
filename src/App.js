@@ -376,6 +376,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 //MASON & JAKE LANs - Current
 import CyphaCon_2025 from './pages/game_pages/LANs/CyphaCon_2025'
+import Scud_3v3 from './pages/game_pages/LANs/Scud_3v3';
+import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import HCS_Optic_2025 from './pages/game_pages/LANs/HCS_Optic_2025'
 import MACS_COD_Spring_25 from './pages/game_pages/LANs/MACS_COD_Spring_25'
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
@@ -391,11 +393,11 @@ import Gamers_For_Giving_2025 from './pages/game_pages/LANs/Gamers_For_Giving_20
 import PDX_LAN_Spring_2025 from './pages/game_pages/LANs/PDX_LAN_Spring_2025'
 import RocLAN_25 from './pages/game_pages/LANs/RocLAN_25'
 import Frag_x_LVLUP from './pages/game_pages/LANs/Frag_x_LVLUP'
+import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
-import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
 import Premier_Circuit_BO6_Major_3 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_BO6_Major_3'
 import MACS_Spring_25 from './pages/game_pages/LANs/2025-Archive/MACS_Spring_25'
 import BelowZero_LAN from './pages/game_pages/LANs/2025-Archive/BelowZero_LAN'
@@ -1963,6 +1965,14 @@ case "/lans/cyphacon2025":
 title = "CyphaCon 2025 | uSync";
 component = <CyphaCon_2025 />
 break;
+case "/lans/3v3-scud-lan":
+title = "3v3 Scud LAN | uSync";
+component = <Scud_3v3 />
+break;
+case "/lans/ezone-4k-bo6-lan":
+title = "EZone $4k BO6 LAN | uSync";
+component = <EZone_4k_bo6_LAN />
+break;
 case "/lans/hcs-optic-2025":
 title = "HCS Optic 2025 | uSync";
 component = <HCS_Optic_2025 />
@@ -2023,15 +2033,15 @@ case "/lans/frag-x-lvlup":
 title = "Frag x LVLUP | uSync";
 component = <Frag_x_LVLUP />
 break;
+case "/lans/waffle-games-8-0":
+title = "Waffle Games 8 | uSync";
+component = <Waffle_Games_8 />
+break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
-case "/lans/waffle-games-8":
-title = "Waffle Games 8 | uSync";
-component = <Waffle_Games_8 />
-break;
 case "/lans/premier-circuit-bo6-major-3":
 title = "Premier Circuit BO6 Major 3 | uSync";
 component = <Premier_Circuit_BO6_Major_3 />
