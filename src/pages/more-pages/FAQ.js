@@ -88,7 +88,7 @@ const FAQ = () => {
             </div>
 
             <div className="col-md-8">
-              <h4 className="FAQ-header-text">Frequently Asked Questions</h4>
+              <h1 className="FAQ-header-text">Frequently Asked Questions</h1>
               <div className="FAQ-text-container-top">
                 <p className="FAQ-q">Q: How do I sign up for competitions?</p>
                 <p className="FAQ-a">
