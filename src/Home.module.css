@@ -262,7 +262,7 @@ hr {
 @media only screen and (min-width: 1400px) {
   .backgroundMidWithBanner {
     width: 100%;
-    height: 100%;
+    height: 100%; 
   }
 }
 
