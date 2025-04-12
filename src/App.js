@@ -2012,7 +2012,7 @@ title = "Gamers For Giving | uSync";
 component = <Gamers_For_Giving_2025 />
 break;
 case "/lans/pdx-lan-spring-2025":
-title = "XXXXXXXXXXX | uSync";
+title = "PDX LAN 2025 | uSync";
 component = <PDX_LAN_Spring_2025 />
 break;
 case "/lans/roclan-25":
