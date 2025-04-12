@@ -531,7 +531,7 @@ header {
   }
 
   .full-height-wrapper {
-    min-height: 58vh;
+    min-height: 55vh;
     /* display: flex;
     flex-direction: column; */
   }
