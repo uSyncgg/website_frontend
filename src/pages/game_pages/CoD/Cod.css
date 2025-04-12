@@ -546,7 +546,7 @@ a {
   }
 
   .space-on-bottom-mobile {
-    margin-bottom: 6.5rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -570,7 +570,7 @@ a {
     margin-right: -3rem;
   }
 
-  .space-on-bottom-mobile {
+  /* .space-on-bottom-mobile {
     margin-bottom: 3.5rem;
-  }
+  } */
 }
