@@ -525,9 +525,9 @@ header {
   margin-right: 5rem;
 }
 
-@media only screen and (min-width: 2560) {
-  .info-title-contactus {
-    margin-bottom: 1.5rem;
+@media only screen and (min-width: 1400) {
+  .shorter-top-increased {
+    margin-top: -4rem;
   }
 }
 
