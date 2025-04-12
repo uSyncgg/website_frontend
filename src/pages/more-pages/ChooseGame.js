@@ -66,7 +66,7 @@ const ChooseGame = () => {
               <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty">
                   <img
-                    src="https://i.imgur.com/lt94bkC.png"
+                    src="https://buy.stripe.com/eVa8xf3LUb6H4yQ7su"
                     alt="Call of Duty"
                     className='home-games-images'
                     // height="12.5rem"
@@ -75,7 +75,7 @@ const ChooseGame = () => {
                 </a>
                 <a href="/games/warzone">
                   <img
-                    src="https://i.imgur.com/IBGIbY2.png"
+                    src="https://buy.stripe.com/5kA5l3fuC8Yzc1iaEJ"
                     alt="Warzone"
                     className='home-games-images'
                     // height="12.5rem"
@@ -85,7 +85,7 @@ const ChooseGame = () => {
 
                 <a href="/games/halo">
                   <img
-                    src="https://i.imgur.com/wqKJfEu.png"
+                    src="https://buy.stripe.com/cN2dRz5U2a2D3uM4gk"
                     alt="Halo Infinite"
                     className='home-games-images'
                     // height="12.5rem"
@@ -94,7 +94,7 @@ const ChooseGame = () => {
                 </a>
                 <a href="/games/LoL">
                   <img
-                    src="https://i.imgur.com/5riYNow.png"
+                    src="https://buy.stripe.com/14k6p796edeP7L27sv"
                     alt="League of Legends"
                     className='home-games-images'
                     // height="12.5rem"
@@ -105,7 +105,7 @@ const ChooseGame = () => {
                 <br className='hide-on-mobile' />
                 <a href="/games/RocketLeague">
                   <img
-                    src="https://i.imgur.com/GJO8JIZ.png"
+                    src="https://buy.stripe.com/aEU4gZ1DMgr19TafZ4"
                     alt="Rocket League"
                     className='home-games-images'
                     // height="12.5rem"
@@ -114,7 +114,7 @@ const ChooseGame = () => {
                 </a>
                 <a href="/games/Valorant">
                   <img
-                    src="https://i.imgur.com/Gsl3oIp.png"
+                    src="https://buy.stripe.com/9AQ9BjgyG0s32qIfZ5"
                     alt="Valorant"
                     className='home-games-images'
                     // height="12.5rem"
@@ -123,7 +123,7 @@ const ChooseGame = () => {
                 </a>
                 <a href="/games/CS2">
                   <img
-                    src="https://i.imgur.com/60FwDKN.png"
+                    src="https://buy.stripe.com/cN23cV5U23Ef1mEfZ8"
                     alt="Counter-Strike 2"
                     className='home-games-images'
                     // height="12.5rem"

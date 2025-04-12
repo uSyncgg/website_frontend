@@ -72,7 +72,7 @@ const FAQ = () => {
                   <a href="/more/FAQ/What-We-Provide">
                     <img
                       className="FAQ-img-articles"
-                      src="https://i.imgur.com/lLIHnnI.png"
+                      src="https://i.imgur.com/ZX9jveL.png"
                       alt="img"
                     />
                   </a>

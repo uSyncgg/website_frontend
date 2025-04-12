@@ -20,14 +20,14 @@ const Provide = () => {
                             <h1 className="left-center">For Esports</h1>
                             <div className="player-img-faq" />
 
-                            <p className="black-text left-center">
+                            <p className="black-text-credit left-center">
                                 Image Credit: ViewSonic
                             </p>
 
                             <h3 className="black-text left-center">
                                 What We Provide
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 At uSync, we are revolutionizing the way the esports community connects, competes, and thrives. We
                                 provide a one-stop hub for everything esports, eliminating the need for players, teams, coaches, and
                                 organizations to search across multiple platforms. Our platform simplifies the entire esports
@@ -37,7 +37,7 @@ const Provide = () => {
                             <h3 className="black-text left-center">
                                 Platforming Tournaments
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 uSync offers a fully integrated tournament hosting system, featuring leagues, LANs, online
                                 tournaments, and wagers. If you've ever searched for "how to find local LAN tournaments" or "where to
                                 compete in esports", uSync makes it easy to discover and participate in these well looked for
@@ -48,7 +48,7 @@ const Provide = () => {
                             <h3 className="black-text left-center">
                                 Verified Hosting and Secure Competition
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 Unlike other platforms, uSync provides a safe, verified environment for esports competition. At uSync,
                                 we have a variety of verified hosts you can trust to complete fair payouts, fair rules, unbiased admins,
                                 and overall a safe to play environment for those that want to improve their skill.
@@ -57,7 +57,7 @@ const Provide = () => {
                             <h3 className="black-text left-center">
                                 Helping You Find LANs Near You
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 For anyone typing "LANs near me", "local call of duty tournaments", or "how to join a LAN event" into
                                 google, uSync is the answer you are looking for. Instead of bouncing between different event websites
                                 and social media pages, our platform consolidates all major esports events into one
@@ -67,7 +67,7 @@ const Provide = () => {
                             <h3 className="black-text left-center">
                                 Helping You Find the Best LANs and Events
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 For players searching for "LANs near me", "local gaming tournaments", or "how to compete in
                                 esports", uSync offers an easy-to-use platform that connects players to the best local and
                                 online events. We make LAN event discovery seamless and competition entry effortless,
@@ -75,7 +75,7 @@ const Provide = () => {
                             </p>
                             
                             <br className="hide-on-mobile" />
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 By providing a tuned, all-in-one solution, uSync is setting a new standard for accessibility and
                                 engagement in esports. We are committed to bridging the gaps in the industry, ensuring that players,
                                 teams, and professionals connect, compete, and grow like never before.

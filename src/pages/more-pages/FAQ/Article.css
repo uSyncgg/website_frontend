@@ -66,6 +66,15 @@
     font-weight: bold;
 }
 
+.black-text-credit {
+    color: black;
+    font-style: italic;
+}
+
+.black-text-no-bold {
+    color: black;
+}
+
 .left-center {
     text-align: left !important;
 }

@@ -19,10 +19,10 @@ const ECO_Tourneys = () => {
                             <h1 className="left-center">ECO Tourneys</h1>
                             <div className="eco-img-faq" />
 
-                            <h3 className="black-text left-center">
+                            <h3 className="black-text-credit left-center">
                                 What are ECO Tourneys?
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 Eco Tourneys are Free-to-$1 online tournaments that are platformed by uSync. 
                                 These Eco Tourneys are tournaments from multiple sites who host these events so you 
                                 can play for ultimately no risk. Eco Tourneys are here to make it easier for the 
@@ -32,7 +32,7 @@ const ECO_Tourneys = () => {
                             <h3 className="black-text left-center">
                                 Why are ECO Tourneys important?
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 Eco Tourneys are important for multiple reasons. Eco Tourneys provide a platform where 
                                 players can access high-competition events for low-risk. Another reason is because Eco 
                                 Tourneys are a way for all players to connect and play against one another while having 
@@ -49,7 +49,7 @@ const ECO_Tourneys = () => {
                             <h3 className="black-text left-center">
                                 How To Make Money In Esports
                             </h3>
-                            <p className="black-text left-center">
+                            <p className="black-text-no-bold left-center">
                                 Eco Tourneys are about making money with low-risk events. These tournaments are the best for 
                                 competing and earning money while not having to worry about putting too much money in. With sites 
                                 like Checkmate Gaming, Esports Agent, and others-The way of making money online has changed.. 

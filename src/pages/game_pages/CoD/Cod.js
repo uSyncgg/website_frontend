@@ -32,7 +32,7 @@ const Cod = () => {
                 </a>
               </div>
               <div className="col-lg-4 space-on-bottom" id="bubble">
-                <a href="/games/call-of-duty/tournaments">
+                <a href="/tournaments/call-of-duty-tournaments">
                   <img
                     src="https://i.imgur.com/nVx3C4M.png"
                     alt="Cod Tournaments"
