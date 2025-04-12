@@ -35,7 +35,7 @@ const Lans = () => {
           </div>
 
           <div className={styles.backgroundMidWithBanner}>
-              <div className={styles.backgroundImages}>
+              <div className={styles.backgroundImages + ' full-height-wrapper'}>
               <a href="/games/call-of-duty/lans">
                   <img
                     src="https://i.imgur.com/lt94bkC.png"
@@ -75,8 +75,8 @@ const Lans = () => {
                 </a>
                 <hr />
               </div>
-              <Footer />
             </div>
+            <Footer />
 
       </div>
     );

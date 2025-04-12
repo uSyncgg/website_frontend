@@ -525,6 +525,12 @@ header {
   margin-right: 5rem;
 }
 
+.full-height-wrapper {
+  min-height: 61.8vh;
+  /* display: flex;
+  flex-direction: column; */
+}
+
 @media only screen and (min-width: 1400px) {
   .shorter-top-increased {
     margin-top: -2.5rem;

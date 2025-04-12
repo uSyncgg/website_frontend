@@ -68,43 +68,7 @@ body {
   vertical-align: baseline; */
 }
 
-@media screen and (max-width: 960px) {
-  .homeContainer {
-    width: 100%;
-  }
 
-  .hometitles {
-    font-size: 2rem;
-  }
-
-  .underline{
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .Slogan {
-    font-size: 2rem;
-    color: rgb(48 189, 123);
-    text-align: center;
-    padding-bottom: 7.5rem;
-    margin-bottom: 0;
-  }
-  .hr {
-    border-top: .1rem solid white;
-    margin: 0 10rem;
-    width: 70%;
-    transform: translateX(-39%);
-  }
-  .backgroundTop img{
-    width: 70%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-top: 6rem;
-    padding-bottom: 1rem;
-  }
-    
-  }
 
 
 .Intro h2{
@@ -294,6 +258,51 @@ hr {
   width: 100%;
   height: 100%;
 }
+
+@media only screen and (min-width: 1400px) {
+  .backgroundMidWithBanner {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .homeContainer {
+    width: 100%;
+  }
+
+  .hometitles {
+    font-size: 2rem;
+  }
+
+  .underline{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .Slogan {
+    font-size: 2rem;
+    color: rgb(48 189, 123);
+    text-align: center;
+    padding-bottom: 7.5rem;
+    margin-bottom: 0;
+  }
+  .hr {
+    border-top: .1rem solid white;
+    margin: 0 10rem;
+    width: 70%;
+    transform: translateX(-39%);
+  }
+  .backgroundTop img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+  }
+    
+  }
 
 @media only screen and (max-width: 768px) {
   .footer img {

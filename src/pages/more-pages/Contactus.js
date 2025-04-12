@@ -94,7 +94,7 @@ const Contactus = () => {
 
             {/* <p class="hr-border" /> */}
 
-            <div className='container info-title-contactus'>
+            <div className='container info-title-contactus'> 
               <div className='row'>
                 <div className='col-12 col-lg-3'>
                   <a
