@@ -646,6 +646,10 @@ function App() {
       title = "Home | uSync";
       component = <Home />;
       break;
+    case "/lander":
+      title = "Home | uSync";
+      component = <Home />
+      break;
     case "/Comingsoon":
       title = "Coming Soon | uSync";
       component = <Comingsoon />
@@ -2756,6 +2760,7 @@ break;
         title = "Choose Title for Verification | uSync";
         component = <ChooseGame />
         break;
+      
   } 
 
   return (
