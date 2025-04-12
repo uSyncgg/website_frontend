@@ -11,7 +11,7 @@ const Frontpage_RLPC = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/major'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Major League</h1>
@@ -46,7 +46,7 @@ const Frontpage_RLPC = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/aa'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Double A League</h1>

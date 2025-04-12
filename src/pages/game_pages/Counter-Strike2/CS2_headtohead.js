@@ -15,7 +15,7 @@ const CS2_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/faceit'>
                                     <h1 className='Leagueh1 hide-on-mobile'>FACEIT</h1>
@@ -48,7 +48,7 @@ const CS2_headtohead = () => {
                             </div>
                         </div>
                         <p className='hr' />
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/esport-scrim'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>

@@ -12,7 +12,7 @@ const Frontpage_Titan = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/immortal'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Immortal</h1>
@@ -48,7 +48,7 @@ const Frontpage_Titan = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/eternal'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Eternal</h1>
@@ -85,7 +85,7 @@ const Frontpage_Titan = () => {
 
                         <p className='hr' />
                         
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/divinity'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Divinity</h1>

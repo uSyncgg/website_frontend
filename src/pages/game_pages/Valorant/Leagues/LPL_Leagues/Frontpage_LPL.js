@@ -12,7 +12,7 @@ const Frontpage_LPL = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/gold'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gold Division League</h1>
@@ -48,7 +48,7 @@ const Frontpage_LPL = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/lpl-leagues/bronze'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Bronze Division League</h1>

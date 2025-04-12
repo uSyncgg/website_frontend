@@ -20,7 +20,7 @@ const Rl_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/rlpc-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">RLPC</h1>
@@ -73,7 +73,7 @@ const Rl_Leagues = () => {
               
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/frontline-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Team Frontline Leagues</h1>
@@ -119,7 +119,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/mle-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Minor League Esports</h1>
@@ -165,7 +165,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/italian-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Italian Rocket Champ Leagues</h1>
@@ -211,7 +211,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/raket-ligaen">
                     <h1 className="Leagueh1 hide-on-mobile">Raket Ligaen</h1>
@@ -257,7 +257,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/oce-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">OCE Draft League</h1>
@@ -303,7 +303,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/corporate">
                     <h1 className="Leagueh1 hide-on-mobile">Corporate League</h1>
@@ -358,7 +358,7 @@ const Rl_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/cca">
                     <h1 className="Leagueh1 hide-on-mobile">College Carball Association</h1>
@@ -411,7 +411,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/ecac">
                     <h1 className="Leagueh1 hide-on-mobile">ECAC Esports</h1>
@@ -457,7 +457,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/csmg">
                     <h1 className="Leagueh1 hide-on-mobile">CSMG League</h1>
@@ -503,7 +503,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/egfc">
                     <h1 className="Leagueh1 hide-on-mobile">EGFC League</h1>
@@ -549,7 +549,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/ael">
                     <h1 className="Leagueh1 hide-on-mobile">Australian Esports League</h1>
@@ -628,7 +628,7 @@ const Rl_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/hsel">
                     <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>
@@ -680,7 +680,7 @@ const Rl_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/tec">
                     <h1 className="Leagueh1 hide-on-mobile">The Esports Company League</h1>
@@ -726,7 +726,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/nasef">
                     <h1 className="Leagueh1 hide-on-mobile">NASEF League</h1>
@@ -772,7 +772,7 @@ const Rl_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/aelhs">
                     <h1 className="Leagueh1 hide-on-mobile">Australian Esports League</h1>

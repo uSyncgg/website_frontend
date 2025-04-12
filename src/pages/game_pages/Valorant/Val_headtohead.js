@@ -19,7 +19,7 @@ const Val_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/gankster'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gankster GG</h1>
@@ -53,7 +53,7 @@ const Val_headtohead = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/head-to-head/dropingaming'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>

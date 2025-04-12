@@ -11,7 +11,7 @@ const Frontpage_MetaShift = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/radon'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Radon League</h1>
@@ -44,7 +44,7 @@ const Frontpage_MetaShift = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/krypton'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Krypton League</h1>
@@ -78,7 +78,7 @@ const Frontpage_MetaShift = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/meta-shift-leagues/nitrogen'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Nitrogen League</h1>

@@ -19,7 +19,7 @@ const Lol_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/titan-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Titan Esports Leagues</h1>
@@ -80,7 +80,7 @@ const Lol_Leagues = () => {
               </div>
               <p className="hr" />
               
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/aegis-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Aegis Leagues</h1>
@@ -135,7 +135,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
               
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/black-twitch-league">
                     <h1 className="Leagueh1 hide-on-mobile">Black Twitch League</h1>
@@ -183,7 +183,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/meta-shift-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">MetaShift Leagues</h1>
@@ -231,7 +231,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/cobalt-winds-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Cobalt Winds Leagues</h1>
@@ -288,7 +288,7 @@ const Lol_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/clol">
                     <h1 className="Leagueh1 hide-on-mobile">CLOL</h1>
@@ -349,7 +349,7 @@ const Lol_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/necc">
                     <h1 className="Leagueh1 hide-on-mobile">NECC</h1>
@@ -431,7 +431,7 @@ const Lol_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/vantagg">
                     <h1 className="Leagueh1 hide-on-mobile">VantaGG</h1>

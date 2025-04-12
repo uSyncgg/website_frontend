@@ -20,7 +20,7 @@ const Halo_Leagues = () => {
           <div className="container-fluid">
             <div className="row">
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/halo/leagues/halo-rec-league">
                     <h1 className="Leagueh1 hide-on-mobile">Halo Rec League</h1>

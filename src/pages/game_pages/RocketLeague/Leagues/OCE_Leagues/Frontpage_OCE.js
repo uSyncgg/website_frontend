@@ -11,7 +11,7 @@ const Frontpage_OCE = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division 1 League</h1>

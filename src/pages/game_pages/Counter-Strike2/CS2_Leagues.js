@@ -14,7 +14,7 @@ const CS2_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitesea">
                     <h1 className="Leagueh1 hide-on-mobile">FACEIT ESEA</h1>
@@ -67,7 +67,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
               <p className="hr" />
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/fastcup">
                     <h1 className="Leagueh1 hide-on-mobile">Fast Cup</h1>
@@ -114,7 +114,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/fireleague">
                     <h1 className="Leagueh1 hide-on-mobile">FiReLEAGUE</h1>
@@ -161,7 +161,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/scl-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">SCL Leagues</h1>
@@ -219,7 +219,7 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/njcaae">
                     <h1 className="Leagueh1 hide-on-mobile">NJCAAE</h1>
@@ -266,7 +266,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/ecac">
                     <h1 className="Leagueh1 hide-on-mobile">ECAC</h1>
@@ -313,7 +313,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitcollegiate">
                     <h1 className="Leagueh1 hide-on-mobile">FACEIT Collegiate</h1>
@@ -360,7 +360,7 @@ const CS2_Leagues = () => {
               </div>
               <p className="hr" />
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/playfly">
                     <h1 className="Leagueh1 hide-on-mobile">Playfly College</h1>
@@ -417,7 +417,7 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/CS2/leagues/hsel">
                     <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>

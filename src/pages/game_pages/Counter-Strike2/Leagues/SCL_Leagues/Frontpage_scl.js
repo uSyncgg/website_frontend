@@ -11,7 +11,7 @@ const Frontpage_scl = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger Division</h1>
@@ -44,7 +44,7 @@ const Frontpage_scl = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/intermediate'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Intermediate Division</h1>

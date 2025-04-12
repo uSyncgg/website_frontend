@@ -11,7 +11,7 @@ const Frontpage_URL = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/url-leagues/2s'>
                                     <h1 className='Leagueh1 hide-on-mobile'>2v2 League</h1>

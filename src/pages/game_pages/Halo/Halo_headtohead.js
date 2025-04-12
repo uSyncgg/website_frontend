@@ -15,7 +15,7 @@ const Halo_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/ugc-scrim'>
                                     <h1 className='Leagueh1 hide-on-mobile'>UGC College Halo Scrims</h1>
@@ -47,7 +47,7 @@ const Halo_headtohead = () => {
                         </div>
                         <p className='hr' />
                         
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/arena'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Arena | 8 Mans</h1>

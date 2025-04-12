@@ -11,7 +11,7 @@ const Frontpage_Nemesis = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/titan'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Titan League</h1>
@@ -44,7 +44,7 @@ const Frontpage_Nemesis = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>

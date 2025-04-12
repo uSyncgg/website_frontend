@@ -12,7 +12,7 @@ const Frontpage_Otter = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/masters'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Masters League</h1>
@@ -46,7 +46,7 @@ const Frontpage_Otter = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/emerald'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Emerald League</h1>
@@ -80,7 +80,7 @@ const Frontpage_Otter = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/gold'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gold League</h1>

@@ -11,7 +11,7 @@ const Frontpage_Frontline_val = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/frontline-leagues/prime'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Prime League</h1>

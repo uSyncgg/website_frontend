@@ -16,7 +16,7 @@ const Val_Wagers = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/wagers/dropingaming'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>

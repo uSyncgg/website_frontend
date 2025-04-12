@@ -11,7 +11,7 @@ const Frontpage_Frontline = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/champ'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Champ League</h1>
@@ -44,7 +44,7 @@ const Frontpage_Frontline = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>

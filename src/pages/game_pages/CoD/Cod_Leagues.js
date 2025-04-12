@@ -57,7 +57,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
-                        <div className='col-12 col-lg-6'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cod-beer-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>COD Beer League (21+)</h1>
@@ -89,7 +89,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/united-rogue-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>United Rogue</h1>
@@ -121,7 +121,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-12 col-lg-6'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/fcl'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Female COD League</h1>
@@ -153,7 +153,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/airforce-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Air Force Gaming League</h1>
@@ -185,7 +185,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/kinetic-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Kinetic League</h1>
@@ -217,7 +217,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/snd-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The SND League</h1>
@@ -255,7 +255,7 @@ const Cod_Leagues = () => {
                         </div>
 
 
-                        <div className='col-12 col-lg-6'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-leagues'>
                                     <h1 className='Leagueh1 hide-on-mobile'>College XP</h1>
@@ -287,7 +287,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
                         
-                        <div className='col-12 col-lg-6'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ccl-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>College COD</h1>

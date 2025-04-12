@@ -12,7 +12,7 @@ const Frontpage_Risen = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/champions'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Champions League</h1>
@@ -48,7 +48,7 @@ const Frontpage_Risen = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/risen-leagues/unstoppable'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Unstoppable League</h1>
