@@ -7,7 +7,7 @@ const Lans = () => {
   useNavHeight();
   
     return (
-      <div>
+      <div className='full-height-wrapper'>
           {/* <header id="League-header">
             <img
               src="https://i.imgur.com/YeUPAmO.png"
@@ -35,7 +35,7 @@ const Lans = () => {
           </div>
 
           <div className={styles.backgroundMidWithBanner}>
-              <div className={styles.backgroundImages + ' full-height-wrapper'}>
+              <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty/lans">
                   <img
                     src="https://i.imgur.com/lt94bkC.png"
