@@ -36,7 +36,7 @@ const Tournaments = () => {
 
           <div className="Background-leagues">
             <div class={styles.backgroundMid}>
-              <div className={styles.backgroundImages}>
+              <div className={styles.backgroundImages + ' full-height-wrapper'}>
                 <a href="/tournaments/call-of-duty-tournaments">
                   <img
                     src="https://i.imgur.com/lt94bkC.png"
