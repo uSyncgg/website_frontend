@@ -543,6 +543,7 @@ function Tournament(props) {
     var region_class = '';
     var plat_class = '';
     var skill_class = '';
+    var gtd_prize = '';
     // if (iseco === true) { tournament_class += 'eco ' }
     // if (is1v1 === true) { tournament_class += '1v1 ' }
     // if (is2v2 === true) { tournament_class += '2v2 ' }
@@ -585,6 +586,10 @@ function Tournament(props) {
         plat_class = 'none'
     }
 
+    if (tournament.title.includes('GTD')) {
+        gtd_prize = tournament.prize + ' GTD '
+    }
+
     // console.log(`RES CLASS LENGTH: ${reqs.length}`)
     // console.log(reqs)
 
@@ -604,7 +609,7 @@ function Tournament(props) {
                                     {tournament.time} <span className="hide-on-mobile">EST</span>
                                 </CCardTitle>
                                 {/* <CCardTitle className='white-text small-less-space-bottom hide-on-mobile'>EST</CCardTitle> */}
-                                <CCardTitle className={'white-text mobile-space-left ' + title_class}>{tournament.gamemode.toUpperCase()}</CCardTitle>
+                                <CCardTitle className={'white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
                             </div>
                             <div className='responsive-mobile-container'>
                                 <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle>
