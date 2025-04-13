@@ -539,7 +539,7 @@ header {
 
   .full-height-wrapper-tourneys {
     /* min-height: clamp(70vh, 80vh, 100vh); */
-    min-height: 80vh;
+    min-height: 76vh;
     /* display: flex;
     flex-direction: column; */
   }
