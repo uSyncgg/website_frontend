@@ -355,7 +355,7 @@ function CodTourneys() {
     console.log(`FILTERED TOURNAMENTS: ${filteredTournaments.length}`)
     return (
         <div>
-            <div className="tourney-background">
+            <div className="tourney-background full-height-wrapper">
                 <div className='d-flex'>
                     {/* <ResponsiveStickyElement className="sidebar-wrapper"> */}
                         <div className='sidebar'>
