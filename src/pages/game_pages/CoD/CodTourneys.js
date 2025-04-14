@@ -605,7 +605,6 @@ function Tournament(props) {
 
     // Step 4: Get the user's time zone
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    console.log(userTimeZone)
     // Step 4: Convert time
     const timeParts = estDateObj.toLocaleTimeString('en-US', {
         timeZone: userTimeZone,
@@ -615,7 +614,16 @@ function Tournament(props) {
     });
     // Removes leading 0 if present — already done by 'numeric' format
     const formattedTime = timeParts; // e.g., "5:00 AM" or "10:00 PM"
+    const timeZoneParts = new Intl.DateTimeFormat('en-US', {
+        timeZone: userTimeZone,
+        timeZoneName: 'short',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: true
+    }).formatToParts(estDateObj);
     
+    const abbreviation = timeZoneParts.find(part => part.type === 'timeZoneName')?.value || '';
+    // console.log(abbreviation)
     // Step 5: Convert date
     const dateObj = new Date(estDateObj.toLocaleString('en-US', { timeZone: userTimeZone }));
     const month = dateObj.toLocaleString('en-US', { month: 'short' }); // e.g., "Apr"
@@ -634,8 +642,8 @@ function Tournament(props) {
     
     const formattedDate = `${month} ${getOrdinalSuffix(day)}`; // e.g., "Apr 21st"
     
-    console.log("Formatted Time:", formattedTime);
-    console.log("Formatted Date:", formattedDate);
+    // console.log("Formatted Time:", formattedTime);
+    // console.log("Formatted Date:", formattedDate);
 
 
     // console.log(`RES CLASS LENGTH: ${reqs.length}`)
@@ -654,7 +662,7 @@ function Tournament(props) {
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <div className='responsive-mobile-container'>
                                 <CCardTitle className='white-text small-less-space-bottom'>
-                                    {formattedTime} <span className="hide-on-mobile">EST</span>
+                                    {formattedTime} <span className="hide-on-mobile">{abbreviation}</span>
                                 </CCardTitle>
                                 {/* <CCardTitle className='white-text small-less-space-bottom hide-on-mobile'>EST</CCardTitle> */}
                                 <CCardTitle className={'white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>

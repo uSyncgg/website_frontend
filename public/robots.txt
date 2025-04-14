@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://usync.online/sitemap.xml
+Sitemap: https://usync.gg/sitemap.xml
 User-agent: *
 Disallow:

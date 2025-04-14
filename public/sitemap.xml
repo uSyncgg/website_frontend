@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://www.usync.gg/</loc>
@@ -723,32 +721,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.usync.gg/rva-gunfight-2025</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.usync.gg/premier-circuit-bo6-major-3</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/premier-circuit-major-4</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/rmcs-cod-spring-25</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/macs-cod-spring-25</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/rmcs-spring-25</loc>
   <lastmod>2025-04-01T01:01:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -758,22 +731,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.usync.gg/valhallan-lol</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://www.usync.gg/macs-spring-25</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/hcs-optic-2025</loc>
-  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.usync.gg/hcs-dreamhack</loc>
   <lastmod>2025-04-01T01:01:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -1479,4 +1437,934 @@
 </url>
 
 
+<url>
+  <loc>https://usync.gg/lans/cyphacon2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hcs-optic-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/macs-cod-spring-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-major-4</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rmcs-cod-spring-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rmcs-spring-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rva-gunfight-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/cdl-major-4-open25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/valhallan-lol</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hcs-dreamhack</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/thomas-college-expo</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/dreamhack-dallas-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gamers-for-giving-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/pdx-lan-spring-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/roclan-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/frag-x-lvlup</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/waffle-games-8</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-bo6-major-3</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/macs-spring-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/belowzero-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/champions-gauntlet-1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/emerald-city-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/fragjersey-6</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gacs-operation-winter</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gatorlan-spring-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gaval-act-iii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gcu-2025-spring-intramural</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/heartland-showdown-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/infernalan-winter-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/kami-con-s16</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lan-all-night-11</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lanwar-73</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/legends-landing-ffa</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/massivelan-winter-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/new-england-college-lan-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/norfolk-winter-2025</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-bo6-major-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-bo6-major-i</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/summoners-series-spring-25</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/tomorrowlan-2025-bo6</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/tomorrowlan-2025-lol</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ufgl-bo6-lan-1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ufgl-bo6-lan-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/1up-mix-up-zombies</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/valorant-precision-protocol</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/arena-showcase-july-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/aurora-womens-playoff-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/awl-austin</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/battle-of-the-bay-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/battle-of-the-bulls-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/battle-on-the-hudson-iv</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/battle-on-the-hudson-v</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/belowzero-summer-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/bo6-weekly-fall-gun-game</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/bo6-weekly-fall-gunfight</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/boilerfrag-xvii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/breach-vs-lag-watch-party</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ccl-x-knox-esports</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/champions-of-vegas-viii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/coglan-12</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/contender-irvine-5k</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/cpe-clash-of-champions</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/cpe-home-series</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/cs2-game-arena</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/cyphacon-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/destro-east-coast-takeover</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/dragoncon</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/elite-squad-showdown</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/etg-x-ezone-4k</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ezone-4k-new-jersey</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ezone-bo6-kickoff</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/forge-lan-21</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/fortlan-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/g-site-gauntlet-of-glory-ii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/g-site-x-vipers-q1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/galaxycon-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/game-arena-bo6-launch</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gamerlounge-4v4-100</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gamers-for-giving-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gamers-lounge-4v4-mwiii-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gatorlan-fall-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gatorlan-spring-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gauntlet-of-glory-2024-q2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gunfight-gunlock-bi-weekly</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/halo-world-championship-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hcs-arlington-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hcs-atlanta-2024-major</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hcs-salt-lake-city</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/heartland-showdown</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hyperx-arena-2v2-gunfight</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hyperx-arena-resurgence-duos</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hyperx-duels-duos</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/hyperx-holiday-1v1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/illini-esports-invitational</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/infernalan-summer-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/kami-con-s15</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-2v2-gunfight</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-halo-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-halo-3</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-halo</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-lol</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-tourney-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/knox-esports-x-home-series</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lan-all-night-ix</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lan-king</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lanfest-chicago-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lanfest-colorado-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lanwar-71</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/last-chance-mw3-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/launch-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lo6-major-iii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lowtier-circuit-x-mamamia</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/lulan-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/magfest-prime</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/massivelan-summer-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/massivelan-winter-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/midwest-fest-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/midwest-mw3-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/mini-mini-cons-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/monthly-local-host-denver</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/mw3-localhost-denver</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/mwiii-monthly-free-for-all</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/netwar-43</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/netwar-44</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/nyxp-2v2-snd-pop-up-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/nyxp-2v2-snd-pop-up</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/nyxp-bo6-2v2-snd-showdown</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/pax-east-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/pdx-lan-spring-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/pdxlan-fall-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-element-major-ii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/premier-circuit-major-1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/prodigy-games-lans</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rally-esports-the-battleground</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ready-up-rust-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/readyup-rust-1v1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rgb-lan-6</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rgb-lan-7</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/roclan-fall-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/roclan-spring-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rumble-at-valhallan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/rva-1v1-gunfight-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/sbg-2v2-gunfight</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/sbg-3v3-snd</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/sbg-lol-tournament-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/sbg-lol-tourney</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/sbg-summoners-showdown-1</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/scrims-center-cs2-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/scrims-center-mw3</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/skill-check-2v2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/skullz-arena-byoc</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/stateline-showdown-24-wz</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/stateline-showdown-24</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/team-fish-taco-frag-18</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/tekko-arena-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/the-ring-2</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/the-tournament-june-ffa</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/titans-of-orlando</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/torontoxp-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ultra-gaming-expo-2024</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/vanguard-snd-pop-up</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/velocity-esports-2v2-snd</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/vyral-x-size</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/waffle-games-7</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/wichita-lanfest-37</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/xpl</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/tuslan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/torg-gaming-expo</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/pdx-lan</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/paradise-kickoff</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/operation-broken-arrow-ffa</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/nysl-warzone-gauntlet</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/mw3-lock-in</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/kcgo94</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/infernalan-winter</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/halo-baby-one-more-time</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/gamers-lounge-4v4-mwiii</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/game-arena-mwiii-launch</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/frostfire-series</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/ezone-philly</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/lans/dreamhack-atlanta</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/more/FAQ/The-Problem-With-Esports</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/more/FAQ/What-We-Provide</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>hhttps://usync.gg/more/FAQ/How-We-Fix-It</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>hthttps://usync.gg/more/FAQ/How-Esports-Can-Be-Better</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://usync.gg/more/FAQ/How-to-Join-an-Esports-League</loc>
+  <lastmod>2025-04-01T01:01:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 </urlset>
