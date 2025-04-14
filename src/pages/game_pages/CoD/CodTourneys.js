@@ -399,7 +399,7 @@ function CodTourneys() {
                     </div>
                 </div>
             
-                <div className="d-flex justify-content-center mt-4 white-text page-buttons">
+                <div className="d-flex justify-content-center mt-4 white-text page-buttons space-on-bottom-pagination">
                     <CButton 
                         onClick={prevPage} 
                         disabled={currentPage === 1}

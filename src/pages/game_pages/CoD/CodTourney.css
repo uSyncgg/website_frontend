@@ -224,6 +224,10 @@
     display: none
 }
 
+.space-on-bottom-pagination {
+    padding-bottom: 5rem;
+}
+
 @media (max-width: 768px) {
     .tourney-background {
         overflow-x: hidden !important;
