@@ -266,7 +266,7 @@ function CodTourneys() {
     const regionOptions = ['NA', 'EU', 'LATAM', 'United States'];
     const consoleOptions = ['PC', 'Console'];
     const skillOptions = ['Novice', 'Amateur', 'Expert', 'Agent', 'Master', 'Challenger'];
-    const entryOptions = ['Free Entry', 'ECO', 'Paid'];
+    const entryOptions = ['Free Entry', 'Paid', 'ECO'];
 
     // const handleFilterChange = (setter) => (selectedOptions) => setter(selectedOptions);
 
