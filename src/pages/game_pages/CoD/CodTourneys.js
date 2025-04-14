@@ -590,6 +590,54 @@ function Tournament(props) {
         gtd_prize = tournament.prize + ' GTD '
     }
 
+    var estDate = tournament.date
+    var estTime = tournament.time
+
+    // Step 1: Remove the 'th', 'st', etc. from the date string
+    const cleanedDate = estDate.replace(/(\d+)(st|nd|rd|th)/, '$1'); // "Apr 14"
+
+    // Step 2: Combine the cleaned date and time with a year (e.g., current year)
+    const currentYear = new Date().getFullYear();
+    const combinedString = `${cleanedDate} ${currentYear} ${estTime}`; // "Apr 14 2025 10:00 AM"
+
+    // Step 3: Create a Date object in EST
+    const estDateObj = new Date(`${combinedString}`); // EST is UTC-5
+
+    // Step 4: Get the user's time zone
+    const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    console.log(userTimeZone)
+    // Step 4: Convert time
+    const timeParts = estDateObj.toLocaleTimeString('en-US', {
+        timeZone: userTimeZone,
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+    });
+    // Removes leading 0 if present — already done by 'numeric' format
+    const formattedTime = timeParts; // e.g., "5:00 AM" or "10:00 PM"
+    
+    // Step 5: Convert date
+    const dateObj = new Date(estDateObj.toLocaleString('en-US', { timeZone: userTimeZone }));
+    const month = dateObj.toLocaleString('en-US', { month: 'short' }); // e.g., "Apr"
+    const day = dateObj.getDate();
+    
+    // Add ordinal suffix to the day
+    function getOrdinalSuffix(n) {
+        if (n >= 11 && n <= 13) return `${n}th`;
+        switch (n % 10) {
+        case 1: return `${n}st`;
+        case 2: return `${n}nd`;
+        case 3: return `${n}rd`;
+        default: return `${n}th`;
+        }
+    }
+    
+    const formattedDate = `${month} ${getOrdinalSuffix(day)}`; // e.g., "Apr 21st"
+    
+    console.log("Formatted Time:", formattedTime);
+    console.log("Formatted Date:", formattedDate);
+
+
     // console.log(`RES CLASS LENGTH: ${reqs.length}`)
     // console.log(reqs)
 
@@ -606,7 +654,7 @@ function Tournament(props) {
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <div className='responsive-mobile-container'>
                                 <CCardTitle className='white-text small-less-space-bottom'>
-                                    {tournament.time} <span className="hide-on-mobile">EST</span>
+                                    {formattedTime} <span className="hide-on-mobile">EST</span>
                                 </CCardTitle>
                                 {/* <CCardTitle className='white-text small-less-space-bottom hide-on-mobile'>EST</CCardTitle> */}
                                 <CCardTitle className={'white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
@@ -626,7 +674,7 @@ function Tournament(props) {
                             {/* <CCol xs={12} sm={12} md={8} lg={6} className="mb-0"> */}
                             <CListGroup flush className="border-0">
                                 <CListGroupItem className='py-1 px-2 white-text push-right-mobile-little'>Date</CListGroupItem>
-                                <CListGroupItem className='py-1 px-2 purple-text'>{tournament.date}</CListGroupItem>
+                                <CListGroupItem className='py-1 px-2 purple-text'>{formattedDate}</CListGroupItem>
                             </CListGroup>
 
                             <CListGroup flush className="border-0">
