@@ -621,9 +621,11 @@ function Tournament(props) {
         minute: '2-digit',
         hour12: true
     }).formatToParts(estDateObj);
-    
-    const abbreviation = timeZoneParts.find(part => part.type === 'timeZoneName')?.value || '';
-    // console.log(userTimeZone)
+    let abbreviation = timeZoneParts.find(part => part.type === 'timeZoneName')?.value || '';
+
+    // Step 7: Remove the + and the number (if any) after the abbreviation
+    abbreviation = abbreviation.replace(/([A-Z]+)(\s?[+-]\d{1,2})?/, '$1');
+    // console.log(abbreviation)
     // Step 5: Convert date
     const dateObj = new Date(estDateObj.toLocaleString('en-US', { timeZone: userTimeZone }));
     const month = dateObj.toLocaleString('en-US', { month: 'short' }); // e.g., "Apr"
