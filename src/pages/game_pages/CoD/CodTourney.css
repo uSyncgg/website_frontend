@@ -228,6 +228,13 @@
     padding-bottom: 8rem;
 }
 
+.wrap-text {
+    /* width: 102%;
+    padding-right: 0.1rem; */
+    white-space: normal;
+    word-wrap: break-word;
+}
+
 @media (max-width: 768px) {
     .tourney-background {
         overflow-x: hidden !important;

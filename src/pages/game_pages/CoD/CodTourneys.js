@@ -544,6 +544,7 @@ function Tournament(props) {
     var plat_class = '';
     var skill_class = '';
     var gtd_prize = '';
+    var series_present = '';
     // if (iseco === true) { tournament_class += 'eco ' }
     // if (is1v1 === true) { tournament_class += '1v1 ' }
     // if (is2v2 === true) { tournament_class += '2v2 ' }
@@ -644,6 +645,10 @@ function Tournament(props) {
     
     const formattedDate = `${month} ${getOrdinalSuffix(day)}`; // e.g., "Apr 21st"
     
+    if (tournament.series === 'none') {
+        series_present = 'hide-on-pc hide-on-mobile'
+    }
+
     // console.log("Formatted Time:", formattedTime);
     // console.log("Formatted Date:", formattedDate);
 
@@ -668,10 +673,10 @@ function Tournament(props) {
                                 </CCardTitle> */}
 
                                 <CCardTitle className='white-text small-less-space-bottom'>
-                                    {tournament.team_size + ' ' + tournament.series}
+                                    {tournament.team_size} <span className={series_present}>{tournament.series}</span> 
                                 </CCardTitle>
 
-                                <CCardTitle className={'small-less-space-bottom white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
+                                <CCardTitle className={'small-less-space-bottom wrap-text white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
                             </div>
                             <div className='responsive-mobile-container'>
                                 {/* <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle> */}
