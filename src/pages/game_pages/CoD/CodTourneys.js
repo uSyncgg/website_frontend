@@ -663,15 +663,22 @@ function Tournament(props) {
                         <CCol xs={12} md={4} lg={3} className="mb-3 mb-md-0 d-flex flex-column justify-content-center tourney-title" id='tournament-items'>
                             {/* <img src={hosterBanners[tournament.company]} alt={tournament.company} className='hoster-banner'/> */}
                             <div className='responsive-mobile-container'>
-                                <CCardTitle className='white-text small-less-space-bottom'>
+                                {/* <CCardTitle className='white-text small-less-space-bottom'>
                                     {formattedTime} <span className="hide-on-mobile">{abbreviation}</span>
+                                </CCardTitle> */}
+
+                                <CCardTitle className='white-text small-less-space-bottom'>
+                                    {tournament.team_size + ' ' + tournament.series}
                                 </CCardTitle>
-                                {/* <CCardTitle className='white-text small-less-space-bottom hide-on-mobile'>EST</CCardTitle> */}
-                                <CCardTitle className={'white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
+
+                                <CCardTitle className={'small-less-space-bottom white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
                             </div>
                             <div className='responsive-mobile-container'>
-                                <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle>
-                                <CCardSubtitle className='mb-0 purple-text  mobile-space-left'>{tournament.series}</CCardSubtitle>
+                                {/* <CCardSubtitle className='mb-0 purple-text small-bottom-space'>{tournament.team_size}</CCardSubtitle> */}
+                                {/* <CCardSubtitle className='mb-0 purple-text  mobile-space-left'>{tournament.series}</CCardSubtitle> */}
+                                <CCardTitle className='mb-0 purple-text  mobile-space-left'>
+                                    {formattedTime} <span className="hide-on-mobile">{abbreviation}</span>
+                                </CCardTitle>
                             </div>
                         </CCol>
                     {/* </CRow>
