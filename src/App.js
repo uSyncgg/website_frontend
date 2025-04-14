@@ -646,6 +646,10 @@ function App() {
       title = "Home | uSync";
       component = <Home />;
       break;
+    case "/home":
+      title = "Home | uSync";
+      component = <Home />
+      break;
     case "/lander":
       title = "Home | uSync";
       component = <Home />
