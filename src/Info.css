@@ -406,6 +406,7 @@ header {
   position: relative;
   z-index: 1;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .event-title-contactus2 {
@@ -550,6 +551,10 @@ header {
     width: 15%;
     margin: 2rem auto;
   }
+
+  /* .Background-mid-contact {
+    padding: 0;
+  } */
 
   #checkmark-title-link {
     width: 70%;
