@@ -265,7 +265,7 @@ const Cod_Leagues = () => {
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-leagues'>
-                                    <button type="submit" className='info-button'>More Info</button>
+                                    <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
                             </div>
                         </div>
