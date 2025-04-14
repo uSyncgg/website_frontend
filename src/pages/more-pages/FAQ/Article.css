@@ -150,7 +150,7 @@
 
 @media only screen and (max-width: 768px) {
     .problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
-        padding: 0;
+        padding: 0.25rem;
     }
     
     .slight-left {
@@ -164,4 +164,8 @@
     .bottom-space-faq {
         margin-bottom: 3rem;
     }
+
+    /* .mobile-space-left {
+        margin-left: 1rem;
+    } */
 }
