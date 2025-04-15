@@ -675,7 +675,8 @@ function Tournament(props) {
                                 <CCardTitle className='white-text small-less-space-bottom'>
                                     {tournament.team_size} <span className={series_present}>{tournament.series}</span> 
                                 </CCardTitle>
-
+                            </div>
+                            <div className='responsive-mobile-container'>
                                 <CCardTitle className={'small-less-space-bottom wrap-text white-text mobile-space-left ' + title_class}>{gtd_prize + tournament.gamemode.toUpperCase()}</CCardTitle>
                             </div>
                             <div className='responsive-mobile-container'>
