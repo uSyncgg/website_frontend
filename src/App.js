@@ -653,10 +653,6 @@ function App() {
       title = "Home | uSync";
       component = <Home />
       break;
-    case "*":
-      title = "Not Found | uSync";
-      component = <NotFound />;
-      break;
     case "/lander":
       title = "Home | uSync";
       component = <Home />
@@ -2778,6 +2774,11 @@ break;
       case "/more/verification/verified-game-selection":
         title = "Choose Title for Verification | uSync";
         component = <ChooseGame />
+        break;
+
+      default:
+        title = "Not Found | uSync";
+        component = <NotFound />;
         break;
       
   } 

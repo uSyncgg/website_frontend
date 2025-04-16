@@ -15,12 +15,12 @@ const LanMap = () => {
     return (
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden' }}>
             <div>
-                <a href='/games/call-of-duty'>
-                    <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
-                </a>
                 <a href='/lans'>
-                    <button type="submit" className='info-button-lans-home'>Back to LANs</button>
+                    <button type="submit" className='info-button-lans'>Back to LANs</button>
                 </a>
+                {/* <a href='/lans'>
+                    <button type="submit" className='info-button-lans-home'>Back to LANs</button>
+                </a> */}
             </div>
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
