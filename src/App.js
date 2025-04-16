@@ -375,29 +375,31 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
-import CyphaCon_2025 from './pages/game_pages/LANs/CyphaCon_2025'
-import Scud_3v3 from './pages/game_pages/LANs/Scud_3v3';
+import Heretics_Major_III_25 from './pages/game_pages/LANs/Heretics_Major_III_25';
+import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import HCS_Optic_2025 from './pages/game_pages/LANs/HCS_Optic_2025'
-import MACS_COD_Spring_25 from './pages/game_pages/LANs/MACS_COD_Spring_25'
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
-import RMCS_COD_Spring_25 from './pages/game_pages/LANs/RMCS_COD_Spring_25'
-import RMCS_Spring_25 from './pages/game_pages/LANs/RMCS_Spring_25'
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 import CDL_Major_4_Open25 from './pages/game_pages/LANs/CDL_Major_4_Open25'
 import Valhallan_lol from './pages/game_pages/LANs/Valhallan_lol'
 import HCS_DreamHack from './pages/game_pages/LANs/HCS_DreamHack'
 import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
 import DreamHack_Dallas25 from './pages/game_pages/LANs/DreamHack_Dallas25'
-import Gamers_For_Giving_2025 from './pages/game_pages/LANs/Gamers_For_Giving_2025'
-import PDX_LAN_Spring_2025 from './pages/game_pages/LANs/PDX_LAN_Spring_2025'
-import RocLAN_25 from './pages/game_pages/LANs/RocLAN_25'
 import Frag_x_LVLUP from './pages/game_pages/LANs/Frag_x_LVLUP'
 import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import RocLAN_25 from './pages/game_pages/LANs/2025-Archive/RocLAN_25'
+import PDX_LAN_Spring_2025 from './pages/game_pages/LANs/2025-Archive/PDX_LAN_Spring_2025'
+import Gamers_For_Giving_2025 from './pages/game_pages/LANs/2025-Archive/Gamers_For_Giving_2025'
+import MACS_COD_Spring_25 from './pages/game_pages/LANs/2025-Archive/MACS_COD_Spring_25'
+import CyphaCon_2025 from './pages/game_pages/LANs/2025-Archive/CyphaCon_2025'
+import RMCS_COD_Spring_25 from './pages/game_pages/LANs/2025-Archive/RMCS_COD_Spring_25'
+import RMCS_Spring_25 from './pages/game_pages/LANs/2025-Archive/RMCS_Spring_25'
+import Scud_3v3 from './pages/game_pages/LANs/2025-Archive/Scud_3v3';
 import Premier_Circuit_BO6_Major_3 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_BO6_Major_3'
 import MACS_Spring_25 from './pages/game_pages/LANs/2025-Archive/MACS_Spring_25'
 import BelowZero_LAN from './pages/game_pages/LANs/2025-Archive/BelowZero_LAN'
@@ -1969,13 +1971,13 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
-case "/lans/cyphacon2025":
-title = "CyphaCon 2025 | uSync";
-component = <CyphaCon_2025 />
+case "/lans/heretics-major-iii-25":
+title = "Heretics Major III | uSync";
+component = <Heretics_Major_III_25 />
 break;
-case "/lans/3v3-scud-lan":
-title = "3v3 Scud LAN | uSync";
-component = <Scud_3v3 />
+case "/lans/shinto-takeover-2025":
+title = "Shinto Takeover | uSync";
+component = <Shinto_Takeover_2025 />
 break;
 case "/lans/ezone-4k-bo6-lan":
 title = "EZone $4k BO6 LAN | uSync";
@@ -1985,21 +1987,9 @@ case "/lans/hcs-optic-2025":
 title = "HCS Optic 2025 | uSync";
 component = <HCS_Optic_2025 />
 break;
-case "/lans/macs-cod-spring-25":
-title = "MACS COD Spring 25 | uSync";
-component = <MACS_COD_Spring_25 />
-break;
 case "/lans/premier-circuit-major-4":
 title = "Premier Circuit Major 4 | uSync";
 component = <Premier_Circuit_Major_4 />
-break;
-case "/lans/rmcs-cod-spring-25":
-title = "RMCS COD Spring 25 | uSync";
-component = <RMCS_COD_Spring_25 />
-break;
-case "/lans/rmcs-spring-25":
-title = "RMCS Spring 25 | uSync";
-component = <RMCS_Spring_25 />
 break;
 case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
@@ -2025,18 +2015,6 @@ case "/lans/dreamhack-dallas-25":
 title = "DreamHack Dallas | uSync";
 component = <DreamHack_Dallas25 />
 break;
-case "/lans/gamers-for-giving-2025":
-title = "Gamers For Giving | uSync";
-component = <Gamers_For_Giving_2025 />
-break;
-case "/lans/pdx-lan-spring-2025":
-title = "PDX LAN 2025 | uSync";
-component = <PDX_LAN_Spring_2025 />
-break;
-case "/lans/roclan-25":
-title = "RocLAN 2025 | uSync";
-component = <RocLAN_25 />
-break;
 case "/lans/frag-x-lvlup":
 title = "Frag x LVLUP | uSync";
 component = <Frag_x_LVLUP />
@@ -2050,6 +2028,38 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/roclan-25":
+title = "RocLAN 2025 | uSync";
+component = <RocLAN_25 />
+break;
+case "/lans/pdx-lan-spring-2025":
+title = "PDX LAN 2025 | uSync";
+component = <PDX_LAN_Spring_2025 />
+break;
+case "/lans/gamers-for-giving-2025":
+title = "Gamers For Giving | uSync";
+component = <Gamers_For_Giving_2025 />
+break;
+case "/lans/macs-cod-spring-25":
+title = "MACS COD Spring 25 | uSync";
+component = <MACS_COD_Spring_25 />
+break;
+case "/lans/cyphacon2025":
+title = "CyphaCon 2025 | uSync";
+component = <CyphaCon_2025 />
+break;
+case "/lans/rmcs-cod-spring-25":
+title = "RMCS COD Spring 25 | uSync";
+component = <RMCS_COD_Spring_25 />
+break;
+case "/lans/rmcs-spring-25":
+title = "RMCS Spring 25 | uSync";
+component = <RMCS_Spring_25 />
+break;
+case "/lans/3v3-scud-lan":
+title = "3v3 Scud LAN | uSync";
+component = <Scud_3v3 />
+break;
 case "/lans/premier-circuit-bo6-major-3":
 title = "Premier Circuit BO6 Major 3 | uSync";
 component = <Premier_Circuit_BO6_Major_3 />

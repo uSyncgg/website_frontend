@@ -1,4 +1,3 @@
-import styles from '../Home.module.css';
 import Footer from '../Footer';
 import '../Info.css';
 import React from 'react';
@@ -10,20 +9,24 @@ const LanMap = () => {
         const navbar = document.querySelector('.navbar'); // Adjust based on your class
         if (navbar) {
             setNavHeight(navbar.offsetHeight);
-        }
-    }, []);
+        } 
+    }, []); 
 
     return (
-        <div style={{ height: `calc(100vh - ${navHeight}px)`, paddingTop: `${navHeight}px` }}>
-            <iframe
-                title="lanMap"
-                id="map"
-                className="full-map"
-                src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F"
-            ></iframe>
+        <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden' }}>
+            <div>
+                <a href='/games/call-of-duty'>
+                    <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                </a>
+                <a href='/lans'>
+                    <button type="submit" className='info-button-lans-home'>Back to LANs</button>
+                </a>
+            </div>
+            <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
         </div>
+        
     );
-};
+}
 
-export default LanMap
+export default LanMap;

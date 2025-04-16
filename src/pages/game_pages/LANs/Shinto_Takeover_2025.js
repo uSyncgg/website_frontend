@@ -5,13 +5,13 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const RMCS_COD_Spring_25 = () => {
+const Shinto_Takeover_2025 = () => {
   useNavHeight();
   return (
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h2 id="league-title">RMCS Spring 25</h2>
+          <h2 id="league-title">Shinto Gaming Club Takeover</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -31,7 +31,7 @@ const RMCS_COD_Spring_25 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://nerdstreet.com/events/rocky-mountain-collegiate-series-rmcs-community-tournament-call-of-duty-2025-04-13?section=overview" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://www.start.gg/tournament/shinto-gaming-club-takeover/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -43,20 +43,19 @@ const RMCS_COD_Spring_25 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>April 13th, 2025</p>
-              <p>Lakewood, CO</p>
+              <p>July 12th, 2025</p>
+              <p>Brooklyn, NY</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Customized Trophy Prize</p>
-              <p>College Players & Teams in Greater Colorado Area</p>
-              <p>4 Teams Minimum</p>
-              <p>4v4 CDL Variant (Estimated)</p>
-              <p>1PM Start Time</p>
+              <p>$4,000 Prize Pool</p>
+              <p>Double Elimination</p>
+              <p>4v4 CDL Variant</p>
+              <p>16 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$60 - Team Pass</p>
+              <p>Team Pass: $318</p>
             </div>
           </div>
         </div>
@@ -67,4 +66,4 @@ const RMCS_COD_Spring_25 = () => {
   );
 };
 
-export default RMCS_COD_Spring_25;
+export default Shinto_Takeover_2025;

@@ -5,13 +5,13 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const PDX_LAN_Spring_2025 = () => {
+const Heretics_Major_III_25 = () => {
   useNavHeight();
   return (
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h2 id="league-title">PDX LAN Spring 2025</h2>
+          <h2 id="league-title">Heretics Major III Challengers</h2>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -23,15 +23,15 @@ const PDX_LAN_Spring_2025 = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/HaRfFh9.png"
+              src="https://i.imgur.com/OSMYolc.png"
               className="Checkmark-title"
             />
           </a>
           <a href="/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
+            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://www.lanreg.org/pdxlan/spring2025" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://www.gofevo.com/event/Major3Challengers" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -43,28 +43,30 @@ const PDX_LAN_Spring_2025 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>April 10 - 13th, 2025</p>
-              <p>Ridgefield, WA</p>
+              <p>April 24 - 27th, 2025</p>
+              <p>Boca Raton, FL</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Various Different Game Titles</p>
-              <p>Lots of Different Prizes</p>
-              <p>Starts at 6:00 PM</p>
-              <p>LIMITED Number of Passes Left</p>
+              <p>Large Prize Pool</p>
+              <p>Ages 17+ (16+ with Signed Form)</p>
+              <p>Seeding Based on Pro Points</p>
+              <p>Double Elimination</p>
+              <p>4v4 CDL Variant</p>
+              <p>64 Teams MAX</p>
+              <p>Coach Included in Team Pass</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$165 - Standard Seat</p>
-              <p>$185 - End Seat + Coin</p>
+              <p>Team Pass: $441.03</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/games/call-of-duty/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default PDX_LAN_Spring_2025;
+export default Heretics_Major_III_25;
