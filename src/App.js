@@ -2776,10 +2776,10 @@ break;
         component = <ChooseGame />
         break;
 
-      // default:
-      //   title = "Not Found | uSync";
-      //   component = <NotFound />;
-      //   break;
+      default:
+        title = "Not Found | uSync";
+        component = <NotFound />;
+        break;
       
   } 
 
