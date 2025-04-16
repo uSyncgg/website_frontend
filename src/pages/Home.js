@@ -19,10 +19,10 @@ const Home = () => {
             <div className={styles.nameLogo}>
               <img src="https://i.imgur.com/l6mclM4.png" alt="uSync"/>
             </div>
-            <h2 className={styles.Intro}>
+            <h1 className={styles.Intro}>
               World's <u>Largest</u> Selection of Esports <u>LANs</u>, <u>Leagues</u>, <br /> and <u>Tournaments</u>.
               Find Your Next Event Today<br />
-            </h2>
+            </h1>
           </div>
           <div>
             <a href="/games">
