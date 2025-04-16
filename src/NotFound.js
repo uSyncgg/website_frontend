@@ -2,6 +2,9 @@ import React from 'react';
 
 const NotFound = () => {
   return (
+    <>
+    <meta name="robots" content="noindex" />
+
     <div className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white" style={{ paddingTop: '100px' }}>
       <h1 className="text-6xl font-bold mb-4 black-text">404 ERROR</h1>
       <p className="text-xl mb-6 black-text">Page not found.</p>
@@ -9,6 +12,8 @@ const NotFound = () => {
         Go back home
       </a>
     </div>
+    
+    </>
   );
 };
 
