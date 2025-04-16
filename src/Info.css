@@ -489,6 +489,16 @@ header {
   width: 100%;
 }
 
+.home-games-images-all-lans {
+  width: 35% !important;
+  height: auto;
+  /* border-radius: 1.563rem; */
+}
+
+.space-on-bottom-pc {
+  margin-bottom: 4rem;
+}
+
 .home-games-img-row {
   margin: 1rem 0;
 }

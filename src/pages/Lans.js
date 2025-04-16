@@ -74,7 +74,23 @@ const Lans = () => {
                   />
                 </a>
                 <hr />
-              </div>
+
+                </div>
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-12 d-flex justify-content-center space-on-bottom space-on-bottom-pc' id='bubble'>
+                    <a href="/LanMap">
+                      <img
+                        src="https://i.imgur.com/OPhy6nX.png"
+                        alt="All LANs"
+                        className='home-games-images-all-lans blockimg'
+                        // height="12.5rem"
+                        // width="12.5rem"
+                      />
+                    </a>
+                    </div>
+                  </div>
+                </div>
             </div>
             <Footer />
 
