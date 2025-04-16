@@ -569,7 +569,11 @@ header {
   #join-button-link {
     width: 90%;
     margin: 2rem auto;
-  } 
+  }
+
+  .home-games-images-all-lans {
+    width: 50% !important;
+  }
 
   .Background-mid-bottom {
     display: flex;
@@ -630,5 +634,12 @@ header {
 
   .info-title-verification {
     font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .home-games-images-all-lans {
+    width: 100% !important;
   }
 }

@@ -33,7 +33,7 @@ const Lans = () => {
               />
             </div>
           </div>
-          {/* + ' full-height-wrapper' */}
+          
           <div className={styles.backgroundMidWithBanner}>
               <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty/lans">
