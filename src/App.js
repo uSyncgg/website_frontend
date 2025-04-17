@@ -36,7 +36,6 @@ import HOE_Challengers from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE
 import CCL_League from './pages/game_pages/CoD/leagues/CCL_League'
 import COD_Beer_League from './pages/game_pages/CoD/leagues/COD_Beer_League'
 import Corporate_COD_League from './pages/game_pages/CoD/leagues/Corporate_COD_League'
-import Snd_league from './pages/game_pages/CoD/leagues/Snd_league'
 import Playfly_COD_League from './pages/game_pages/CoD/leagues/Playfly_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
@@ -848,10 +847,6 @@ function App() {
 
 
     //COD LEAGUES
-    case "/games/call-of-duty/leagues/snd-league":
-      title = "SND League | uSync";
-      component = <Snd_league />
-      break;
       case "/games/call-of-duty/leagues/cod-rec-league":
         title = "Call of Duty Rec League | uSync";
       component = <COD_Rec_League />

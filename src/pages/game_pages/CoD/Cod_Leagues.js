@@ -217,21 +217,6 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
-                                <a href='/games/call-of-duty/leagues/snd-league'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>The SND League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/snd-league"><img src="https://i.imgur.com/eXZFLGH.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                <a href='/games/call-of-duty/leagues/snd-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ixi-esports'>
