@@ -49,7 +49,7 @@ const Ixi_Esports = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring Season</p>
+              <p>Annual Summer Season</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
