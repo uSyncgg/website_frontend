@@ -217,7 +217,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='col-12 col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ixi-esports'>
                                     <h1 className='Leagueh1 hide-on-mobile'>IXI Esports</h1>
