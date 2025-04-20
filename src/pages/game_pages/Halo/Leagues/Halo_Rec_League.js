@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const Halo_Rec_League = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Halo Recreational league is the only rec league for everything halo. Play weekly matches against other teams that are live streamed." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l hrl-verified-league" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const Halo_Rec_League = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

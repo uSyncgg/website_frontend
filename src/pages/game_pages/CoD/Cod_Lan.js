@@ -1,4 +1,5 @@
 import Footer from '../../../Footer';
+import { Helmet } from "react-helmet";
 import '../Lan.css';
 import React from 'react';
 
@@ -13,6 +14,10 @@ const Cod_Lan = () => {
     }, []); 
 
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Call of Duty LAN tournaments near you. Find the closest Call of Duty LANs to where you live and work. Every LAN going on near you." />
+            </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden' }}>
             <div>
                 <a href='/games/call-of-duty'>
@@ -25,7 +30,7 @@ const Cod_Lan = () => {
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1GEf0IzpwDFmiA-Snc7WsoH_nbqPvNhU&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
         </div>
-        
+    </>
     );
 }
 

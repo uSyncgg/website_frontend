@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Doubles = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Frontier Double Rocket League leagues. 4 different leagues to choose from based on your MMR. Sign up with your duo today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -87,6 +92,7 @@ const Frontpage_Doubles = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

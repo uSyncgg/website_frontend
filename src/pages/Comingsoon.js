@@ -1,4 +1,5 @@
 import '../Info.css';
+import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../Footer';
 import styles from '../Home.module.css';
@@ -9,11 +10,15 @@ import useNavHeight from './hooks/NavbarHeight';
 const Comingsoon = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Find out what game titles are coming soon to uSync. Request a game of your choice to be published on www.usync.gg" />
+          </Helmet>
       <div className="total-coming-soon-container">
         <div id="league-body2">
           <div className='Header-Img-l coming-soon-header-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">Coming Soon</h2>
+              <h1 id="league-title">Coming Soon</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -154,6 +159,7 @@ const Comingsoon = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 export default Comingsoon;

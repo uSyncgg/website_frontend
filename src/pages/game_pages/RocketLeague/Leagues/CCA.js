@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const CCA = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="College Carball Association is the #1 collegiate Rocket League league. NA/EU players competing in this 3v3 league for all college students that want to become world champions" />
+          </Helmet>
       <div className="total-playground">
         <div className="Header-Img-l cca-verified-league" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const CCA = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

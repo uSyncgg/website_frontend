@@ -1,4 +1,5 @@
 import '../Game.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import '../CoD/Cod.css';
 import useNavHeight from '../../hooks/NavbarHeight';
@@ -6,6 +7,10 @@ import useNavHeight from '../../hooks/NavbarHeight';
 const Rl = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Rocket League tournaments, leagues, LANs, head-to-head, and wagers to make money playing RL. Compete in events to prove your skill." />
+          </Helmet>
       <div>
         {/* <header id="League-header">
           <img
@@ -72,6 +77,7 @@ const Rl = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import '../../head-to-head.css';
 const CMG_Xp = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Play Call of Duty XP matches and get ranked. Free competitive SND esports ladder matches." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l cmg-verified-h2h">
 
@@ -79,6 +84,7 @@ const CMG_Xp = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const Corporate_LoL_League = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Corporate League of Legends league is the league that employed people have been searching for. Play with co-workers against other companies in League of Legends." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -79,6 +84,7 @@ const Corporate_LoL_League = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

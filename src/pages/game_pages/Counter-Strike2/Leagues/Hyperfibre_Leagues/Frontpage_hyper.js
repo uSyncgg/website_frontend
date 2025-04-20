@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_hyper = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Hyperfibre leagues based in New Zealand. Compete at a casual or highly competitive level to showcase your Counter-Strike 2 skills." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -54,6 +59,7 @@ const Frontpage_hyper = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

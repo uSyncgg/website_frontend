@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Italian = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Italian Rocket League leagues for your playstyle. Grab your Rocket League teammates and sign up for these leagues today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -53,6 +58,7 @@ const Frontpage_Italian = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

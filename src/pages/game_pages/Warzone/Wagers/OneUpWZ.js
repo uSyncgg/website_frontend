@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const OneUpWZ = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="OneUp App is the wager app for Warzone players. With 1v1 kill races you can prove your skills on WZ all while making money." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const OneUpWZ = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

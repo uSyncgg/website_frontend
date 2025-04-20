@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const HSELHalo = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="High School Halo Esports League (HSEL). Compete with other students at your high school against other local high schools." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l hsel-verified-league" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const HSELHalo = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

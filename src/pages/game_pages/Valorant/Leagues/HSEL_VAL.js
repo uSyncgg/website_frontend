@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const College_Val_Riot = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="High School Esports Valorant League. The #1 high school Valorant league for all North Americans. Enroll your school and make a name for your students today." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l hsel-verified-league" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const College_Val_Riot = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

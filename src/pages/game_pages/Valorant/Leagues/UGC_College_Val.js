@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const UGC_College_Val = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="UGC Collegiate Val League. Play against non-pro players in this college league desgined for you to get better and improve your Valorant skills." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -53,7 +58,7 @@ const UGC_College_Val = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$7500 Prize Pool (Estimated)</p>
+              <p>$7,500 Prize Pool (Estimated)</p>
               <p>6 Week Regular Season with Playoffs</p>
               <p>Non-Pro Teams ONLY</p>
               <p>No Live Streamed Matches</p>
@@ -80,6 +85,7 @@ const UGC_College_Val = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

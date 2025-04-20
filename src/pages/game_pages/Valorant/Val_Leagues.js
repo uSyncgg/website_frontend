@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Val_Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Find every Valorant League that is happening today. Search through tons of leagues to find what best suits you or your team. Play Valorant for money today." />
+          </Helmet>
       <div>
         <div className='Header-Img-l val-league-header'>
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Valorant Leagues</h2>
+            <h1 id="league-title">Valorant Leagues</h1>
             <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -499,6 +504,7 @@ const Val_Leagues = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

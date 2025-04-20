@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Blue_Otter_Gold = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Blue Otter Gold league is the League of Legends Gold 1 99LP cap league that you have been searching for. Join today." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Blue_Otter_Gold = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

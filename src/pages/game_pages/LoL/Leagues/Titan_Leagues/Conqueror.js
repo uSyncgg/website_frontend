@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -12,6 +13,10 @@ import '../../../leagues.css';
 const Conqueror = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Titan Conqueror League. The premier League of Legends league with a Diamond 4 cap. Compete in the msot reputable league today." />
+          </Helmet>
         <div className="total-playground">
             <div className="Header-Img-l titan-verified-league" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const Conqueror = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

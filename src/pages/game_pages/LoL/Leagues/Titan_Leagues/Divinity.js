@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../../hooks/NavbarHeight';
 const Divinity = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Calling all League of Legends players that are lower rank than Emerald 4. Risen Divinity League is the perfect league for you." />
+          </Helmet>
         <div className="total-playground">
             <div className="Header-Img-l titan-verified-league" />
       <div className="background-mid">
@@ -82,6 +87,7 @@ const Divinity = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

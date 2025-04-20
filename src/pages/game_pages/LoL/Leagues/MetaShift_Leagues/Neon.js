@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Neon = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="MetaShift Neon league is a fast paced action packed League of Legends League. With a lower entry fee this is perfect for amateurs." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Neon = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

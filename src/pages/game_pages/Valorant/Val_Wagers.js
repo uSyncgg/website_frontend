@@ -1,13 +1,18 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Val_Wagers = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Valorant Wagers from every wager site out there. Play Valorant for $ and a chance to prove yourself in these head-to-head wager matches." />
+            </Helmet>
         <div>
             <div className='Header-Img-l cod-headtohead-header'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Wagers</h2>
+                    <h1 id="league-title">Wagers</h1>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
                 </div>
             </div>
@@ -53,6 +58,7 @@ const Val_Wagers = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

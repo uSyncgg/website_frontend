@@ -1,4 +1,5 @@
 import Footer from "../../../Footer";
+import { Helmet } from "react-helmet";
 import useNavHeight from "../../hooks/NavbarHeight";
 import '../FAQ.css';
 import './Article.css';
@@ -6,6 +7,10 @@ import './Article.css';
 const Join = () => {
     const navHeight = useNavHeight() + 1;
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Learn how to join an esports league, where to find them, and what to do once you're in one. Find your next esports league today." />
+            </Helmet>
         <div>
             <div className="total-container-FAQ-white">
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
@@ -300,6 +305,7 @@ const Join = () => {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
 

@@ -1,4 +1,5 @@
 import Footer from "../../../Footer";
+import { Helmet } from "react-helmet";
 import useNavHeight from "../../hooks/NavbarHeight";
 import '../FAQ.css';
 import './Article.css';
@@ -6,6 +7,10 @@ import './Article.css';
 const Problem = () => {
     const navHeight = useNavHeight() + 1;
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="The current problem with esports today and what uSync.gg is doing to combat this major issue plaguing the industry." />
+            </Helmet>
         <div>
             <div className="total-container-FAQ-white">
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
@@ -107,6 +112,7 @@ const Problem = () => {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
 

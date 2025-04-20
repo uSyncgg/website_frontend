@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_scl = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="SCL CS2 leagues and practice scrims are for Counter-Strike 2 players looking to make money and improve their game." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -87,6 +92,7 @@ const Frontpage_scl = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

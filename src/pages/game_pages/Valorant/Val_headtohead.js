@@ -1,13 +1,18 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Val_headtohead = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Valorant XP and scrim matches. Find your most competitive scrim and get ranked based on your record. Practice your skills and improve your team today." />
+            </Helmet>
         <div>
             <div className='Header-Img-l rl-h2h-header-img'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Head-to-Head</h2>
+                    <h1 id="league-title">Head-to-Head</h1>
                     <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -107,6 +112,7 @@ const Val_headtohead = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

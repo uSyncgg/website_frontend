@@ -1,4 +1,5 @@
 import styles from '../Home.module.css';
+import { Helmet } from "react-helmet";
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 import useNavHeight from './hooks/NavbarHeight';
@@ -6,6 +7,10 @@ import useNavHeight from './hooks/NavbarHeight';
 const Tournaments = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="The one-stop shop for every single tournament ongoing for your esports game. Save time searching spend time playing." />
+          </Helmet>
       <div>
         <div>
           {/* <header id="League-header">
@@ -25,7 +30,7 @@ const Tournaments = () => {
 
           <div className='Header-Img-l tournaments-header-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">Tournament Titles</h2>
+              <h1 id="league-title">Tournament Titles</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -52,6 +57,7 @@ const Tournaments = () => {
           <Footer />
         </div>
       </div>
+      </>
     );
 }
 export default Tournaments;

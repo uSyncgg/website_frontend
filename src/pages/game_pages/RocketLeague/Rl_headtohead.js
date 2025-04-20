@@ -1,14 +1,19 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import '../CoD/Cod.css';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Rl_headtohead = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Rocket League free to play scrim, XP, and head to head matches. Compete for free and climb the ladder to improve your Rocket League skills or simply to have fun." />
+            </Helmet>
         <div>            
             <div className='Header-Img-l rl-h2h-header-img'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Head-to-Head</h2>
+                    <h1 id="league-title">Head-to-Head</h1>
                     <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -59,6 +64,7 @@ const Rl_headtohead = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Playfly_Open = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Playfly Open Valorant League is the free to enter Valorant league for those with Gold or lower ranks. Grab your college friends and compete today." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -79,6 +84,7 @@ const Playfly_Open = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

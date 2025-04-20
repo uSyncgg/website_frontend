@@ -1,4 +1,5 @@
 import '../Lan.css';
+import { Helmet } from "react-helmet";
 import React from 'react';
 import Footer from '../../../Footer';
 
@@ -13,6 +14,10 @@ const Halo_Lan = () => {
     }, []); 
 
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Halo LAN tournaments near you and across the world. Find the closest Halo LAN to you today." />
+            </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden'  }}>
             <a href='/games/halo'>
                 <button type="submit" className='info-button-lans'>Back to Halo</button>
@@ -23,6 +28,7 @@ const Halo_Lan = () => {
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1RWVPklwSmTd6iqaSgHP4LLh2WOd8Pt8&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
         </div>
+        </>
     );
 }
 

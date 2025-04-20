@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -12,6 +13,10 @@ import Footer from "../../../../Footer";
 const PraccLol = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Pracc is the place to play your LoL XP and scrim matches. Find a scrim for League today." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -76,6 +81,7 @@ const PraccLol = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

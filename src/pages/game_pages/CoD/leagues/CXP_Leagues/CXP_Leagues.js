@@ -1,10 +1,15 @@
 import '../../Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 const CXP_Leagues = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="College XP league is for colleges in North America. Prove your college is the best in the country." />
+            </Helmet>
         <div>
             <div className="Header-Img-l not-verified-banner-img" />
 
@@ -71,6 +76,7 @@ const CXP_Leagues = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

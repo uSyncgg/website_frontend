@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_LCS = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Low Budget Leagues. The financial League of Legends leagues you have been searching for. Join based on your rank." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -86,6 +91,7 @@ const Frontpage_LCS = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

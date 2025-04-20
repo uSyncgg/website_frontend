@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const URL_2s = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="URL 2v2 Rocket League league. Live streamed matches and a free to enter league - this is the Rocket League league that you have been desperately searching for." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const URL_2s = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

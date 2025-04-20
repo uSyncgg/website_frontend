@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const TPCWomens = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="The Premier Circuit Womens cod league. Women only Call of Duty competitive league with massive $4.5k prize pool." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -52,7 +57,7 @@ const TPCWomens = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$4500+ Prize Pools</p>
+              <p>$4,500+ Prize Pools</p>
               <p>5 Majors and 1 LAN</p>
               <p>Female ONLY</p>
               <p>Pre Season Tournaments</p>
@@ -79,6 +84,7 @@ const TPCWomens = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

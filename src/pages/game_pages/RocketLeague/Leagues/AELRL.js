@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const AELRL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Australian College Esports League. This Rocket League league is for AUS university students that want to compete at the highest level and make money playing RL in college." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const AELRL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

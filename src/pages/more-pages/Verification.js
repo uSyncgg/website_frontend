@@ -1,4 +1,5 @@
 import '../../Info.css';
+import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
 import './Verification.css';
@@ -7,6 +8,10 @@ import useNavHeight from '../hooks/NavbarHeight';
 const Verification = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Own a league, LAN, or tournament website on uSync - become uSync Verified to promote your event and prove your reputability in the esports scene." />
+          </Helmet>
       <div className='verification-container'> 
           <div className="Header-Img-l verification-header-img-container">
               <img
@@ -88,6 +93,7 @@ const Verification = () => {
           </div>
         <Footer />
       </div>
+      </>
     );
 }
 export default Verification;

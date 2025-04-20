@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Frontline = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Team Frontline Rocket League leagues. All the way from 0 - 1700+ MMR anyone can compete. Find what league fits you today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -86,6 +91,7 @@ const Frontpage_Frontline = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

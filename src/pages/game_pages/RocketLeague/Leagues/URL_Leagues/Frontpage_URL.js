@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_URL = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Ultimate Rocket League leagues. Draft based leagues that are 2v2 or 3v3. With over 10+ MMR based divisions you won't want to miss sign ups for this." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -53,6 +58,7 @@ const Frontpage_URL = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

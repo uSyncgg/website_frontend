@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const FACEITESEA = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Counter-Strike 2 league FACEIT ESEA is the home of amateur CS2 esports. Play for hundreds of thousands and prove yourself to go pro." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l faceit-esea-verified-league-banner" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const FACEITESEA = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -13,6 +14,10 @@ import '../../../leagues.css';
 const Immortal_T = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Titan Immortal League. 600LP cap League of Legends league for those that are looking to improve their game and make some money." />
+          </Helmet>
         <div className="total-playground">
             <div className="Header-Img-l titan-verified-league" />
       <div className="background-mid">
@@ -82,6 +87,7 @@ const Immortal_T = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

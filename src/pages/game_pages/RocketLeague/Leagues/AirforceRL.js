@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const AirforceRL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="A Rocket League league for active Air Force or Space Force members of the United States military. Play against your fellow miltary members in this action packed Rocket League league." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -78,6 +83,7 @@ const AirforceRL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

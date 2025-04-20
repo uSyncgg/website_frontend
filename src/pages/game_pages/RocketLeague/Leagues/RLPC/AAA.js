@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -12,6 +13,10 @@ import useNavHeight from '../../../../hooks/NavbarHeight';
 const AAA = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="RLPC AAA League is a free entry Rocket League league for anyone from 1575 - 1799 MMR in North America to join. Sign season long contracts with teams and really feel like a pro." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l rlpc-verified-league" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const AAA = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

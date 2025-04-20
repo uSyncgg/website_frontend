@@ -1,4 +1,5 @@
 import '../../Info.css';
+import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
 import useNavHeight from '../hooks/NavbarHeight';
@@ -6,10 +7,14 @@ import useNavHeight from '../hooks/NavbarHeight';
 const Contactus = () => {
   useNavHeight();
     return ( 
+      <>
+          <Helmet>
+            <meta name="description" content="Learn more about what uSync does and who the team is. Contact uSync today to work with us and become apart of the esports family." />
+          </Helmet>
       <div>
         <div className='Header-Img-l lans-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">Find Us</h2>
+              <h1 id="league-title">Find Us</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -140,34 +145,38 @@ const Contactus = () => {
             <div className="container-fluid">
               <div className="row justify-content-center">
                 <div className="col-12 col-lg-4">
+                  <a href="https://www.linkedin.com/in/jake-bruscino/" target="_blank">
                   <img
                     src="https://i.imgur.com/ZbCuZKi.png"
                     className="about-us-image"
-                  />
+                  /></a>
                   <h1 className="cofounder-title">Jake Bruscino</h1>
                   <h1 className="cofounder-subtitle">CEO / Co-Founder</h1>
                 </div>
                 <div className="col-12 col-lg-4 less-space-right-left">
-                  <img
+                <a href="https://www.linkedin.com/in/matthew-o-connor-a9b444228/" target="_blank">
+                <img
                     src="https://i.imgur.com/gGXFOdn.png"
                     className="about-us-image"
-                  />
+                  /></a>
                   <h1 className="cofounder-title">Matthew O'Connor</h1>
                   <h1 className="cofounder-subtitle">CTO / Co-Founder</h1>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <img
+                <a href="https://www.linkedin.com/in/mason-wiley-b539bb304/" target="_blank">
+                <img
                     src="https://i.imgur.com/t0vqLB4.png"
                     className="about-us-image"
-                  />
+                  /></a>
                   <h1 className="cofounder-title">Mason Wiley</h1>
                   <h1 className="cofounder-subtitle">CSO / Co-Founder</h1>
                 </div>
                 <div className="col-12 col-lg-4">
-                  <img
+                <a href="https://www.linkedin.com/in/tonegmz/" target="_blank">
+                <img
                     src="https://i.imgur.com/AX1uMWJ.png"
                     className="about-us-image"
-                  />
+                  /></a>
                   <h1 className="cofounder-title">Tony Gomez</h1>
                   <h1 className="cofounder-subtitle">Head of Marketing</h1>
                 </div>
@@ -179,6 +188,7 @@ const Contactus = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 export default Contactus;

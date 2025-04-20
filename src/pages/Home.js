@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from "react-helmet";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import styles from '../Home.module.css';
 import Footer from '../Footer';
@@ -12,6 +13,10 @@ const Home = () => {
   };
 
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="uSync is the world's largest selection of esports LANs, Leagues, and Tournaments. Find your next event today." />
+        </Helmet>
     <div>
       <div className={styles.homeContainer}>
         <div className={styles.backgroundTop}>
@@ -164,6 +169,7 @@ const Home = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 }
 

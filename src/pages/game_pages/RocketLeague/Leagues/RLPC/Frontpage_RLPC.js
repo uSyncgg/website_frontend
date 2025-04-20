@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
 const Frontpage_RLPC = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="RLPC Leagues are the #1 North American Competitive Draft League for all Rocket League Players. With MMR based leagues and live streamed matches you won't want to miss this." />
+            </Helmet>
         <div>
             <div className="Header-Img-l rlpc-verified-league" />
 
@@ -91,6 +96,7 @@ const Frontpage_RLPC = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

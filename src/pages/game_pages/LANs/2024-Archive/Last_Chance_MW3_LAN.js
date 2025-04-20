@@ -1,4 +1,5 @@
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
 import '../../head-to-head.css';
@@ -8,10 +9,14 @@ import Footer from "../../../../Footer";
 const Last_Chance_MW3_LAN = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Last Change MW3 LAN is the last chance for players to compete in this Call of Duty game title before it is gone. Miami, FL located event." />
+        </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h2 id="league-title">Last Chance MW3 LAN</h2>
+          <h1 id="league-title">Last Chance MW3 LAN</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +41,7 @@ const Last_Chance_MW3_LAN = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
               <p>October 5 - 6th, 2024</p>
-              <p>iami, FL</p>
+              <p>Miami, FL</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -57,7 +62,8 @@ const Last_Chance_MW3_LAN = () => {
         <div className="league-back-button-container">
         <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
-        </div> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to home for conventions AND FOR ARCHIVED) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED ------------------------------------------------------------------------------
+        </div>
+        </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to home for conventions AND FOR ARCHIVED) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED ------------------------------------------------------------------------------
   );
 };
 

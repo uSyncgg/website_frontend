@@ -1,14 +1,19 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import '../CoD/Cod.css';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Rl_Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Every single Rocket League league from across the world. Find what league suits your playstyle whether you are an amateur player, high school student, or a college student." />
+          </Helmet>
       <div>
         <div className='Header-Img-l rl-league-header'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">Rocket League Leagues</h2>
+              <h1 id="league-title">Rocket League Leagues</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -98,7 +103,7 @@ const Rl_Leagues = () => {
               <div className="col-12 col-lg-6 bottom-card">
                 <div className="league">
                   <a href="/games/RocketLeague/leagues/url-leagues">
-                    <h1 className="Leagueh1 hide-on-mobile">Ultimate Rocket Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">Ultimate Rocket League</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/RocketLeague/leagues/url-leagues">
@@ -823,6 +828,7 @@ const Rl_Leagues = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 export default Rl_Leagues;

@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const NECC_CS2 = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="NECC is the Counter-Strike 2 league for academically eligible college students. Play live streamed matches to viewers and prove yourself." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -82,6 +87,7 @@ const NECC_CS2 = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

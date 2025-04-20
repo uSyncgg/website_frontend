@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const SDC_League = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="SDC league is a League of Legends league that is free to play and is community based. Join the community and play for prizes today." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -79,6 +84,7 @@ const SDC_League = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

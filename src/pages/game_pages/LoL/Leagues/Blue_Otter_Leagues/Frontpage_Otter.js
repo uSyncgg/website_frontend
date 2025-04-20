@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Otter = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="League of Legends Blue Otter leagues. 6 different leagues to choose from based on your in game rank, try it today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -122,6 +127,7 @@ const Frontpage_Otter = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

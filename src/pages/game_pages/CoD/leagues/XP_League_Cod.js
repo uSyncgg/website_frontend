@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -12,6 +13,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const XP_League_Cod = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="XP League - the amateur Call of Duty league that feels like the professional league. Win the championship for a cash prize pool." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l xp-league-verified-banner" />
       <div className="background-mid">
@@ -52,8 +57,8 @@ const XP_League_Cod = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>EU and NA Leagues</p>
               <p>£/$500+ Prize Pool with Immediate Payouts</p>
+              <p>NA and EU Leagues</p>
               <p>Multiple Divisions</p>
               <p>Quick Responses / Reliable Format</p>
               <p>Live Streamed Matches at a High Level</p>
@@ -79,6 +84,7 @@ const XP_League_Cod = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

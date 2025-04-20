@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_MLE = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Rocket League Minor League Esports (MLE) leagues. Compete in a Rocket League league of your choice based on your MMR and skills." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -102,6 +107,7 @@ const Frontpage_MLE = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

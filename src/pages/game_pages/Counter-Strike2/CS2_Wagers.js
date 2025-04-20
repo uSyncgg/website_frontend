@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const CS2_Wagers = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Wagers for Counter-Strike 2 players looking to make money gaming. Play for $ and showcase your earnings." />
+            </Helmet>
         <div>
             <div className='Header-Img-l cs2-wagers-header'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Head-to-Head</h2>
+                    <h1 id="league-title">Head-to-Head</h1>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
                 </div>
             </div>
@@ -68,6 +73,7 @@ const CS2_Wagers = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

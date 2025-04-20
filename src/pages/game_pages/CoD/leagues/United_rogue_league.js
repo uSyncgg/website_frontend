@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -12,6 +13,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const United_rogue_league = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="4v4 Call of Duty league variant draft league. United Rogue hosted event with franchised teams." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const United_rogue_league = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

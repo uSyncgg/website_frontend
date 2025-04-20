@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Playfly = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Playfly Valorant Collegiate Leagues. College ranked based leagues for all players. Massive prize pools and the chance to prove your school is the best." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -53,6 +58,7 @@ const Frontpage_Playfly = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

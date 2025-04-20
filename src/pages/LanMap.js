@@ -1,4 +1,5 @@
 import Footer from '../Footer';
+import { Helmet } from "react-helmet";
 import '../Info.css';
 import React from 'react';
 
@@ -13,6 +14,10 @@ const LanMap = () => {
     }, []); 
 
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Find LANs near you. We have every LAN event from across the globe consolidated on our LAN map." />
+            </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden' }}>
             <div>
                 <a href='/lans'>
@@ -25,7 +30,7 @@ const LanMap = () => {
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
         </div>
-        
+                </>
     );
 }
 

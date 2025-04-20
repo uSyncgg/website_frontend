@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
@@ -12,6 +13,10 @@ import '../../head-to-head.css';
 const PraccVal = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Pracc matches for Valorant. Find your most competitive scrim matches and XP matches for your team to practice strats and more against real Valorant competitors." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -52,13 +57,14 @@ const PraccVal = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Collegiate School Scrim Finder</p>
-              <p>Manually Schedule Matches & Times</p>
-              <p>Semi-Large Number of Users</p>
+              <p>All Levels of Competition</p>
+              <p>Various Different Platforms to Use</p>
+              <p>Large Number of Users Searching for Scrims</p>
+              <p>Live Discord Support</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
-              <p>USA Only</p>
+              <p>Available Worldwide</p>
             </div>
           </div>
         </div>
@@ -75,6 +81,7 @@ const PraccVal = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

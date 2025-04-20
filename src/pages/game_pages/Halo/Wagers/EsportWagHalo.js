@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
@@ -12,6 +13,10 @@ import Footer from "../../../../Footer";
 const EsportWagHalo = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Halo Esports Wager is the place for 1v1 - 6v6 matches. Choose your wager amount and grab your teammate and make money playing Halo." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const EsportWagHalo = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

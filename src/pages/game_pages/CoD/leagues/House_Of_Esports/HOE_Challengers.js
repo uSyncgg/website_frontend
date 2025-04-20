@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -12,6 +13,10 @@ import useNavHeight from '../../../../hooks/NavbarHeight';
 const HOE_Challengers = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Mouse and keyboard Call of Duty league. Use MNK to dominate controller players in a pro circuit arena." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -53,7 +58,7 @@ const HOE_Challengers = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>R 1000+ Prize Pool</p>
-              <p>MNK Allowed</p>
+              <p>Mouse and Keyboard Allowed</p>
               <p>South African Servers</p>
               <p>Competitive</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -78,6 +83,7 @@ const HOE_Challengers = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

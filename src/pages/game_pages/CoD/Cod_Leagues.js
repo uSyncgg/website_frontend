@@ -1,9 +1,14 @@
 import './Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Cod_Leagues = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Call of Duty leagues for amateur players looking for high level competition. Every Call of Duty league in one place." />
+            </Helmet>
         <div className='total-container'>
             {/* <header id='League-header'>
                 <img src="https://i.imgur.com/UfeTySI.png" className='Header-Img-l' />
@@ -15,7 +20,7 @@ const Cod_Leagues = () => {
 
             <div className='Header-Img-l lans-img'>
                 <div className="games-leagues-header-title">
-                <h2 id="league-title">Call of Duty Leagues</h2>
+                <h1 id="league-title">Call of Duty Leagues</h1>
                 <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -324,6 +329,7 @@ const Cod_Leagues = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

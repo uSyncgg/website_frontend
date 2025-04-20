@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const EwagersVal = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="EWagers is a Valorant wager website. Play against other players and bet on yourself to win. Wager side money on other matches on the site as well." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -48,19 +53,21 @@ const EwagersVal = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Fees:</h2>
-              <p>Match Fee: 10%</p>
-              <p>Varying Fee with Deposits/Withdrawals</p>
+              <p>3% Deposit And Withdrawal Fee</p>
+              <p>5% Wager Fee</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Support on Twitter</p>
-              <p>Small Number of Users</p>
-              <p>Set Wager Amounts</p>
+              <p>Any Wager Amount Allowed</p>
+              <p>Ability to Set Wager Odds</p>
+              <p>Very Little Matches</p>
+              <p>Live Website Support</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
-              <p>16+</p>
-              <p>NA / EU Only</p>
+              <p>18+</p>
+              <p>Available Worldwide</p>
+              <p>Certain State / Global Restrictions</p>
             </div>
           </div>
         </div>
@@ -77,6 +84,7 @@ const EwagersVal = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

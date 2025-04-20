@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Halo_headtohead = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Halo XP Matches. Find free to play head-to-head matches to become better overall at competitive Halo." />
+            </Helmet>
         <div>
             <div className='Header-Img-l cod-headtohead-header'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Head-to-Head</h2>
+                    <h1 id="league-title">Head-to-Head</h1>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
                 </div>
             </div>
@@ -84,6 +89,7 @@ const Halo_headtohead = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

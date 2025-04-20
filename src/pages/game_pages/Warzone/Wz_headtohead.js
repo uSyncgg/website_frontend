@@ -1,13 +1,18 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Wz_headtohead = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Warzone XP Matches from every provider in the globe. Find who is hosting scrims, XPs, and head-to-heads that suit your style." />
+            </Helmet>
         <div>
             <div className='Header-Img-l lol-league-header'>
                 <div className="games-leagues-header-title">
-                <h2 id="league-title">Head-to-Head</h2>
+                <h1 id="league-title">Head-to-Head</h1>
                 <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -57,6 +62,7 @@ const Wz_headtohead = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

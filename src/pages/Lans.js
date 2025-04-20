@@ -1,4 +1,5 @@
 import styles from '../Home.module.css';
+import { Helmet } from "react-helmet";
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 import useNavHeight from './hooks/NavbarHeight';
@@ -7,6 +8,10 @@ const Lans = () => {
   useNavHeight();
   
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Find esports LAN events for your favorite game titles near you. From Call of Duty to League of Legends we have every LAN going on." />
+          </Helmet>
       <div>
           {/* <header id="League-header">
             <img
@@ -25,7 +30,7 @@ const Lans = () => {
 
           <div className='Header-Img-l lans-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">LAN Titles</h2>
+              <h1 id="league-title">LAN Titles</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -95,6 +100,7 @@ const Lans = () => {
             <Footer />
 
       </div>
+      </>
     );
 }
 export default Lans;
