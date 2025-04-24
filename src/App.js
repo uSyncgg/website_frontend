@@ -1991,7 +1991,7 @@ case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
 component = <RVA_Gunfight_2025 />
 break;
-case "/lans/cdl-major-4-open25":
+case "/lans/cdl-major-4-open-25":
 title = "CDL Major 4 Open | uSync";
 component = <CDL_Major_4_Open25 />
 break;
