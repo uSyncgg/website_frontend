@@ -378,7 +378,6 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 import Heretics_Major_III_25 from './pages/game_pages/LANs/Heretics_Major_III_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
-import HCS_Optic_2025 from './pages/game_pages/LANs/HCS_Optic_2025'
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 import CDL_Major_4_Open25 from './pages/game_pages/LANs/CDL_Major_4_Open25'
@@ -388,10 +387,15 @@ import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
 import DreamHack_Dallas25 from './pages/game_pages/LANs/DreamHack_Dallas25'
 import Frag_x_LVLUP from './pages/game_pages/LANs/Frag_x_LVLUP'
 import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
+import ACENxAegis_2025 from './pages/game_pages/LANs/ACENxAegis_2025'
+import CODBendixCup25 from './pages/game_pages/LANs/CODBendixCup25'
+import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
+import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import HCS_Optic_2025 from './pages/game_pages/LANs/2025-Archive/HCS_Optic_2025'
 import RocLAN_25 from './pages/game_pages/LANs/2025-Archive/RocLAN_25'
 import PDX_LAN_Spring_2025 from './pages/game_pages/LANs/2025-Archive/PDX_LAN_Spring_2025'
 import Gamers_For_Giving_2025 from './pages/game_pages/LANs/2025-Archive/Gamers_For_Giving_2025'
@@ -1967,6 +1971,22 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/acen-aegis-2025":
+title = "Acen x Aegis | uSync";
+component = <ACENxAegis_2025 />
+break;
+case "/lans/cod-bendix-2025":
+title = "COD Bendix Cup | uSync";
+component = <CODBendixCup25 />
+break;
+case "/lans/cod-ireland-2025":
+title = "COD IreLANd 2025 | uSync";
+component = <CODIreland_2025 />
+break;
+case "/lans/gacs-operation-freedom":
+title = "GA:CS Operation Freedom | uSync";
+component = <GACS_Operation_Freedom />
+break;
 case "/lans/heretics-major-iii-25":
 title = "Heretics Major III | uSync";
 component = <Heretics_Major_III_25 />
@@ -1978,10 +1998,6 @@ break;
 case "/lans/ezone-4k-bo6-lan":
 title = "EZone $4k BO6 LAN | uSync";
 component = <EZone_4k_bo6_LAN />
-break;
-case "/lans/hcs-optic-2025":
-title = "HCS Optic 2025 | uSync";
-component = <HCS_Optic_2025 />
 break;
 case "/lans/premier-circuit-major-4":
 title = "Premier Circuit Major 4 | uSync";
@@ -2024,6 +2040,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/hcs-optic-2025":
+title = "HCS Optic 2025 | uSync";
+component = <HCS_Optic_2025 />
+break;
 case "/lans/roclan-25":
 title = "RocLAN 2025 | uSync";
 component = <RocLAN_25 />
