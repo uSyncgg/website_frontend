@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import '../../head-to-head.css';
 const Arena = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Join The Arena 8s Lobbies. Play free competitive Call of Duty matches and scrims." />
+        </Helmet>
     <div className="total-playground">
       {/* <header class="headerImg">
         <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
@@ -82,6 +87,7 @@ const Arena = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

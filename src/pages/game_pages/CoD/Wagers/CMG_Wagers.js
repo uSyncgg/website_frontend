@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const CMG_Wagers = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Checkmate Gaming Call of Duty wagers are ideal for making money playing cod. Join to start earning today." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l cmg-verified-h2h" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const CMG_Wagers = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

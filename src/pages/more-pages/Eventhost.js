@@ -61,6 +61,7 @@
 // export default Eventhost;
 
 import '../game_pages/CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../Footer';
 import useNavHeight from '../hooks/NavbarHeight';
 
@@ -70,6 +71,10 @@ import useNavHeight from '../hooks/NavbarHeight';
 const Eventhost = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Find out how you can promote your esports league, LAN, tournament, or wager site for free with uSync. Sign up today." />
+          </Helmet>
       <div className="report-container">
         {/* <header id="League-header">
           <img src="https://i.imgur.com/S9U4H7T.png" className="Header-Img-l" />
@@ -85,7 +90,7 @@ const Eventhost = () => {
 
         <div className='Header-Img-l games-img'>
           <div className="games-leagues-header-title">
-              <h2 id="league-title">Post Your Event</h2>
+              <h1 id="league-title">Post Your Event</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -115,6 +120,7 @@ const Eventhost = () => {
         </p>
         <Footer />
       </div>
+      </>
     );
 }
 export default Eventhost;

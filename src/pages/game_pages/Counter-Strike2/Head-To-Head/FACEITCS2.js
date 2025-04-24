@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import '../../head-to-head.css';
 const FACEITCS2 = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Compete in the #1 place for free Counter-Strike 2 match ladders - FACEIT. CLimb the ladder and earn rewards / prizes." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l faceit-verified-h2h-banner" />
       <div className="background-mid">
@@ -77,6 +82,7 @@ const FACEITCS2 = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

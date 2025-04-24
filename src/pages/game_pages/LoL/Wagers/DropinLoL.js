@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -12,6 +13,10 @@ import Footer from "../../../../Footer";
 const DropinLoL = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Compete in League of Legends for money. Join Dropin Gaming to make money playing league." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -77,6 +82,7 @@ const DropinLoL = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
@@ -12,6 +13,10 @@ import '../../head-to-head.css';
 const CMG_WZ = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Checkmate Gaming Warzone wager matches. Practice your WZ skills and climb up the ranks on the ladder to earn cash for beating teams." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l cmg-verified-h2h" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const CMG_WZ = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

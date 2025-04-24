@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const CS2_Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Counter-Strike 2 leagues to prove your CS2 talent and compete like the pros. Join a league today and win huge cash prize pools." />
+          </Helmet>
       <div>
         <div className='Header-Img-l cs2-league-header'>
           <div className="games-leagues-header-title">
-              <h2 id="league-title">Counter-Strike 2 Leagues</h2>
+              <h1 id="league-title">Counter-Strike 2 Leagues</h1>
               <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
           </div>
         </div>
@@ -475,6 +480,7 @@ const CS2_Leagues = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

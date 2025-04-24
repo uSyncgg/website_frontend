@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -12,6 +13,10 @@ import '../../../leagues.css';
 const Major = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="RLPC Major League is the Rocket League league for those that are trying to go pro. This league is not for the weak, and has a ton of tough competition on the way to the top." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l rlpc-verified-league" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const Major = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const ECAC = () => { // Hello
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Call of Duty league for ECAC members. 8 week long regular season and playoffs to prove your skillset." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -82,6 +87,7 @@ const ECAC = () => { // Hello
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

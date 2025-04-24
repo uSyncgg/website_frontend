@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const LCS_Economy = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="LCS Economy league is a Gold average League of Legends league. Join with your friends or meet new ones in this action packed league." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const LCS_Economy = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

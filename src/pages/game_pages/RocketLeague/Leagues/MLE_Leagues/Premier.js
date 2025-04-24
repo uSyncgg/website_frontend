@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Premier = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Free entry Rocket League league with a 1651 - 1900 MMR range. Premier league by Minor League Esports is perfect for you." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -82,6 +87,7 @@ const Premier = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

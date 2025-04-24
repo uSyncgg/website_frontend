@@ -1,4 +1,5 @@
 import "../../../Info.css";
+import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
 import '../head-to-head.css';
@@ -8,10 +9,14 @@ import Footer from "../../../Footer";
 const Heretics_Major_III_25 = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Miami Heretics Major III Call of Duty Challengers LAN event. Grab your challengers team and play for pro points and a chance at the CDL pro league." />
+        </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h2 id="league-title">Heretics Major III Challengers</h2>
+          <h1 id="league-title">Heretics Major III Challengers</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -65,7 +70,8 @@ const Heretics_Major_III_25 = () => {
         <div className="league-back-button-container">
         <a href="/games/call-of-duty/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6>  <a href="/more/verification"></a> </h6> </div> </div> <Footer />
-        </div> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
+        </div>
+        </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 

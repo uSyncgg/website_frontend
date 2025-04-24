@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const EGFH_HS_RL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="EGFH - the high school RL league for students in the USA. Grab two or more of your classmates in compete in weekly matches to get your name out there." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const EGFH_HS_RL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

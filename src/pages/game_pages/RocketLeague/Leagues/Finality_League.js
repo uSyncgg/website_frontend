@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const Finality_League = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Finality League is an amateur Rocket League league for 3v3 North American players. Completely free to enter and a prize pool for the champion to take home." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const Finality_League = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

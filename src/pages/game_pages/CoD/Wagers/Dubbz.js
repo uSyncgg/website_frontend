@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const Dubbz = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Call of Duty money matches with various tournaments. Low match fees and different rulesets for every gamer." />
+        </Helmet>
     <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const Dubbz = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -12,6 +13,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const VantaGG_HS_RL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="VantaGG is the home of high school esports for Rocket League players looking to enter into a league and compete. Sign your students or yourself up and compete against other high schools for potential scholarships." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const VantaGG_HS_RL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

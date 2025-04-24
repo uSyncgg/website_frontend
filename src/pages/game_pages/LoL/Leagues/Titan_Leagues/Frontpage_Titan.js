@@ -1,4 +1,5 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
@@ -6,6 +7,10 @@ import '../../../leagues.css';
 const Frontpage_Titan = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Titan League of Legends Leagues. Find a league from a reputable provider that suits not only your rank but your schedule." />
+            </Helmet>
         <div>
             <div className="Header-Img-l titan-verified-league" />
 
@@ -131,6 +136,7 @@ const Frontpage_Titan = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

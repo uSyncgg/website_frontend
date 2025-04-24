@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Cobalt = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Cobalt Winds League of Legends leagues. EUW leagues for your rank. Find your league to enter into." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -70,6 +75,7 @@ const Frontpage_Cobalt = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

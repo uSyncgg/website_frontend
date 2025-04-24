@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_MetaShift = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="MetaShift Leagues are League of Legends leagues with a tier system based on your in-game rank. Experience competitive league today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -123,6 +128,7 @@ const Frontpage_MetaShift = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

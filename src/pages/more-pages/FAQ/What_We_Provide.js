@@ -1,4 +1,5 @@
 import Footer from "../../../Footer";
+import { Helmet } from "react-helmet";
 import useNavHeight from "../../hooks/NavbarHeight";
 import '../FAQ.css';
 import './Article.css';
@@ -6,6 +7,10 @@ import './Article.css';
 const Provide = () => {
     const navHeight = useNavHeight() + 1;
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="uSync is a one-stop hub for all esports events across the globe. Find tournaments, LANs, leagues, and much more all in one place." />
+            </Helmet>
         <div>
             <div className="total-container-FAQ-white">
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
@@ -125,6 +130,7 @@ const Provide = () => {
             </div>
             <Footer />
         </div>
+        </>
     )
 }
 

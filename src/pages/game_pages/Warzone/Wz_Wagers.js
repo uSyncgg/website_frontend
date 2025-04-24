@@ -1,13 +1,18 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Wz_Wagers = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Warzone Wager sites. Find every site that has Warzone wagers to ensure that you are getting the best bang for your buck." />
+            </Helmet>
         <div>
             <div className='Header-Img-l lol-wagers-header'>
                 <div className="games-leagues-header-title">
-                <h2 id="league-title">Wagers</h2>
+                <h1 id="league-title">Wagers</h1>
                 <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -139,6 +144,7 @@ const Wz_Wagers = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

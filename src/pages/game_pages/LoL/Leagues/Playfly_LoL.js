@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const Playfly_LoL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Playfly League of Legends. The collegiate league with massive prize pools. Compete for thousands of dollars for yourself and your school." />
+          </Helmet>
       <div className="total-playground">
         <div className="Header-Img-l playfly-verified-league" />
       <div className="background-mid">
@@ -81,6 +86,7 @@ const Playfly_LoL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

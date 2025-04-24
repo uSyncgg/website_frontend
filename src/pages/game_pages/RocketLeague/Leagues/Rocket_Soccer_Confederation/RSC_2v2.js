@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const RSC_2v2 = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Rocket Soccar Confederation 2v2 Rocket League league. Sign up as a free agent and be recruited to top Rocket League teams and find other players looking to play competitive Rocket League with." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -78,6 +83,7 @@ const RSC_2v2 = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

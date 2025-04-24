@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const Ixi_Esports = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="IXI Esports free tournaments and leagues for COD players. Once a year season in the spring for $100 prize pool." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -82,6 +87,7 @@ const Ixi_Esports = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

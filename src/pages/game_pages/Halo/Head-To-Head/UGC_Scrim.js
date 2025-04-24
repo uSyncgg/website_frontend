@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import '../../leagues.css';
 const UGC_Scrim = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="UGC Halo scrim finder for collegiate teams looking to play against other colleges. Join today and play." />
+        </Helmet>
     <div className="total-playground">
       
       <div className="Header-Img-l ugc-verified-league" />
@@ -77,6 +82,7 @@ const UGC_Scrim = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
 const Frontpage_Aegis = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Aegis League of Legends leagues. Enroll today and meet new friends while competing for large cash prizes." />
+            </Helmet>
         <div>
             <div className="Header-Img-l aegis-verified-league" />
 
@@ -111,6 +116,7 @@ const Frontpage_Aegis = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

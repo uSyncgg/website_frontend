@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Lol_Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="League of Legends leagues. Compete for cash prizes. Sign up based on your in-game rank and elevate your league status forever." />
+          </Helmet>
       <div>
         <div className='Header-Img-l lol-league-header'>
                 <div className="games-leagues-header-title">
-                <h2 id="league-title">League of Legends Leagues</h2>
+                <h1 id="league-title">League of Legends Leagues</h1>
                 <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -482,6 +487,7 @@ const Lol_Leagues = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

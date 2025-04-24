@@ -1,8 +1,13 @@
 import '../game_pages/CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../Footer';
 
 const Becomeverified = () => {
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Looking to get more players for your esports event? Having trouble promoting your league - we are here to help." />
+          </Helmet>
       <div className="report-container">
         <div className="verification-header-img-container">
           <div className="verification-header-checks justify-content-center">
@@ -40,6 +45,7 @@ const Becomeverified = () => {
         </p>
         <Footer />
       </div>
+      </>
     );
 }
 export default Becomeverified;

@@ -1,4 +1,5 @@
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
 import '../../head-to-head.css';
@@ -8,10 +9,14 @@ import Footer from "../../../../Footer";
 const Gauntlet_Of_Glory_2024_Q2 = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="South Padre Island in Texas is hosting 1v1 FFA tournament with a $600 minimum prize pool. Rust, Shipment, and Terminal LAN ONLY." />
+        </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h2 id="league-title">Gauntlet Of Glory 2024 Q2</h2>
+          <h1 id="league-title">Gauntlet Of Glory 2024 Q2</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -57,7 +62,8 @@ const Gauntlet_Of_Glory_2024_Q2 = () => {
         <div className="league-back-button-container">
         <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
-        </div> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to home for conventions AND FOR ARCHIVED) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED ------------------------------------------------------------------------------
+        </div>
+        </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to home for conventions AND FOR ARCHIVED) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED ------------------------------------------------------------------------------
   );
 };
 

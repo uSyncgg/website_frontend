@@ -1,9 +1,14 @@
 import "./FAQ.css";
+import { Helmet } from "react-helmet";
 import Footer from "../../Footer";
 import { Link } from 'react-router-dom'
 
 const FAQ = () => {
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Frequently asked questions about esports and how to begin. Find articles on the competitive esports landscape today." />
+        </Helmet>
     <div>
       <div className="total-container-FAQ">
         <div className="container-fluid">
@@ -215,6 +220,7 @@ const FAQ = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

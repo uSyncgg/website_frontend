@@ -1,10 +1,15 @@
 import '../Game.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 
 const Wz = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Call of Duty Warzone head-to-head, leagues, tournaments, LANs, and wagers for players looking to be the best. Prove your skill and make money." />
+          </Helmet>
       <div className="total-container">
         <div className='Header-Img-l wz-general-header-img' />
         <div className="Background-game">
@@ -64,6 +69,7 @@ const Wz = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

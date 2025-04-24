@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,6 +14,10 @@ import '../../leagues.css';
 const HSEL_CS2 = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Counter-Strike 2 High School Esports League (HSEL). The home of the high school esports league to compete for college scholarships." />
+          </Helmet>
         <div className="total-playground">
           <div className="Header-Img-l hsel-verified-league" />
       <div className="background-mid">
@@ -80,6 +85,7 @@ const HSEL_CS2 = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

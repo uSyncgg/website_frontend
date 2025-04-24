@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const FACEITRL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="FACEIT RL League. Sign your team up today for this collegiate league hosted by non other than FACEIT. You won't want to miss this." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const FACEITRL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

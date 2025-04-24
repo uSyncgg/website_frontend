@@ -1,4 +1,5 @@
 import '../Game.css';
+import { Helmet } from "react-helmet";
 import '../CoD/Cod.css'
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
@@ -7,6 +8,10 @@ import useNavHeight from '../../hooks/NavbarHeight';
 const Halo = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Halo and Halo Infinite LANs, leagues, wagers, tournaments, and head-to-head matches from across the globe. Find your next event today." />
+          </Helmet>
       <div>
         <div className='Header-Img-l halo-general-header-img' />
 
@@ -67,6 +72,7 @@ const Halo = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

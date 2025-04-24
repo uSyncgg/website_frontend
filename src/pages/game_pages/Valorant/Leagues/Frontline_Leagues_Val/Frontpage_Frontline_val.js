@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Frontline_val = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Sign up today for the Frontline Valorant Leagues. In-game rank based leagues for all Valorant esports players. High quality Valorant league for any level player." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -53,6 +58,7 @@ const Frontpage_Frontline_val = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

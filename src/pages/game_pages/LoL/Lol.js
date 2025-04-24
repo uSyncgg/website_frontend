@@ -1,4 +1,5 @@
 import '../Game.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 
@@ -6,6 +7,10 @@ import useNavHeight from '../../hooks/NavbarHeight';
 const Lol = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="League of Legends LANs, leagues, tournaments, head-to-head, and wagers from every site on Google. Earn money playing League of Legends." />
+          </Helmet>
       <div>
         <div className='Header-Img-l lol-general-header-img' />
 
@@ -66,6 +71,7 @@ const Lol = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

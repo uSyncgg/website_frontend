@@ -1,4 +1,5 @@
 import '../Game.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 
@@ -6,6 +7,10 @@ import useNavHeight from '../../hooks/NavbarHeight';
 const Val = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Valorant LANs, leagues, tournaments, head-to-head, and wagers. Find your next competition all in one place with a click of a button." />
+          </Helmet>
       <div>
         <div className='Header-Img-l val-general-header-img' />
 
@@ -66,6 +71,7 @@ const Val = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

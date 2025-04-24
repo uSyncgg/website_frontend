@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_ECAC = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="ECAC Valorant Leagues. Rank based Valorant leagues for college students and teams across the United States. Enroll today." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -70,6 +75,7 @@ const Frontpage_ECAC = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../../hooks/NavbarHeight';
 const A = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="RLPC A League is for players looking to play in RL Leagues that are not only competitive but fun as well. Sign up today and compete with 2 other teammates in this 3v3 based league." />
+          </Helmet>
       <div className="total-playground">
         <div className="Header-Img-l rlpc-verified-league" />
       <div className="background-mid">
@@ -82,6 +87,7 @@ const A = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

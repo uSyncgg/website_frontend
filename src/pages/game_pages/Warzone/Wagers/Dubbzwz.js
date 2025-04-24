@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import "../../../../Info.css";
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../../../../Footer";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const Dubbzwz = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Dubbz Warzone wagers. play 1v1 kill race wagers in Warzone to earn money while gaming." />
+        </Helmet>
     <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Dubbzwz = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 

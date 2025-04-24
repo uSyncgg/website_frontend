@@ -1,4 +1,5 @@
 import Footer from "../../../Footer";
+import { Helmet } from "react-helmet";
 import useNavHeight from "../../hooks/NavbarHeight";
 import '../FAQ.css';
 import './Article.css';
@@ -6,6 +7,10 @@ import './Article.css';
 const ECO_Tourneys = () => {
     const navHeight = useNavHeight() + 1;
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="What are ECO Tourneys? How to play in free to enter tournaments for esports and make money." />
+            </Helmet>
         <div>
             <div className="total-container-FAQ-white">
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
@@ -104,6 +109,7 @@ const ECO_Tourneys = () => {
             </div>
             <Footer />
         </div>
+        </>
     );
 }
 

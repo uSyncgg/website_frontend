@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_Nemesis = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Nemesis Rocket League Leagues. With range based MMR leagues this is the perfect opportunity for North American RL players wanted to compete at the next level." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -102,6 +107,7 @@ const Frontpage_Nemesis = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

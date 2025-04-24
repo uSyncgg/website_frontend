@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Public_SCL = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Public SCL Counter-Strike 2 league is perfect for those who want competition but are fairly new. Competitive ruleset with a relaxed environment." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -81,6 +86,7 @@ const Public_SCL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

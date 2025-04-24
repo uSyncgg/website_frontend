@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const NECC_Val = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="NECC Collegiate North American Valorant League. Play for over $5,000 in this action packed 5v5 league." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -81,6 +86,7 @@ const NECC_Val = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

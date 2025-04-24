@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
@@ -13,6 +14,10 @@ import useNavHeight from '../../../hooks/NavbarHeight';
 const EGFC_RL = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="EGFC is a collegiate Rocket League league. Enroll today for fast-paced action. Rocket League leagues have never been more intense." />
+          </Helmet>
       <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -77,6 +82,7 @@ const EGFC_RL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

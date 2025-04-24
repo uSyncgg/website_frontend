@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
 const Frontpage_LPL = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Let's Play Live (LPL) Valorant Leagues. Sign your Oceania team up today and start in the open division and climb your way all the way to the top division." />
+            </Helmet>
         <div>
             <div className="Header-Img-l lpl-verified-league" />
 
@@ -94,6 +99,7 @@ const Frontpage_LPL = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

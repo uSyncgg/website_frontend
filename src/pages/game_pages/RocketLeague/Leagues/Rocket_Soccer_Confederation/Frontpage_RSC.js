@@ -1,10 +1,15 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
 const Frontpage_RSC = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Rocket Soccar Confederation leagues. Rocket League leagues that are draft based format in NA and EU. Compete in 3v3 or 2v2 RL leagues and climb to the top." />
+        </Helmet>
         <div>
     <div className="Header-Img-l not-verified-banner-img" />
 
@@ -70,6 +75,7 @@ const Frontpage_RSC = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

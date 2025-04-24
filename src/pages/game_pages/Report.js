@@ -1,10 +1,15 @@
 import './CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../Footer';
 import useNavHeight from '../hooks/NavbarHeight';
 
 const Report = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Notice your league, LAN, wager, or XP not featured or have the incorrect information on uSync - report a problem and we will fix it for you." />
+          </Helmet>
       <div className="report-container">
         {/* <header id="League-header"> */}
           {/* <img src="https://i.imgur.com/PoCqBT9.png" className="Header-Img-l" />
@@ -20,7 +25,7 @@ const Report = () => {
 
         <div className='Header-Img-l report-header-img'>
           <div className="games-leagues-header-title">
-            <h2 id="league-title">Report a Problem</h2>
+            <h1 id="league-title">Report a Problem</h1>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"
@@ -51,6 +56,7 @@ const Report = () => {
         </p>
         <Footer />
       </div>
+      </>
     );
 }
 export default Report;

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const Black_Twitch_League = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Black Twitch League. League of Legends league with a grandmaster cap that is free to play and has a cash prize." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -81,6 +86,7 @@ const Black_Twitch_League = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

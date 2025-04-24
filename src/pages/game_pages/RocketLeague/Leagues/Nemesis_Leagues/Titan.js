@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Titan = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Titan league is for Rocket League players with over 1780+ MMR. The top of the line league by Nemesis is for Rocket League players looking to go pro." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Titan = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Masters_SCL = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="SCL Masters division for Counter-Strike 2. League format for competitive esports players looking to play for prize pools." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -81,6 +86,7 @@ const Masters_SCL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

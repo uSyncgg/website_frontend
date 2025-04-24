@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Challenger = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Nemesis Challenger League is a Rocket League league with a 1453 - 1609 MMR range. Join this spring and showcase your skills at the highest level." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Challenger = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

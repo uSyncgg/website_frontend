@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Lol_headtohead = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="League of Legends XP matches and scrims. Find every scrim across the world to ensure you have the highest quality practice." />
+            </Helmet>
         <div>
             <div className='Header-Img-l cod-headtohead-header'>
                 <div className="games-leagues-header-title">
-                    <h2 id="league-title">Head-to-Head</h2>
+                    <h1 id="league-title">Head-to-Head</h1>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
                 </div>
             </div>
@@ -70,6 +75,7 @@ const Lol_headtohead = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

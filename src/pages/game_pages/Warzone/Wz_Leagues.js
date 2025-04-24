@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Wz_Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Call of Duty Warzone Leagues. Find the most competitive leagues from every league host across the globe. Find your next event today." />
+          </Helmet>
       <div>
         <div className='Header-Img-l wz-league-header'>
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Warzone Leagues</h2>
+            <h1 id="league-title">Warzone Leagues</h1>
             <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -103,6 +108,7 @@ const Wz_Leagues = () => {
         </div>
         <Footer />
       </div>
+      </>
     );
 }
 

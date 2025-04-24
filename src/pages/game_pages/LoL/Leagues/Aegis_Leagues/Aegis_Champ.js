@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
@@ -13,6 +14,10 @@ import '../../../leagues.css';
 const Aegis_Champ = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Aegis Champions League - year round League of Legends league with huge prize pool." />
+          </Helmet>
         <div className="total-playground">
             <div className="Header-Img-l aegis-verified-league" />
       <div className="background-mid">
@@ -79,6 +84,7 @@ const Aegis_Champ = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Krypton = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Krypton league is a LoL league hosted by MetaShift. Grab your teammates and get read to compete for cash prizes." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Krypton = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

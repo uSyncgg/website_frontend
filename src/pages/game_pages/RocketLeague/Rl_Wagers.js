@@ -1,14 +1,19 @@
 import '../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import '../CoD/Cod.css';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Rl_Wagers = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Play Rocket League for money. Wager matches from every site for Rocket League players. Sign up today and make money playing competitive Rocket League." />
+            </Helmet>
         <div>
             <div className='Header-Img-l lans-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">Wagers</h2>
+              <h1 id="league-title">Wagers</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -109,6 +114,7 @@ const Rl_Wagers = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

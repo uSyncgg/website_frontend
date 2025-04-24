@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Serie_B = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Italian Rocket League serie B league. Enroll in this free to play RL league and play weekly matches to get into the playoffs." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Serie_B = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

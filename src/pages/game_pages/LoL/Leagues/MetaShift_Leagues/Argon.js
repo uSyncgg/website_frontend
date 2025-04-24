@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../../head-to-head.css';
 import useNavHeight from "../../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../../Footer';
 const Argon = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="MetaShift Argon league is a tier 4 league from the provider. This League of Legends league has a large prize pool for the winner." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -80,6 +85,7 @@ const Argon = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

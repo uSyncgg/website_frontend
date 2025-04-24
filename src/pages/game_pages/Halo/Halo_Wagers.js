@@ -1,13 +1,18 @@
 import '../CoD/Cod.css'
+import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
 const Halo_Wagers = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Halo wager matches. Join today and play Halo for money and make a living while gaming." />
+            </Helmet>
         <div>
             <div className='Header-Img-l halo-wagers-header'>
                 <div className="games-leagues-header-title">
-                <h2 id="league-title">Halo Leagues</h2>
+                <h1 id="league-title">Halo Leagues</h1>
                 <img
                     src="https://i.imgur.com/eNhKhTI.png"
                     alt="underline"
@@ -73,6 +78,7 @@ const Halo_Wagers = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

@@ -3,6 +3,7 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
+import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import '../../head-to-head.css';
 import useNavHeight from "../../../hooks/NavbarHeight";
@@ -13,6 +14,10 @@ import Footer from '../../../../Footer';
 const EGFC_College_VAL = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Valorant HBCU League. Sign your HBCU esports team up for this Valorant league that you won't want to miss." />
+        </Helmet>
         <div className="total-playground">
     <div className="Header-Img-l not-verified-banner-img" />
     <div className="background-mid">
@@ -79,6 +84,7 @@ const EGFC_College_VAL = () => {
       </div>
       <Footer />
     </div>
+    </>
     );
 }
 

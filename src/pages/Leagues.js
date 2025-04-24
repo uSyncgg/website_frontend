@@ -1,4 +1,5 @@
 import styles from '../Home.module.css';
+import { Helmet } from "react-helmet";
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 import useNavHeight from './hooks/NavbarHeight';
@@ -6,6 +7,10 @@ import useNavHeight from './hooks/NavbarHeight';
 const Leagues = () => {
   useNavHeight();
     return (
+      <>
+          <Helmet>
+            <meta name="description" content="Find a league to join for competitive esports. With over 200+ leagues we have what you are looking for." />
+          </Helmet>
       <div>
           {/* <header id="League-header">
             <img
@@ -24,7 +29,7 @@ const Leagues = () => {
 
           <div className='Header-Img-l league-header-img'>
             <div className="games-leagues-header-title">
-              <h2 id="league-title">League Titles</h2>
+              <h1 id="league-title">League Titles</h1>
               <img
                 src="https://i.imgur.com/eNhKhTI.png"
                 alt="underline"
@@ -106,6 +111,7 @@ const Leagues = () => {
               <Footer />
             </div>
       </div>
+      </>
     );
 }
 export default Leagues;

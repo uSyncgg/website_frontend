@@ -1,4 +1,5 @@
 import '../../../CoD/Cod.css';
+import { Helmet } from "react-helmet";
 import Footer from '../../../../../Footer';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
@@ -6,6 +7,10 @@ import '../../../leagues.css';
 const Frontpage_Risen = () => {
     useNavHeight();
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Risen leagues are League of Legends leagues with huge prize pools and a super competitive environment. Sign yourself or your team up today." />
+            </Helmet>
         <div>
             <div className="Header-Img-l risen-verified-league" />
 
@@ -113,6 +118,7 @@ const Frontpage_Risen = () => {
             </div>
             <Footer/>
         </div>
+        </>
     );
 }
 

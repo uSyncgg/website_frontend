@@ -1,4 +1,5 @@
 import '../Lan.css';
+import { Helmet } from "react-helmet";
 import React from 'react';
 import Footer from '../../../Footer';
 const Wz_Lan = () => {
@@ -12,6 +13,10 @@ const Wz_Lan = () => {
         }, []);
 
     return (
+        <>
+            <Helmet>
+              <meta name="description" content="Warzone LANs near you. Travel to in-person Warzone events and compete for cash. Sign up solo or with a duo using our LAN map today." />
+            </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden'  }}>
             <a href='/games/warzone'>
                 <button type="submit" className='info-button-lans'>Back to Warzone</button>
@@ -22,6 +27,7 @@ const Wz_Lan = () => {
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1a5JsmB31CsSiOh4SWPvXNfESQdpvrvA&ehbc=2E312F" className='full-map'></iframe>
             <Footer />
         </div>
+        </>
     );
 }
 

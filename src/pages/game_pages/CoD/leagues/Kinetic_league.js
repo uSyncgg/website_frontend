@@ -2,6 +2,7 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
+import { Helmet } from "react-helmet";
 import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
 import "bootstrap/dist/css/bootstrap.css";
@@ -12,6 +13,10 @@ import useNavHeight from "../../../hooks/NavbarHeight";
 const Kinetic_league = () => {
   useNavHeight();
   return (
+    <>
+        <Helmet>
+          <meta name="description" content="Kinetic League for Call of Duty challenger players. Multiple annual seasons to play all year round." />
+        </Helmet>
   <div className="total-playground">
       <div className="Header-Img-l not-verified-banner-img" />
       <div className="background-mid">
@@ -62,7 +67,7 @@ const Kinetic_league = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$40-50 per Team</p>
+              <p>$40-50 per Team (Estimated)</p>
             </div>
           </div>
         </div>
@@ -79,6 +84,7 @@ const Kinetic_league = () => {
       </div>
       <Footer />
     </div>
+    </>
   );
 };
 
