@@ -93,7 +93,7 @@ const Lol_Leagues = () => {
                   <div className="parent">
                     <a href="/games/LoL/leagues/aegis-leagues">
                       <img
-                        src="https://i.imgur.com/iy67hgo.png"
+                        src="https://i.imgur.com/o0sTnrZ.png"
                         className="league-img"
                       />
                     </a>
