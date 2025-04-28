@@ -11,7 +11,12 @@ const Frontpage_URL = () => {
           <meta name="description" content="Ultimate Rocket League leagues. Draft based leagues that are 2v2 or 3v3. With over 10+ MMR based divisions you won't want to miss sign ups for this." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Ultimate Rocket Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

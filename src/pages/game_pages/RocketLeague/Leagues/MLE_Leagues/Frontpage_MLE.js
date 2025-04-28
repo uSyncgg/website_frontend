@@ -11,7 +11,12 @@ const Frontpage_MLE = () => {
           <meta name="description" content="Rocket League Minor League Esports (MLE) leagues. Compete in a Rocket League league of your choice based on your MMR and skills." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Minor League Esports</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

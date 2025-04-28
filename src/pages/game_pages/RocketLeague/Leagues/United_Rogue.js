@@ -17,8 +17,13 @@ const United_Rogue = () => {
           <Helmet>
             <meta name="description" content="United Rogue Rocket League league. Fast-paced Rocket League league with a franchise system that makes amateur esports feel like the professional leagues." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">United Rogue</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
@@ -53,12 +58,13 @@ const United_Rogue = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Multiple Seasons Annually</p>
+              <p>2 Seasons Annually</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>32 Franchises over 5 League System</p>
-              <p>10 Week Regular Season, 3 Week Playoffs</p>
+              <p>8 Week Regular Season, 4 Week Playoffs</p>
+              <p>Group Stage Playoffs into Single Elimination Bracket</p>
               <p>2 Conferences with 4 Divisions in Each League</p>
               <p>Enforced Salary Caps for Competitiveness</p>
               <p>Live Streamed Matches</p>

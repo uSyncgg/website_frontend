@@ -11,7 +11,12 @@ const Frontpage_Italian = () => {
           <meta name="description" content="Italian Rocket League leagues for your playstyle. Grab your Rocket League teammates and sign up for these leagues today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Italian Rocket Champ Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

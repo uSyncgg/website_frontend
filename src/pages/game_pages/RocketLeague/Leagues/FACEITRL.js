@@ -18,8 +18,13 @@ const FACEITRL = () => {
           <Helmet>
             <meta name="description" content="FACEIT RL League. Sign your team up today for this collegiate league hosted by non other than FACEIT. You won't want to miss this." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">FACEIT Collegiate</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

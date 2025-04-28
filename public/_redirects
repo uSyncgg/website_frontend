@@ -123,9 +123,9 @@
 /games/LoL/leagues/meta-shift-leagues/radon /index.html  200
 /games/LoL/leagues/sdc /index.html  200
 /games/LoL/leagues/cobalt-winds-leagues /index.html  200
-/games/LoL/leagues/cobalt-winds-leagues/division1 /index.html  200
-/games/LoL/leagues/cobalt-winds-leagues/division2 /index.html  200
-/games/LoL/leagues/cobalt-winds-leagues/division3 /index.html  200
+/games/LoL/leagues/cobalt-winds-leagues/cwl-defy /index.html  200
+/games/LoL/leagues/cobalt-winds-leagues/cwl-rise /index.html  200
+/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend /index.html  200
 /games/LoL/leagues/corporate-league /index.html  200
 /games/LoL/leagues/clol /index.html  200
 /games/LoL/leagues/playfly /index.html  200
@@ -317,7 +317,7 @@
 /lans/rmcs-cod-spring-25 /index.html  200
 /lans/rmcs-spring-25 /index.html  200
 /lans/rva-gunfight-2025 /index.html  200
-/lans/cdl-major-4-open25 /index.html  200
+/lans/cdl-major-4-open-25 /index.html  200
 /lans/valhallan-lol /index.html  200
 /lans/hcs-dreamhack /index.html  200
 /lans/thomas-college-expo /index.html  200
@@ -326,7 +326,7 @@
 /lans/pdx-lan-spring-2025 /index.html  200
 /lans/roclan-25 /index.html  200
 /lans/frag-x-lvlup /index.html  200
-/lans/waffle-games-8 /index.html  200
+/lans/waffle-games-8-0 /index.html  200
 /lans/premier-circuit-bo6-major-3 /index.html  200
 /lans/macs-spring-25 /index.html  200
 /lans/belowzero-lan /index.html  200
@@ -501,6 +501,7 @@
 /lans/heretics-major-iii-25 /index.html  200
 /lans/3v3-scud-lan /index.html  200
 /lans/midwest-battleground-2025 /index.html  200
-
+/games/call-of-duty/leagues/tpc-league /index.html 200
+/lans/ezone-4k-bo6-lan /index.html 200
 
 /404.html 404

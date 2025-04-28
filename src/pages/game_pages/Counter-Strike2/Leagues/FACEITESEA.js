@@ -18,8 +18,13 @@ const FACEITESEA = () => {
           <Helmet>
             <meta name="description" content="Counter-Strike 2 league FACEIT ESEA is the home of amateur CS2 esports. Play for hundreds of thousands and prove yourself to go pro." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l faceit-esea-verified-league-banner" />
+          <div className="total-playground">
+      <div className="Header-Img-l faceit-esea-verified-league-banner">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">FACEIT ESEA</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

@@ -11,7 +11,12 @@ const HOE_Leagues = () => {
               <meta name="description" content="House of Esports Call of Duty leagues. Amateur and Challenger leagues based on your gameplay skills" />
             </Helmet>
         <div>
-            <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">House of Esports Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

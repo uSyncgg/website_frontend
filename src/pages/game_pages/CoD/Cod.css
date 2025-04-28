@@ -152,6 +152,11 @@ transition {
   margin-top: -18.5rem;
 }
 
+.games-leagues-header-title-verified {
+  margin-top: -18.5rem;
+  z-index: -999999999999999;
+}
+
 #league-title {
     color: white;
     font-size: 5rem; 
@@ -475,6 +480,11 @@ a {
     margin-top: -11rem;
   }
 
+  .games-leagues-header-title-verified {
+    margin-top: -11rem;
+    z-index: -999999999999999;
+  }
+
   .Underline-h-lol {
     width: 90%; 
     left: 5%; 
@@ -516,6 +526,11 @@ a {
 
   .games-leagues-header-title {
     margin-top: -15rem;
+  }
+
+  .games-leagues-header-title-verified {
+    margin-top: -15rem;
+    z-index: -999999999999999;
   }
 
   .space-on-bottom {

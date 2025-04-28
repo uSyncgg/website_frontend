@@ -11,7 +11,12 @@ const Frontpage_Doubles = () => {
           <meta name="description" content="Frontier Double Rocket League leagues. 4 different leagues to choose from based on your MMR. Sign up with your duo today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Frontier Doubles Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

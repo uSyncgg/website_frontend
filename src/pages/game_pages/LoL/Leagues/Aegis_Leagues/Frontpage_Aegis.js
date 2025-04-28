@@ -11,7 +11,13 @@ const Frontpage_Aegis = () => {
               <meta name="description" content="Aegis League of Legends leagues. Enroll today and meet new friends while competing for large cash prizes." />
             </Helmet>
         <div>
-            <div className="Header-Img-l aegis-verified-league" />
+      <div className="Header-Img-l aegis-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Aegis Leagues</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+            
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

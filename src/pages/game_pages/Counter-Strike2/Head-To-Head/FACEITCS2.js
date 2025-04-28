@@ -17,10 +17,16 @@ const FACEITCS2 = () => {
         <Helmet>
           <meta name="description" content="Compete in the #1 place for free Counter-Strike 2 match ladders - FACEIT. CLimb the ladder and earn rewards / prizes." />
         </Helmet>
-    <div className="total-playground">
-      <div className="Header-Img-l faceit-verified-h2h-banner" />
+        <div className="total-playground">
+      <div className="Header-Img-l faceit-verified-h2h-banner">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">FACEIT</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
+
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
                 

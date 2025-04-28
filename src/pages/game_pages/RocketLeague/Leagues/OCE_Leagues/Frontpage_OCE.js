@@ -11,7 +11,12 @@ const Frontpage_OCE = () => {
           <meta name="description" content="OCE Rocket League Leagues. Oceania server based leagues with team salary caps based on players MMR. Compete in a league that feels like the pro league." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Oceania Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

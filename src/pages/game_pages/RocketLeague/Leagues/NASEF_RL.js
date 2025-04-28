@@ -18,8 +18,13 @@ const NASEF_RL = () => {
           <Helmet>
             <meta name="description" content="NASEF Rocket League league. Play in 5 different regions where the regional champions make it to the playoffs to compete for prizes." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">NASEF League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

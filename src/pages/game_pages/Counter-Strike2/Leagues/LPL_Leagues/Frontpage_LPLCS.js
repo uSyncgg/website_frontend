@@ -11,7 +11,12 @@ const Frontpage_LPLCS = () => {
           <meta name="description" content="Let's Play Live (LPL) CS2 leagues are where you can start in the open division and move all the way to the gold division. Join today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">LPL Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

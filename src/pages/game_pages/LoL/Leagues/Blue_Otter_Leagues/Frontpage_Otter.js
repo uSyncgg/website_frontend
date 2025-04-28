@@ -11,7 +11,12 @@ const Frontpage_Otter = () => {
           <meta name="description" content="League of Legends Blue Otter leagues. 6 different leagues to choose from based on your in game rank, try it today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Blue Otter Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

@@ -11,16 +11,21 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const Division_1 = () => {
+const CWL_Defy = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="5v5 EUW League of Legends Cobalt Winds league. Masters team average. Enroll your team today." />
+          <meta name="description" content="5v5 EUW League of Legends Cobalt Winds league (CWL). 1200 LP Team Cap. Enroll your team today." />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">CWL Defy</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -42,7 +47,7 @@ const Division_1 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://wlo.link/@cobaltwinds"
+            href="https://discord.gg/WTJJmgPgCU"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -70,7 +75,7 @@ const Division_1 = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>€35 Per Team</p>
-              <p>Masters Team Average</p>
+              <p>500 LP Individual Cap | 1200 LP Team Cap</p>
             </div>
           </div>
         </div>
@@ -92,4 +97,4 @@ const Division_1 = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Division_1;
+export default CWL_Defy;

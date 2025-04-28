@@ -11,7 +11,12 @@ const Frontpage_RSC = () => {
           <meta name="description" content="Rocket Soccar Confederation leagues. Rocket League leagues that are draft based format in NA and EU. Compete in 3v3 or 2v2 RL leagues and climb to the top." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Rocket Soccar Confederation</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

@@ -222,7 +222,7 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-12 col-lg-6'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/ixi-esports'>
                                     <h1 className='Leagueh1 hide-on-mobile'>IXI Esports</h1>
@@ -236,7 +236,22 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                       
+
+                        <div className='col-12 col-lg-6'>
+                            <div className='league'>
+                                <a href='/games/call-of-duty/leagues/ixi-esportstpc-league'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="/games/call-of-duty/leagues/tpc-league"><img src="https://i.imgur.com/t4k8Qi6.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='/games/call-of-duty/leagues/tpc-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                        <div>
                         <p className='hr' />
                         <h2 id="league-title1">Collegiate Leagues</h2>                        

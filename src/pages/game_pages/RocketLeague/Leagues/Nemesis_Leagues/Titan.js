@@ -18,9 +18,14 @@ const Titan = () => {
         <Helmet>
           <meta name="description" content="Titan league is for Rocket League players with over 1780+ MMR. The top of the line league by Nemesis is for Rocket League players looking to go pro." />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Nemesis Titan</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -68,7 +73,7 @@ const Titan = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
-              <p>1780+ MMR</p>
+              <p>1790+ MMR</p>
             </div>
           </div>
         </div>

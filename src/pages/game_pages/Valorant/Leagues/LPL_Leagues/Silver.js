@@ -18,11 +18,15 @@ const Silver = () => {
           <Helmet>
             <meta name="description" content="LPL Silver Valorant 5v5 OCE League. Spring, Summer, and Fall seasons. Have your matches live streamed and compete today." />
           </Helmet>
-        <div className="total-playground">
-            <div className="Header-Img-l lpl-verified-league" />
+            <div className="total-playground">
+      <div className="Header-Img-l lpl-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">LPL Silver</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
-        <div className="Background-mid-top">
-          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+        <div className="Background-mid-top">          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
                 
                 Add id="checkmark-title-link" className='mx-auto my-2' as attributes to the .Checkmark-title a tag

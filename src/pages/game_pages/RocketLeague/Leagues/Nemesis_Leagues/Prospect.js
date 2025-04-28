@@ -18,9 +18,14 @@ const Prospect = () => {
         <Helmet>
           <meta name="description" content="Looking for a free to enter Rocket League league - look no further. Prospect league is a 1270 - 1452 MMR range based league that is entirely free." />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Nemesis Prospect</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -68,7 +73,7 @@ const Prospect = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
-              <p>1270 - 1452 MMR</p>
+              <p>1316 - 1474 MMR</p>
             </div>
           </div>
         </div>

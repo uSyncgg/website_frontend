@@ -11,8 +11,12 @@ const Frontpage_LPL = () => {
               <meta name="description" content="Let's Play Live (LPL) Valorant Leagues. Sign your Oceania team up today and start in the open division and climb your way all the way to the top division." />
             </Helmet>
         <div>
-            <div className="Header-Img-l lpl-verified-league" />
-
+            <div className="Header-Img-l lpl-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">LPL Leagues</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

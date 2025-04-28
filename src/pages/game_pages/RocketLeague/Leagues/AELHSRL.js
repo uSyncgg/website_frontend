@@ -18,8 +18,13 @@ const AELHSRL = () => {
           <Helmet>
             <meta name="description" content="Australian Esports League is the premier Australian high school league. Play with your classmates against other schools and prove you have what it takes to be the best in the country." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Australian Esports League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

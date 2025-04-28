@@ -17,8 +17,13 @@ const United_rogue_league = () => {
           <Helmet>
             <meta name="description" content="4v4 Call of Duty league variant draft league. United Rogue hosted event with franchised teams." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">United Rogue</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

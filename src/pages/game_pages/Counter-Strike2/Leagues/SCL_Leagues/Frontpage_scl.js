@@ -11,8 +11,13 @@ const Frontpage_scl = () => {
           <meta name="description" content="SCL CS2 leagues and practice scrims are for Counter-Strike 2 players looking to make money and improve their game." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
-
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">SCL Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
+            
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

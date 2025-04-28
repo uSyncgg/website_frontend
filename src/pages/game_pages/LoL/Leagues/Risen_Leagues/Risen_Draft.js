@@ -16,13 +16,17 @@ const Risen_Draft = () => {
     return (
       <>
           <Helmet>
-            <meta name="description" content="Risen Draft league is a free entry League of Legends league for new players who have hit level 100. This is your chance to improve your game early on." />
+            <meta name="description" content="Risen Draft League is a free entry League of Legends league for new players who have hit level 100. This is your chance to improve your game early on." />
           </Helmet>
-        <div className="total-playground">
-            <div className="Header-Img-l risen-verified-league" />
+            <div className="total-playground">
+      <div className="Header-Img-l risen-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Risen Draft League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
-        <div className="Background-mid-top">
-          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+        <div className="Background-mid-top">          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
                 
                 Add id="checkmark-title-link" className='mx-auto my-2' as attributes to the .Checkmark-title a tag

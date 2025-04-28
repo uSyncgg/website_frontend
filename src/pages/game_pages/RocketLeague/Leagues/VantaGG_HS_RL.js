@@ -17,8 +17,13 @@ const VantaGG_HS_RL = () => {
           <Helmet>
             <meta name="description" content="VantaGG is the home of high school esports for Rocket League players looking to enter into a league and compete. Sign your students or yourself up and compete against other high schools for potential scholarships." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">VantaGG</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

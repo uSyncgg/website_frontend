@@ -11,16 +11,21 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const Division_2 = () => {
+const CWL_Ascend = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Cobalt Winds Diamond 1 - Emerald 1 average League of Legends league. Do you have what it takes to win the cash prize?" />
+          <meta name="description" content="Cobalt Winds Ascend League of Legends league. 750 LP Individual cap with NO team cap. This league is for the best of the best." />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">CWL Ascend</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -42,7 +47,7 @@ const Division_2 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://wlo.link/@cobaltwinds"
+            href="https://discord.gg/WTJJmgPgCU"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -69,8 +74,8 @@ const Division_2 = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>€25 Per Team</p>
-              <p>Diamond 1 - Emerald 1 Average</p>
+              <p>€45 Per Team (Estimated)</p>
+              <p>750 LP Individual Cap | No Team Cap</p>
             </div>
           </div>
         </div>
@@ -92,4 +97,4 @@ const Division_2 = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Division_2;
+export default CWL_Ascend;

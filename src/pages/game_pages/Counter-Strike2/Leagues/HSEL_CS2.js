@@ -18,8 +18,13 @@ const HSEL_CS2 = () => {
           <Helmet>
             <meta name="description" content="Counter-Strike 2 High School Esports League (HSEL). The home of the high school esports league to compete for college scholarships." />
           </Helmet>
-        <div className="total-playground">
-          <div className="Header-Img-l hsel-verified-league" />
+          <div className="total-playground">
+      <div className="Header-Img-l hsel-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">High School Esports League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

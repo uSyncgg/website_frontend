@@ -239,7 +239,7 @@ const Lol_Leagues = () => {
               <div className="col-12 col-lg-6 space-on-bottom-mobile">
                 <div className="league">
                   <a href="/games/LoL/leagues/cobalt-winds-leagues">
-                    <h1 className="Leagueh1 hide-on-mobile">Cobalt Winds Leagues</h1>
+                    <h1 className="Leagueh1 hide-on-mobile">CWL Leagues</h1>
                   </a>
                   <div className="parent">
                     <a href="/games/LoL/leagues/cobalt-winds-leagues">

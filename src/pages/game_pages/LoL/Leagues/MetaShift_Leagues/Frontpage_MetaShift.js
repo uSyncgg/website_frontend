@@ -11,7 +11,12 @@ const Frontpage_MetaShift = () => {
           <meta name="description" content="MetaShift Leagues are League of Legends leagues with a tier system based on your in-game rank. Experience competitive league today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">MetaShift Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

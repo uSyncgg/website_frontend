@@ -11,16 +11,21 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const Division_3 = () => {
+const CWL_Rise = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="5v5 EUW League of Legends Cobalt Winds Emerald 1 - Plat 4 average league. Enroll now." />
+          <meta name="description" content="Cobalt Winds (CWL) 100 LP player cap | 200 LP team cap | Up to 2 Master players per team League of Legends league. Do you have what it takes to win the cash prize?" />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">CWL Rise</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -42,7 +47,7 @@ const Division_3 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://wlo.link/@cobaltwinds"
+            href="https://discord.gg/WTJJmgPgCU"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -69,8 +74,8 @@ const Division_3 = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>€15 Entry Fee</p>
-              <p>Emerald 1 - Plat 4 Average</p>
+              <p>€25 Per Team</p>
+              <p>100 LP Individual Cap | 200 LP Team Cap | Up to 2 Master players per team</p>
             </div>
           </div>
         </div>
@@ -92,4 +97,4 @@ const Division_3 = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Division_3;
+export default CWL_Rise;

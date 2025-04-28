@@ -11,7 +11,12 @@ const Frontpage_Frontline = () => {
           <meta name="description" content="Team Frontline Rocket League leagues. All the way from 0 - 1700+ MMR anyone can compete. Find what league fits you today." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Team Frontline Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

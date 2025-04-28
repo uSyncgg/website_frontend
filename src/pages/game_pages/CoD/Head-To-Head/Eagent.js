@@ -17,9 +17,12 @@ const Eagent = () => {
         <Helmet>
           <meta name="description" content="Esports Agent head to head matches for cod players looking for competitive play. Join now to prove your skill." />
         </Helmet>
-    <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img">
-
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Esports Agent</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
       </div>
       <div className="background-mid">
         <div className="Background-mid-top">

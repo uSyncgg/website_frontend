@@ -17,9 +17,12 @@ const Erivals = () => {
         <Helmet>
           <meta name="description" content="Esports Rivals has free to play Call of Duty matches for every skill level. Join now and experience a Gamebattles similar experience." />
         </Helmet>
-    <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img">
-
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Esport Rivals</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
       </div>
       <div className="background-mid">
         <div className="Background-mid-top">

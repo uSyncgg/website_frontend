@@ -31,6 +31,7 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
+import TPC_COD_League from './pages/game_pages/CoD/leagues/TPC_COD_League'
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
 import HOE_Challengers from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Challengers'
 import CCL_League from './pages/game_pages/CoD/leagues/CCL_League'
@@ -144,9 +145,9 @@ import Blue_Otter_Masters from './pages/game_pages/LoL/Leagues/Blue_Otter_League
 import Blue_Otter_Emerald from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Emerald'
 import Frontpage_Otter from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Frontpage_Otter'
 
-import Division_1 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_1'
-import Division_2 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_2'
-import Division_3 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_3'
+import CWL_Ascend from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/CWL_Ascend'
+import CWL_Defy from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/CWL_Defy'
+import CWL_Rise from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/CWL_Rise'
 import Frontpage_Cobalt from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Frontpage_Cobalt'
 
 import Frontpage_LCS from './pages/game_pages/LoL/Leagues/Low_Budget_Leagues/Frontpage_LCS'
@@ -851,6 +852,10 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/tpc-league":
+      title = "The Premier Circuit League | uSync";
+      component = <TPC_COD_League />
+      break;
       case "/games/call-of-duty/leagues/cod-rec-league":
         title = "Call of Duty Rec League | uSync";
       component = <COD_Rec_League />
@@ -1198,20 +1203,20 @@ function App() {
       title = "Cobalt Winds Leagues | uSync";
       component = <Frontpage_Cobalt />
       break;
-    case "/games/LoL/leagues/cobalt-winds-leagues/division1":
-      title = "Cobalt Winds Division 1 League | uSync";
-      component = <Division_1 />
+    case "/games/LoL/leagues/cobalt-winds-leagues/cwl-defy":
+      title = "CWL Defy League | uSync";
+      component = <CWL_Defy />
       break;
-    case "/games/LoL/leagues/cobalt-winds-leagues/division2":
-      title = "Cobalt Winds Division 2 League | uSync";
-      component = <Division_2 />
+    case "/games/LoL/leagues/cobalt-winds-leagues/cwl-rise":
+      title = "CWL Rise League | uSync";
+      component = <CWL_Rise />
       break;
-    case "/games/LoL/leagues/cobalt-winds-leagues/division3":
-      title = "Cobalt Winds Division 3 League | uSync";
-      component = <Division_3 />
-      break;
+      case "/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend":
+        title = "CWL Ascend League | uSync";
+        component = <CWL_Ascend />
+        break;
 
-    case "/games/LoL/leagues/low-budget-leagues":
+      case "/games/LoL/leagues/low-budget-leagues":
       title = "Low Budget Leagues | uSync";
       component = <Frontpage_LCS />
       break;

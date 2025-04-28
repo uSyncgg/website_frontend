@@ -12,8 +12,12 @@ const Frontpage_Titan = () => {
               <meta name="description" content="Titan League of Legends Leagues. Find a league from a reputable provider that suits not only your rank but your schedule." />
             </Helmet>
         <div>
-            <div className="Header-Img-l titan-verified-league" />
-
+            <div className="Header-Img-l titan-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Titan Leagues</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

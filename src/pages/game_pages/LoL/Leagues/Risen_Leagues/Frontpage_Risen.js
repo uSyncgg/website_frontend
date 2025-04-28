@@ -12,8 +12,12 @@ const Frontpage_Risen = () => {
               <meta name="description" content="Risen leagues are League of Legends leagues with huge prize pools and a super competitive environment. Sign yourself or your team up today." />
             </Helmet>
         <div>
-            <div className="Header-Img-l risen-verified-league" />
-
+            <div className="Header-Img-l risen-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Risen Leagues</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

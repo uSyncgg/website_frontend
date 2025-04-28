@@ -18,8 +18,13 @@ const Risen_Unstoppable = () => {
           <Helmet>
             <meta name="description" content="This Emerald 1 cap League of Legends league is perfect for those looking for competition with a prize pool. Sign up today." />
           </Helmet>
-        <div className="total-playground">
-            <div className="Header-Img-l risen-verified-league" />
+                      <div className="total-playground">
+      <div className="Header-Img-l risen-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Risen Unstoppable League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

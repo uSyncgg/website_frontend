@@ -17,9 +17,14 @@ const Wager_1v1WZ = () => {
         <Helmet>
           <meta name="description" content="1v1Me is an app designed for Warzone 1v1 kill race money matches. Do you have what it takes to put money on the line in Warzone?" />
         </Helmet>
-    <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">1v1Me</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed

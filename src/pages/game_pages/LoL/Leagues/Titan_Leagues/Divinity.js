@@ -18,11 +18,15 @@ const Divinity = () => {
           <Helmet>
             <meta name="description" content="Calling all League of Legends players that are lower rank than Emerald 4. Risen Divinity League is the perfect league for you." />
           </Helmet>
-        <div className="total-playground">
-            <div className="Header-Img-l titan-verified-league" />
+            <div className="total-playground">
+      <div className="Header-Img-l titan-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Titan Divinity</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
-        <div className="Background-mid-top">
-          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+        <div className="Background-mid-top">          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
                 
                 Add id="checkmark-title-link" className='mx-auto my-2' as attributes to the .Checkmark-title a tag

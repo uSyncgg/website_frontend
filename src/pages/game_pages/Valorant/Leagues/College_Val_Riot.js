@@ -19,10 +19,14 @@ const College_Val_Riot = () => {
             <meta name="description" content="College Valorant League - hosted by Riot Games. This is the best collegiate Valorant league your school can compete in. Play against hundreds of outher universities today." />
           </Helmet>
       <div className="total-playground">
-      <div className="Header-Img-l cval-verified-league" />
+      <div className="Header-Img-l cval-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">College Valorant League</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
-        <div className="Background-mid-top">
-          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+        <div className="Background-mid-top">          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
                 
                 Add id="checkmark-title-link" className='mx-auto my-2' as attributes to the .Checkmark-title a tag

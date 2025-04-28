@@ -18,9 +18,14 @@ const Challenger = () => {
         <Helmet>
           <meta name="description" content="Nemesis Challenger League is a Rocket League league with a 1453 - 1609 MMR range. Join this spring and showcase your skills at the highest level." />
         </Helmet>
-        <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
-    <div className="background-mid">
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Nemesis Challenger</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
+      <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
@@ -68,7 +73,7 @@ const Challenger = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
-              <p>1453 - 1609 MMR</p>
+              <p>1475 - 1610 MMR</p>
             </div>
           </div>
         </div>

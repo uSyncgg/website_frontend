@@ -17,8 +17,13 @@ const PraccVal = () => {
         <Helmet>
           <meta name="description" content="Pracc matches for Valorant. Find your most competitive scrim matches and XP matches for your team to practice strats and more against real Valorant competitors." />
         </Helmet>
-    <div className="total-playground">
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">Pracc</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

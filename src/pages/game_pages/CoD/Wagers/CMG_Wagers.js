@@ -18,7 +18,12 @@ const CMG_Wagers = () => {
           <meta name="description" content="Checkmate Gaming Call of Duty wagers are ideal for making money playing cod. Join to start earning today." />
         </Helmet>
     <div className="total-playground">
-      <div className="Header-Img-l cmg-verified-h2h" />
+      <div className="Header-Img-l cmg-verified-h2h">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Checkmate Gaming</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

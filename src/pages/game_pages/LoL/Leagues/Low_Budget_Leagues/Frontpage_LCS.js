@@ -11,7 +11,12 @@ const Frontpage_LCS = () => {
           <meta name="description" content="Low Budget Leagues. The financial League of Legends leagues you have been searching for. Join based on your rank." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">Low Budget LCS Leagues</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

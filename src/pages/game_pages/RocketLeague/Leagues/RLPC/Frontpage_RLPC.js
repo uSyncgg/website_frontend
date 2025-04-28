@@ -11,8 +11,12 @@ const Frontpage_RLPC = () => {
               <meta name="description" content="RLPC Leagues are the #1 North American Competitive Draft League for all Rocket League Players. With MMR based leagues and live streamed matches you won't want to miss this." />
             </Helmet>
         <div>
-            <div className="Header-Img-l rlpc-verified-league" />
-
+            <div className="Header-Img-l rlpc-verified-league">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">RLPC Leagues</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

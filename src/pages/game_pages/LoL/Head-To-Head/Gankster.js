@@ -18,8 +18,13 @@ const Gankster = () => {
         <Helmet>
           <meta name="description" content="Scrim matches for League of Legends from the most integrated provider. Try it free today." />
         </Helmet>
-    <div className="total-playground">
-      <div className="Header-Img-l gankster-verified-h2h" />
+      <div className="total-playground">
+      <div className="Header-Img-l gankster-verified-h2h">
+      <div className="games-leagues-header-title-verified">
+          <h1 id="league-title">Gankster GG</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

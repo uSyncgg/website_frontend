@@ -17,8 +17,13 @@ const UGC_HS_RL = () => {
           <Helmet>
             <meta name="description" content="High school Rocket League esports league - UGC HS. With east and west divisions comepte in weekly matches against other high schools and show you have what it takes to go pro." />
           </Helmet>
-      <div className="total-playground">
-      <div className="Header-Img-l not-verified-banner-img" />
+          <div className='total-container'>
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
+          <h1 id="league-title">UGC High School</h1>
+          <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+        </div>
+      </div>
       <div className="background-mid">
         <div className="Background-mid-top">
           {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 

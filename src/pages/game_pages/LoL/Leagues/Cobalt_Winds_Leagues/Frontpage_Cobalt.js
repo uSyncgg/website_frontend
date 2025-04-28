@@ -8,25 +8,31 @@ const Frontpage_Cobalt = () => {
   return (
     <>
         <Helmet>
-          <meta name="description" content="Cobalt Winds League of Legends leagues. EUW leagues for your rank. Find your league to enter into." />
+          <meta name="description" content="Cobalt Winds (CWL) League of Legends leagues. EUW leagues for your rank. Find your league to enter into." />
         </Helmet>
         <div>
-    <div className="Header-Img-l not-verified-banner-img" />
+        <div className="Header-Img-l not-verified-banner-img-lans">
+                <div className="games-leagues-header-title">
+                    <h1 id="league-title">CWL Divisions</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                </div>
+            </div>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
+
                         <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division1'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Division 1 League</h1>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>CWL Ascend</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division1"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Masters</p>
+                                <p className='Leaguep'>750 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division1'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -34,15 +40,15 @@ const Frontpage_Cobalt = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division2'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Division 2 League</h1>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-defy'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>CWL Defy</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division2"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-defy"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 1 - Emerald 1</p>
+                                <p className='Leaguep'>500 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division2'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-defy'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -51,20 +57,21 @@ const Frontpage_Cobalt = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division3'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Division 3 League</h1>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-rise'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>CWL Rise</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/division3"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-rise"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 1 - Plat 4</p>
+                                <p className='Leaguep'>100 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='/games/LoL/leagues/cobalt-winds-leagues/division3'>
+                                <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-rise'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
                         <p className='hr' />
+
                     </div>
                     <div className="league-back-button-container">
               <a href="/games/LoL/leagues">

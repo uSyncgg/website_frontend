@@ -2,26 +2,25 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
-import '../../../../../Info.css';
 import { Helmet } from "react-helmet";
+import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
-import '../../../head-to-head.css';
-import useNavHeight from "../../../../hooks/NavbarHeight";
-import 'bootstrap/dist/css/bootstrap.css';
-import Footer from '../../../../../Footer';
-
+import "bootstrap/dist/css/bootstrap.css";
+import Footer from "../../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
 // Make sure the name following const is the same as the file name
-const Foundation = () => {
+const TPC_COD_League = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Foundation Rocket League league hosted by Minor League Esports. For newer or amateur players with less than 1050 MMR wanting to compete for money." />
+          <meta name="description" content="The Premier Circuit (TPC) League is an invite-only top tier Call of Duty amateur league. Challengers players duke it out inm this high stakes league." />
         </Helmet>
         <div className='total-container'>
         <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">MLE Foundation</h1>
+          <h1 id="league-title">The Premier Circuit League</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -44,10 +43,10 @@ const Foundation = () => {
             />
           </a>
           <a href="/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
+          <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://mlesports.gg/"
+            href="https://x.com/TPCircuit"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -59,28 +58,27 @@ const Foundation = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Season</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Case of Bawls Guarana Prize</p>
-              <p>Salary Based on MMR</p>
-              <p>10 - 32 Teams</p>
-              <p>Must Sign up Solo</p>
-              <p>Draft Based League</p>
+              <p>$1,300 Prize Pool</p>
+              <p>Stats for Every Game</p>
               <p>Live Streamed Matches</p>
+              <p>Qualifier Tournament to Enter</p>
+              <p>4v4 CDL Variant</p>
+              <p>16 Teams MAX</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>2v2 / 3v3 - All Regions</p>
+              <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
-              <p>0 - 1050 MMR</p>
+              <p>Free Entry (Estimated)</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="/games/RocketLeague/leagues/mle-leagues" id='league-back-button-a'>
+          <a href="/games/call-of-duty/leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -93,8 +91,8 @@ const Foundation = () => {
       <Footer />
     </div>
     </>
-    );
-}
+  );
+};
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Foundation;
+export default TPC_COD_League;
