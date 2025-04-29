@@ -29,7 +29,7 @@ const Cod_Wagers = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/cmg'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
@@ -46,7 +46,7 @@ const Cod_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                        <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/eagent'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esports Agent</h1>
@@ -65,7 +65,7 @@ const Cod_Wagers = () => {
                         <p className='hr' />
 
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/oneup'>
                                     <h1 className='Leagueh1 hide-on-mobile'>One Up (App)</h1>

@@ -28,7 +28,7 @@ const Cod_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/cmg'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
@@ -45,7 +45,7 @@ const Cod_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                        <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/eagent'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esports Agent</h1>
@@ -61,7 +61,7 @@ const Cod_headtohead = () => {
                             </div>
                         </div>
                         <p className='hr' />
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/erivals'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esport Rivals</h1>
