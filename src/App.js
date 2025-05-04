@@ -650,15 +650,15 @@ function App() {
     // then for the component have it equal to the league page you imported
     // Finally have a break; after the component, everything should be the same format
     case "/":
-      title = "Home | uSync";
+      title = "uSync"; // Removed Home | for SEO test
       component = <Home />;
       break;
     case "/home":
-      title = "Home | uSync";
+      title = "uSync"; // ^
       component = <Home />
       break;
     case "/lander":
-      title = "Home | uSync";
+      title = "uSync"; // ^
       component = <Home />
       break;
     case "/Comingsoon":
