@@ -73,7 +73,7 @@ const Retired_challengers = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry (Estimated)</p>
+              <p>$50 Entry Fee</p>
             </div>
           </div>
         </div>
