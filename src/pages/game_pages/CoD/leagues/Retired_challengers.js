@@ -11,17 +11,17 @@ import '../../head-to-head.css';
 import useNavHeight from '../../../hooks/NavbarHeight';
 
 // Make sure the name following const is the same as the file name
-const Ixi_Esports = () => {
+const Retired_challengers = () => {
   useNavHeight();
     return (
       <>
           <Helmet>
-            <meta name="description" content="IXI Esports free tournaments and leagues for COD players. Once a year season in the spring for $100 prize pool." />
+            <meta name="description" content="Used to play Call of Duty Challengers? Well this cod league is for all retired challenger and casual players alike. Sign up like the good old days today!" />
           </Helmet>
           <div className='total-container'>
         <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">IXI Esports</h1>
+          <h1 id="league-title">Retired Challenger's League</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -47,7 +47,7 @@ const Ixi_Esports = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/qUQzHmQ3dZ"
+            href="https://discord.com/invite/C6Sxc2zaB2"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -59,23 +59,21 @@ const Ixi_Esports = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Summer Season</p>
+              <p>Annual Summer Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$100 Prize Pool</p>
-              <p>Highly Competitive</p>
-              <p>Regular Season League Matches then Playoffs</p>
-              <p>Free Monthly Tournaments</p>
-              <p>8s Group</p>
-              <p>Live Support and Admins</p>
+              <p>$1,500 Prize Pool</p>
+              <p>Retired Challenger and Retired Casual Players</p>
+              <p>Live Casting and Power Rankings</p>
+              <p>2 Playoffs</p>
+              <p>8s Group with Team Scrims</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
-              <p>Free Agents Recruited by Teams or Create Team With 4+</p>
+              <p>Free Entry (Estimated)</p>
             </div>
           </div>
         </div>
@@ -97,4 +95,4 @@ const Ixi_Esports = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Ixi_Esports;
+export default Retired_challengers;

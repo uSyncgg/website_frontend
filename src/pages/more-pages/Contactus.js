@@ -52,12 +52,12 @@ const Contactus = () => {
               </div>
               <div className="col-6 col-lg-3 no-force-width">
                 <a
-                  href="https://www.youtube.com/@usyncGG"
+                  href="https://www.linkedin.com/company/usync-llc/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/BgGzaKS.png"
+                    src="https://i.imgur.com/Bx4MX1t.png"
                     className="contact-socials"
                   />
                 </a>
@@ -103,7 +103,7 @@ const Contactus = () => {
               <div className='row'>
                 <div className='col-12 col-lg-3'>
                   <a
-                    href="mailto:usyncgg@gmail.com"
+                    href="mailto:contact@usync.gg"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

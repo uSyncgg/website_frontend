@@ -31,6 +31,7 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
+import Retired_challengers from './pages/game_pages/CoD/leagues/Retired_challengers'
 import TPC_COD_League from './pages/game_pages/CoD/leagues/TPC_COD_League'
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
 import HOE_Challengers from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Challengers'
@@ -376,6 +377,14 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
+import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
+import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
+import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
+import InfernaLAN_Summer_25 from './pages/game_pages/LANs/InfernaLAN_Summer_25';
+import Precision_Protocol_2 from './pages/game_pages/LANs/Precision_Protocol_2';
+import UFGL_BO6_3 from './pages/game_pages/LANs/UFGL_BO6_3';
+import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
@@ -852,6 +861,10 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/retired-challengers":
+      title = "Retired Challenger's League | uSync";
+      component = <Retired_challengers />
+      break;
     case "/games/call-of-duty/leagues/tpc-league":
       title = "The Premier Circuit League | uSync";
       component = <TPC_COD_League />
@@ -1976,6 +1989,38 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/halo-delta-lan":
+title = "Halo Delta LAN | uSync";
+component = <Halo_Delta_LAN />
+break;
+case "/lans/massivelan-summer-25":
+title = "MassiveLAN Summer 25 | uSync";
+component = <MassiveLAN_summer_25 />
+break;
+case "/lans/pdxfall-25":
+title = "PDXLAN Fall 25 | uSync";
+component = <PDXLAN_Fall_25 />
+break;
+case "/lans/belowzero-fall-25":
+title = "BelowZero Fall 25 | uSync";
+component = <BelowZero_Fall_25 />
+break;
+case "/lans/infernalan-summer-25":
+title = "InfernaLAN Summer 25 | uSync";
+component = <InfernaLAN_Summer_25 />
+break;
+case "/lans/val-precision-protocol-2":
+title = "Valorant Precision Protocol 2 | uSync";
+component = <Precision_Protocol_2 />
+break;
+case "/lans/ufgl-bo6-lan-3":
+title = "UFGL BO6 LAN #3 | uSync";
+component = <UFGL_BO6_3 />
+break;
+case "/lans/texas-battle-bowl-25":
+title = "Texas Battle Bowl | uSync";
+component = <Texas_Battlebowl_25 />
+break;
 case "/lans/acen-aegis-2025":
 title = "Acen x Aegis | uSync";
 component = <ACENxAegis_2025 />
