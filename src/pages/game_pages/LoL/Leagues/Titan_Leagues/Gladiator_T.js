@@ -64,6 +64,7 @@ const Gladiator_T = () => {
               <p>1st place = 35% - 2nd place = 15% - 3rd/4th place = 5% - Operations = 40%</p>
               <p>9 Week Single Round Robin Group Stage</p>
               <p>3 Week Playoffs</p>
+              <p>Tuesday Matches</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

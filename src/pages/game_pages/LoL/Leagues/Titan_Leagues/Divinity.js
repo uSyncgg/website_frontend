@@ -65,6 +65,7 @@ const Divinity = () => {
               <p>1st place = 35% - 2nd place = 15% - 3rd/4th place = 5% - Operations = 40%</p>
               <p>7 Week Single Round Robin Group Stage</p>
               <p>Top 4 From Each Group Advance to Playoffs</p>
+              <p>Monday Matches</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

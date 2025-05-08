@@ -7,21 +7,21 @@ import { Helmet } from "react-helmet";
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
-import useNavHeight from '../../../../hooks/NavbarHeight';
 import '../../../leagues.css';
+import useNavHeight from '../../../../hooks/NavbarHeight';
 
 // Make sure the name following const is the same as the file name
-const Immortal_T = () => {
+const Berserker = () => {
   useNavHeight();
     return (
       <>
           <Helmet>
-            <meta name="description" content="Titan Immortal League. 600LP cap League of Legends league for those that are looking to improve their game and make some money." />
+            <meta name="description" content="Berserker Titan Esports League - The League of Legends league for Emerald ranked players. Play matches very Friday and compete for prizes." />
           </Helmet>
             <div className="total-playground">
       <div className="Header-Img-l titan-verified-league">
       <div className="games-leagues-header-title-verified">
-          <h1 id="league-title">Titan Immortal</h1>
+          <h1 id="league-title">Titan Berserker</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -63,10 +63,10 @@ const Immortal_T = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>1st place = 35% - 2nd place = 15% - 3rd/4th place = 5% - Operations = 40%</p>
-              <p>9 Week Single Round Robin Group Stage</p>
-              <p>Top 16 Teams Advance to Playoffs</p>
-              <p>3 Week Playoffs</p>
-              <p>Thursday Matches</p>
+              <p>7 Week Single Round Robin Group Stage</p>
+              <p>Top 4 From Each Group Advance to Playoffs</p>
+              <p>Fearless Draft</p>
+              <p>Friday Matches</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -74,9 +74,9 @@ const Immortal_T = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$150 Entry Fee</p>
+              <p>$50 Per Team</p>
               <p>$25 Forfeit Deposit</p>
-              <p>600LP Cap</p>
+              <p>Emerald 4 Cap</p>
             </div>
           </div>
         </div>
@@ -98,4 +98,4 @@ const Immortal_T = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Immortal_T;
+export default Berserker;

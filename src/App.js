@@ -172,6 +172,8 @@ import Risen_Draft from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Draf
 import Risen_Rampage from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Rampage'
 import Risen_Unstoppable from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Unstoppable'
 
+import Olympus from './pages/game_pages/LoL/Leagues/Titan_Leagues/Olympus'
+import Berserker from './pages/game_pages/LoL/Leagues/Titan_Leagues/Berserker'
 import Conqueror from './pages/game_pages/LoL/Leagues/Titan_Leagues/Conqueror'
 import Divinity from './pages/game_pages/LoL/Leagues/Titan_Leagues/Divinity'
 import Immortal_T from './pages/game_pages/LoL/Leagues/Titan_Leagues/Immortal_T'
@@ -1308,6 +1310,14 @@ function App() {
       title = "Titan League of Legends Leagues | uSync";
       component = <Frontpage_Titan />
       break;
+    case "/games/LoL/leagues/titan-leagues/olympus":
+      title = "Titan Olympus League | uSync";
+      component = <Olympus />
+      break;
+    case "/games/LoL/leagues/titan-leagues/berserker":
+      title = "Titan Berserker League | uSync";
+      component = <Berserker />
+      break;          
     case "/games/LoL/leagues/titan-leagues/divinity":
       title = "Titan Divinity League | uSync";
       component = <Divinity />
