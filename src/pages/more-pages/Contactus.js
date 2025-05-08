@@ -112,7 +112,7 @@ const Contactus = () => {
                       className="img-fluid contact-email"
                     />
                   </a>
-                  <h4 className="hide-on-mobile">Email us!</h4>
+                  <h4 className="hide-on-mobile">contact@usync.gg</h4>
                 </div>
                 <div className='col-12 col-lg-9'>
                       {/* <h1 className="info-title-contactus"> */}
@@ -178,7 +178,7 @@ const Contactus = () => {
                     className="about-us-image"
                   /></a>
                   <h1 className="cofounder-title">Tony Gomez</h1>
-                  <h1 className="cofounder-subtitle">Head of Marketing</h1>
+                  <h1 className="cofounder-subtitle">CMO</h1>
                 </div>
 
               </div>
