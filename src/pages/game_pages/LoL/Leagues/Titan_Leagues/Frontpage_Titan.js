@@ -27,7 +27,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Immortal</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/immortal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/immortal"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>600LP cap | Thursdays</p>
@@ -44,7 +44,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Vanquisher</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/vanquisher"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/vanquisher"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>M100 cap | Tuesdays</p>
@@ -63,7 +63,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Eternal</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/eternal"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/eternal"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap | Mondays</p>
@@ -80,7 +80,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Conqueror</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap | Wednesdays</p>
@@ -99,10 +99,10 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Olympus</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/olympus"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/olympus"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap | Thursdays</p>
+                                <p className='Leaguep'>Diamond 4 cap | Fridays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/olympus'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -116,7 +116,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Divinity</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Emerald 4 cap | Mondays</p>
@@ -135,10 +135,10 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Berserker</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/berserker"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/berserker"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 4 cap | Fridays</p>
+                                <p className='Leaguep'>Emerald 4 cap | Thursdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/berserker'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -152,7 +152,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Gladiator</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/LoL/leagues/titan-leagues/gladiator"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="/games/LoL/leagues/titan-leagues/gladiator"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 cap | Tuesdays</p>

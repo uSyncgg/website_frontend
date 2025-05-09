@@ -65,7 +65,7 @@ const Olympus = () => {
               <p>Two 3 Week Round Robin Group Stages</p>
               <p>Top 16 Teams Advance to Playoffs</p>
               <p>Fearless Draft</p>
-              <p>Thursday Matches</p>
+              <p>Friday Matches</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

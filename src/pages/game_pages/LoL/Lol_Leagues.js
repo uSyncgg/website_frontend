@@ -32,7 +32,7 @@ const Lol_Leagues = () => {
                   <div className="parent">
                     <a href="/games/LoL/leagues/titan-leagues">
                       <img
-                        src="https://i.imgur.com/cB4ptXT.png"
+                        src="https://i.imgur.com/SoRhxEf.png"
                         className="league-img"
                       />
                     </a>

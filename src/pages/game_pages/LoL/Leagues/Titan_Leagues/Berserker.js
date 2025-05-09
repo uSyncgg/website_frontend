@@ -66,7 +66,7 @@ const Berserker = () => {
               <p>7 Week Single Round Robin Group Stage</p>
               <p>Top 4 From Each Group Advance to Playoffs</p>
               <p>Fearless Draft</p>
-              <p>Friday Matches</p>
+              <p>Thursday Matches</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
