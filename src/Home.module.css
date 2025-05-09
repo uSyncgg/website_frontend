@@ -194,11 +194,13 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  /* width: 80%;
+  height: 30rem; */
   width: 80%;
-  height: 30rem;
+  height: 100%;
   border-radius: .5rem;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  z-index: 2;
   display: flex;
   justify-content: center; /* Centers text horizontally */
   align-items: center; /* Centers text vertically */

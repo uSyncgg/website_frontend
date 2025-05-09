@@ -4,13 +4,15 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import styles from '../Home.module.css';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
+import GrayBox from './hooks/MapCover';
+
 
 const Home = () => {
-  const [isGrayBoxVisible, setIsGrayBoxVisible] = useState(true); // State to track the visibility of the GrayBox
+  // const [isGrayBoxVisible, setIsGrayBoxVisible] = useState(true); // State to track the visibility of the GrayBox
 
-  const handleGrayBoxClick = () => {
-    setIsGrayBoxVisible(false); // Hide the GrayBox when it's clicked
-  };
+  // const handleGrayBoxClick = () => {
+  //   setIsGrayBoxVisible(false); // Hide the GrayBox when it's clicked
+  // };
 
   return (
     <>
@@ -116,14 +118,15 @@ const Home = () => {
               className={styles.Map}
               src="https://www.google.com/maps/d/u/2/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F"
             ></iframe>
-            {isGrayBoxVisible && (
-              <div
-                className={styles.GrayBox}
-                onClick={handleGrayBoxClick} // Adds click event to hide the GrayBox
-              >
-                <p className={styles.GrayBoxText}>Click to interact with the map</p> {/* Added text here */}
-              </div>
-            )}
+            {/* {isGrayBoxVisible && ( */}
+              {/* <div
+                 className={styles.GrayBox}
+                 onClick={handleGrayBoxClick} // Adds click event to hide the GrayBox
+               >
+                 <p className={styles.GrayBoxText}>Click to interact with the map</p> {/* Added text here */}
+               {/* </div> */}
+             {/* )} */}
+             <GrayBox />
           </div>
           <h3 className={styles.learnhow}>
             Learn how to post your LAN to the map{" "}
