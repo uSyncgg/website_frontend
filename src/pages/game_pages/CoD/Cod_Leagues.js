@@ -239,7 +239,7 @@ const Cod_Leagues = () => {
 
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
-                                <a href='/games/call-of-duty/leagues/ixi-esportstpc-league'>
+                                <a href='/games/call-of-duty/leagues/tpc-league'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit League</h1>
                                 </a>
                                 <div className='parent'>
