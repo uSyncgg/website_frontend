@@ -21,6 +21,7 @@
     background-position: center;
     height: 10rem;
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .league-article-img {
@@ -29,6 +30,7 @@
     background-position: center;
     height: 10rem;
     width: 100%;
+    margin-bottom: 1.5rem;
     /* filter: brightness(50%); */
 }
 

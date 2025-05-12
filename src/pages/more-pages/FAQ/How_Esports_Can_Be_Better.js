@@ -102,14 +102,17 @@ const Better = () => {
                         </div>
 
                         <div className="col-12 col-lg-3 move-right-little">
-                            <div className="map-img" />
-                            <div className="black-text left-center">
-                                <a href="/LanMap">CLICK HERE FOR OUR LAN MAP</a>
+                            <div className="map-img">
+                                <div className="bright-text left-center">
+                                    <a href="/LanMap">CLICK HERE FOR OUR LAN MAP</a>
+                                </div>
                             </div>
-                            <div className="league-article-img" />
-                            <div className="black-text left-center">
-                                <a href="/leagues">CLICK HERE FOR LEAGUES</a>
-                            </div>  
+
+                            <div className="league-article-img">
+                                <div className="bright-text left-center">
+                                    <a href="/leagues">CLICK HERE FOR LEAGUES</a>
+                                </div>  
+                            </div>
                         </div>
                     </div>
 
