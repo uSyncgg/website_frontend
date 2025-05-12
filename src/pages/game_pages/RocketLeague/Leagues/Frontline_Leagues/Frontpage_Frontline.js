@@ -21,7 +21,7 @@ const Frontpage_Frontline = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/champ'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Champ League</h1>
@@ -37,8 +37,8 @@ const Frontpage_Frontline = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/vanguard'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Vanguard League</h1>
                                 </a>
@@ -52,9 +52,10 @@ const Frontpage_Frontline = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>
@@ -70,8 +71,8 @@ const Frontpage_Frontline = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontline-leagues/prospect'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Prospect League</h1>
                                 </a>

@@ -21,7 +21,7 @@ const Frontpage_hyper = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/elite'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Elite Division</h1>
@@ -37,7 +37,7 @@ const Frontpage_hyper = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/social'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Social Division</h1>

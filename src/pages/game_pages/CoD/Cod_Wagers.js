@@ -29,7 +29,7 @@ const Cod_Wagers = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/cmg'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
@@ -46,7 +46,7 @@ const Cod_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/eagent'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esports Agent</h1>
@@ -62,10 +62,11 @@ const Cod_Wagers = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/oneup'>
                                     <h1 className='Leagueh1 hide-on-mobile'>One Up (App)</h1>
@@ -82,7 +83,7 @@ const Cod_Wagers = () => {
                         </div>
 
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/dropin'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
@@ -97,9 +98,10 @@ const Cod_Wagers = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
                         
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/1v1me'>
                                     <h1 className='Leagueh1 hide-on-mobile'>1v1 Me (App)</h1>
@@ -115,7 +117,7 @@ const Cod_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/dubbz'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
@@ -132,7 +134,8 @@ const Cod_Wagers = () => {
                         </div>
 
                         <p className='hr' />
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/the-esports-hub'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Esports Hub</h1>
@@ -147,7 +150,7 @@ const Cod_Wagers = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/wagers/ewagers'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>

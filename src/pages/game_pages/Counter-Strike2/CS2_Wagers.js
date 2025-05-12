@@ -20,7 +20,7 @@ const CS2_Wagers = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/dubbzcs2'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
@@ -36,7 +36,7 @@ const CS2_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/showdowngaming_cs2'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Showdown Gaming</h1>
@@ -51,8 +51,10 @@ const CS2_Wagers = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
-                        <div className='col-lg-6'>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/gamersaloon_cs2'>
                                     <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>

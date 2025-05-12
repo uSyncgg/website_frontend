@@ -21,7 +21,7 @@ const Frontpage_LCS = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/executive'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Executive League</h1>
@@ -37,8 +37,8 @@ const Frontpage_LCS = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/financial'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Financial League</h1>
                                 </a>
@@ -52,9 +52,10 @@ const Frontpage_LCS = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/commercial'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Commercial League</h1>
@@ -70,8 +71,8 @@ const Frontpage_LCS = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/low-budget-leagues/economy'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Economy League</h1>
                                 </a>

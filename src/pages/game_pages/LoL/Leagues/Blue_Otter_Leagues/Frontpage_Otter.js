@@ -22,7 +22,7 @@ const Frontpage_Otter = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                    <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/masters'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Masters League</h1>
@@ -38,8 +38,8 @@ const Frontpage_Otter = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/diamond'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Diamond League</h1>
                                 </a>
@@ -56,8 +56,8 @@ const Frontpage_Otter = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/emerald'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Emerald League</h1>
                                 </a>
@@ -72,8 +72,8 @@ const Frontpage_Otter = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/plat'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Platinum League</h1>
                                 </a>
@@ -90,8 +90,8 @@ const Frontpage_Otter = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/gold'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gold League</h1>
                                 </a>
@@ -106,8 +106,8 @@ const Frontpage_Otter = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/blue-otter-leagues/draft'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Draft League</h1>
                                 </a>

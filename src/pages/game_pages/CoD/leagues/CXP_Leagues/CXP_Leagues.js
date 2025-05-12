@@ -21,7 +21,7 @@ const CXP_Leagues = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
                                     <h1 className='Leagueh1'>Varsity Division</h1>
@@ -36,7 +36,7 @@ const CXP_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
                                     <h1 className='Leagueh1'>Open Division</h1>
@@ -53,8 +53,8 @@ const CXP_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
                                     <h1 className='Leagueh1'>Club Division</h1>
                                 </a>

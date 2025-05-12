@@ -21,7 +21,7 @@ const Frontpage_scl = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger Division</h1>
@@ -37,7 +37,7 @@ const Frontpage_scl = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/masters'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Masters Division</h1>
@@ -52,9 +52,10 @@ const Frontpage_scl = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/intermediate'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Intermediate Division</h1>
@@ -70,7 +71,7 @@ const Frontpage_scl = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/scl-leagues/public'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Public Division</h1>

@@ -21,7 +21,7 @@ const Frontpage_MLE = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/mle-leagues/premier'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Premier League</h1>
@@ -37,8 +37,8 @@ const Frontpage_MLE = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/mle-leagues/master'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Master League</h1>
                                 </a>
@@ -54,8 +54,8 @@ const Frontpage_MLE = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/mle-leagues/champ'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Champion League</h1>
                                 </a>
@@ -70,8 +70,8 @@ const Frontpage_MLE = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/mle-leagues/academy'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Academy League</h1>
                                 </a>
@@ -85,8 +85,10 @@ const Frontpage_MLE = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
-                        <div className='col-lg-6'>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/mle-leagues/foundation'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Foundation League</h1>

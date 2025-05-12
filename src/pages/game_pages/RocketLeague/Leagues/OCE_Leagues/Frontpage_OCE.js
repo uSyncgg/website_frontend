@@ -21,7 +21,7 @@ const Frontpage_OCE = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division 1 League</h1>
@@ -37,8 +37,8 @@ const Frontpage_OCE = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division 2 League</h1>
                                 </a>
@@ -55,8 +55,8 @@ const Frontpage_OCE = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division 3 League</h1>
                                 </a>

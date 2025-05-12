@@ -22,7 +22,7 @@ const Frontpage_Aegis = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/champ'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Champions League</h1>
@@ -39,8 +39,8 @@ const Frontpage_Aegis = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/marauder'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Marauder League</h1>
                                 </a>
@@ -58,8 +58,8 @@ const Frontpage_Aegis = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/defenders'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Defenders League</h1>
                                 </a>
@@ -75,8 +75,8 @@ const Frontpage_Aegis = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/executioners'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Executioners League</h1>
                                 </a>
@@ -94,8 +94,8 @@ const Frontpage_Aegis = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/aegis-leagues/protectors'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Protectors League</h1>
                                 </a>

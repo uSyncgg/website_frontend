@@ -20,7 +20,7 @@ const Frontpage_RLPC = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/major'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Major League</h1>
@@ -37,8 +37,8 @@ const Frontpage_RLPC = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/aaa'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Triple A League</h1>
                                 </a>
@@ -53,9 +53,10 @@ const Frontpage_RLPC = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/aa'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Double A League</h1>
@@ -72,8 +73,8 @@ const Frontpage_RLPC = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/a'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Single A League</h1>
                                 </a>
@@ -88,6 +89,7 @@ const Frontpage_RLPC = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                     </div>
