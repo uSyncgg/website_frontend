@@ -63,7 +63,7 @@ const Halo_Rec_League = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Wednesdays (Mixed) and Thursdays (Premade) for Gamedays</p>
-              <p>9PM EST (Mixed) and 10:30PM (Premade) for Gametimes</p>
+              <p>9PM EST (Premade) and 10:30PM (Mixed) for Gametimes</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
