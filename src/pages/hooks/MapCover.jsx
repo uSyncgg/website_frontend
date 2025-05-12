@@ -11,8 +11,8 @@ const GrayBox = () => {
     if (!isVisible) return null;
   
     return (
-      <div className={`${styles.GrayBox} hide-on-mobile`} onClick={handleClick}>
-        <p className={`${styles.GrayBoxText} hide-on-mobile`}>Click to interact with the map</p>
+      <div className={`${styles.GrayBox}`} onClick={handleClick}>
+        <p className={`${styles.GrayBoxText}`}>Click to interact with the map</p>
       </div>
     );
   };
