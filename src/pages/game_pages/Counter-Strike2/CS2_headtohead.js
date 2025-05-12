@@ -20,7 +20,7 @@ const CS2_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/faceit'>
                                     <h1 className='Leagueh1 hide-on-mobile'>FACEIT</h1>
@@ -37,7 +37,7 @@ const CS2_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/pracc'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
@@ -52,8 +52,10 @@ const CS2_headtohead = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/esport-scrim'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>
@@ -69,7 +71,7 @@ const CS2_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/head-to-head/ckras'>
                                     <h1 className='Leagueh1 hide-on-mobile'>CKRAS</h1>

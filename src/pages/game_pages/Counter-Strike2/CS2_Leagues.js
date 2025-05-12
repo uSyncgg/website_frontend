@@ -19,8 +19,8 @@ const CS2_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-            <div className="col-12 col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+            <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+            <div className="league">
                   <a href="/games/CS2/leagues/faceitesea">
                     <h1 className="Leagueh1 hide-on-mobile">FACEIT ESEA</h1>
                   </a>
@@ -49,8 +49,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/lpl-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">LPL Pathfinder Leagues</h1>
                   </a>
@@ -71,9 +71,11 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/CS2/leagues/fastcup">
                     <h1 className="Leagueh1 hide-on-mobile">Fast Cup</h1>
                   </a>
@@ -95,8 +97,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/corporate">
                     <h1 className="Leagueh1 hide-on-mobile">Corporate CS2 League</h1>
                   </a>
@@ -117,10 +119,11 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
-              <div className="col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/CS2/leagues/fireleague">
                     <h1 className="Leagueh1 hide-on-mobile">FiReLEAGUE</h1>
                   </a>
@@ -142,7 +145,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
+                        <div className='col-12 col-lg-6 bottom-card'>
                 <div className="league">
                   <a href="/games/CS2/leagues/unitedtwentyone">
                     <h1 className="Leagueh1 hide-on-mobile">United TwentyOne</h1>
@@ -164,10 +167,11 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
-              <div className="col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/CS2/leagues/scl-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">SCL Leagues</h1>
                   </a>
@@ -190,7 +194,7 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
+                        <div className='col-12 col-lg-6 bottom-card'>
                 <div className="league">
                   <a href="/games/CS2/leagues/hyperfibre-leagues">
                     <h1 className="Leagueh1 hide-on-mobile">Hyperfibre Leagues</h1>
@@ -224,8 +228,8 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/CS2/leagues/njcaae">
                     <h1 className="Leagueh1 hide-on-mobile">NJCAAE</h1>
                   </a>
@@ -247,8 +251,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/necc">
                     <h1 className="Leagueh1 hide-on-mobile">NECC</h1>
                   </a>
@@ -269,9 +273,10 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                 <div className="league">
                   <a href="/games/CS2/leagues/ecac">
                     <h1 className="Leagueh1 hide-on-mobile">ECAC</h1>
@@ -294,8 +299,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
               
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/egfc">
                     <h1 className="Leagueh1 hide-on-mobile">EGFC League</h1>
                   </a>
@@ -316,9 +321,10 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                 <div className="league">
                   <a href="/games/CS2/leagues/faceitcollegiate">
                     <h1 className="Leagueh1 hide-on-mobile">FACEIT Collegiate</h1>
@@ -341,8 +347,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/nse">
                     <h1 className="Leagueh1 hide-on-mobile">National Student Esports</h1>
                   </a>
@@ -363,9 +369,10 @@ const CS2_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                 <div className="league">
                   <a href="/games/CS2/leagues/playfly">
                     <h1 className="Leagueh1 hide-on-mobile">Playfly College</h1>
@@ -388,8 +395,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/ael">
                     <h1 className="Leagueh1 hide-on-mobile">Australian Esports Leagues</h1>
                   </a>
@@ -422,8 +429,8 @@ const CS2_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/CS2/leagues/hsel">
                     <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>
                   </a>
@@ -452,8 +459,8 @@ const CS2_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
-                <div className="league">
+              <div className='col-12 col-lg-6 bottom-card'>
+              <div className="league">
                   <a href="/games/CS2/leagues/vantagg">
                     <h1 className="Leagueh1 hide-on-mobile">VantaGG</h1>
                   </a>

@@ -21,7 +21,7 @@ const Frontpage_Nemesis = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/titan'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Titan League</h1>
@@ -37,8 +37,8 @@ const Frontpage_Nemesis = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/rival'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Rival League</h1>
                                 </a>
@@ -52,9 +52,10 @@ const Frontpage_Nemesis = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/challenger'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Challenger League</h1>
@@ -70,8 +71,8 @@ const Frontpage_Nemesis = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/prospect'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Prospect League</h1>
                                 </a>
@@ -85,8 +86,10 @@ const Frontpage_Nemesis = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
-                        <div className='col-lg-6'>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/novice'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Novice League</h1>

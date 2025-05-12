@@ -25,8 +25,8 @@ const Wz_Leagues = () => {
           <div className="container-fluid">
             <div className="row">
 
-              <div className="col-12 col-lg-6 space-on-bottom-mobile">
-                <div className="league">
+            <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+            <div className="league">
                   <a href="/games/warzone/leagues/airforce">
                     <h1 className="Leagueh1 hide-on-mobile">Air Force Gaming League</h1>
                   </a>
@@ -47,7 +47,7 @@ const Wz_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-6 bottom-card">
+              <div className='col-12 col-lg-6 bottom-card'>
                 <div className="league">
                   <a href="/games/warzone/leagues/ghml">
                     <h1 className="Leagueh1 hide-on-mobile">GMHL Gaming</h1>
@@ -81,8 +81,8 @@ const Wz_Leagues = () => {
               </div>
 
 
-              <div className="col-12 col-lg-6">
-                <div className="league">
+              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className="league">
                   <a href="/games/warzone/leagues/njcaae">
                     <h1 className="Leagueh1 hide-on-mobile">NJCAAE</h1>
                   </a>

@@ -20,7 +20,7 @@ const Halo_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/ugc-scrim'>
                                     <h1 className='Leagueh1 hide-on-mobile'>UGC College Halo Scrims</h1>
@@ -36,8 +36,8 @@ const Halo_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/halo/head-to-head/rec-xp'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Halo Rec League Scrims</h1>
                                 </a>
@@ -50,9 +50,10 @@ const Halo_headtohead = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
                         
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/halo/head-to-head/arena'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Arena | 8 Mans</h1>
@@ -67,8 +68,8 @@ const Halo_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/halo/head-to-head/sauna'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Sauna Scrims</h1>
                                 </a>

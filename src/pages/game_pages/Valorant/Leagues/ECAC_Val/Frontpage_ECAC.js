@@ -21,7 +21,7 @@ const Frontpage_ECAC = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-a'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division A League</h1>
@@ -37,8 +37,8 @@ const Frontpage_ECAC = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-b'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division B League</h1>
                                 </a>
@@ -52,9 +52,10 @@ const Frontpage_ECAC = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-c'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Division C League</h1>

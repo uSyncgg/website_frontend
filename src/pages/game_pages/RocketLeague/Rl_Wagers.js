@@ -26,7 +26,7 @@ const Rl_Wagers = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/wagers/cmg'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
@@ -43,8 +43,8 @@ const Rl_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/wagers/dropingaming'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Drop-In Gaming</h1>
                                 </a>
@@ -60,8 +60,8 @@ const Rl_Wagers = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/wagers/gamersaloon'>
                                     <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>
                                 </a>
@@ -75,8 +75,8 @@ const Rl_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/wagers/dubbz'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Dubbz</h1>
                                 </a>
@@ -92,8 +92,8 @@ const Rl_Wagers = () => {
 
                         <p className='hr' />
                         
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/wagers/ewagers'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Ewagers</h1>
                                 </a>

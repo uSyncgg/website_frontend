@@ -21,7 +21,7 @@ const Frontpage_LPLCS = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-gold'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gold Division</h1>
@@ -37,7 +37,7 @@ const Frontpage_LPLCS = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-silver'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Silver Division</h1>
@@ -54,8 +54,8 @@ const Frontpage_LPLCS = () => {
                         </div>
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-bronze'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Bronze Division</h1>
                                 </a>
@@ -70,7 +70,7 @@ const Frontpage_LPLCS = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-open'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Open Division</h1>

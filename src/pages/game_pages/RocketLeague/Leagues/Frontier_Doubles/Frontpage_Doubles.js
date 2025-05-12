@@ -21,7 +21,7 @@ const Frontpage_Doubles = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/elite'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Elite League</h1>
@@ -37,8 +37,8 @@ const Frontpage_Doubles = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/star'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Star League</h1>
                                 </a>
@@ -52,9 +52,10 @@ const Frontpage_Doubles = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/expert'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Expert League</h1>
@@ -71,8 +72,8 @@ const Frontpage_Doubles = () => {
                         </div>
 
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/origin'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Origin League</h1>
                                 </a>

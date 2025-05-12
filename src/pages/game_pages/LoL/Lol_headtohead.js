@@ -20,7 +20,7 @@ const Lol_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/head-to-head/gankster'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gankster GG</h1>
@@ -36,8 +36,8 @@ const Lol_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/head-to-head/esport-scrim'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Esport Scrim</h1>
                                 </a>
@@ -53,8 +53,8 @@ const Lol_headtohead = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/head-to-head/pracc'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
                                 </a>

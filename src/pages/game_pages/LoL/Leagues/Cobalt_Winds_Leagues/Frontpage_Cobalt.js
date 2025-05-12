@@ -22,7 +22,7 @@ const Frontpage_Cobalt = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend'>
                                     <h1 className='Leagueh1 hide-on-mobile'>CWL Ascend</h1>
@@ -38,8 +38,8 @@ const Frontpage_Cobalt = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-defy'>
                                     <h1 className='Leagueh1 hide-on-mobile'>CWL Defy</h1>
                                 </a>
@@ -53,9 +53,10 @@ const Frontpage_Cobalt = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
-                        <div className='col-lg-6'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-rise'>
                                     <h1 className='Leagueh1 hide-on-mobile'>CWL Rise</h1>

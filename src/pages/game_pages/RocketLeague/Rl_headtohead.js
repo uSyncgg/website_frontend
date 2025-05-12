@@ -26,7 +26,7 @@ const Rl_headtohead = () => {
                 <div className='container-fluid'>
                     <div className='row'>
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/head-to-head/gankster'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gankster GG</h1>
@@ -42,8 +42,8 @@ const Rl_headtohead = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/head-to-head/pracc'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
                                 </a>

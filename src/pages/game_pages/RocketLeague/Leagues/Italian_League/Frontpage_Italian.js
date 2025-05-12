@@ -21,7 +21,7 @@ const Frontpage_Italian = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-a'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Serie A League</h1>
@@ -37,8 +37,8 @@ const Frontpage_Italian = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-b'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Serie B League</h1>
                                 </a>

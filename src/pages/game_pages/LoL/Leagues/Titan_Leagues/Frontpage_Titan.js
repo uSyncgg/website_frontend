@@ -21,7 +21,7 @@ const Frontpage_Titan = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/immortal'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Immortal</h1>
@@ -38,8 +38,8 @@ const Frontpage_Titan = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/vanquisher'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Vanquisher</h1>
                                 </a>
@@ -57,8 +57,8 @@ const Frontpage_Titan = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/eternal'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Eternal</h1>
                                 </a>
@@ -74,8 +74,8 @@ const Frontpage_Titan = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/conqueror'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Conqueror</h1>
                                 </a>
@@ -93,8 +93,8 @@ const Frontpage_Titan = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/olympus'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Olympus</h1>
                                 </a>
@@ -110,8 +110,8 @@ const Frontpage_Titan = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/divinity'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Divinity</h1>
                                 </a>
@@ -129,8 +129,8 @@ const Frontpage_Titan = () => {
 
                         <p className='hr' />
 
-                        <div className='col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/berserker'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Berserker</h1>
                                 </a>
@@ -146,8 +146,8 @@ const Frontpage_Titan = () => {
                             </div>
                         </div>
 
-                    <div className='col-lg-6'>
-                            <div className='league'>
+                        <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
                                 <a href='/games/LoL/leagues/titan-leagues/gladiator'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Gladiator</h1>
                                 </a>
