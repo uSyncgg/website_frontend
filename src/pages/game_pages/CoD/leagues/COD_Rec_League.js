@@ -65,7 +65,7 @@ const COD_Rec_League = () => {
               <p>No Prize Pool</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
-              <p>Premade or Mixed Leagues</p>
+              <p>Premade League</p>
               <p>Multiple Skill Divisions</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
@@ -73,7 +73,6 @@ const COD_Rec_League = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$30 Premade Team</p>
-              <p>Free Entry for Solo/Duo Sign Ups</p>
             </div>
           </div>
         </div>
