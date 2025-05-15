@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Waffle_Games_8 = () => {
+const Lethal_Tempo = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Valorant 1v1 double elimination LAN tournament in New York. Prove your skills and enjoy some free waffles at the same time." />
+          <meta name="description" content="Lethhal Tempo is your chance to play a League of Legends LAN for a Cash Prize. Sign your team up for this Canadian League of Legends LAN." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Waffle Games 8.0</h1>
+          <h1 id="league-title">Lethal Tempo</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const Waffle_Games_8 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.start.gg/tournament/waffle-games-8-0/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://www.start.gg/tournament/lethal-tempo-a-lol-lan-by-tempo-avenue-games-and/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,19 +48,21 @@ const Waffle_Games_8 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>June 14 - 15th, 2025</p>
-              <p>New York, NY</p>
+              <p>May 28th, 2025</p>
+              <p>British Columbia, Canada</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Free Waffles Served</p>
-              <p>1v1 Double Elimination</p>
-              <p>16 Person Cap</p>
-              <p>SSBU, TFT, Valorant, and Dance Central 3 Tournaments</p>
+              <p>Prizepool Determinded Entrants</p>
+              <p>8 Teams MAX</p>
+              <p>Players may Attend Online at Tournament Organizers Discretion</p>
+              <p>Best of 1 Double Elim Bracket</p>
+              <p>All Finals are Best of 3</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>Organizer Fee: $15</p>
+              <p>Prize Pool Fee: $15</p>
             </div>
           </div>
         </div>
@@ -72,4 +74,4 @@ const Waffle_Games_8 = () => {
   );
 };
 
-export default Waffle_Games_8;
+export default Lethal_Tempo;
