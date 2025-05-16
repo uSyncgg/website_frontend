@@ -16,7 +16,7 @@ const Better = () => {
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
                     <div className="row">
                         <div className="col-12 col-lg-4 offset-lg-1 black-text">
-                            <p>Home &gt; Articles &gt; How Esports Can Be Better</p>
+                            <p className="left-center">Home &gt; Articles &gt; How Esports Can Be Better</p>
                         </div>
                     </div>
                     <div className="row">

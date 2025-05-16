@@ -16,7 +16,7 @@ const Provide = () => {
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
                     <div className="row">
                         <div className="col-12 col-lg-4 offset-lg-1 black-text">
-                            <p>Home &gt; Articles &gt; What uSync Provides For Esports</p>
+                            <p className="left-center">Home &gt; Articles &gt; What uSync Provides For Esports</p>
                         </div>
                     </div>
                     <div className="row">
