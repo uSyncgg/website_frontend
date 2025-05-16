@@ -16,7 +16,7 @@ const Fix = () => {
                 <div className="container-fluid" style={{ paddingTop: `${navHeight}rem` }}>
                     <div className="row">
                         <div className="col-12 col-lg-3 offset-lg-1 black-text">
-                            <p>Home &gt; Articles &gt; How We Fix It</p>
+                            <p className="left-center">Home &gt; Articles &gt; How We Fix It</p>
                         </div>
                     </div>
                     <div className="row">
