@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Waffle_Games_8 = () => {
+const PAX_West_Fall_25 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Valorant 1v1 double elimination LAN tournament in New York. Prove your skills and enjoy some free waffles at the same time." />
+          <meta name="description" content="PAX West is back in Seattle, Washington. This LAN event is a huge event with even concerts this year. Sign up before tickets sell out." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Waffle Games 8.0</h1>
+          <h1 id="league-title">PAX West Fall 25</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,8 +35,8 @@ const Waffle_Games_8 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a
-            href="https://www.start.gg/tournament/waffle-games-8-0/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          <a // from here to the </a> do CTRL + /
+            href="https://west.paxsite.com/en-us/registration.html" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,28 +48,29 @@ const Waffle_Games_8 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>June 14 - 15th, 2025</p>
-              <p>New York, NY</p>
+              <p>August 29th - September 1st, 2025</p>
+              <p>Seattle, WA</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Free Waffles Served</p>
-              <p>1v1 Double Elimination</p>
-              <p>16 Person Cap</p>
-              <p>SSBU, TFT, Valorant, and Dance Central 3 Tournaments</p>
+              <p>Various Tournament Titles</p>
+              <p>Freeplay, Tabletop, Cosplay, and More Events</p>
+              <p>Exciting Panels and Special Shows</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>4-Day Badge: $225</p>
+              <p>Individual Day Badge: ~$70 per day</p>
+              <p>BYOC Badge Add-on: $50</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/LanMap" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Waffle_Games_8;
+export default PAX_West_Fall_25;

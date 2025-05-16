@@ -379,6 +379,14 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
+import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
+import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
+import LANWAR_74 from './pages/game_pages/LANs/LANWAR_74';
+import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
+import Double_Tap_Weekly from './pages/game_pages/LANs/Double_Tap_Weekly';
+import Lethal_Tempo from './pages/game_pages/LANs/Lethal_Tempo';
+import Lakewood_League_9 from './pages/game_pages/LANs/Lakewood_League_9';
 import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
 import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
@@ -389,7 +397,6 @@ import UFGL_BO6_3 from './pages/game_pages/LANs/UFGL_BO6_3';
 import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
-import Premier_Circuit_Major_4 from './pages/game_pages/LANs/Premier_Circuit_Major_4'
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 import CDL_Major_4_Open25 from './pages/game_pages/LANs/CDL_Major_4_Open25'
 import HCS_DreamHack from './pages/game_pages/LANs/HCS_DreamHack'
@@ -404,6 +411,7 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Premier_Circuit_Major_4 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_Major_4'
 import Frag_x_LVLUP from './pages/game_pages/LANs/2025-Archive/Frag_x_LVLUP'
 import Valhallan_lol from './pages/game_pages/LANs/2025-Archive/Valhallan_lol'
 import Heretics_Major_III_25 from './pages/game_pages/LANs/2025-Archive/Heretics_Major_III_25';
@@ -1999,6 +2007,38 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/double-tap-weekly":
+title = "Double Tap Weekly | uSync";
+component = <Double_Tap_Weekly />
+break;
+case "/lans/lethal-tempo":
+title = "Lethal Tempo | uSync";
+component = <Lethal_Tempo />
+break;
+case "/lans/lakewood-league-9":
+title = "Lakewood League #9 | uSync";
+component = <Lakewood_League_9 />
+break;
+case "/lans/magwest-25":
+title = "MAGWest 2025 | uSync";
+component = <MAGWest_2025 />
+break;
+case "/lans/lan-all-night-12":
+title = "LAN All Night 12 | uSync";
+component = <LAN_All_Night_12 />
+break;
+case "/lans/pax-west-fall-25":
+title = "PAX West Fall 2025 | uSync";
+component = <PAX_West_Fall_25 />
+break;
+case "/lans/lanwar-74":
+title = "LANWAR 74 | uSync";
+component = <LANWAR_74 />
+break;
+case "/lans/rgb-lan-vi":
+title = "RGB LAN VI | uSync";
+component = <RGB_LAN_VI />
+break;
 case "/lans/halo-delta-lan":
 title = "Halo Delta LAN | uSync";
 component = <Halo_Delta_LAN />
@@ -2055,10 +2095,6 @@ case "/lans/ezone-4k-bo6-lan":
 title = "EZone $4k BO6 LAN | uSync";
 component = <EZone_4k_bo6_LAN />
 break;
-case "/lans/premier-circuit-major-4":
-title = "Premier Circuit Major 4 | uSync";
-component = <Premier_Circuit_Major_4 />
-break;
 case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
 component = <RVA_Gunfight_2025 />
@@ -2088,6 +2124,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/premier-circuit-major-4":
+title = "Premier Circuit Major 4 | uSync";
+component = <Premier_Circuit_Major_4 />
+break;
 case "/lans/heretics-major-iii-25":
 title = "Heretics Major III | uSync";
 component = <Heretics_Major_III_25 />
