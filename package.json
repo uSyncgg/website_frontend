@@ -54,7 +54,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0",
+    "@craco/craco": "^5.9.0",
     "webpack-node-externals": "^3.0.0"
   }
 }

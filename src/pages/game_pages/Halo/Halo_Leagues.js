@@ -87,7 +87,7 @@ const Halo_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
               <div className="league">
                   <a href="/games/halo/leagues/ugc-halo">
                     <h1 className="Leagueh1 hide-on-mobile">College Halo</h1>
@@ -126,7 +126,7 @@ const Halo_Leagues = () => {
                 />
                 <p className="hr" />
               </div>
-              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
               <div className="league">
                   <a href="/games/halo/leagues/hsel">
                     <h1 className="Leagueh1 hide-on-mobile">High School Esports League</h1>

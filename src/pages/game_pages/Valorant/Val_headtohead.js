@@ -91,7 +91,7 @@ const Val_headtohead = () => {
 
                         <p className='hr' />
 
-                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                                 <a href='/games/Valorant/head-to-head/pracc'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Pracc</h1>
