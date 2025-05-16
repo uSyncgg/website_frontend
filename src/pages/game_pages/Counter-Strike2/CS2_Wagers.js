@@ -54,7 +54,7 @@ const CS2_Wagers = () => {
 
                         <p className='hr' />
 
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/CS2/wagers/gamersaloon_cs2'>
                                     <h1 className='Leagueh1 hide-on-mobile'>GamerSaloon</h1>

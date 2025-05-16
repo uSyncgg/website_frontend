@@ -404,7 +404,7 @@ const Lol_Leagues = () => {
 
               <p className="hr" />
 
-              <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+              <div className='col-12 col-lg-6 mx-auto -on-bottom-mobile'>
               <div className="league">
                   <a href="/games/LoL/leagues/nse">
                     <h1 className="Leagueh1 hide-on-mobile">National Student Esports</h1>
