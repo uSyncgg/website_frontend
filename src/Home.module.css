@@ -179,6 +179,7 @@ body {
   text-align: center;
   padding-bottom: 7.5rem;
   margin-bottom: 0;
+  margin-top: -3rem;
 }
 
 .Map {
@@ -290,7 +291,6 @@ hr {
     text-align: center;
     padding-bottom: 7.5rem;
     margin-bottom: 0;
-    margin-top: -3rem;
   }
   .hr {
     border-top: .1rem solid white;
