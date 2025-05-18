@@ -379,6 +379,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
 import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
@@ -403,7 +404,6 @@ import HCS_DreamHack from './pages/game_pages/LANs/HCS_DreamHack'
 import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
 import DreamHack_Dallas25 from './pages/game_pages/LANs/DreamHack_Dallas25'
 import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
-import ACENxAegis_2025 from './pages/game_pages/LANs/ACENxAegis_2025'
 import CODBendixCup25 from './pages/game_pages/LANs/CODBendixCup25'
 import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
 import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
@@ -411,6 +411,7 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import ACENxAegis_2025 from './pages/game_pages/LANs/2025-Archive/ACENxAegis_2025'
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_Major_4'
 import Frag_x_LVLUP from './pages/game_pages/LANs/2025-Archive/Frag_x_LVLUP'
 import Valhallan_lol from './pages/game_pages/LANs/2025-Archive/Valhallan_lol'
@@ -2007,6 +2008,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/reforged-gaming-4v4":
+title = "Reforged Gaming 4v4 | uSync";
+component = <Reforged_Gaming_4v4 />
+break;
 case "/lans/double-tap-weekly":
 title = "Double Tap Weekly | uSync";
 component = <Double_Tap_Weekly />
@@ -2071,10 +2076,6 @@ case "/lans/texas-battle-bowl-25":
 title = "Texas Battle Bowl | uSync";
 component = <Texas_Battlebowl_25 />
 break;
-case "/lans/acen-aegis-2025":
-title = "Acen x Aegis | uSync";
-component = <ACENxAegis_2025 />
-break;
 case "/lans/cod-bendix-2025":
 title = "COD Bendix Cup | uSync";
 component = <CODBendixCup25 />
@@ -2124,6 +2125,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/acen-aegis-2025":
+title = "Acen x Aegis | uSync";
+component = <ACENxAegis_2025 />
+break;
 case "/lans/premier-circuit-major-4":
 title = "Premier Circuit Major 4 | uSync";
 component = <Premier_Circuit_Major_4 />

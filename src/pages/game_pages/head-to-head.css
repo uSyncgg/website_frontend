@@ -11,6 +11,14 @@
     background-position: center right;
     background-repeat: no-repeat;
   }
+
+    .reforged-verified-lan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/DHShTnO.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
  
 .cmg-verified-h2h {
     background-image: url('https://i.imgur.com/9SwZ1Zv.png');
