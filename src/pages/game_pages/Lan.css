@@ -18,11 +18,7 @@
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
 }
-@media only screen and (max-width: 1200px) {
-    .info-button-lans {
-      width: 90%; /* adjust the width to a relative value */
-    }
-  }
+
 
   .info-button-lans-home {
     position: absolute;
@@ -43,11 +39,6 @@
 .info-button-lans-home:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
-}
-@media only screen and (max-width: 1200px) {
-    .info-button-lans-home {
-      width: 90%; /* adjust the width to a relative value */
-    }
   }
 
   .info-button-lans-lol {
@@ -66,13 +57,33 @@
     height: 4.5%;
   }
   
-.info-button-lans-lol:hover {
+  .info-button-lans-lol:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
-}
+  }
+
 @media only screen and (max-width: 1200px) {
+    .info-button-lans {
+      width: 90%; /* adjust the width to a relative value */
+    }
+    
+    .info-button-lans-home {
+      width: 90%; /* adjust the width to a relative value */
+    }
+    
     .info-button-lans-lol {
       width: 90%; /* adjust the width to a relative value */
     }
   }
+
+@media only screen and (max-width: 780px) {
+    .info-button-lans-home {
+      width: 50%; /* adjust the width to a relative value */
+    }
+
+    .info-button-lans {
+      width: 50%; /* adjust the width to a relative value */
+    }
+  }
+
 
