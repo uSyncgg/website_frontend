@@ -379,6 +379,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
+import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
 import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
@@ -2008,6 +2010,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/blink-respawn-25":
+title = "Blink Respawn 2025 | uSync";
+component = <Blink_Respawn_25 />
+break;
+case "/lans/tpc-champs":
+title = "The Premier Circuit Champs | uSync";
+component = <TPC_Champs />
+break;
 case "/lans/reforged-gaming-4v4":
 title = "Reforged Gaming 4v4 | uSync";
 component = <Reforged_Gaming_4v4 />
