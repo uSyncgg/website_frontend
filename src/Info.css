@@ -651,3 +651,11 @@ header {
   }
 
 }
+
+@media only screen and (max-width: 400px) {
+  .full-map {
+    height: calc(100vh - 160px);
+    /* height: 100%; */
+  }
+  
+}
