@@ -637,6 +637,11 @@ header {
   .info-title-verification {
     font-size: 1.5rem;
   }
+
+  .full-map {
+    height: calc(100vh - 70px);
+    /* height: 100%; */
+  }
 }
 
 
@@ -645,7 +650,4 @@ header {
     width: 100% !important;
   }
 
-  .full-map {
-    height: calc(100vh - 60px); /* Adjust based on navbar/footer height */
-  }
 }
