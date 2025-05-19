@@ -63,9 +63,10 @@ const XP_League_Cod = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>£/$500+ Prize Pool with Immediate Payouts</p>
+              <p>£/$2,500+ Prize Pool with Immediate Payouts</p>
               <p>NA and EU Leagues</p>
               <p>Multiple Divisions</p>
+              <p>No CDL or Top 50 NA Pro Point Players</p>
               <p>Quick Responses / Reliable Format</p>
               <p>Live Streamed Matches at a High Level</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -73,7 +74,7 @@ const XP_League_Cod = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>£/$25 - £/$60 per Team</p>
+              <p>£/$40 per Team</p>
             </div>
           </div>
         </div>
