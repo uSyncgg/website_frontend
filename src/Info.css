@@ -644,4 +644,8 @@ header {
   .home-games-images-all-lans {
     width: 100% !important;
   }
+
+  .full-map {
+    height: calc(100vh - 60px); /* Adjust based on navbar/footer height */
+  }
 }
