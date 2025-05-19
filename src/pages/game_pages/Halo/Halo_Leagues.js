@@ -54,7 +54,31 @@ const Halo_Leagues = () => {
                 </div>
               </div>
 
-              <div className='col-12 col-lg-6 bottom-card'>
+            <div className='col-12 col-lg-6 bottom-card'>
+            <div className="league">
+                  <a href="/games/halo/leagues/ascending-baseline">
+                    <h1 className="Leagueh1 hide-on-mobile">Ascending Baseline</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="/games/halo/leagues/ascending-baseline">
+                      <img
+                        src="https://i.imgur.com/W2CJtZK.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="/games/halo/leagues/ascending-baseline">
+                    <button type="submit" className="info-button">
+                      All Leagues
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                 <div className="league">
                   <a href="/games/halo/leagues/halo-agent">
                     <h1 className="Leagueh1 hide-on-mobile">Halo Agent</h1>

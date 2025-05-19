@@ -89,13 +89,17 @@ import OneupHalo from './pages/game_pages/Halo/Wagers/OneupHalo'
 import EsportWagHalo from './pages/game_pages/Halo/Wagers/EsportWagHalo'
 //HALO WAGERS
 
-
 //HALO LEAGUES
+import AB_Leagues from './pages/game_pages/Halo/Leagues/Ascending_Baseline_Leagues/AB_Leagues'
+import Pandemonium_Games from './pages/game_pages/Halo/Leagues/Ascending_Baseline_Leagues/Pandemonium_Games'
+import AB from './pages/game_pages/Halo/Leagues/Ascending_Baseline_Leagues/AB'
+
 import Halo_Agent from './pages/game_pages/Halo/Leagues/Halo_Agent'
 import Halo_Rec_League from './pages/game_pages/Halo/Leagues/Halo_Rec_League'
 import UGC_Halo from './pages/game_pages/Halo/Leagues/UGC_Halo'
 import HSELHalo from './pages/game_pages/Halo/Leagues/HSELHalo'
 //HALO LEAGUES
+
 
 //WARZONE HEAD TO HEAD
 import CMGWZXP from './pages/game_pages/Warzone/Head-To-Head/CMGWZXP'
@@ -1065,6 +1069,19 @@ function App() {
     // HALO WAGERS
 
     // HALO LEAGUES
+    case "/games/halo/leagues/ascending-baseline/ab":
+      title = "AB League | uSync";
+      component = <AB />
+      break;
+    case "/games/halo/leagues/ascending-baseline/pandemonium-games":
+      title = "Pandemonium Games League | uSync";
+      component = <Pandemonium_Games />
+      break;
+    case "/games/halo/leagues/ascending-baseline":
+      title = "Ascending Baseline Leagues | uSync";
+      component = <AB_Leagues />
+      break;
+
     case "/games/halo/leagues/halo-agent":
       title = "Halo Agent League | uSync";
       component = <Halo_Agent />
