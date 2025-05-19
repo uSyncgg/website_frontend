@@ -639,7 +639,7 @@ header {
   }
 
   .full-map {
-    height: calc(100vh - 160px);
+    height: calc(100vh - 155px);
     /* height: 100%; */
   }
 }
