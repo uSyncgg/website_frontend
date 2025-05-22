@@ -22,7 +22,7 @@ const Halo_Lan = () => {
             </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden', backgroundColor: 'rgb(49, 49, 49)'  }}>
             <div>
-                <a href='/games/halo'>
+                <a href=''>
                     <button type="submit" className='info-button-lans'>Back to Halo</button>
                 </a>
                 <a href='/lans'>
@@ -43,29 +43,29 @@ const Halo_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/games/call-of-duty/leagues/xp-league-cod'>
-                                <h1 className='Leagueh1 hide-on-mobile'>XP League</h1>
+                            <a href='/lans/hcs-dreamhack'>
+                                <h1 className='Leagueh1 hide-on-mobile'>HCS Dreamhack</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/games/call-of-duty/leagues/xp-league-cod"><img src="https://i.imgur.com/d4kQBH4.png" className='league-img' /></a>
+                                <a href="/lans/hcs-dreamhack"><img src="https://i.imgur.com/lA62PFY.png" className='league-img' /></a>
                                 <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
-                            <p className='Leaguep'>NA/EU</p>
-                            <a href='/games/call-of-duty/leagues/xp-league-cod'>
+                            <p className='Leaguep'>Dallas, TX</p>
+                            <a href='/lans/hcs-dreamhack'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
                     </div>
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/games/call-of-duty/leagues/cod-rec-league'>
-                                <h1 className='Leagueh1 hide-on-mobile'>COD Rec League</h1>
+                            <a href='/lans/halo-delta-lan'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Halo Delta LAN</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/games/call-of-duty/leagues/cod-rec-league"><img src="https://i.imgur.com/qbmhh4T.png" className='league-img' /></a>
+                                <a href="/lans/halo-delta-lan"><img src="https://i.imgur.com/RfZKuu1.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>NA</p>
-                            <a href='/games/call-of-duty/leagues/cod-rec-league'>
+                            <p className='Leaguep'>Columbus, OH</p>
+                            <a href='/lans/halo-delta-lan'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
