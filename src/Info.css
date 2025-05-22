@@ -639,7 +639,7 @@ header {
   }
 
   .full-map {
-    height: calc(100vh - 153px);
+    height: calc(100svh - 153px);
     /* height: 100%; */
   }
 }
@@ -654,7 +654,7 @@ header {
 
 @media only screen and (max-width: 400px) {
   .full-map {
-    height: calc(100vh - 150px);
+    height: calc(100svh - 150px);
     /* height: 100%; */
   }
   

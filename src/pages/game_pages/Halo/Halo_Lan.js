@@ -4,6 +4,7 @@ import React from 'react';
 import Footer from '../../../Footer';
 import GrayBox from '../../hooks/MapCoverGames';
 import '../CoD/Cod.css'
+import styles from '../../../Home.module.css';
 
 const Halo_Lan = () => {
     const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
@@ -21,17 +22,27 @@ const Halo_Lan = () => {
               <meta name="description" content="Halo LAN tournaments near you and across the world. Find the closest Halo LAN to you today." />
             </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden', backgroundColor: 'rgb(49, 49, 49)'  }}>
-            <div>
+            {/* <div>
                 <a href=''>
                     <button type="submit" className='info-button-lans'>Back to Halo</button>
                 </a>
                 <a href='/lans'>
                     <button type="submit" className='info-button-lans-home'>Back to LANs</button>
                 </a>
-            </div>
+            </div> */}
 
-            <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1RWVPklwSmTd6iqaSgHP4LLh2WOd8Pt8&ehbc=2E312F" className='full-map'></iframe>
-            <GrayBox />
+            <div className={styles.MapWrapper} style={{ position: 'relative' }}>
+                <div>
+                    <a href='/games/call-of-duty'>
+                        <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                    </a>
+                    <a href='/lans'>
+                        <button type="submit" className='info-button-lans-home'>Back to LANs</button>
+                    </a>
+                </div>
+                <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1RWVPklwSmTd6iqaSgHP4LLh2WOd8Pt8&ehbc=2E312F" className='full-map'></iframe>
+                <GrayBox />
+            </div>
 
         </div>
 

@@ -11,7 +11,7 @@ const GrayBox = () => {
     if (!isVisible) return null;
   
     return (
-      <div className={`${styles.GrayBox}`} onClick={handleClick}>
+      <div className={`${styles.GrayBoxSpecific}`} onClick={handleClick}>
 
         <div className={styles.TextColumn}>
           <p className={styles.GrayBoxText}>Click to interact with the map</p>

@@ -4,8 +4,11 @@ import '../Lan.css';
 import React from 'react';
 import GrayBox from '../../hooks/MapCoverGames';
 import './Cod.css'
+import useNavHeight from '../../hooks/NavbarHeight';
+import styles from '../../../Home.module.css';
 
 const Cod_Lan = () => {
+    useNavHeight();
     const [navHeight, setNavHeight] = React.useState(60); // Default to 60px
 
     React.useEffect(() => {
@@ -21,17 +24,26 @@ const Cod_Lan = () => {
               <meta name="description" content="Call of Duty LAN tournaments near you. Find the closest Call of Duty LANs to where you live and work. Every LAN going on near you." />
             </Helmet>
         <div style={{ paddingTop: `${navHeight}px`, overflowX: 'hidden', backgroundColor: 'rgb(49, 49, 49)' }}>
-            <div>
+            {/* <div>
                 <a href='/games/call-of-duty'>
                     <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
                 </a>
                 <a href='/lans'>
                     <button type="submit" className='info-button-lans-home'>Back to LANs</button>
                 </a>
+            </div> */}
+            <div className={styles.MapWrapper} style={{ position: 'relative' }}>
+                <div>
+                    <a href='/games/call-of-duty'>
+                        <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                    </a>
+                    <a href='/lans'>
+                        <button type="submit" className='info-button-lans-home'>Back to LANs</button>
+                    </a>
+                </div>
+                <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1GEf0IzpwDFmiA-Snc7WsoH_nbqPvNhU&ehbc=2E312F" className='full-map' />
+                <GrayBox />
             </div>
-            
-            <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1GEf0IzpwDFmiA-Snc7WsoH_nbqPvNhU&ehbc=2E312F" className='full-map' />
-            <GrayBox />
         </div>
 
         <div className='Background-leagues'>

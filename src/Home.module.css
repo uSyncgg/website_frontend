@@ -205,7 +205,24 @@ body {
   height: 100%;
   border-radius: .5rem;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
+  /* z-index: 2; */
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+}
+
+.GrayBoxSpecific {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 80%;
+  height: 30rem; */
+  width: 80.1%;
+  height: 99.25%;
+  border-radius: .5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* z-index: 2; */
   display: flex;
   justify-content: center; /* Centers text horizontally */
   align-items: center; /* Centers text vertically */
