@@ -383,6 +383,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
 import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
@@ -2027,6 +2028,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/battle-for-the-brand":
+title = "Battle For The Brand | uSync";
+component = <Battleforthebrand />
+break;
 case "/lans/blink-respawn-25":
 title = "Blink Respawn 2025 | uSync";
 component = <Blink_Respawn_25 />
