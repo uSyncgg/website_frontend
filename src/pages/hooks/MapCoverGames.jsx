@@ -13,7 +13,10 @@ const GrayBox = () => {
     return (
       <div className={`${styles.GrayBox}`} onClick={handleClick}>
 
+        <div className={styles.TextColumn}>
           <p className={styles.GrayBoxText}>Click to interact with the map</p>
+          <p className={styles.GrayBoxText}>or scroll below</p>
+        </div>
 
       </div>
     );

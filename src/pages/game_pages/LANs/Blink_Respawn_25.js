@@ -49,7 +49,7 @@ const Blink_Respawn_25 = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
               <p>July 18 — 20th, 2025</p>
-              <p>Santo Domingo, DR</p>
+              <p>Santo Domingo, Dominican Republic</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -68,7 +68,7 @@ const Blink_Respawn_25 = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/LanMap" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/games/warzone/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------

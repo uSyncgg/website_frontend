@@ -49,7 +49,7 @@ const TPC_Champs = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
               <p>August 29 - 31st, 2025</p>
-              <p>Columbus, Ohio</p>
+              <p>Columbus, OH</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
