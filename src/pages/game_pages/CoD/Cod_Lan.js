@@ -46,7 +46,7 @@ const Cod_Lan = () => {
                                 <h1 className='Leagueh1 hide-on-mobile'>Reforged Gaming 4v4</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/reforged-gaming-4v4"><img src="https://i.imgur.com/pF1lHiE.png" className='league-img' /></a>
+                                <a href="/lans/reforged-gaming-4v4"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' /></a>
                                 <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
                             <p className='Leaguep'>Charleston, SC</p>
