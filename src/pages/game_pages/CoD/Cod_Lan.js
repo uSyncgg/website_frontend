@@ -2,7 +2,7 @@ import Footer from '../../../Footer';
 import { Helmet } from "react-helmet";
 import '../Lan.css';
 import React from 'react';
-import GrayBox from '../../hooks/MapCover';
+import GrayBox from '../../hooks/MapCoverGames';
 import './Cod.css'
 
 const Cod_Lan = () => {

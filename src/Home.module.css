@@ -218,6 +218,13 @@ body {
   text-align: center;
 }
 
+.TextColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 
 .hr {
   border-top: .1rem solid white;
