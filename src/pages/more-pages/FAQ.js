@@ -65,7 +65,7 @@ const FAQ = () => {
               </div>
 
               <div>
-                <h1 className="FAQ-header-text">FAQ Articles</h1>
+                <h1 className="FAQ-header-text"><a href="/articles">FAQ Articles</a></h1>
                 <div className="images-container">
                   <a href="/more/FAQ/The-Problem-With-Esports">
                     <img

@@ -23,7 +23,7 @@
   }
   
   .blockimg:hover{
-    box-shadow: 0 0 1.563rem .188rem rgba(153, 102, 255, 0.8);
+    box-shadow: 0 0 1.563rem .188rem rgba(255, 255, 255, 0.8);
   }
 
   @media only screen and (min-width: 992px) {

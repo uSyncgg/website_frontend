@@ -7,6 +7,7 @@ import Games from './pages/Games';
 import Lans from './pages/Lans';
 import Leagues from './pages/Leagues';
 import Tournaments from './pages/Tournaments';
+import Articles from './pages/Articles';
 import FAQ from './pages/more-pages/FAQ';
 import Fix from './pages/more-pages/FAQ/How_We_Fix_It';
 import Better from './pages/more-pages/FAQ/How_Esports_Can_Be_Better';
@@ -731,6 +732,10 @@ function App() {
     case "/games":
       title = "Games | uSync";
       component = <Games />
+      break;
+     case "/more/articles":
+      title = "Articles | uSync";
+      component = <Articles />
       break;
     case "/games/call-of-duty":
       title = "Call of Duty | uSync";
