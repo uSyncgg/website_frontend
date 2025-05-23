@@ -22,7 +22,7 @@ body {
   width: 100%;
   background-image: url("./website_images/home-images/home_background.png");
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 .Intro u {
   text-decoration: none;
