@@ -665,8 +665,24 @@ import './pages/Comingsoon.css';
 import './pages/more-pages/FAQ.css';
 import ChooseGame from './pages/more-pages/ChooseGame';
 
-// Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
+import React, { useEffect } from "react";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
+import CheckoutForm from "./pages/payment_pages/CheckoutForm";
+import CompletePage from "./pages/payment_pages/CompletePage";
+
+import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
+
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from 'react-router-dom';
+
+// Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
+const stripePublicKey = process.env.REACT_APP_STRIPE_PK;
+const stripePromise = loadStripe(stripePublicKey);
 
 function App() {
   let component;
@@ -2932,6 +2948,21 @@ break;
         title = "Choose Title for Verification | uSync";
         component = <ChooseGame />
         break;
+      
+      case "/checkout":
+        title = "Payment Checkout | uSync";
+        component = <CheckoutForm />
+        break;
+      
+      case "/complete":
+        title = "Completed Payment Redirect | uSync";
+        component = <CompletePage />
+        break;
+
+      case "/reforged-cod-submission":
+        title = "Reforged 4v4 CoD LAN | uSync";
+        component = <ReforgedCoDForm />
+        break;
 
       default:
         title = "Not Found | uSync";
@@ -2940,18 +2971,45 @@ break;
       
   } 
 
+  const [clientSecret, setClientSecret] = useState("");
+
+  useEffect(() => {
+    // Create PaymentIntent as soon as the page loads
+    fetch("/create-payment-intent", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 1000 }] }),
+    })
+      .then((res) => res.json())
+      .then((data) => setClientSecret(data.clientSecret));
+  }, []);
+
+  const appearance = {
+    theme: 'stripe',
+  };
+  // Enable the skeleton loader UI for optimal loading.
+  const loader = 'auto';
+
   return (
-    <div className="App">
-      {/*}
-      <Navbar />
-      <Playground />
-    */} <Helmet>
-          <title>{title}</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        </Helmet>
-        <Playground />
-        <div>{component}</div>
-    </div>    
+    <Router>
+      <div className="App">
+        <Helmet>
+            <title>{title}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          </Helmet>
+          <Playground />
+
+          {clientSecret && (
+            <Elements options={{clientSecret, appearance, loader}} stripe={stripePromise}>
+              <div>{component}</div>
+              {/* <Routes> */}
+                {/* <Route path="/checkout" element={<CheckoutForm />} />
+                <Route path="/complete" element={<CompletePage />} /> */}
+              {/* </Routes> */}
+            </Elements>
+          )}
+      </div> 
+    </Router>  
   );
 }
 
