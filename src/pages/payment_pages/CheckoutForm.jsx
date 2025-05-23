@@ -51,12 +51,12 @@ export default function CheckoutForm() {
 
   return (
     <div style={{ overflowX: 'hidden' }}>
-        <form id="payment-form" onSubmit={handleSubmit}>
+        <form id="payment-form" className="payform" onSubmit={handleSubmit}>
 
         <PaymentElement id="payment-element" options={paymentElementOptions} />
-        <button disabled={isLoading || !stripe || !elements} id="submit">
+        <button disabled={isLoading || !stripe || !elements} id="submit" className="paybutton">
             <span id="button-text">
-            {isLoading ? <div className="spinner" id="spinner"></div> : "Pay now"}
+            {isLoading ? <div className="spinner" id="spinner"></div> : "Pay $315.00 now"}
             </span>
         </button>
         {/* Show any error or success messages */}

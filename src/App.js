@@ -681,8 +681,14 @@ import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
 // } from 'react-router-dom';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
+
+// FOR LIVE
 const stripePublicKey = process.env.REACT_APP_STRIPE_PK;
 const stripePromise = loadStripe(stripePublicKey);
+
+// FOR TESTING
+// const stripePublicTestKey = process.env.REACT_APP_STRIPE_TK; 
+// const stripePromise = loadStripe(stripePublicTestKey);
 
 function App() {
   let component;
@@ -2978,7 +2984,7 @@ break;
     fetch("https://website-backend-5m32.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 1000 }] }),
+      body: JSON.stringify({ items: [{ id: "xl-tshirt", amount: 31500 }] }),
     })
       .then((res) => res.json())
       .then((data) => setClientSecret(data.clientSecret));
