@@ -143,7 +143,7 @@
 }
 
 .problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
-    width: 40vh;
+    width: 45vh;
     height: auto;
     /* padding: 1rem; */
     padding: 1rem;
@@ -157,13 +157,26 @@
     margin-bottom: 7rem;
 }
 
+ .blockimg2 {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 1.563rem;
+  }
+
+    .blockimg2:hover{
+    box-shadow: 0 0 1.563rem .188rem rgba(0, 0, 0, 0.8);
+  }
+
+
 @media only screen and (max-width: 1500px) {
 .problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
     width: auto;
     height: auto;
     padding: 1rem;
     display: block;  
-    max-width: 40vh; 
+    max-width: 45vh; 
 }
 }
 
@@ -173,7 +186,7 @@
     height: auto;
     padding: 1rem;
     display: block;  
-    max-width: 40vh; 
+    max-width: 45vh; 
 }
 }
 
@@ -183,7 +196,7 @@
     height: auto;
     padding: 1rem;
     display: block;  
-    max-width: 40vh; 
+    max-width: 45vh; 
 }
 }
 
@@ -193,6 +206,6 @@
     height: auto;
     padding: 1rem;
     display: block;  
-    max-width: 40vh; 
+    max-width: 45vh; 
 }
 }
