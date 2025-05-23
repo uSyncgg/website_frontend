@@ -90,6 +90,13 @@
     aspect-ratio: 16/9;
 }
 
+.article-img {
+  background-image: url("https://i.imgur.com/jGdypyL.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .esports-img-faq {
     background-image: url('https://i.imgur.com/4lgBfVg.jpg');
     background-size: cover;
