@@ -20,7 +20,7 @@ const Articles = () => {
             </div>
           </div>
    
-           <div className="Background-game full-height-wrapper">
+           <div className="Background-game ">
              <div className="container">
                <div className="row justify-content-center games-row-1">
                  {" "}

@@ -124,31 +124,59 @@ const Better = () => {
                         </div>
                     </div>
 
-                    <div className="row">
-                        <div className="col-12 col-lg-10 offset-1 slight-left bottom-space-faq">
-                            <a href="/more/FAQ/What-We-Provide">
-                                <img src="https://i.imgur.com/Fr7yPnN.png" alt="What We Provide" className="we-provide-img"/>
-                            </a>
-                            
-                            <a href="/more/FAQ/The-Problem-With-Esports">
-                                <img src="https://i.imgur.com/vBqSUhI.png" alt="The Problem With Esports" className="problem-with-esports-img"/>
-                            </a>
-
-                            <a href="/more/FAQ/How-We-Fix-It">
-                                <img src="https://i.imgur.com/Q6NQGsD.png" alt="How We Fix It" className="we-fix-img"/>
-                            </a>
-
-                            <a href="/more/FAQ/How-to-Join-an-Esports-League">
-                                <img src="https://i.imgur.com/zS2wj8d.png" alt="Joining An Esports League" className="join-esports-img"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          {/* <div className="container"> */}
+               <div className="row justify-content-center">
+                 {" "}
+                 {/* add justify-content-center class to center the columns */}
+                 <div className="col-lg-3 space-on-bottom problem-with-esports-img" id="bubblel">
+                   <a href="/more/FAQ/The-Problem-With-Esports">
+                    <img
+                      className="blockimg2 img-fluid d-block mx-auto"
+                      src="https://i.imgur.com/vBqSUhI.png"
+                      alt="img"
+                    />
+                  </a>
+                 </div>
+                 <div className="col-lg-3 space-on-bottom we-provide-img" id="bubble">
+                   <a href="/more/FAQ/What-We-Provide">
+                    <img
+                      className="blockimg2 img-fluid d-block mx-auto"
+                      src="https://i.imgur.com/Fr7yPnN.png"
+                      alt="img"
+                    />
+                  </a>
+                 </div>
+                  <div className="col-lg-3 space-on-bottom join-esports-img" id="bubblelb">
+                   <a href="/more/FAQ/How-to-Join-an-Esports-League">
+                    <img
+                      className="blockimg2 img-fluid d-block mx-auto"
+                      src="https://i.imgur.com/zS2wj8d.png"
+                      alt="img"
+                    />
+                  </a>
+                 </div>
+                 <div className="col-lg-3 esports-better-img" id="bubblerb">
+                   <a href="/more/FAQ/How-We-Fix-It">
+                    <img
+                      className="blockimg2 img-fluid d-block mx-auto"
+                      src="https://i.imgur.com/Q6NQGsD.png"
+                      alt="img"
+                    />
+                  </a>
+                 </div>
+               </div>
+               <div className="row justify-content-center games-row-2">
+                
+                 
+               </div>
+             </div>
+           </div>
+                {/* </div> */}
             <Footer />
         </div>
         </>
     )
 }
+
 
 export default Better;
