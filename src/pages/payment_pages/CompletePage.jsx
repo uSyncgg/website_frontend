@@ -84,7 +84,7 @@ export default function CompletePage() {
   processing: {
     text: "Your payment is processing.",
     iconColor: "#6D6E78",
-    gif: "https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif"
+    gif: "https://imgur.com/gninF85.gif"
   },
   requires_payment_method: {
     text: "Your payment was not successful, please try again.",
@@ -94,7 +94,7 @@ export default function CompletePage() {
   default: {
     text: "Something went wrong, please try again.",
     iconColor: "#DF1B41",
-    gif: "https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif"
+    gif: "https://imgur.com/gninF85.gif"
   }
 };
 
