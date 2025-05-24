@@ -4,6 +4,7 @@ import {
   useStripe,
   useElements
 } from "@stripe/react-stripe-js";
+import Footer from "../../Footer";
 
 export default function CheckoutForm() {
   const stripe = useStripe();
@@ -11,11 +12,12 @@ export default function CheckoutForm() {
 
   const [message, setMessage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [agreed, setAgreed] = useState(false); // <-- track checkbox state
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!stripe || !elements) {
+    if (!stripe || !elements || !agreed) {
       // Stripe.js hasn't yet loaded.
       // Make sure to disable form submission until Stripe.js has loaded.
       return;
@@ -50,18 +52,34 @@ export default function CheckoutForm() {
   }
 
   return (
-    <div style={{ overflowX: 'hidden' }}>
-        <form id="payment-form" className="payform" onSubmit={handleSubmit}>
+    <>
+      <div className="checkout-div">
+          <form id="payment-form" className="payform" onSubmit={handleSubmit}>
 
-        <PaymentElement id="payment-element" options={paymentElementOptions} />
-        <button disabled={isLoading || !stripe || !elements} id="submit" className="paybutton">
-            <span id="button-text">
-            {isLoading ? <div className="spinner" id="spinner"></div> : "Pay $315.00 now"}
-            </span>
-        </button>
-        {/* Show any error or success messages */}
-        {message && <div id="payment-message">{message}</div>}
-        </form>
-    </div>
+          <PaymentElement id="payment-element" options={paymentElementOptions} />
+          {/* Terms and Conditions checkbox */}
+          <label style={{ display: "block", marginTop: "1rem", color: 'rgb(255,255,255)', fontSize: '10px' }}>
+            <input
+              type="checkbox"
+              checked={agreed}
+              onChange={(e) => setAgreed(e.target.checked)}
+            />{" "}
+            I acknowledge that (i) payments for tickets, registrations, and donations related to events 
+            listed on uSync.gg will be directed to the Event Organizer, (ii) uSync.gg will charge a platform fee of 5% 
+            on the total payment made to the Event Organizer; and (iii) uSync.gg is not responsible for the deliverability 
+            or quality of the Event.
+          </label>
+
+          <button disabled={isLoading || !stripe || !elements || !agreed} id="submit" className="paybutton">
+              <span id="button-text">
+              {isLoading ? <div className="spinner" id="spinner"></div> : "Pay $315.00 now"}
+              </span>
+          </button>
+          {/* Show any error or success messages */}
+          {message && <div id="payment-message">{message}</div>}
+          </form>
+      </div>
+      <Footer />
+    </>
   );
 }

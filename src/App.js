@@ -2984,14 +2984,33 @@ break;
     fetch("https://website-backend-5m32.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: [{ id: "reforged-4v4-lan-pass", amount: 31500 }] }),
+      body: JSON.stringify({ items: [{ id: "reforged-4v4-lan-pass", amount: 100 }] }),
     })
       .then((res) => res.json())
       .then((data) => setClientSecret(data.clientSecret));
   }, []);
 
   const appearance = {
-    theme: 'stripe',
+    theme: 'night',
+    variables: {
+      fontFamily: 'Sohne, system-ui, sans-serif',
+      fontWeightNormal: '500',
+      borderRadius: '8px',
+      colorBackground: 'rgb(146,106,206)',
+      colorPrimary: 'white',
+      accessibleColorOnColorPrimary: 'white',
+      colorText: 'white',
+      colorTextSecondary: 'white',
+      colorTextPlaceholder: '#ABB2BF',
+      tabIconColor: 'white',
+      logoColor: 'dark'
+    },
+    rules: {
+      '.Input': {
+        backgroundColor: '#212D63',
+        border: '1px solid var(--colorPrimary)'
+      }
+  }
   };
   // Enable the skeleton loader UI for optimal loading.
   const loader = 'auto';

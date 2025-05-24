@@ -83,7 +83,7 @@ export default function CompletePage() {
   // }, [status]);
 
   return (
-    <div style={{ padding: "5rem", textAlign: "center" }}>
+    <div style={{ padding: "5rem", textAlign: "center", backgroundColor: "white" }}>
       {status === "loading" || status === "default" ? (
         <p className="black-text">🔄 Processing your payment...</p>
       ) : status === "succeeded" ? (
@@ -91,6 +91,10 @@ export default function CompletePage() {
       ) : (
         <p>❌ Payment status: {status}. Redirecting...</p>
       )}
+
+      <a href="/">
+        <button className="info-button">Back to Home</button>
+      </a>
     </div>
   );
 }
