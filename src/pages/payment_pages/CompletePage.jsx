@@ -4,6 +4,7 @@ import {
 } from "@stripe/react-stripe-js";
 import "../../App.css";
 import useNavHeight from "../hooks/NavbarHeight";
+import Footer from "../../Footer";
 
 const SuccessIcon =
   <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,18 +84,21 @@ export default function CompletePage() {
   // }, [status]);
 
   return (
-    <div style={{ padding: "5rem", textAlign: "center", backgroundColor: "white" }}>
-      {status === "loading" || status === "default" ? (
-        <p className="black-text">🔄 Processing your payment...</p>
-      ) : status === "succeeded" ? (
-        <p>✅ Payment successful!</p>
-      ) : (
-        <p>❌ Payment status: {status}. Redirecting...</p>
-      )}
+    <>
+      <div style={{ padding: "5rem", textAlign: "center", backgroundColor: "rgb(49,49,49)", color: 'rgb(255,255,255)', height: '24.86rem' }}>
+        {status === "loading" || status === "default" ? (
+          <p>🔄 Processing your payment...</p>
+        ) : status === "succeeded" ? (
+          <p>✅ Payment successful!</p>
+        ) : (
+          <p>❌ Payment status: {status}. Redirecting...</p>
+        )}
 
-      <a href="/">
-        <button className="info-button">Back to Home</button>
-      </a>
-    </div>
+        <a href="/">
+          <button className="info-button">Back to Home</button>
+        </a>
+      </div>
+      <Footer />
+    </>
   );
 }

@@ -53,7 +53,7 @@ export default function CheckoutForm() {
 
   return (
     <>
-      <div className="checkout-div">
+      <div className="checkout-div" style={{ backgroundColor: 'rgb(49,49,49)', color: 'rgb(255,255,255)' }}>
           <form id="payment-form" className="payform" onSubmit={handleSubmit}>
 
           <PaymentElement id="payment-element" options={paymentElementOptions} />
