@@ -497,15 +497,15 @@ a {
   .league-img {
     width: 24rem;
     border-radius: 1rem;
-    /* margin-left: -1.6rem; */
+    margin-left: -1.6rem;
   }
 
   .over-img {
-    /* transform: translateX(-10%); */
+    transform: translateX(-10%);
     top: 10%;
     right: 0;
     width: 8%;
-    /* margin-right: -1rem; */
+    margin-right: -1rem;
   }
 
   /* .Header-Img-l { */
@@ -544,20 +544,20 @@ a {
   .league-img {
     width: 24rem;
     border-radius: 1rem;
-    /* margin-left: -3.7rem; */
+    margin-left: -3.7rem;
   }
 
   .info-button {
     width: 24rem;
-    /* margin-left: -3.7rem; */
+    margin-left: -3.7rem;
   }
 
   .over-img {
-    /* transform: translateX(-10%); */
+    transform: translateX(-10%);
     top: 10%;
     right: 0;
     width: 8%;
-    /* margin-right: -3rem; */
+    margin-right: -3rem;
   }
 
   .space-on-bottom-mobile {
@@ -569,20 +569,20 @@ a {
   .league-img {
     width: 22rem;
     border-radius: 1rem;
-    /* margin-left: -3.7rem; */
+    margin-left: -3.7rem;
   }
 
   .info-button {
     width: 22rem;
-    /* margin-left: -3.7rem; */
+    margin-left: -3.7rem;
   }
 
   .over-img {
-    /* transform: translateX(0); */
+    transform: translateX(0);
     top: 10%;
     right: 0;
     width: 8%;
-    /* margin-right: -3rem; */
+    margin-right: -3rem;
   }
 
   /* .space-on-bottom-mobile {
