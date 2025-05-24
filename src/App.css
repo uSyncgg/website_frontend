@@ -207,7 +207,7 @@
   width: 100%;
 }
 
-@keyframes loading {
+/* @keyframes loading {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -221,7 +221,7 @@
   to {
       opacity: 1;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .payform, #payment-status {
