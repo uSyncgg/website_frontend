@@ -2996,7 +2996,7 @@ break;
       fontFamily: 'Sohne, system-ui, sans-serif',
       fontWeightNormal: '500',
       borderRadius: '8px',
-      colorBackground: 'rgb(146,106,206)',
+      colorBackground: 'rgb(0,0,0)',
       colorPrimary: 'white',
       accessibleColorOnColorPrimary: 'white',
       colorText: 'white',
@@ -3007,7 +3007,7 @@ break;
     },
     rules: {
       '.Input': {
-        backgroundColor: '#212D63',
+        backgroundColor: 'rgb(93, 66, 133)',
         border: '1px solid var(--colorPrimary)'
       }
   }

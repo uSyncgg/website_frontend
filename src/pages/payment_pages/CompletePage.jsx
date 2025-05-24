@@ -75,6 +75,33 @@ export default function CompletePage() {
     });
   }, [stripe]);
 
+  const STATUS_CONTENT_MAP = {
+  succeeded: {
+    text: "Payment succeeded",
+    iconColor: "#30B130",
+    gif: "https://imgur.com/7D4AjOz.gif"
+  },
+  processing: {
+    text: "Your payment is processing.",
+    iconColor: "#6D6E78",
+    gif: "https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif"
+  },
+  requires_payment_method: {
+    text: "Your payment was not successful, please try again.",
+    iconColor: "#DF1B41",
+    gif: "https://imgur.com/bBCtIUp.gif"
+  },
+  default: {
+    text: "Something went wrong, please try again.",
+    iconColor: "#DF1B41",
+    gif: "https://imgur.com/bBCtIUp.gif"
+  }
+};
+
+
+const content = STATUS_CONTENT_MAP[status] || STATUS_CONTENT_MAP["default"];
+
+
   // useEffect(() => {
   //   if (status === "succeeded") {
   //     setTimeout(() => window.location.href = "/games", 2000);
@@ -84,21 +111,25 @@ export default function CompletePage() {
   // }, [status]);
 
   return (
-    <>
-      <div style={{ padding: "5rem", textAlign: "center", backgroundColor: "rgb(49,49,49)", color: 'rgb(255,255,255)', height: '24.86rem' }}>
-        {status === "loading" || status === "default" ? (
-          <p>🔄 Processing your payment...</p>
-        ) : status === "succeeded" ? (
-          <p>✅ Payment successful!</p>
-        ) : (
-          <p>❌ Payment status: {status}. Redirecting...</p>
-        )}
-
-        <a href="/">
-          <button className="info-button">Back to Home</button>
-        </a>
-      </div>
-      <Footer />
-    </>
-  );
+  <>
+    <div className="complete-background">
+      {/* {status === "loading" ? (
+        <p>🔄 Processing your payment...</p>
+      ) : ( */}
+        <>
+          <img
+            src={content.gif}
+            alt={content.text}
+            style={{ width: "150px", marginBottom: "1rem" }}
+          />
+          <p style={{ color: content.iconColor }}>{content.text}</p>
+        </>
+      {/* // )} */}
+      <a href="/lans/reforged-gaming-4v4">
+        <button className="complete-button">Back to Event</button>
+      </a>
+    </div>
+    <Footer />
+  </>
+);
 }
