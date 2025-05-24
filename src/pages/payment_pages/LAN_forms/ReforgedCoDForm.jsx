@@ -136,7 +136,7 @@ function ReforgedCoDForm() {
                     /><br />
                     <label for="email">Email:</label>
                     <br />
-                    <input type="email" id="email" name="email" value={form.email} required />
+                    <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required />
                     <br />
                     
                     <button type="submit">Submit</button>
