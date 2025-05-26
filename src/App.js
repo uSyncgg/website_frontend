@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Live_fire_series from './pages/game_pages/LANs/Live_fire_series';
 import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
 import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
@@ -407,10 +408,7 @@ import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
-import CDL_Major_4_Open25 from './pages/game_pages/LANs/CDL_Major_4_Open25'
-import HCS_DreamHack from './pages/game_pages/LANs/HCS_DreamHack'
 import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
-import DreamHack_Dallas25 from './pages/game_pages/LANs/DreamHack_Dallas25'
 import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
 import CODBendixCup25 from './pages/game_pages/LANs/CODBendixCup25'
 import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
@@ -419,6 +417,9 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import DreamHack_Dallas25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Dallas25'
+import HCS_DreamHack from './pages/game_pages/LANs/2025-Archive/HCS_DreamHack'
+import CDL_Major_4_Open25 from './pages/game_pages/LANs/2025-Archive/CDL_Major_4_Open25'
 import ACENxAegis_2025 from './pages/game_pages/LANs/2025-Archive/ACENxAegis_2025'
 import Premier_Circuit_Major_4 from './pages/game_pages/LANs/2025-Archive/Premier_Circuit_Major_4'
 import Frag_x_LVLUP from './pages/game_pages/LANs/2025-Archive/Frag_x_LVLUP'
@@ -2055,6 +2056,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/live-fire-8s":
+title = "Live Fire Series | uSync";
+component = <Live_fire_series />
+break;
 case "/lans/battle-for-the-brand":
 title = "Battle For The Brand | uSync";
 component = <Battleforthebrand />
@@ -2159,21 +2164,9 @@ case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
 component = <RVA_Gunfight_2025 />
 break;
-case "/lans/cdl-major-4-open-25":
-title = "CDL Major 4 Open | uSync";
-component = <CDL_Major_4_Open25 />
-break;
-case "/lans/hcs-dreamhack":
-title = "HCS DreamHack | uSync";
-component = <HCS_DreamHack />
-break;
 case "/lans/thomas-college-expo":
 title = "Thomas College Expo | uSync";
 component = <Thomas_College_Expo />
-break;
-case "/lans/dreamhack-dallas-25":
-title = "DreamHack Dallas | uSync";
-component = <DreamHack_Dallas25 />
 break;
 case "/lans/waffle-games-8-0":
 title = "Waffle Games 8 | uSync";
@@ -2184,6 +2177,18 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/dreamhack-dallas-25":
+title = "DreamHack Dallas | uSync";
+component = <DreamHack_Dallas25 />
+break;
+case "/lans/hcs-dreamhack":
+title = "HCS DreamHack | uSync";
+component = <HCS_DreamHack />
+break;
+case "/lans/cdl-major-4-open-25":
+title = "CDL Major 4 Open | uSync";
+component = <CDL_Major_4_Open25 />
+break;
 case "/lans/acen-aegis-2025":
 title = "Acen x Aegis | uSync";
 component = <ACENxAegis_2025 />

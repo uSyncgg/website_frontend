@@ -52,22 +52,7 @@ const Halo_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/hcs-dreamhack'>
-                                <h1 className='Leagueh1 hide-on-mobile'>HCS Dreamhack</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/hcs-dreamhack"><img src="https://i.imgur.com/lA62PFY.png" className='league-img' /></a>
-                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Dallas, TX</p>
-                            <a href='/lans/hcs-dreamhack'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/halo-delta-lan'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Halo Delta LAN</h1>

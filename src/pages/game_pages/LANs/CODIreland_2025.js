@@ -54,14 +54,12 @@ const CODIreland_2025 = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>€3,500 Prize Pool</p>
-              <p>32+ Team Online Qualifiers</p>
               <p>1 Irish Player as Team Captain</p>
               <p>No Skill Requirements or Caps</p>
               <p>16 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Qualifiers Entry Fee: €50</p>
               <p>LAN Team Pass: €350</p>
             </div>
           </div>
