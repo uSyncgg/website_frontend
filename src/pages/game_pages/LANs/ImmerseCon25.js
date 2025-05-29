@@ -57,7 +57,7 @@ const ImmerseCon25 = () => {
               <p>Competitive Esports Tournaments</p>
               <p>VR Immersion Chamber</p>
               <p>Tabletop Gaming, Cosplay, and Much More</p>
-              <p>All PAsses Include Cyber Dungeon Challenge</p>
+              <p>All Passes Include Cyber Dungeon Challenge</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
