@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
 import Live_fire_series from './pages/game_pages/LANs/Live_fire_series';
 import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
 import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
@@ -395,7 +396,6 @@ import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
 import LANWAR_74 from './pages/game_pages/LANs/LANWAR_74';
 import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
 import Double_Tap_Weekly from './pages/game_pages/LANs/Double_Tap_Weekly';
-import Lethal_Tempo from './pages/game_pages/LANs/Lethal_Tempo';
 import Lakewood_League_9 from './pages/game_pages/LANs/Lakewood_League_9';
 import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
 import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
@@ -417,6 +417,7 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Lethal_Tempo from './pages/game_pages/LANs/2025-Archive/Lethal_Tempo';
 import DreamHack_Dallas25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Dallas25'
 import HCS_DreamHack from './pages/game_pages/LANs/2025-Archive/HCS_DreamHack'
 import CDL_Major_4_Open25 from './pages/game_pages/LANs/2025-Archive/CDL_Major_4_Open25'
@@ -2056,6 +2057,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/immerse-con-25":
+title = "ImmerseCon 2025 | uSync";
+component = <ImmerseCon25 />
+break;
 case "/lans/live-fire-8s":
 title = "Live Fire Series | uSync";
 component = <Live_fire_series />
@@ -2079,10 +2084,6 @@ break;
 case "/lans/double-tap-weekly":
 title = "Double Tap Weekly | uSync";
 component = <Double_Tap_Weekly />
-break;
-case "/lans/lethal-tempo":
-title = "Lethal Tempo | uSync";
-component = <Lethal_Tempo />
 break;
 case "/lans/lakewood-league-9":
 title = "Lakewood League #9 | uSync";
@@ -2177,6 +2178,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/lethal-tempo":
+title = "Lethal Tempo | uSync";
+component = <Lethal_Tempo />
+break;
 case "/lans/dreamhack-dallas-25":
 title = "DreamHack Dallas | uSync";
 component = <DreamHack_Dallas25 />
