@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Thomas_College_Expo = () => {
+const Double_Tap_Weekly = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Thomas College Expo is a LAN event with a focus on esports and education. Sign up and enter into the Valorant tournament this May, 2025." />
+          <meta name="description" content="Do you think you're the best Call of Duty Search and Destroy Player? Join Double Tap for an in-person 2v2 COD LAN near you." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Thomas College Expo</h1>
+          <h1 id="league-title">Double Tap Weekly</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,43 +35,43 @@ const Thomas_College_Expo = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
-            href="https://uea.gg/e/TCGE0525/c/TCGE0525TC/tickets" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://nerdstreet.com/games/call-of-duty-black-ops-6" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>May 30 - 31st, 2025</p>
-              <p>Waterville, ME</p>
+              <p>May 30th, 2025</p>
+              <p>Lakewood, CO</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>2 Day Conference for Educators and High School Students</p>
-              <p>Focused on Integration of Esports and Education</p>
-              <p>Valorant Tournament Saturday</p>
-              <p>Over 250+ Seats Available</p>
+              <p>Prizepool Determined by Entrants (1st place only)</p>
+              <p>2v2 SND LAN Tournament</p>
+              <p>Bo1 Group Play</p>
+              <p>Bo3 Bracket Single Elim</p>
+              <p>CDL SND Ruleset</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$195 - 1 Day Teacher Pass</p>
-              <p>$250 - 2 Day Teacher Pass</p>
-              <p>$425 - 2 Day Pass + Place to Stay</p>
+              <p>Venue Fee: $10</p>
+              <p>Tournament Fee: $10</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/LanMap" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Thomas_College_Expo;
+export default Double_Tap_Weekly;

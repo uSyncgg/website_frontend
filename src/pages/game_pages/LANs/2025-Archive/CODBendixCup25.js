@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Lakewood_League_9 = () => {
+const CODBendixCup25 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="$1,000 Prize Pool League of Legends LAN in Colorado. Grab your team and compete in the 9th Lakewood League LAN." />
+          <meta name="description" content="4v4 CDL Variant LAN in South Bend, IN. Grab your teammates and compete for cash prizes to prove you're the best." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Lakewood League #9</h1>
+          <h1 id="league-title">Call of Duty Bendix Cup</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,40 +35,43 @@ const Lakewood_League_9 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a
-            href="https://nerdstreet.com/events/lakewood-league-9-or-league-of-legends-tournament-2025-05-31?section=overview" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://www.start.gg/tournament/call-of-duty-bendix-cup/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
               <p>May 31st, 2025</p>
-              <p>Lakewood, CO</p>
+              <p>South Bend, IN</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1,000 Prize Pool ($600 1st, $300 2nd, $100 3rd)</p>
-              <p>GSL Style Single Elimination Bracket</p>
-              <p>Community 10mans Starting after Groups</p>
+              <p>Prize Pool Based on Entrants</p>
+              <p>4v4 CDL Variant Ruleset</p>
+              <p>Double Elimination Best of 5 Matches</p>
+              <p>Controller Only</p>
+              <p>Ages 18+ Only</p>
+              <p>12 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Ticket: $150</p>
+              <p>Team Pass: $100</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Lakewood_League_9;
+export default CODBendixCup25;

@@ -395,8 +395,6 @@ import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
 import LANWAR_74 from './pages/game_pages/LANs/LANWAR_74';
 import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
-import Double_Tap_Weekly from './pages/game_pages/LANs/Double_Tap_Weekly';
-import Lakewood_League_9 from './pages/game_pages/LANs/Lakewood_League_9';
 import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
 import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
@@ -408,15 +406,17 @@ import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
-import Thomas_College_Expo from './pages/game_pages/LANs/Thomas_College_Expo'
 import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
-import CODBendixCup25 from './pages/game_pages/LANs/CODBendixCup25'
 import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
 import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Double_Tap_Weekly from './pages/game_pages/LANs/2025-Archive/Double_Tap_Weekly';
+import Lakewood_League_9 from './pages/game_pages/LANs/2025-Archive/Lakewood_League_9';
+import CODBendixCup25 from './pages/game_pages/LANs/2025-Archive/CODBendixCup25'
+import Thomas_College_Expo from './pages/game_pages/LANs/2025-Archive/Thomas_College_Expo'
 import Lethal_Tempo from './pages/game_pages/LANs/2025-Archive/Lethal_Tempo';
 import DreamHack_Dallas25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Dallas25'
 import HCS_DreamHack from './pages/game_pages/LANs/2025-Archive/HCS_DreamHack'
@@ -2081,14 +2081,6 @@ case "/lans/reforged-gaming-4v4":
 title = "Reforged Gaming 4v4 | uSync";
 component = <Reforged_Gaming_4v4 />
 break;
-case "/lans/double-tap-weekly":
-title = "Double Tap Weekly | uSync";
-component = <Double_Tap_Weekly />
-break;
-case "/lans/lakewood-league-9":
-title = "Lakewood League #9 | uSync";
-component = <Lakewood_League_9 />
-break;
 case "/lans/magwest-25":
 title = "MAGWest 2025 | uSync";
 component = <MAGWest_2025 />
@@ -2141,10 +2133,6 @@ case "/lans/texas-battle-bowl-25":
 title = "Texas Battle Bowl | uSync";
 component = <Texas_Battlebowl_25 />
 break;
-case "/lans/cod-bendix-2025":
-title = "COD Bendix Cup | uSync";
-component = <CODBendixCup25 />
-break;
 case "/lans/cod-ireland-2025":
 title = "COD IreLANd 2025 | uSync";
 component = <CODIreland_2025 />
@@ -2165,10 +2153,6 @@ case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
 component = <RVA_Gunfight_2025 />
 break;
-case "/lans/thomas-college-expo":
-title = "Thomas College Expo | uSync";
-component = <Thomas_College_Expo />
-break;
 case "/lans/waffle-games-8-0":
 title = "Waffle Games 8 | uSync";
 component = <Waffle_Games_8 />
@@ -2178,6 +2162,22 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/thomas-college-expo":
+title = "Thomas College Expo | uSync";
+component = <Thomas_College_Expo />
+break;
+case "/lans/cod-bendix-2025":
+title = "COD Bendix Cup | uSync";
+component = <CODBendixCup25 />
+break;
+case "/lans/double-tap-weekly":
+title = "Double Tap Weekly | uSync";
+component = <Double_Tap_Weekly />
+break;
+case "/lans/lakewood-league-9":
+title = "Lakewood League #9 | uSync";
+component = <Lakewood_League_9 />
+break;
 case "/lans/lethal-tempo":
 title = "Lethal Tempo | uSync";
 component = <Lethal_Tempo />
