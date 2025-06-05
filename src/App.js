@@ -384,6 +384,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
+import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
 import Live_fire_series from './pages/game_pages/LANs/Live_fire_series';
 import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
@@ -2057,6 +2059,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/kami-con-vol-3":
+title = "Kami-Con Vol. 3 | uSync";
+component = <Kami_Con_v3 />
+break;
+case "/lans/lan-a-thon-2025":
+title = "LAN-A-THON 2025 | uSync";
+component = <LAN_A_THON_2025 />
+break;
 case "/lans/immerse-con-25":
 title = "ImmerseCon 2025 | uSync";
 component = <ImmerseCon25 />

@@ -86,6 +86,22 @@ const Lol_Lan = () => {
 
                 <p className='hr' />
 
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/kami-con-vol-3'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Kami-Con Vol. 3</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/kami-con-vol-3"><img src="https://i.imgur.com/6X7LMCG.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Huntsville, AL</p>
+                            <a href='/lans/kami-con-vol-3'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                <p className='hr' />
             </div>
         </div>
 
