@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Lethal_Tempo = () => {
+const ImmerseCon25 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Lethhal Tempo is your chance to play a League of Legends LAN for a Cash Prize. Sign your team up for this Canadian League of Legends LAN." />
+          <meta name="description" content="ImmerseCon is back in 2025 with an even better event than before. Play competitive or casual tournaments at this convention that has it all." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Lethal Tempo</h1>
+          <h1 id="league-title">ImmerseCon 2025</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,8 +35,8 @@ const Lethal_Tempo = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a
-            href="https://www.start.gg/tournament/lethal-tempo-a-lol-lan-by-tempo-avenue-games-and/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          <a // from here to the </a> do CTRL + /
+            href="https://www.immersecon.com/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,30 +48,33 @@ const Lethal_Tempo = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>May 28th, 2025</p>
-              <p>British Columbia, Canada</p>
+              <p>August 30 - 31st, 2025</p>
+              <p>Richmond, VA</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Prizepool Determinded Entrants</p>
-              <p>8 Teams MAX</p>
-              <p>Players may Attend Online at Tournament Organizers Discretion</p>
-              <p>Best of 1 Double Elim Bracket</p>
-              <p>All Finals are Best of 3</p>
+              <p>STEM and Video Game Convention</p>
+              <p>Competitive Esports Tournaments</p>
+              <p>VR Immersion Chamber</p>
+              <p>Tabletop Gaming, Cosplay, and Much More</p>
+              <p>All Passes Include Cyber Dungeon Challenge</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Organizer Fee: $15</p>
-              <p>Prize Pool Fee: $15</p>
+              <p>Youth 2-Day Pass: $20</p>
+              <p>2-Day Admission: $40</p>
+              <p>Glitch (VIP) Pass: $85</p>
+              <p>Voice Acting Experience: $65</p>
+              <p>Esports Competitor: $55</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/LanMap" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Lethal_Tempo;
+export default ImmerseCon25;
