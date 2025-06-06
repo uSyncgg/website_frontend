@@ -441,53 +441,53 @@ function TournamentList({tournaments, format, region, platform, skill, entry}) {
     // console.log(region)
 
 
-    if (Array.isArray(platform)) {
-        platform = platform === 'Console' ? selectedPlatforms.push('console_only') : ''
-    } else { platform = '' }
+    // if (Array.isArray(platform)) {
+    //     platform = platform === 'Console' ? selectedPlatforms.push('console_only') : ''
+    // } else { platform = '' }
 
-    if (Array.isArray(format)) {
-        is1v1 = format.includes('1v1') ? selectedFormats.push('1v1') : ''
-        is2v2 = format.includes('2v2') ? selectedFormats.push('2v2') : ''
-        is3v3 = format.includes('3v3') ? selectedFormats.push('3v3') : ''
-        is4v4 = format.includes('4v4') ? selectedFormats.push('4v4') : ''
-    } else {
-        is1v1 = ''
-        is2v2 = ''
-        is3v3 = ''
-        is4v4 = ''
-    }
+    // if (Array.isArray(format)) {
+    //     is1v1 = format.includes('1v1') ? selectedFormats.push('1v1') : ''
+    //     is2v2 = format.includes('2v2') ? selectedFormats.push('2v2') : ''
+    //     is3v3 = format.includes('3v3') ? selectedFormats.push('3v3') : ''
+    //     is4v4 = format.includes('4v4') ? selectedFormats.push('4v4') : ''
+    // } else {
+    //     is1v1 = ''
+    //     is2v2 = ''
+    //     is3v3 = ''
+    //     is4v4 = ''
+    // }
 
-    if (Array.isArray(region)) {
-        isNa = region.includes('NA') ? selectedRegions.push('isNa') : ''
-        isEu = region.includes('EU') ? selectedRegions.push('isEu') : ''
-        isLatam = region.includes('LATAM') ? selectedRegions.push('isLatam'): ''
-        isUSA = region.includes('USA') | region.includes('United States') ? selectedRegions.push('isUSA'): ''
-    } else {
-        isNa = ''
-        isEu = ''
-        isLatam = ''
-        isUSA = ''
-    }
+    // if (Array.isArray(region)) {
+    //     isNa = region.includes('NA') ? selectedRegions.push('isNa') : ''
+    //     isEu = region.includes('EU') ? selectedRegions.push('isEu') : ''
+    //     isLatam = region.includes('LATAM') ? selectedRegions.push('isLatam'): ''
+    //     isUSA = region.includes('USA') | region.includes('United States') ? selectedRegions.push('isUSA'): ''
+    // } else {
+    //     isNa = ''
+    //     isEu = ''
+    //     isLatam = ''
+    //     isUSA = ''
+    // }
     
-    if (Array.isArray(entry)) {
-        isEco = entry.includes('ECO') ? selectedEntry.push('iseco') : ''
-    } else { isEco = '' }
+    // if (Array.isArray(entry)) {
+    //     isEco = entry.includes('ECO') ? selectedEntry.push('iseco') : ''
+    // } else { isEco = '' }
 
-    if (Array.isArray(skill)) {
-        isNov = skill.includes('Novice') ? selectedSkills.push('novice') : ''
-        isAm = skill.includes('Amateur') ? selectedSkills.push('amateur') : ''
-        isExp = skill.includes('Expert') ? selectedSkills.push('expert') : ''
-        isAgent = skill.includes('Agent') ? selectedSkills.push('agent') : ''
-        isMaster = skill.includes('Master') ? selectedSkills.push('master') : ''
-        isChall = skill.includes('Challenger') ? selectedSkills.push('challenger') : ''
-    } else {
-        isNov = ''
-        isAm = ''
-        isExp = ''
-        isAgent = ''
-        isMaster = ''
-        isChall = ''
-    }
+    // if (Array.isArray(skill)) {
+    //     isNov = skill.includes('Novice') ? selectedSkills.push('novice') : ''
+    //     isAm = skill.includes('Amateur') ? selectedSkills.push('amateur') : ''
+    //     isExp = skill.includes('Expert') ? selectedSkills.push('expert') : ''
+    //     isAgent = skill.includes('Agent') ? selectedSkills.push('agent') : ''
+    //     isMaster = skill.includes('Master') ? selectedSkills.push('master') : ''
+    //     isChall = skill.includes('Challenger') ? selectedSkills.push('challenger') : ''
+    // } else {
+    //     isNov = ''
+    //     isAm = ''
+    //     isExp = ''
+    //     isAgent = ''
+    //     isMaster = ''
+    //     isChall = ''
+    // }
 
     // console.log(selectedFormats)
     // console.log(selectedSkills)
