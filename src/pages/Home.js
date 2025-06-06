@@ -18,6 +18,7 @@ const Home = () => {
     <>
         <Helmet>
           <meta name="description" content="uSync is the world's largest selection of esports LANs, Leagues, and Tournaments. Find your next event today." />
+          <title>uSync - the world's largest selection of esports LANs, Leagues, and Tournaments.</title>
         </Helmet>
     <div>
       <div className={styles.homeContainer}>
