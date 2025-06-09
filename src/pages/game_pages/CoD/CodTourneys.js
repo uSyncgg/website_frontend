@@ -303,8 +303,12 @@ function CodTourneys() {
         // if (selectedSkills.includes('Amateur') && !selectedSkills.includes('Am')) {
         //     selectedSkills.push('Am')
         // }
-
-        const formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament[format]);
+        console.log(`TOURNAMENT FORMAT: ${tournament.team_size}`)
+        // console.log(`TOURNAMENT REGION: ${tournament[region]}`)
+        // console.log(`TOURNAMENT SKILL: ${tournament[skill]}`)
+        console.log(`TOURNAMENT PLATFORM: ${tournament.Platforms_for_filter}`)
+        console.log(`TOURNAMENT ENTRY: ${tournament.iseco}`)
+        const formatMatch = selectedFormats.length === 0 || selectedFormats.some(format => tournament.team_size.includes(format));
         const regionMatch = selectedRegions.length === 0 || selectedRegions.some(region => tournament.region.includes(region));
         // const platformMatch = selectedPlatforms.length === 0 || selectedPlatforms.some(plat => tournament.Platforms_for_filter.includes(plat));
         const skillMatch = selectedSkills.length === 0 || selectedSkills.some(skill => tournament.Skills_for_filter.includes(skill));
