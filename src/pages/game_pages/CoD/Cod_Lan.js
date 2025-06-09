@@ -173,26 +173,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/ufgl-bo6-lan-3'>
-                                <h1 className='Leagueh1 hide-on-mobile'>UFGL x LevelUp LAN #3</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/ufgl-bo6-lan-3"><img src="https://i.imgur.com/vhA0Ond.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Overland Park, KS</p>
-                            <a href='/lans/ufgl-bo6-lan-3'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/tpc-champs'>
                                 <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit Champs</h1>
                             </a>
@@ -205,8 +185,13 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/live-fire-8s'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Live Fire Series | COD 8s</h1>
@@ -221,7 +206,6 @@ const Cod_Lan = () => {
                         </div>
                     </div>
                 </div>
-
 
 
                 <p className='hr' />

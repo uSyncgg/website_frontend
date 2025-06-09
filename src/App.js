@@ -401,9 +401,6 @@ import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
 import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
-import InfernaLAN_Summer_25 from './pages/game_pages/LANs/InfernaLAN_Summer_25';
-import Precision_Protocol_2 from './pages/game_pages/LANs/Precision_Protocol_2';
-import UFGL_BO6_3 from './pages/game_pages/LANs/UFGL_BO6_3';
 import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
@@ -415,6 +412,9 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import InfernaLAN_Summer_25 from './pages/game_pages/LANs/2025-Archive/InfernaLAN_Summer_25';
+import UFGL_BO6_3 from './pages/game_pages/LANs/2025-Archive/UFGL_BO6_3';
+import Precision_Protocol_2 from './pages/game_pages/LANs/2025-Archive/Precision_Protocol_2';
 import Double_Tap_Weekly from './pages/game_pages/LANs/2025-Archive/Double_Tap_Weekly';
 import Lakewood_League_9 from './pages/game_pages/LANs/2025-Archive/Lakewood_League_9';
 import CODBendixCup25 from './pages/game_pages/LANs/2025-Archive/CODBendixCup25'
@@ -2127,18 +2127,6 @@ case "/lans/belowzero-fall-25":
 title = "BelowZero Fall 25 | uSync";
 component = <BelowZero_Fall_25 />
 break;
-case "/lans/infernalan-summer-25":
-title = "InfernaLAN Summer 25 | uSync";
-component = <InfernaLAN_Summer_25 />
-break;
-case "/lans/val-precision-protocol-2":
-title = "Valorant Precision Protocol 2 | uSync";
-component = <Precision_Protocol_2 />
-break;
-case "/lans/ufgl-bo6-lan-3":
-title = "UFGL BO6 LAN #3 | uSync";
-component = <UFGL_BO6_3 />
-break;
 case "/lans/texas-battle-bowl-25":
 title = "Texas Battle Bowl | uSync";
 component = <Texas_Battlebowl_25 />
@@ -2172,6 +2160,18 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/infernalan-summer-25":
+title = "InfernaLAN Summer 25 | uSync";
+component = <InfernaLAN_Summer_25 />
+break;
+case "/lans/ufgl-bo6-lan-3":
+title = "UFGL BO6 LAN #3 | uSync";
+component = <UFGL_BO6_3 />
+break;
+case "/lans/val-precision-protocol-2":
+title = "Valorant Precision Protocol 2 | uSync";
+component = <Precision_Protocol_2 />
+break;
 case "/lans/thomas-college-expo":
 title = "Thomas College Expo | uSync";
 component = <Thomas_College_Expo />
