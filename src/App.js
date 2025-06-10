@@ -384,6 +384,10 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
+import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
+import HCS_SLC_Major from './pages/game_pages/LANs/HCS_SLC_Major';
+import Lethal_Tempo2 from './pages/game_pages/LANs/Lethal_Tempo2';
 import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
 import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
@@ -2059,6 +2063,22 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/norfolk-lan-summer25":
+title = "Norfolk LAN Summer 2025 | uSync";
+component = <Norfolk_LAN_Summer25 />
+break;
+case "/lans/capital-lan-25":
+title = "Capital LAN 2025 | uSync";
+component = <Capital_LAN_25 />
+break;
+case "/lans/hcs-slc-major":
+title = "HCS SLC Major | uSync";
+component = <HCS_SLC_Major />
+break;
+case "/lans/lethal-tempo-2":
+title = "Lethal Tempo 2 | uSync";
+component = <Lethal_Tempo2 />
+break;
 case "/lans/kami-con-vol-3":
 title = "Kami-Con Vol. 3 | uSync";
 component = <Kami_Con_v3 />

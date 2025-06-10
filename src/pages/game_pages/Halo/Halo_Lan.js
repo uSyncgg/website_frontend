@@ -52,7 +52,23 @@ const Halo_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/hcs-slc-major'>
+                                <h1 className='Leagueh1 hide-on-mobile'>HCS SLC Major</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/hcs-slc-major"><img src="https://i.imgur.com/Ab93zPY.png" className='league-img' /></a>
+                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Salt Lake City, UT</p>
+                            <a href='/lans/hcs-slc-major'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/halo-delta-lan'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Halo Delta LAN</h1>
@@ -67,7 +83,6 @@ const Halo_Lan = () => {
                         </div>
                     </div>
                 </div>
-
                 
                 <p className='hr' />
 
