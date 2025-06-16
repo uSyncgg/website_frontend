@@ -37,7 +37,7 @@ const Verification = () => {
                 <div className='col-12 col-lg-5 offset-lg-1'>
                   <a href='/more/verification/verified-game-selection'>
                     <img
-                      src="https://i.imgur.com/NZAEkGt.png"
+                      src="https://i.imgur.com/zVrGPNn.png"
                       className="verification-sub-img"
                     />
                   </a>
