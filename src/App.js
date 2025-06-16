@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
 import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
 import HCS_SLC_Major from './pages/game_pages/LANs/HCS_SLC_Major';
@@ -2063,6 +2064,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/bell-esports-challenge25":
+title = "Bell Esports Challenge | uSync";
+component = <Bell_Esports_Challenge25 />
+break;
 case "/lans/norfolk-lan-summer25":
 title = "Norfolk LAN Summer 2025 | uSync";
 component = <Norfolk_LAN_Summer25 />
