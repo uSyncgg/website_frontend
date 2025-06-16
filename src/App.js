@@ -391,7 +391,6 @@ import Lethal_Tempo2 from './pages/game_pages/LANs/Lethal_Tempo2';
 import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
 import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
-import Live_fire_series from './pages/game_pages/LANs/Live_fire_series';
 import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
 import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
@@ -406,16 +405,17 @@ import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
 import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
-import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
-import Waffle_Games_8 from './pages/game_pages/LANs/Waffle_Games_8'
 import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
 import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
+import Shinto_Takeover_2025 from './pages/game_pages/LANs/2025-Archive/Shinto_Takeover_2025';
+import Live_fire_series from './pages/game_pages/LANs/2025-Archive/Live_fire_series';
 import InfernaLAN_Summer_25 from './pages/game_pages/LANs/2025-Archive/InfernaLAN_Summer_25';
 import UFGL_BO6_3 from './pages/game_pages/LANs/2025-Archive/UFGL_BO6_3';
 import Precision_Protocol_2 from './pages/game_pages/LANs/2025-Archive/Precision_Protocol_2';
@@ -2091,10 +2091,6 @@ case "/lans/immerse-con-25":
 title = "ImmerseCon 2025 | uSync";
 component = <ImmerseCon25 />
 break;
-case "/lans/live-fire-8s":
-title = "Live Fire Series | uSync";
-component = <Live_fire_series />
-break;
 case "/lans/battle-for-the-brand":
 title = "Battle For The Brand | uSync";
 component = <Battleforthebrand />
@@ -2159,10 +2155,6 @@ case "/lans/gacs-operation-freedom":
 title = "GA:CS Operation Freedom | uSync";
 component = <GACS_Operation_Freedom />
 break;
-case "/lans/shinto-takeover-2025":
-title = "Shinto Takeover | uSync";
-component = <Shinto_Takeover_2025 />
-break;
 case "/lans/ezone-4k-bo6-lan":
 title = "EZone $4k BO6 LAN | uSync";
 component = <EZone_4k_bo6_LAN />
@@ -2171,15 +2163,23 @@ case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
 component = <RVA_Gunfight_2025 />
 break;
-case "/lans/waffle-games-8-0":
-title = "Waffle Games 8 | uSync";
-component = <Waffle_Games_8 />
-break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/waffle-games-8-0":
+title = "Waffle Games 8 | uSync";
+component = <Waffle_Games_8 />
+break;
+case "/lans/shinto-takeover-2025":
+title = "Shinto Takeover | uSync";
+component = <Shinto_Takeover_2025 />
+break;
+case "/lans/live-fire-8s":
+title = "Live Fire Series | uSync";
+component = <Live_fire_series />
+break;
 case "/lans/infernalan-summer-25":
 title = "InfernaLAN Summer 25 | uSync";
 component = <InfernaLAN_Summer_25 />

@@ -123,21 +123,6 @@ const Cod_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/shinto-takeover-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Shinto Gaming Club Takeover</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/shinto-takeover-2025"><img src="https://i.imgur.com/8kGATCA.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Brooklyn, NY</p>
-                            <a href='/lans/shinto-takeover-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/battle-for-the-brand'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Battle For The Brand</h1>
                             </a>
@@ -150,13 +135,8 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/texas-battle-bowl-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Texas Battle Bowl</h1>
@@ -170,8 +150,13 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/tpc-champs'>
                                 <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit Champs</h1>
@@ -187,28 +172,8 @@ const Cod_Lan = () => {
                     </div>
                 </div>
 
-
                 <p className='hr' />
 
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/live-fire-8s'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Live Fire Series | COD 8s</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/live-fire-8s"><img src="https://i.imgur.com/OQCfKiz.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Glassboro, NJ</p>
-                            <a href='/lans/live-fire-8s'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p className='hr' />
 
             </div>
         </div>
