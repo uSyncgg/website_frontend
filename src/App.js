@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Shinto_Takeover_2025 from './pages/game_pages/LANs/Shinto_Takeover_2025';
 import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
 import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
@@ -415,7 +416,6 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 //MASONS & JAKE LANs - Archived 2025
 import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
-import Shinto_Takeover_2025 from './pages/game_pages/LANs/2025-Archive/Shinto_Takeover_2025';
 import Live_fire_series from './pages/game_pages/LANs/2025-Archive/Live_fire_series';
 import InfernaLAN_Summer_25 from './pages/game_pages/LANs/2025-Archive/InfernaLAN_Summer_25';
 import UFGL_BO6_3 from './pages/game_pages/LANs/2025-Archive/UFGL_BO6_3';
@@ -2064,6 +2064,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/shinto-takeover-2025":
+title = "Shinto Takeover | uSync";
+component = <Shinto_Takeover_2025 />
+break;
 case "/lans/bell-esports-challenge25":
 title = "Bell Esports Challenge | uSync";
 component = <Bell_Esports_Challenge25 />
@@ -2176,10 +2180,6 @@ break;
 case "/lans/waffle-games-8-0":
 title = "Waffle Games 8 | uSync";
 component = <Waffle_Games_8 />
-break;
-case "/lans/shinto-takeover-2025":
-title = "Shinto Takeover | uSync";
-component = <Shinto_Takeover_2025 />
 break;
 case "/lans/live-fire-8s":
 title = "Live Fire Series | uSync";
