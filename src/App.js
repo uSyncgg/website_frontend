@@ -384,6 +384,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import DropZone_4v4_5k from './pages/game_pages/LANs/DropZone_4v4_5k';
+import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
+import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/IndyCOD_x_Yes_Gaming';
 import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
 import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
@@ -689,7 +692,7 @@ import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
 //   Route
 // } from 'react-router-dom';
 
-// Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
+// Different components needed for homepage: Nav bar, on click events for each image + button just take to a random page, css (A LOT)
 
 // FOR LIVE
 const stripePublicKey = process.env.REACT_APP_STRIPE_PK;
@@ -2064,6 +2067,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/dropzone-4v4-5k":
+title = "DropZone 4v4 $5k LAN | uSync";
+component = <DropZone_4v4_5k />
+break;
+case "/lans/double-tap-weekly-s25":
+title = "Double Tap Weekly | uSync";
+component = <Double_Tap_Weekly_Denver25 />
+break;
+case "/lans/indycod-x-yes-gaming":
+title = "Indy Cod x Yes Gaming | uSync";
+component = <IndyCOD_x_Yes_Gaming />
+break;
 case "/lans/bell-esports-challenge25":
 title = "Bell Esports Challenge | uSync";
 component = <Bell_Esports_Challenge25 />
