@@ -1,10 +1,10 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const Shinto_Takeover_2025 = () => {
   useNavHeight();
@@ -35,14 +35,14 @@ const Shinto_Takeover_2025 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
+          {/* <a // from here to the </a> do CTRL + /
             href="https://www.start.gg/tournament/shinto-gaming-club-takeover/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
@@ -53,6 +53,7 @@ const Shinto_Takeover_2025 = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>CANCELED EVENT</p>
               <p>$4,000 Prize Pool</p>
               <p>Double Elimination</p>
               <p>4v4 CDL Variant</p>
