@@ -3052,18 +3052,20 @@ break;
       
   } 
 
-  const [clientSecret, setClientSecret] = useState("");
+  // BELOW IS FOR STRIPE PAYMENTS, DO NOT REMOVE DO NOT UNCOMMENT
+  // const [clientSecret, setClientSecret] = useState("");
 
-  useEffect(() => {
-    // Create PaymentIntent as soon as the page loads
-    fetch("https://website-backend-5m32.onrender.com/create-payment-intent", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: [{ id: "reforged-4v4-lan-pass", amount: 31500 }] }),
-    })
-      .then((res) => res.json())
-      .then((data) => setClientSecret(data.clientSecret));
-  }, []);
+  // useEffect(() => {
+
+  //   // Create PaymentIntent as soon as the page loads
+  //   fetch("https://website-backend-5m32.onrender.com/create-payment-intent", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/json" },
+  //     body: JSON.stringify({ items: [{ id: "reforged-4v4-lan-pass", amount: 31500 }] }),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => setClientSecret(data.clientSecret));
+  // }, []);
 
   const appearance = {
     theme: 'night',
@@ -3099,15 +3101,14 @@ break;
           </Helmet>
           <Playground />
 
-          {clientSecret && (
+          <div>{component}</div>
+
+          {/* BELOW IS FOR STRIPE PAYMENTS, DO NOT REMOVE AND DO NOT UNCOMMENT */}
+          {/* {clientSecret && (
             <Elements options={{clientSecret, appearance, loader}} stripe={stripePromise}>
               <div>{component}</div>
-              {/* <Routes> */}
-                {/* <Route path="/checkout" element={<CheckoutForm />} />
-                <Route path="/complete" element={<CompletePage />} /> */}
-              {/* </Routes> */}
             </Elements>
-          )}
+          )} */}
       </div> 
     </Router>  
   );
