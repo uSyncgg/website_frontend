@@ -384,6 +384,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Cindershots_fired_2v2 from './pages/game_pages/LANs/Cindershots_fired_2v2';
+import Halo_Summer_25_Tournament from './pages/game_pages/LANs/Halo_Summer_25_Tournament';
+import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/Friday_Fest_2v2_Gunfight';
 import DropZone_4v4_5k from './pages/game_pages/LANs/DropZone_4v4_5k';
 import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
 import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/IndyCOD_x_Yes_Gaming';
@@ -2067,6 +2070,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/cindershots-fired-2v2":
+title = "Cindershots Fired 2v2 | uSync";
+component = <Cindershots_fired_2v2 />
+break;
+case "/lans/halo-summer-25-tournament":
+title = "Halo Summer 25 Turnament | uSync";
+component = <Halo_Summer_25_Tournament />
+break;
+case "/lans/friday-fest-2v2-gunfight":
+title = "Friday Fest: 2v2 Gunfight | uSync";
+component = <Friday_Fest_2v2_Gunfight />
+break;
 case "/lans/dropzone-4v4-5k":
 title = "DropZone 4v4 $5k LAN | uSync";
 component = <DropZone_4v4_5k />

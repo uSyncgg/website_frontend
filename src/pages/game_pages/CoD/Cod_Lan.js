@@ -224,7 +224,7 @@ const Cod_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/indycod-x-yes-gaming'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Indy COD x Yes Gaming</h1>
@@ -234,6 +234,21 @@ const Cod_Lan = () => {
                             </div>
                             <p className='Leaguep'>Fishers, IN</p>
                             <a href='/lans/indycod-x-yes-gaming'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/friday-fest-2v2-gunfight'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Friday Fest: 2v2 Gunfight</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/friday-fest-2v2-gunfight"><img src="https://i.imgur.com/zoThVHv.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Hackettstown, NJ</p>
+                            <a href='/lans/friday-fest-2v2-gunfight'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
