@@ -2075,7 +2075,7 @@ title = "Cindershots Fired 2v2 | uSync";
 component = <Cindershots_fired_2v2 />
 break;
 case "/lans/halo-summer-25-tournament":
-title = "Halo Summer 25 Turnament | uSync";
+title = "Halo Summer 25 Tournament | uSync";
 component = <Halo_Summer_25_Tournament />
 break;
 case "/lans/friday-fest-2v2-gunfight":
