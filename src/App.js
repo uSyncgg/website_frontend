@@ -384,6 +384,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import League_Play_Legends_BO2 from './pages/game_pages/LANs/League_Play_Legends_BO2';
+import APA_Blackops6_1v1 from './pages/game_pages/LANs/APA_Blackops6_1v1';
 import Cindershots_fired_2v2 from './pages/game_pages/LANs/Cindershots_fired_2v2';
 import Halo_Summer_25_Tournament from './pages/game_pages/LANs/Halo_Summer_25_Tournament';
 import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/Friday_Fest_2v2_Gunfight';
@@ -2070,6 +2072,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/league-play-legends-bo2":
+title = "League Play Legends BO2 | uSync";
+component = <League_Play_Legends_BO2 />
+break;
+case "/lans/apa-bo6-1v1":
+title = "APA Black Ops 6 1v1 | uSync";
+component = <APA_Blackops6_1v1 />
+break;
 case "/lans/cindershots-fired-2v2":
 title = "Cindershots Fired 2v2 | uSync";
 component = <Cindershots_fired_2v2 />

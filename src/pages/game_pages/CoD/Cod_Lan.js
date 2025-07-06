@@ -222,6 +222,40 @@ const Cod_Lan = () => {
 
                 <p className='hr' />
 
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/league-play-legends-bo2'>
+                                <h1 className='Leagueh1 hide-on-mobile'>League Play Legends BO2</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/league-play-legends-bo2"><img src="https://i.imgur.com/ESN6Mb8.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Glassboro, NJ</p>
+                            <a href='/lans/league-play-legends-bo2'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/apa-bo6-1v1'>
+                                <h1 className='Leagueh1 hide-on-mobile'>APA Black Ops 6 1v1</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/apa-bo6-1v1"><img src="https://i.imgur.com/pFLsBIs.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Philadelphia, PA</p>
+                            <a href='/lans/apa-bo6-1v1'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
             </div>
         </div>
 

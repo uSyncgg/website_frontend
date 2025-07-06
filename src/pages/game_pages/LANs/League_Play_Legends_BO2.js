@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const TPC_Champs = () => {
+const League_Play_Legends_BO2 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="The Premier Circuit Championship. The most elite of all of Black Ops 6 LAN tournaments coming this summer in Columbus, Ohio - you won't want to miss it." />
+          <meta name="description" content="Black Ops 2 LAN tournament this summer 2025. Compete in the COD Throwback Tournament to showcase you still have what it takes in BO2." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">The Premier Circuit Champs</h1>
+          <h1 id="league-title">League Play Legends BO2</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const TPC_Champs = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://x.com/TPCircuit" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://nerdstreet.com/events/league-play-legends-or-ctc-x-lh-rowan-or-black-ops-2-lan-tournament-2025-08-23?section=overview" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,18 +48,20 @@ const TPC_Champs = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>August 29 - 31st, 2025</p>
-              <p>Columbus, OH</p>
+              <p>August 23 - 24th, 2025</p>
+              <p>Glassboro, NJ</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Prize Pool TBD</p>
-              <p>4v4 CDL Variant Ruleset</p>
-              <p>Men's and Women's LANs</p>
+              <p>$5,600 Prize Pool (Max Teams)</p>
+              <p>Black Ops 2 4v4 Variant</p>
+              <p>HP/S&D/CTF</p>
+              <p>Played Through Plutonium</p>
+              <p>32 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: TBD</p>
+              <p>Team Pass: $260</p>
             </div>
           </div>
         </div>
@@ -71,4 +73,4 @@ const TPC_Champs = () => {
   );
 };
 
-export default TPC_Champs;
+export default League_Play_Legends_BO2;
