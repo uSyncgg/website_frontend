@@ -104,40 +104,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/cod-ireland-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>COD IreLANd 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/cod-ireland-2025"><img src="https://i.imgur.com/3A4LoyH.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Belfast, UK</p>
-                            <a href='/lans/cod-ireland-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/battle-for-the-brand'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Battle For The Brand</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/battle-for-the-brand"><img src="https://i.imgur.com/x07EXoR.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Kansas City, MO</p>
-                            <a href='/lans/battle-for-the-brand'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/texas-battle-bowl-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Texas Battle Bowl</h1>
                             </a>
@@ -151,7 +117,6 @@ const Cod_Lan = () => {
                         </div>
                     </div>
                 </div>
-
 
                 <p className='hr' />
 

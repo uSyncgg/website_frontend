@@ -85,25 +85,6 @@ const Lol_Lan = () => {
                 </div>
 
                 <p className='hr' />
-                
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/lethal-tempo-2'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Lethal Tempo 2</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/lethal-tempo-2"><img src="https://i.imgur.com/RYNihvR.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>British Columbia, Canada</p>
-                            <a href='/lans/lethal-tempo-2'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
             </div>
         </div>
 

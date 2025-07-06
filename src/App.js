@@ -394,11 +394,9 @@ import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Chall
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
 import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
 import HCS_SLC_Major from './pages/game_pages/LANs/HCS_SLC_Major';
-import Lethal_Tempo2 from './pages/game_pages/LANs/Lethal_Tempo2';
 import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
 import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
-import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
 import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
@@ -414,12 +412,14 @@ import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
 import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
 import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
-import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
-import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import GACS_Operation_Freedom from './pages/game_pages/LANs/2025-Archive/GACS_Operation_Freedom'
+import Lethal_Tempo2 from './pages/game_pages/LANs/2025-Archive/Lethal_Tempo2';
+import CODIreland_2025 from './pages/game_pages/LANs/2025-Archive/CODIreland_2025'
+import Battleforthebrand from './pages/game_pages/LANs/2025-Archive/Battleforthebrand';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/2025-Archive/Shinto_Takeover_2025';
 import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
 import Live_fire_series from './pages/game_pages/LANs/2025-Archive/Live_fire_series';
@@ -2110,10 +2110,6 @@ case "/lans/hcs-slc-major":
 title = "HCS SLC Major | uSync";
 component = <HCS_SLC_Major />
 break;
-case "/lans/lethal-tempo-2":
-title = "Lethal Tempo 2 | uSync";
-component = <Lethal_Tempo2 />
-break;
 case "/lans/kami-con-vol-3":
 title = "Kami-Con Vol. 3 | uSync";
 component = <Kami_Con_v3 />
@@ -2125,10 +2121,6 @@ break;
 case "/lans/immerse-con-25":
 title = "ImmerseCon 2025 | uSync";
 component = <ImmerseCon25 />
-break;
-case "/lans/battle-for-the-brand":
-title = "Battle For The Brand | uSync";
-component = <Battleforthebrand />
 break;
 case "/lans/blink-respawn-25":
 title = "Blink Respawn 2025 | uSync";
@@ -2182,14 +2174,6 @@ case "/lans/texas-battle-bowl-25":
 title = "Texas Battle Bowl | uSync";
 component = <Texas_Battlebowl_25 />
 break;
-case "/lans/cod-ireland-2025":
-title = "COD IreLANd 2025 | uSync";
-component = <CODIreland_2025 />
-break;
-case "/lans/gacs-operation-freedom":
-title = "GA:CS Operation Freedom | uSync";
-component = <GACS_Operation_Freedom />
-break;
 case "/lans/ezone-4k-bo6-lan":
 title = "EZone $4k BO6 LAN | uSync";
 component = <EZone_4k_bo6_LAN />
@@ -2203,6 +2187,22 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/gacs-operation-freedom":
+title = "GA:CS Operation Freedom | uSync";
+component = <GACS_Operation_Freedom />
+break;
+case "/lans/lethal-tempo-2":
+title = "Lethal Tempo 2 | uSync";
+component = <Lethal_Tempo2 />
+break;
+case "/lans/cod-ireland-2025":
+title = "COD IreLANd 2025 | uSync";
+component = <CODIreland_2025 />
+break;
+case "/lans/battle-for-the-brand":
+title = "Battle For The Brand | uSync";
+component = <Battleforthebrand />
+break;
 case "/lans/shinto-takeover-2025":
 title = "Shinto Takeover | uSync";
 component = <Shinto_Takeover_2025 />
