@@ -384,6 +384,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
+import RocLAN_Fall_2025 from './pages/game_pages/LANs/RocLAN_Fall_2025';
+import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
 import League_Play_Legends_BO2 from './pages/game_pages/LANs/League_Play_Legends_BO2';
 import APA_Blackops6_1v1 from './pages/game_pages/LANs/APA_Blackops6_1v1';
 import DropZone_4v4_5k from './pages/game_pages/LANs/DropZone_4v4_5k';
@@ -2072,6 +2075,19 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/fortlan-fall-25":
+title = "FortLAN Fall 2025 | uSync";
+component = <FortLAN_Fall_2025 />
+break;
+case "/lans/roclan-fall-25":
+title = "RocLAN Fall 2025 | uSync";
+component = <RocLAN_Fall_2025 />
+break;
+case "/lans/lanfest-colorado-25":
+title = "LANFest Colorado 2025 | uSync";
+component = <LANFest_Colorado_2025 />
+break;
+
 case "/lans/league-play-legends-bo2":
 title = "League Play Legends BO2 | uSync";
 component = <League_Play_Legends_BO2 />
