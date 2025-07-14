@@ -55,6 +55,8 @@ const Capital_LAN_25 = () => {
               <h2 className="info-title">Details:</h2>
               <p>Tournaments, VR Gaming Stations, Tabletop Board Games, Console Games, and More</p>
               <p>Bring Your Own Computer/Console Tournaments</p>
+              <p>5v5 League of Legends Tournament</p>
+              <p>Tournament Entry Included in Ticket</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
@@ -64,7 +66,7 @@ const Capital_LAN_25 = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/LanMap" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
