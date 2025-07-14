@@ -85,41 +85,7 @@ const Halo_Lan = () => {
                 </div>
                 
                 <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/halo-summer-25-tournament'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Halo Summer 25 Tournament</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/halo-summer-25-tournament"><img src="https://i.imgur.com/QNbpq6p.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Bakersfield, CA</p>
-                            <a href='/lans/halo-summer-25-tournament'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/cindershots-fired-2v2'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 2v2</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/cindershots-fired-2v2"><img src="https://i.imgur.com/hJ5hDyP.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Lacey, WA</p>
-                            <a href='/lans/cindershots-fired-2v2'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <p className='hr' />
-                
+              
             </div>
         </div>
 

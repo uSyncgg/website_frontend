@@ -386,9 +386,6 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 //MASON & JAKE LANs - Current
 import League_Play_Legends_BO2 from './pages/game_pages/LANs/League_Play_Legends_BO2';
 import APA_Blackops6_1v1 from './pages/game_pages/LANs/APA_Blackops6_1v1';
-import Cindershots_fired_2v2 from './pages/game_pages/LANs/Cindershots_fired_2v2';
-import Halo_Summer_25_Tournament from './pages/game_pages/LANs/Halo_Summer_25_Tournament';
-import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/Friday_Fest_2v2_Gunfight';
 import DropZone_4v4_5k from './pages/game_pages/LANs/DropZone_4v4_5k';
 import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
 import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/IndyCOD_x_Yes_Gaming';
@@ -408,16 +405,19 @@ import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
 import LANWAR_74 from './pages/game_pages/LANs/LANWAR_74';
 import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
 import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
-import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
-import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
-import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
 import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import MassiveLAN_summer_25 from './pages/game_pages/LANs/2025-Archive/MassiveLAN_summer_25';
+import Cindershots_fired_2v2 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_2v2';
+import Halo_Summer_25_Tournament from './pages/game_pages/LANs/2025-Archive/Halo_Summer_25_Tournament';
+import Texas_Battlebowl_25 from './pages/game_pages/LANs/2025-Archive/Texas_Battlebowl_25';
+import EZone_4k_bo6_LAN from './pages/game_pages/LANs/2025-Archive/EZone_4k_bo6_LAN';
+import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/2025-Archive/Friday_Fest_2v2_Gunfight';
 import GACS_Operation_Freedom from './pages/game_pages/LANs/2025-Archive/GACS_Operation_Freedom'
 import Lethal_Tempo2 from './pages/game_pages/LANs/2025-Archive/Lethal_Tempo2';
 import CODIreland_2025 from './pages/game_pages/LANs/2025-Archive/CODIreland_2025'
@@ -2080,18 +2080,6 @@ case "/lans/apa-bo6-1v1":
 title = "APA Black Ops 6 1v1 | uSync";
 component = <APA_Blackops6_1v1 />
 break;
-case "/lans/cindershots-fired-2v2":
-title = "Cindershots Fired 2v2 | uSync";
-component = <Cindershots_fired_2v2 />
-break;
-case "/lans/halo-summer-25-tournament":
-title = "Halo Summer 25 Tournament | uSync";
-component = <Halo_Summer_25_Tournament />
-break;
-case "/lans/friday-fest-2v2-gunfight":
-title = "Friday Fest: 2v2 Gunfight | uSync";
-component = <Friday_Fest_2v2_Gunfight />
-break;
 case "/lans/dropzone-4v4-5k":
 title = "DropZone 4v4 $5k LAN | uSync";
 component = <DropZone_4v4_5k />
@@ -2168,10 +2156,6 @@ case "/lans/halo-delta-lan":
 title = "Halo Delta LAN | uSync";
 component = <Halo_Delta_LAN />
 break;
-case "/lans/massivelan-summer-25":
-title = "MassiveLAN Summer 25 | uSync";
-component = <MassiveLAN_summer_25 />
-break;
 case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
 component = <PDXLAN_Fall_25 />
@@ -2179,14 +2163,6 @@ break;
 case "/lans/belowzero-fall-25":
 title = "BelowZero Fall 25 | uSync";
 component = <BelowZero_Fall_25 />
-break;
-case "/lans/texas-battle-bowl-25":
-title = "Texas Battle Bowl | uSync";
-component = <Texas_Battlebowl_25 />
-break;
-case "/lans/ezone-4k-bo6-lan":
-title = "EZone $4k BO6 LAN | uSync";
-component = <EZone_4k_bo6_LAN />
 break;
 case "/lans/rva-gunfight-2025":
 title = "RVA Gunfight 2025 | uSync";
@@ -2197,6 +2173,30 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/massivelan-summer-25":
+title = "MassiveLAN Summer 25 | uSync";
+component = <MassiveLAN_summer_25 />
+break;
+case "/lans/cindershots-fired-2v2":
+title = "Cindershots Fired 2v2 | uSync";
+component = <Cindershots_fired_2v2 />
+break;
+case "/lans/halo-summer-25-tournament":
+title = "Halo Summer 25 Tournament | uSync";
+component = <Halo_Summer_25_Tournament />
+break;
+case "/lans/texas-battle-bowl-25":
+title = "Texas Battle Bowl | uSync";
+component = <Texas_Battlebowl_25 />
+break;
+case "/lans/ezone-4k-bo6-lan":
+title = "EZone $4k BO6 LAN | uSync";
+component = <EZone_4k_bo6_LAN />
+break;
+case "/lans/friday-fest-2v2-gunfight":
+title = "Friday Fest: 2v2 Gunfight | uSync";
+component = <Friday_Fest_2v2_Gunfight />
+break;
 case "/lans/gacs-operation-freedom":
 title = "GA:CS Operation Freedom | uSync";
 component = <GACS_Operation_Freedom />

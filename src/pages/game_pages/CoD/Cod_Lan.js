@@ -70,25 +70,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/ezone-4k-bo6-lan'>
-                                <h1 className='Leagueh1 hide-on-mobile'>EZone $4k BO6 LAN</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/ezone-4k-bo6-lan"><img src="https://i.imgur.com/2lCZf3Y.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Philadelphia, PA</p>
-                            <a href='/lans/ezone-4k-bo6-lan'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/rva-gunfight-2025'>
                                 <h1 className='Leagueh1 hide-on-mobile'>RVA Gunfight 2025</h1>
                             </a>
@@ -97,21 +78,6 @@ const Cod_Lan = () => {
                             </div>
                             <p className='Leaguep'>Richmond, VA</p>
                             <a href='/lans/rva-gunfight-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/texas-battle-bowl-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Texas Battle Bowl</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/texas-battle-bowl-25"><img src="https://i.imgur.com/ijT1Jbg.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Midland, TX</p>
-                            <a href='/lans/texas-battle-bowl-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -206,25 +172,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/friday-fest-2v2-gunfight'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Friday Fest: 2v2 Gunfight</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/friday-fest-2v2-gunfight"><img src="https://i.imgur.com/zoThVHv.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Hackettstown, NJ</p>
-                            <a href='/lans/friday-fest-2v2-gunfight'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/league-play-legends-bo2'>
                                 <h1 className='Leagueh1 hide-on-mobile'>League Play Legends BO2</h1>
                             </a>
@@ -237,8 +184,12 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/apa-bo6-1v1'>
                                 <h1 className='Leagueh1 hide-on-mobile'>APA Black Ops 6 1v1</h1>
