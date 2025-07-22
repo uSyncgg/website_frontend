@@ -123,21 +123,6 @@ const Cod_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/dropzone-4v4-5k'>
-                                <h1 className='Leagueh1 hide-on-mobile'>DropZone 4v4 $5k</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/dropzone-4v4-5k"><img src="https://i.imgur.com/eqzMcKd.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/dropzone-4v4-5k'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/double-tap-weekly-s25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Double Tap Weekly</h1>
                             </a>
@@ -150,12 +135,8 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/indycod-x-yes-gaming'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Indy COD x Yes Gaming</h1>
@@ -169,8 +150,12 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/league-play-legends-bo2'>
                                 <h1 className='Leagueh1 hide-on-mobile'>League Play Legends BO2</h1>
@@ -185,26 +170,7 @@ const Cod_Lan = () => {
                         </div>
                     </div>
                 </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/apa-bo6-1v1'>
-                                <h1 className='Leagueh1 hide-on-mobile'>APA Black Ops 6 1v1</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/apa-bo6-1v1"><img src="https://i.imgur.com/pFLsBIs.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Philadelphia, PA</p>
-                            <a href='/lans/apa-bo6-1v1'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+                
                 <p className='hr' />
 
             </div>
