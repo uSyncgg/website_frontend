@@ -396,7 +396,6 @@ import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
 import HCS_SLC_Major from './pages/game_pages/LANs/HCS_SLC_Major';
 import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
-import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
 import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
@@ -411,6 +410,7 @@ import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Blink_Respawn_25 from './pages/game_pages/LANs/2025-Archive/Blink_Respawn_25';
 import LAN_A_THON_2025 from './pages/game_pages/LANs/2025-Archive/LAN_A_THON_2025';
 import Halo_Delta_LAN from './pages/game_pages/LANs/2025-Archive/Halo_Delta_LAN';
 import APA_Blackops6_1v1 from './pages/game_pages/LANs/2025-Archive/APA_Blackops6_1v1';
@@ -2124,10 +2124,6 @@ case "/lans/immerse-con-25":
 title = "ImmerseCon 2025 | uSync";
 component = <ImmerseCon25 />
 break;
-case "/lans/blink-respawn-25":
-title = "Blink Respawn 2025 | uSync";
-component = <Blink_Respawn_25 />
-break;
 case "/lans/tpc-champs":
 title = "The Premier Circuit Champs | uSync";
 component = <TPC_Champs />
@@ -2173,6 +2169,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/blink-respawn-25":
+title = "Blink Respawn 2025 | uSync";
+component = <Blink_Respawn_25 />
+break;
 case "/lans/lan-a-thon-2025":
 title = "LAN-A-THON 2025 | uSync";
 component = <LAN_A_THON_2025 />

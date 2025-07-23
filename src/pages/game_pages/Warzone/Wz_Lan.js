@@ -50,8 +50,11 @@ const Wz_Lan = () => {
             <div className='container-fluid'>
                 
                 <p className='hr' />
+                
+                {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
+                <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div>
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/blink-respawn-25'>
@@ -66,7 +69,7 @@ const Wz_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 
                 <p className='hr' />
