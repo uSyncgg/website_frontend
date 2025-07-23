@@ -399,7 +399,6 @@ import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
 import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
 import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
-import Blink_Respawn_25 from './pages/game_pages/LANs/Blink_Respawn_25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
 import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
@@ -420,6 +419,7 @@ import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freed
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Blink_Respawn_25 from './pages/game_pages/LANs/2025-Archive/Blink_Respawn_25';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/2025-Archive/Shinto_Takeover_2025';
 import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
 import Live_fire_series from './pages/game_pages/LANs/2025-Archive/Live_fire_series';
@@ -2130,10 +2130,6 @@ case "/lans/battle-for-the-brand":
 title = "Battle For The Brand | uSync";
 component = <Battleforthebrand />
 break;
-case "/lans/blink-respawn-25":
-title = "Blink Respawn 2025 | uSync";
-component = <Blink_Respawn_25 />
-break;
 case "/lans/tpc-champs":
 title = "The Premier Circuit Champs | uSync";
 component = <TPC_Champs />
@@ -2203,6 +2199,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/blink-respawn-25":
+title = "Blink Respawn 2025 | uSync";
+component = <Blink_Respawn_25 />
+break;
 case "/lans/shinto-takeover-2025":
 title = "Shinto Takeover | uSync";
 component = <Shinto_Takeover_2025 />
