@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Double_Tap_Weekly_Denver25 = () => {
+const EWG_LAN_1 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Double Tap Weekly Fridays is back with the weekly BO6 LAN near Denver, Colorado. Sign up solo or bring your duo in this 2v2 SND COD LAN today." />
+          <meta name="description" content="Elite Gaming Warfare EWG LAN 1 is coming to Saint Johns, Florida. 4v4 CDL variant LAN event with championship rings and a $5k prize pool." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Double Tap Weekly</h1>
+          <h1 id="league-title">EWG LAN 1</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const Double_Tap_Weekly_Denver25 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://x.com/Phrulo/status/1937611889967497692" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://x.com/ewgleague/status/1945624125764243503" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,20 +48,20 @@ const Double_Tap_Weekly_Denver25 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>Every Friday</p>
-              <p>Lakewood, CO</p>
+              <p>September 13 - 14th, 2025</p>
+              <p>Saint Johns, FL</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>2v2 SND LAN Tournament</p>
-              <p>Duos and Solos Allowed</p>
-              <p>Every Friday 6:30PM Start</p>
-              <p>Live Streamed and Casted Matches</p>
+              <p>$5k Prize Pool (Based on Entrants)</p>
+              <p>4v4 CDL Variant</p>
+              <p>Championship Rings + MVP Ring</p>
+              <p>16 Teams MAX</p>
+              <p>Pool Play and Double Elimination Bracket</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Venue Fee: $10</p>
-              <p>Tourney Fee: $10</p>
+              <p>Team Pass: $300 (Estimated)</p>
             </div>
           </div>
         </div>
@@ -73,4 +73,4 @@ const Double_Tap_Weekly_Denver25 = () => {
   );
 };
 
-export default Double_Tap_Weekly_Denver25;
+export default EWG_LAN_1;

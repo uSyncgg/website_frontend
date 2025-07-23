@@ -89,6 +89,25 @@ const Lol_Lan = () => {
 
                 <p className='hr' />
 
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/dragoncon-2025'>
+                                <h1 className='Leagueh1 hide-on-mobile'>DragonCon 2025</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/dragoncon-2025"><img src="https://i.imgur.com/iasC2Qr.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Atlanta, GA</p>
+                            <a href='/lans/dragoncon-2025'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
             </div>
         </div>
 

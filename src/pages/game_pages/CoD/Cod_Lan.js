@@ -158,7 +158,7 @@ const Cod_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/league-play-legends-bo2'>
                                 <h1 className='Leagueh1 hide-on-mobile'>League Play Legends BO2</h1>
@@ -172,8 +172,24 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/ewg-lan-1'>
+                                <h1 className='Leagueh1 hide-on-mobile'>EWG LAN 1</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/ewg-lan-1"><img src="https://i.imgur.com/7o2e5a3.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Saint Johns, FL</p>
+                            <a href='/lans/ewg-lan-1'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                
+
+
                 <p className='hr' />
 
             </div>
