@@ -61,7 +61,8 @@ const EWG_LAN_1 = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: $300 (Estimated)</p>
+              <p>Team Pass: $350</p>
+              <p>Sponsored Team Pass: $850</p>
             </div>
           </div>
         </div>
