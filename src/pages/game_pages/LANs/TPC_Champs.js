@@ -36,7 +36,7 @@ const TPC_Champs = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://x.com/TPCircuit" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://x.com/rally_esports/status/1949259872744202552" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -53,13 +53,14 @@ const TPC_Champs = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Prize Pool TBD</p>
+              <p>$5,000 Prize Pool</p>
               <p>4v4 CDL Variant Ruleset</p>
               <p>Men's and Women's LANs</p>
+              <p>64 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: TBD</p>
+              <p>Team Pass: $300</p>
             </div>
           </div>
         </div>
