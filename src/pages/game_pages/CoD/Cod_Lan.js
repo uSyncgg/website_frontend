@@ -189,6 +189,22 @@ const Cod_Lan = () => {
                     </div>
                 </div>
 
+                <p className='hr' />
+
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/friday-fest-weekly25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Friday Fest: Weekly 2v2 Gunfight</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/friday-fest-weekly25"><img src="https://i.imgur.com/zoThVHv.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Hackettstown, NJ</p>
+                            <a href='/lans/friday-fest-weekly25'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
 
                 <p className='hr' />
 

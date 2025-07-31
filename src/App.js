@@ -384,6 +384,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
+import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
+import Cindershots_fired_3 from './pages/game_pages/LANs/Cindershots_fired_3';
 import DragonCon_2025 from './pages/game_pages/LANs/DragonCon_2025';
 import EWG_LAN_1 from './pages/game_pages/LANs/EWG_LAN_1';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
@@ -2077,6 +2080,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/emerald-city-2026":
+title = "Emerald City LAN 2026 | uSync";
+component = <Emerald_CityLAN_2026 />
+break;
+case "/lans/friday-fest-weekly25":
+title = "Friday Fest Weekly | uSync";
+component = <Friday_Fest_Weekly25 />
+break;
+case "/lans/cindershots-fired-3":
+title = "Cindershots Fired 3 | uSync";
+component = <Cindershots_fired_3 />
+break;
 case "/lans/dragoncon-2025":
 title = "DragonCon 2025 | uSync";
 component = <DragonCon_2025 />
