@@ -16,19 +16,22 @@ const Corporate_CS2 = () => {
   return (
     <>
       <Helmet>
+        {/* All Helmet Information has been added */}
         <title>Corporate CS2 League | uSync</title>
         <meta name="description" content="Corporate CS2 league is THE corporate America league. Play with your co-workers against other companies in the United States." />
-        
-        {/* SEO Best Practice: Added a self-referencing canonical tag. */}
         <link rel="canonical" href="https://usync.gg/games/CS2/leagues/corporate" />
-
       </Helmet>
       <div className='total-container'>
         <div className="Header-Img-l not-verified-banner-img-lans">
           <div className="games-leagues-header-title">
             <h1 id="league-title">Corporate CS2 League</h1>
-            {/* SEO Optimization: alt text is empty as this image is purely decorative. */}
-            <img src="https://i.imgur.com/eNhKhTI.png" alt="" className='Underline-h' />
+            {/* Alt text is empty for decorative images, title is optional for hover text. */}
+            <img 
+              src="https://i.imgur.com/eNhKhTI.png" 
+              alt="" 
+              title="Decorative underline" 
+              className='Underline-h' 
+            />
           </div>
         </div>
         <div className="background-mid">
@@ -44,22 +47,22 @@ const Corporate_CS2 = () => {
               id="checkmark-title-link"
               className="mx-auto my-2"
             >
-              {/* SEO Optimization: Added descriptive alt text. */}
               <img
                 src="https://i.imgur.com/HaRfFh9.png"
                 className="Checkmark-title"
-                alt="Not a uSync Verified Event"
+                alt="Not a uSync Verified Event."
+                title="This event has not been verified by the uSync team."
               />
             </a>
             <a href="/more/verification" id="checkmark-link">
-              {/* SEO Optimization: Added descriptive alt text. */}
-              <img
-                src="https://i.imgur.com/0MPIBOK.png"
-                className="Checkmark"
-                alt="Not Verified Icon"
+              <img 
+                src="https://i.imgur.com/0MPIBOK.png" 
+                className="Checkmark" 
+                alt="Red 'X' icon indicating a non-verified status."
+                title="Not Verified"
               />
             </a>
-            {/* SEO & Accessibility Optimization: Replaced the invalid button inside a link with a single link styled as a button. */}
+            {/* Link has been corrected for semantic HTML and accessibility */}
             <a
               href="https://cea.gg/"
               target="_blank"
@@ -92,7 +95,7 @@ const Corporate_CS2 = () => {
             </div>
           </div>
           <div className="league-back-button-container">
-             {/* SEO & Accessibility Optimization: Applied the same fix here for the "Back" button. */}
+            {/* Link has been corrected for semantic HTML and accessibility */}
             <a href="/games/CS2/leagues" id='league-back-button-a' className="back-button">
               Back
             </a>
