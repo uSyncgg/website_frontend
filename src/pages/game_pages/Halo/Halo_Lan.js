@@ -54,7 +54,7 @@ const Halo_Lan = () => {
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/hcs-slc-major'>
@@ -62,16 +62,16 @@ const Halo_Lan = () => {
                             </a>
                             <div className='parent'>
                                 <a href="/lans/hcs-slc-major"><img src="https://i.imgur.com/Ab93zPY.png" className='league-img' /></a>
-                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' loading='lazy'/></a>
                             </div>
                             <p className='Leaguep'>Salt Lake City, UT</p>
                             <a href='/lans/hcs-slc-major'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto bottom-card'>
                         <div className='league'>
                             <a href='/lans/cindershots-fired-3'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 3</h1>
