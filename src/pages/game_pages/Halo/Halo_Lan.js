@@ -54,24 +54,24 @@ const Halo_Lan = () => {
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
-                {/* <div className='row'>
+                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/hcs-slc-major'>
-                                <h1 className='Leagueh1 hide-on-mobile'>HCS SLC Major</h1>
+                            <a href='/lans/hcs-major-charlotte-25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>HCS Major Charlotte 2025</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/hcs-slc-major"><img src="https://i.imgur.com/Ab93zPY.png" className='league-img' /></a>
+                                <a href="/lans/hcs-major-charlotte-25"><img src="https://i.imgur.com/gfmx0sp.png" className='league-img' /></a>
+                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
-                            <p className='Leaguep'>Salt Lake City, UT</p>
-                            <a href='/lans/hcs-slc-major'>
+                            <p className='Leaguep'>Charlotte, NC</p>
+                            <a href='/lans/hcs-major-charlotte-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
-                    </div> */}
+                    </div>
 
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto bottom-card'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/cindershots-fired-3'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 3</h1>
@@ -85,9 +85,8 @@ const Halo_Lan = () => {
                             </a>
                         </div>
                     </div>
-
                 </div>
-                
+
                 <p className='hr' />
               
             </div>

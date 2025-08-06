@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
 import Cindershots_fired_3 from './pages/game_pages/LANs/Cindershots_fired_3';
@@ -412,7 +413,6 @@ import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/2025-Archive/Norfolk_L
 import HCS_SLC_Major from './pages/game_pages/LANs/2025-Archive/HCS_SLC_Major';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/2025-Archive/Reforged_Gaming_4v4';
 import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/2025-Archive/IndyCOD_x_Yes_Gaming';
-
 import Capital_LAN_25 from './pages/game_pages/LANs/2025-Archive/Capital_LAN_25';
 import LANWAR_74 from './pages/game_pages/LANs/2025-Archive/LANWAR_74';
 import Kami_Con_v3 from './pages/game_pages/LANs/2025-Archive/Kami_Con_v3';
@@ -2081,6 +2081,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/hcs-major-charlotte-25":
+title = "HCS Major Charlotte 2025 | uSync";
+component = <HCS_Major_Final25 />
+break;
 case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
