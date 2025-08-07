@@ -700,6 +700,8 @@ import CompletePage from "./pages/payment_pages/CompletePage";
 
 import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
 
+import Conventions from "./pages/game_pages/Conventions/conventions";
+
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -3098,6 +3100,11 @@ break;
       case "/reforged-cod-submission":
         title = "Reforged 4v4 CoD LAN | uSync";
         component = <ReforgedCoDForm />
+        break;
+
+      case "/other-lans":
+        title = "Other / Conventions | uSync";
+        component = <Conventions />
         break;
 
       default:

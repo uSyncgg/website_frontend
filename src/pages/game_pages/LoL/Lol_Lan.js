@@ -33,8 +33,8 @@ const Lol_Lan = () => {
 
             <div className={styles.MapWrapper} style={{ position: 'relative' }}>
                 <div>
-                    <a href='/games/call-of-duty'>
-                        <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                    <a href='/games/LoL'>
+                        <button type="submit" className='info-button-lans'>Back to LoL</button>
                     </a>
                     <a href='/lans'>
                         <button type="submit" className='info-button-lans-home'>Back to LANs</button>
