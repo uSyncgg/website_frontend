@@ -387,7 +387,6 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
-import Cindershots_fired_3 from './pages/game_pages/LANs/Cindershots_fired_3';
 import DragonCon_2025 from './pages/game_pages/LANs/DragonCon_2025';
 import EWG_LAN_1 from './pages/game_pages/LANs/EWG_LAN_1';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
@@ -398,7 +397,6 @@ import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekl
 import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
-import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
 import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
@@ -409,6 +407,8 @@ import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Cindershots_fired_3 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_3';
+import MAGWest_2025 from './pages/game_pages/LANs/2025-Archive/MAGWest_2025';
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/2025-Archive/Norfolk_LAN_Summer25';
 import HCS_SLC_Major from './pages/game_pages/LANs/2025-Archive/HCS_SLC_Major';
 import Reforged_Gaming_4v4 from './pages/game_pages/LANs/2025-Archive/Reforged_Gaming_4v4';
@@ -2095,10 +2095,6 @@ case "/lans/friday-fest-weekly25":
 title = "Friday Fest Weekly | uSync";
 component = <Friday_Fest_Weekly25 />
 break;
-case "/lans/cindershots-fired-3":
-title = "Cindershots Fired 3 | uSync";
-component = <Cindershots_fired_3 />
-break;
 case "/lans/dragoncon-2025":
 title = "DragonCon 2025 | uSync";
 component = <DragonCon_2025 />
@@ -2139,10 +2135,6 @@ case "/lans/tpc-champs":
 title = "The Premier Circuit Champs | uSync";
 component = <TPC_Champs />
 break;
-case "/lans/magwest-25":
-title = "MAGWest 2025 | uSync";
-component = <MAGWest_2025 />
-break;
 case "/lans/lan-all-night-12":
 title = "LAN All Night 12 | uSync";
 component = <LAN_All_Night_12 />
@@ -2172,6 +2164,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/cindershots-fired-3":
+title = "Cindershots Fired 3 | uSync";
+component = <Cindershots_fired_3 />
+break;
+case "/lans/magwest-25":
+title = "MAGWest 2025 | uSync";
+component = <MAGWest_2025 />
+break;
 case "/lans/indycod-x-yes-gaming":
 title = "Indy Cod x Yes Gaming | uSync";
 component = <IndyCOD_x_Yes_Gaming />

@@ -55,7 +55,7 @@ const Halo_Lan = () => {
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
                  <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/hcs-major-charlotte-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>HCS Major Charlotte 2025</h1>
@@ -70,8 +70,9 @@ const Halo_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    {/* <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/cindershots-fired-3'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 3</h1>
@@ -85,7 +86,7 @@ const Halo_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <p className='hr' />
               
