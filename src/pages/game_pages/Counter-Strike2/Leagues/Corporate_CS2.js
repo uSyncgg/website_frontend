@@ -16,7 +16,6 @@ const Corporate_CS2 = () => {
   return (
     <>
       <Helmet>
-        {/* All Helmet Information has been added */}
         <title>Corporate CS2 League | uSync</title>
         <meta name="description" content="Corporate CS2 league is THE corporate America league. Play with your co-workers against other companies in the United States." />
         <link rel="canonical" href="https://usync.gg/games/CS2/leagues/corporate" />
@@ -25,7 +24,6 @@ const Corporate_CS2 = () => {
         <div className="Header-Img-l not-verified-banner-img-lans">
           <div className="games-leagues-header-title">
             <h1 id="league-title">Corporate CS2 League</h1>
-            {/* Alt text is empty for decorative images, title is optional for hover text. */}
             <img 
               src="https://i.imgur.com/eNhKhTI.png" 
               alt="" 
@@ -62,7 +60,6 @@ const Corporate_CS2 = () => {
                 title="Not Verified"
               />
             </a>
-            {/* Link has been corrected for semantic HTML and accessibility */}
             <a
               href="https://cea.gg/"
               target="_blank"
@@ -95,7 +92,6 @@ const Corporate_CS2 = () => {
             </div>
           </div>
           <div className="league-back-button-container">
-            {/* Link has been corrected for semantic HTML and accessibility */}
             <a href="/games/CS2/leagues" id='league-back-button-a' className="back-button">
               Back
             </a>
