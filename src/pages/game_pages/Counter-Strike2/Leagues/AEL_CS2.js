@@ -16,16 +16,15 @@ const AEL_CS2 = () => {
   return (
     <>
       <Helmet>
-        {/* SEO Optimization: Added a descriptive and unique <title> tag. */}
         <title>Australian Esports League (CS2) | uSync</title>
         <meta name="description" content="Australian Esports League (AEL) is the #1 AUS Counter-Strike 2 university league. Compete for large prize pools, while having your matches broadcasted." />
+        <link rel="canonical" href="https://usync.gg/games/CS2/leagues/ael" />
       </Helmet>
       <div className='total-container'>
         <div className="Header-Img-l not-verified-banner-img-lans">
           <div className="games-leagues-header-title">
             <h1 id="league-title">Australian Esports League</h1>
-            {/* SEO Optimization: alt text is empty as this image is purely decorative. */}
-            <img src="https://i.imgur.com/eNhKhTI.png" alt="" className='Underline-h' />
+            <img src="https://i.imgur.com/eNhKhTI.png" alt="" title="Decorative underline" className='Underline-h' />
           </div>
         </div>
         <div className="background-mid">
@@ -41,22 +40,21 @@ const AEL_CS2 = () => {
               id="checkmark-title-link"
               className="mx-auto my-2"
             >
-              {/* SEO Optimization: Added descriptive alt text. */}
               <img
                 src="https://i.imgur.com/HaRfFh9.png"
                 className="Checkmark-title"
-                alt="Not a uSync Verified Event"
+                alt="Not a uSync Verified Event."
+                title="This event has not been verified by the uSync team."
               />
             </a>
             <a href="/more/verification" id="checkmark-link">
-              {/* SEO Optimization: Added descriptive alt text. */}
-              <img
-                src="https://i.imgur.com/0MPIBOK.png"
-                className="Checkmark"
-                alt="Not Verified Icon"
+              <img 
+                src="https://i.imgur.com/0MPIBOK.png" 
+                className="Checkmark" 
+                alt="Red 'X' icon indicating a non-verified status."
+                title="Not Verified"
               />
             </a>
-            {/* SEO & Accessibility Optimization: Replaced the invalid button inside a link with a single link styled as a button. */}
             <a
               href="https://ael.org.au/uni/"
               target="_blank"
@@ -93,7 +91,6 @@ const AEL_CS2 = () => {
             </div>
           </div>
           <div className="league-back-button-container">
-            {/* SEO & Accessibility Optimization: Applied the same fix here for the "Back" button. */}
             <a href="/games/CS2/leagues" id='league-back-button-a' className="back-button">
               Back
             </a>
