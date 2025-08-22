@@ -391,7 +391,8 @@ function CodTourneys() {
                             {/* //     <div className='row-flex'> */}
                                 <div className="container-fluid d-flex justify-content-md-start tournament-card">
                                     <CCard className='mb-4 tourney-background' style={{ border: 'transparent' }}>
-                                        <div className='white-text'><h1>No Tournaments for Today, please check back later</h1></div>
+                                        {/* <div className='white-text'><h1>No Tournaments for Today, please check back later</h1></div> */}
+                                        <div className='white-text'><h1>Experiencing Technical Difficulties, please check back tomorrow</h1></div>
                                     </CCard>
                                 </div>
                             {/* //     </div> */}
