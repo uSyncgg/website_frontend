@@ -392,9 +392,7 @@ import EWG_LAN_1 from './pages/game_pages/LANs/EWG_LAN_1';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/RocLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
-import League_Play_Legends_BO2 from './pages/game_pages/LANs/League_Play_Legends_BO2';
 import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
-import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
 import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
 import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
@@ -407,6 +405,8 @@ import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Bell_Esports_Challenge25 from './pages/game_pages/LANs/2025-Archive/Bell_Esports_Challenge25';
+import League_Play_Legends_BO2 from './pages/game_pages/LANs/2025-Archive/League_Play_Legends_BO2';
 import Cindershots_fired_3 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_3';
 import MAGWest_2025 from './pages/game_pages/LANs/2025-Archive/MAGWest_2025';
 import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/2025-Archive/Norfolk_LAN_Summer25';
@@ -2115,17 +2115,9 @@ case "/lans/lanfest-colorado-25":
 title = "LANFest Colorado 2025 | uSync";
 component = <LANFest_Colorado_2025 />
 break;
-case "/lans/league-play-legends-bo2":
-title = "League Play Legends BO2 | uSync";
-component = <League_Play_Legends_BO2 />
-break;
 case "/lans/double-tap-weekly-s25":
 title = "Double Tap Weekly | uSync";
 component = <Double_Tap_Weekly_Denver25 />
-break;
-case "/lans/bell-esports-challenge25":
-title = "Bell Esports Challenge | uSync";
-component = <Bell_Esports_Challenge25 />
 break;
 case "/lans/immerse-con-25":
 title = "ImmerseCon 2025 | uSync";
@@ -2164,6 +2156,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/league-play-legends-bo2":
+title = "League Play Legends BO2 | uSync";
+component = <League_Play_Legends_BO2 />
+break;
+case "/lans/bell-esports-challenge25":
+title = "Bell Esports Challenge | uSync";
+component = <Bell_Esports_Challenge25 />
+break;
 case "/lans/cindershots-fired-3":
 title = "Cindershots Fired 3 | uSync";
 component = <Cindershots_fired_3 />
