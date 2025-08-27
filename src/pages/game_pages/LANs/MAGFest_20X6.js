@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const BelowZero_Fall_25 = () => {
+const MAGFest_20X6 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="BelowZero Fall 2025 BYOC LAN Event. Get your tickets today before they all sell out in this convention in Minnesota." />
+          <meta name="description" content="MAGFest is back in 2026 with Super MAGFest 20X6. This music and gaming festival is one for all ages that love LAN events, cosplay, and conventions." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">BelowZero Fall 2025</h1>
+          <h1 id="league-title">MAGFest 20X6</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const BelowZero_Fall_25 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://lanfest.com/tc-events/belowzero-lanfest-fall-2025/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://super.magfest.org/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,20 +48,18 @@ const BelowZero_Fall_25 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>September 26 - 28th, 2025</p>
-              <p>Roseville, MN</p>
+              <p>January 8 - 11th, 2025</p>
+              <p>National Harbor, MD</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Bring Your Own Computer Event</p>
-              <p>Competitive and Casual Tournaments</p>
-              <p>All Skill Levels Welcomed</p>
-              <p>All Ages Invited</p>
+              <p>Music and Gaming Festival</p>
+              <p>Live music, gaming tournaments, vendors, guest speakers, and more</p>
+              <p>More Info Announced in September 2025</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>General Admission: $50</p>
-              <p>VIP: $65</p>
+              <p>Entry Fee: TBA</p>
             </div>
           </div>
         </div>
@@ -73,4 +71,4 @@ const BelowZero_Fall_25 = () => {
   );
 };
 
-export default BelowZero_Fall_25;
+export default MAGFest_20X6;

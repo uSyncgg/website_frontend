@@ -384,6 +384,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
+import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
+import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
@@ -2083,6 +2086,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/dreamhack-atlanta-25":
+title = "DreamHack Atlanta 25 | uSync";
+component = <DreamHack_Atlanta25 />
+break;
+case "/lans/magfest-20x6":
+title = "MAGFest 20X6 | uSync";
+component = <MAGFest_20X6 />
+break;
+case "/lans/code-green-2":
+title = "Code Green 2 | uSync";
+component = <Code_Green_2_Bo7 />
+break;
 case "/lans/hcs-major-charlotte-25":
 title = "HCS Major Charlotte 2025 | uSync";
 component = <HCS_Major_Final25 />

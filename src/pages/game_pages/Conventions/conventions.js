@@ -213,6 +213,40 @@ const Conventions = () => {
 
                 <p className='hr' />
 
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/dreamhack-atlanta-25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>DreamHack Atlanta 25</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/dreamhack-atlanta-25"><img src="https://i.imgur.com/6mNKaHp.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Atlanta, GA</p>
+                            <a href='/lans/dreamhack-atlanta-25'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/magfest-20x6'>
+                                <h1 className='Leagueh1 hide-on-mobile'>MAGFest 20X6</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/magfest-20x6"><img src="https://i.imgur.com/5JqCoIB.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>National Harbor, MD</p>
+                            <a href='/lans/magfest-20x6'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
             </div>
         </div>
 
