@@ -384,6 +384,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
+import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
@@ -2086,6 +2088,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/weekly-contender-ssbu":
+title = "The Weekly Contender | SSBU | uSync";
+component = <Weekly_Contender_SSBU />
+break;
+case "/lans/gacod-bo7-launch":
+title = "GA:CoD Black Ops 7 Launch | uSync";
+component = <GACOD_BO7_Launch />
+break;
 case "/lans/dreamhack-atlanta-25":
 title = "DreamHack Atlanta 25 | uSync";
 component = <DreamHack_Atlanta25 />
