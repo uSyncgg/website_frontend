@@ -95,25 +95,6 @@ const Conventions = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/pax-west-fall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>PAX West Fall 25</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/pax-west-fall-25"><img src="https://i.imgur.com/1KOQaD6.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Seattle, WA</p>
-                            <a href='/lans/pax-west-fall-25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/rgb-lan-vi'>
                                 <h1 className='Leagueh1 hide-on-mobile'>RGB LAN VI</h1>
                             </a>
@@ -122,21 +103,6 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Oaks, PA</p>
                             <a href='/lans/rgb-lan-vi'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/immerse-con-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>ImmerseCon 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/immerse-con-25"><img src="https://i.imgur.com/vWE536f.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Richmond, VA</p>
-                            <a href='/lans/immerse-con-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

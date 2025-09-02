@@ -48,7 +48,7 @@ const Friday_Fest_Weekly25 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>Every Friday in August</p>
+              <p>Every Friday</p>
               <p>Hackettstown, NJ</p>
             </div>
             <div class="col-md-4 league-info">

@@ -390,24 +390,24 @@ import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
-import DragonCon_2025 from './pages/game_pages/LANs/DragonCon_2025';
 import EWG_LAN_1 from './pages/game_pages/LANs/EWG_LAN_1';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/RocLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
-import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
-import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
-import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
-import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
 import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
-import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import PAX_West_Fall_25 from './pages/game_pages/LANs/2025-Archive/PAX_West_Fall_25';
+import ImmerseCon25 from './pages/game_pages/LANs/2025-Archive/ImmerseCon25';
+import DragonCon_2025 from './pages/game_pages/LANs/2025-Archive/DragonCon_2025';
+import RVA_Gunfight_2025 from './pages/game_pages/LANs/2025-Archive/RVA_Gunfight_2025'
+import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/2025-Archive/Double_Tap_Weekly_Denver25';
+import TPC_Champs from './pages/game_pages/LANs/2025-Archive/TPC_Champs';
 import Bell_Esports_Challenge25 from './pages/game_pages/LANs/2025-Archive/Bell_Esports_Challenge25';
 import League_Play_Legends_BO2 from './pages/game_pages/LANs/2025-Archive/League_Play_Legends_BO2';
 import Cindershots_fired_3 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_3';
@@ -2110,10 +2110,6 @@ case "/lans/friday-fest-weekly25":
 title = "Friday Fest Weekly | uSync";
 component = <Friday_Fest_Weekly25 />
 break;
-case "/lans/dragoncon-2025":
-title = "DragonCon 2025 | uSync";
-component = <DragonCon_2025 />
-break;
 case "/lans/ewg-lan-1":
 title = "EWG LAN 1 | uSync";
 component = <EWG_LAN_1 />
@@ -2130,25 +2126,9 @@ case "/lans/lanfest-colorado-25":
 title = "LANFest Colorado 2025 | uSync";
 component = <LANFest_Colorado_2025 />
 break;
-case "/lans/double-tap-weekly-s25":
-title = "Double Tap Weekly | uSync";
-component = <Double_Tap_Weekly_Denver25 />
-break;
-case "/lans/immerse-con-25":
-title = "ImmerseCon 2025 | uSync";
-component = <ImmerseCon25 />
-break;
-case "/lans/tpc-champs":
-title = "The Premier Circuit Champs | uSync";
-component = <TPC_Champs />
-break;
 case "/lans/lan-all-night-12":
 title = "LAN All Night 12 | uSync";
 component = <LAN_All_Night_12 />
-break;
-case "/lans/pax-west-fall-25":
-title = "PAX West Fall 2025 | uSync";
-component = <PAX_West_Fall_25 />
 break;
 case "/lans/rgb-lan-vi":
 title = "RGB LAN VI | uSync";
@@ -2162,15 +2142,35 @@ case "/lans/belowzero-fall-25":
 title = "BelowZero Fall 25 | uSync";
 component = <BelowZero_Fall_25 />
 break;
-case "/lans/rva-gunfight-2025":
-title = "RVA Gunfight 2025 | uSync";
-component = <RVA_Gunfight_2025 />
-break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/pax-west-fall-25":
+title = "PAX West Fall 2025 | uSync";
+component = <PAX_West_Fall_25 />
+break;
+case "/lans/immerse-con-25":
+title = "ImmerseCon 2025 | uSync";
+component = <ImmerseCon25 />
+break;
+case "/lans/dragoncon-2025":
+title = "DragonCon 2025 | uSync";
+component = <DragonCon_2025 />
+break;
+case "/lans/tpc-champs":
+title = "The Premier Circuit Champs | uSync";
+component = <TPC_Champs />
+break;
+case "/lans/rva-gunfight-2025":
+title = "RVA Gunfight 2025 | uSync";
+component = <RVA_Gunfight_2025 />
+break;
+case "/lans/double-tap-weekly-s25":
+title = "Double Tap Weekly | uSync";
+component = <Double_Tap_Weekly_Denver25 />
+break;
 case "/lans/league-play-legends-bo2":
 title = "League Play Legends BO2 | uSync";
 component = <League_Play_Legends_BO2 />

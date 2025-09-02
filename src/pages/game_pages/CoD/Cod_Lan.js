@@ -57,55 +57,6 @@ const Cod_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/rva-gunfight-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>RVA Gunfight 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/rva-gunfight-2025"><img src="https://i.imgur.com/npSklqh.png" className='league-img' loading='lazy' /></a>
-                            </div>
-                            <p className='Leaguep'>Richmond, VA</p>
-                            <a href='/lans/rva-gunfight-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/tpc-champs'>
-                                <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit Champs</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/tpc-champs"><img src="https://i.imgur.com/aY0v1e1.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/tpc-champs'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/double-tap-weekly-s25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Double Tap Weekly</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/double-tap-weekly-s25"><img src="https://i.imgur.com/mpWKRNU.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/double-tap-weekly-s25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/ewg-lan-1'>
                                 <h1 className='Leagueh1 hide-on-mobile'>EWG LAN 1</h1>
                             </a>
@@ -118,11 +69,7 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/friday-fest-weekly25'>
@@ -137,8 +84,12 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto bottom-card'>
                         <div className='league'>
                             <a href='/lans/code-green-2'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Code Green 2 BO7</h1>

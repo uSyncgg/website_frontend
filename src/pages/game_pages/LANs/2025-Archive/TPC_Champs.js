@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const PAX_West_Fall_25 = () => {
+const TPC_Champs = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="PAX West is back in Seattle, Washington. This LAN event is a huge event with even concerts this year. Sign up before tickets sell out." />
+          <meta name="description" content="The Premier Circuit Championship. The most elite of all of Black Ops 6 LAN tournaments coming this summer in Columbus, Ohio - you won't want to miss it." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">PAX West Fall 25</h1>
+          <h1 id="league-title">The Premier Circuit Champs</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,42 +35,41 @@ const PAX_West_Fall_25 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
-            href="https://west.paxsite.com/en-us/registration.html" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://x.com/rally_esports/status/1949259872744202552" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>August 29th - September 1st, 2025</p>
-              <p>Seattle, WA</p>
+              <p>August 29 - 31st, 2025</p>
+              <p>Columbus, OH</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Various Tournament Titles</p>
-              <p>Freeplay, Tabletop, Cosplay, and More Events</p>
-              <p>Exciting Panels and Special Shows</p>
+              <p>$5,000 Prize Pool</p>
+              <p>4v4 CDL Variant Ruleset</p>
+              <p>Men's and Women's LANs</p>
+              <p>64 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>4-Day Badge: $225</p>
-              <p>Individual Day Badge: ~$70 per day</p>
-              <p>BYOC Badge Add-on: $50</p>
+              <p>Team Pass: $300</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/other-lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default PAX_West_Fall_25;
+export default TPC_Champs;
