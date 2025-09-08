@@ -384,6 +384,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Lakewood_League_X from './pages/game_pages/LANs/Lakewood_League_X';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
@@ -2088,6 +2089,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/lakewood-league-x":
+title = "Lakewood League X | uSync";
+component = <Lakewood_League_X />
+break;
 case "/lans/weekly-contender-ssbu":
 title = "The Weekly Contender | SSBU | uSync";
 component = <Weekly_Contender_SSBU />

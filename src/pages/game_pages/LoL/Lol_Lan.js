@@ -53,24 +53,24 @@ const Lol_Lan = () => {
                 <p className='hr' />
 
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
-                <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div>
+                {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
-                {/* <div className='row'>
+                <div className='row'>
                     <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/dragoncon-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>DragonCon 2025</h1>
+                            <a href='/lans/lakewood-league-x'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Lakewood League X</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/dragoncon-2025"><img src="https://i.imgur.com/iasC2Qr.png" className='league-img' /></a>
+                                <a href="/lans/lakewood-league-x"><img src="https://i.imgur.com/BsyotZR.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>Atlanta, GA</p>
-                            <a href='/lans/dragoncon-2025'>
+                            <p className='Leaguep'>Lakewood, CO</p>
+                            <a href='/lans/lakewood-league-x5'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 <p className='hr' />
 
