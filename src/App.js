@@ -397,13 +397,13 @@ import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/RocLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
-import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import RGB_LAN_VI from './pages/game_pages/LANs/2025-Archive/RGB_LAN_VI';
 import PAX_West_Fall_25 from './pages/game_pages/LANs/2025-Archive/PAX_West_Fall_25';
 import ImmerseCon25 from './pages/game_pages/LANs/2025-Archive/ImmerseCon25';
 import DragonCon_2025 from './pages/game_pages/LANs/2025-Archive/DragonCon_2025';
@@ -2140,10 +2140,6 @@ case "/lans/lan-all-night-12":
 title = "LAN All Night 12 | uSync";
 component = <LAN_All_Night_12 />
 break;
-case "/lans/rgb-lan-vi":
-title = "RGB LAN VI | uSync";
-component = <RGB_LAN_VI />
-break;
 case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
 component = <PDXLAN_Fall_25 />
@@ -2157,6 +2153,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/rgb-lan-vi":
+title = "RGB LAN VI | uSync";
+component = <RGB_LAN_VI />
+break;
 case "/lans/pax-west-fall-25":
 title = "PAX West Fall 2025 | uSync";
 component = <PAX_West_Fall_25 />
