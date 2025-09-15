@@ -393,7 +393,6 @@ import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
-import EWG_LAN_1 from './pages/game_pages/LANs/EWG_LAN_1';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/RocLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
@@ -404,6 +403,7 @@ import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
 
 
 //MASONS & JAKE LANs - Archived 2025
+import EWG_LAN_1 from './pages/game_pages/LANs/2025-Archive/EWG_LAN_1';
 import RGB_LAN_VI from './pages/game_pages/LANs/2025-Archive/RGB_LAN_VI';
 import PAX_West_Fall_25 from './pages/game_pages/LANs/2025-Archive/PAX_West_Fall_25';
 import ImmerseCon25 from './pages/game_pages/LANs/2025-Archive/ImmerseCon25';
@@ -2125,10 +2125,6 @@ case "/lans/friday-fest-weekly25":
 title = "Friday Fest Weekly | uSync";
 component = <Friday_Fest_Weekly25 />
 break;
-case "/lans/ewg-lan-1":
-title = "EWG LAN 1 | uSync";
-component = <EWG_LAN_1 />
-break;
 case "/lans/fortlan-fall-25":
 title = "FortLAN Fall 2025 | uSync";
 component = <FortLAN_Fall_2025 />
@@ -2158,6 +2154,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/ewg-lan-1":
+title = "EWG LAN 1 | uSync";
+component = <EWG_LAN_1 />
+break;
 case "/lans/rgb-lan-vi":
 title = "RGB LAN VI | uSync";
 component = <RGB_LAN_VI />
