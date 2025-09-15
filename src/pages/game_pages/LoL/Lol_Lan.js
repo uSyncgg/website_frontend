@@ -70,6 +70,21 @@ const Lol_Lan = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/gatorlan-fall-25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>GatorLAN Fall 2025</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/gatorlan-fall-25"><img src="https://i.imgur.com/Ibby6Qe.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Gainesville, FL</p>
+                            <a href='/lans/gatorlan-fall-25'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <p className='hr' />

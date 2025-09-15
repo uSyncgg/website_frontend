@@ -384,6 +384,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import New_England_College_LAN_fall25 from './pages/game_pages/LANs/New_England_College_LAN_fall25';
+import GatorLAN_Fall_2025 from './pages/game_pages/LANs/GatorLAN_Fall_2025';
 import Lakewood_League_X from './pages/game_pages/LANs/Lakewood_League_X';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
@@ -2089,6 +2091,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/newengland-collegelan-fall-25":
+title = "New England College LAN Fall 25 | uSync";
+component = <New_England_College_LAN_fall25 />
+break;
+case "/lans/gatorlan-fall-25":
+title = "GatorLAN Fall 2025 | uSync";
+component = <GatorLAN_Fall_2025 />
+break;
 case "/lans/lakewood-league-x":
 title = "Lakewood League X | uSync";
 component = <Lakewood_League_X />
