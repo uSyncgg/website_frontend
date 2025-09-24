@@ -213,6 +213,25 @@ const Conventions = () => {
 
                 <p className='hr' />
 
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/dreamhack-birmingham'>
+                                <h1 className='Leagueh1 hide-on-mobile'>DreamHack Birmingham</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/dreamhack-birmingham"><img src="https://i.imgur.com/6mNKaHp.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Birmingham, UK</p>
+                            <a href='/lans/dreamhack-birmingham'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
             </div>
         </div>
 
