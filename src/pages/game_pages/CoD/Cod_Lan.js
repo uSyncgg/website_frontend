@@ -58,201 +58,48 @@ const Cod_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/reforged-gaming-4v4'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Reforged Gaming 4v4</h1>
+                            <a href='/lans/friday-fest-weekly25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Friday Fest: Weekly 2v2 Gunfight</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/reforged-gaming-4v4"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' loading='lazy' /></a>
-                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Charleston, SC</p>
-                            <a href='/lans/reforged-gaming-4v4'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/ezone-4k-bo6-lan'>
-                                <h1 className='Leagueh1 hide-on-mobile'>EZone $4k BO6 LAN</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/ezone-4k-bo6-lan"><img src="https://i.imgur.com/2lCZf3Y.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Philadelphia, PA</p>
-                            <a href='/lans/ezone-4k-bo6-lan'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/rva-gunfight-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>RVA Gunfight 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/rva-gunfight-2025"><img src="https://i.imgur.com/npSklqh.png" className='league-img' loading='lazy' /></a>
-                            </div>
-                            <p className='Leaguep'>Richmond, VA</p>
-                            <a href='/lans/rva-gunfight-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/cod-ireland-2025'>
-                                <h1 className='Leagueh1 hide-on-mobile'>COD IreLANd 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/cod-ireland-2025"><img src="https://i.imgur.com/3A4LoyH.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Belfast, UK</p>
-                            <a href='/lans/cod-ireland-2025'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/battle-for-the-brand'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Battle For The Brand</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/battle-for-the-brand"><img src="https://i.imgur.com/x07EXoR.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Kansas City, MO</p>
-                            <a href='/lans/battle-for-the-brand'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/texas-battle-bowl-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Texas Battle Bowl</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/texas-battle-bowl-25"><img src="https://i.imgur.com/ijT1Jbg.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Midland, TX</p>
-                            <a href='/lans/texas-battle-bowl-25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/tpc-champs'>
-                                <h1 className='Leagueh1 hide-on-mobile'>The Premier Circuit Champs</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/tpc-champs"><img src="https://i.imgur.com/aY0v1e1.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/tpc-champs'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/bell-esports-challenge25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Bell Esports Challenge</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/bell-esports-challenge25"><img src="https://i.imgur.com/k0vXVI8.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Toronto, Canada</p>
-                            <a href='/lans/bell-esports-challenge25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/dropzone-4v4-5k'>
-                                <h1 className='Leagueh1 hide-on-mobile'>DropZone 4v4 $5k</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/dropzone-4v4-5k"><img src="https://i.imgur.com/eqzMcKd.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/dropzone-4v4-5k'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/double-tap-weekly-s25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Double Tap Weekly</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/double-tap-weekly-s25"><img src="https://i.imgur.com/mpWKRNU.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/double-tap-weekly-s25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/indycod-x-yes-gaming'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Indy COD x Yes Gaming</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/indycod-x-yes-gaming"><img src="https://i.imgur.com/Z43ttEI.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Fishers, IN</p>
-                            <a href='/lans/indycod-x-yes-gaming'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/friday-fest-2v2-gunfight'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Friday Fest: 2v2 Gunfight</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/friday-fest-2v2-gunfight"><img src="https://i.imgur.com/zoThVHv.png" className='league-img' loading='lazy'/></a>
+                                <a href="/lans/friday-fest-weekly25"><img src="https://i.imgur.com/zoThVHv.png" className='league-img' loading='lazy'/></a>
                             </div>
                             <p className='Leaguep'>Hackettstown, NJ</p>
-                            <a href='/lans/friday-fest-2v2-gunfight'>
+                            <a href='/lans/friday-fest-weekly25'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/code-green-2'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Code Green 2 BO7</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/code-green-2"><img src="https://i.imgur.com/CagfuIK.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Kansas City, MO</p>
+                            <a href='/lans/code-green-2'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/gacod-bo7-launch'>
+                                <h1 className='Leagueh1 hide-on-mobile'>GA:CoD Black Ops 7 Launch</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/gacod-bo7-launch"><img src="https://i.imgur.com/JQWbVLw.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Columbus, OH</p>
+                            <a href='/lans/gacod-bo7-launch'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

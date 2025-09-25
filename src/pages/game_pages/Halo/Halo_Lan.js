@@ -33,8 +33,8 @@ const Halo_Lan = () => {
 
             <div className={styles.MapWrapper} style={{ position: 'relative' }}>
                 <div>
-                    <a href='/games/call-of-duty'>
-                        <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                    <a href='/games/halo'>
+                        <button type="submit" className='info-button-lans'>Back to Halo</button>
                     </a>
                     <a href='/lans'>
                         <button type="submit" className='info-button-lans-home'>Back to LANs</button>
@@ -51,79 +51,45 @@ const Halo_Lan = () => {
                 
                 <p className='hr' />
 
-                
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                 <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/hcs-slc-major'>
-                                <h1 className='Leagueh1 hide-on-mobile'>HCS SLC Major</h1>
+                            <a href='/lans/hcs-major-charlotte-25'>
+                                <h1 className='Leagueh1 hide-on-mobile'>HCS Major Charlotte 2025</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/hcs-slc-major"><img src="https://i.imgur.com/Ab93zPY.png" className='league-img' /></a>
-                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' loading='lazy'/></a>
+                                <a href="/lans/hcs-major-charlotte-25"><img src="https://i.imgur.com/gfmx0sp.png" className='league-img' /></a>
+                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
-                            <p className='Leaguep'>Salt Lake City, UT</p>
-                            <a href='/lans/hcs-slc-major'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/halo-delta-lan'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Halo Delta LAN</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/halo-delta-lan"><img src="https://i.imgur.com/RfZKuu1.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/halo-delta-lan'>
+                            <p className='Leaguep'>Charlotte, NC</p>
+                            <a href='/lans/hcs-major-charlotte-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                
-                <p className='hr' />
 
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    {/* <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/halo-summer-25-tournament'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Halo Summer 25 Tournament</h1>
+                            <a href='/lans/cindershots-fired-3'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 3</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/halo-summer-25-tournament"><img src="https://i.imgur.com/QNbpq6p.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Bakersfield, CA</p>
-                            <a href='/lans/halo-summer-25-tournament'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/cindershots-fired-2v2'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Cindershots Fired 2v2</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/cindershots-fired-2v2"><img src="https://i.imgur.com/hJ5hDyP.png" className='league-img' /></a>
+                                <a href="/lans/cindershots-fired-3"><img src="https://i.imgur.com/hJ5hDyP.png" className='league-img' /></a>
                             </div>
                             <p className='Leaguep'>Lacey, WA</p>
-                            <a href='/lans/cindershots-fired-2v2'>
+                            <a href='/lans/cindershots-fired-3'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
                     </div>
-                </div>
-                
+                </div> */}
+
                 <p className='hr' />
-                
+              
             </div>
         </div>
 

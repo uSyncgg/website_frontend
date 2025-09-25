@@ -384,42 +384,62 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
-import Cindershots_fired_2v2 from './pages/game_pages/LANs/Cindershots_fired_2v2';
-import Halo_Summer_25_Tournament from './pages/game_pages/LANs/Halo_Summer_25_Tournament';
-import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/Friday_Fest_2v2_Gunfight';
-import DropZone_4v4_5k from './pages/game_pages/LANs/DropZone_4v4_5k';
-import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/Double_Tap_Weekly_Denver25';
-import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/IndyCOD_x_Yes_Gaming';
-import Bell_Esports_Challenge25 from './pages/game_pages/LANs/Bell_Esports_Challenge25';
-import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/Norfolk_LAN_Summer25';
-import Capital_LAN_25 from './pages/game_pages/LANs/Capital_LAN_25';
-import HCS_SLC_Major from './pages/game_pages/LANs/HCS_SLC_Major';
-import Lethal_Tempo2 from './pages/game_pages/LANs/Lethal_Tempo2';
-import Kami_Con_v3 from './pages/game_pages/LANs/Kami_Con_v3';
-import LAN_A_THON_2025 from './pages/game_pages/LANs/LAN_A_THON_2025';
-import ImmerseCon25 from './pages/game_pages/LANs/ImmerseCon25';
-import Battleforthebrand from './pages/game_pages/LANs/Battleforthebrand';
-import TPC_Champs from './pages/game_pages/LANs/TPC_Champs';
-import Reforged_Gaming_4v4 from './pages/game_pages/LANs/Reforged_Gaming_4v4';
-import MAGWest_2025 from './pages/game_pages/LANs/MAGWest_2025';
+import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
+import New_England_College_LAN_fall25 from './pages/game_pages/LANs/New_England_College_LAN_fall25';
+import GatorLAN_Fall_2025 from './pages/game_pages/LANs/GatorLAN_Fall_2025';
+import Lakewood_League_X from './pages/game_pages/LANs/Lakewood_League_X';
+import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
+import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
+import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
+import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
+import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
+import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
+import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
+import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
+import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
+import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
-import PAX_West_Fall_25 from './pages/game_pages/LANs/PAX_West_Fall_25';
-import LANWAR_74 from './pages/game_pages/LANs/LANWAR_74';
-import RGB_LAN_VI from './pages/game_pages/LANs/RGB_LAN_VI';
-import Halo_Delta_LAN from './pages/game_pages/LANs/Halo_Delta_LAN';
-import MassiveLAN_summer_25 from './pages/game_pages/LANs/MassiveLAN_summer_25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
-import Texas_Battlebowl_25 from './pages/game_pages/LANs/Texas_Battlebowl_25';
-import EZone_4k_bo6_LAN from './pages/game_pages/LANs/EZone_4k_bo6_LAN';
-import RVA_Gunfight_2025 from './pages/game_pages/LANs/RVA_Gunfight_2025'
-import CODIreland_2025 from './pages/game_pages/LANs/CODIreland_2025'
-import GACS_Operation_Freedom from './pages/game_pages/LANs/GACS_Operation_Freedom'
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import RocLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/RocLAN_Fall_2025';
+import EWG_LAN_1 from './pages/game_pages/LANs/2025-Archive/EWG_LAN_1';
+import RGB_LAN_VI from './pages/game_pages/LANs/2025-Archive/RGB_LAN_VI';
+import PAX_West_Fall_25 from './pages/game_pages/LANs/2025-Archive/PAX_West_Fall_25';
+import ImmerseCon25 from './pages/game_pages/LANs/2025-Archive/ImmerseCon25';
+import DragonCon_2025 from './pages/game_pages/LANs/2025-Archive/DragonCon_2025';
+import RVA_Gunfight_2025 from './pages/game_pages/LANs/2025-Archive/RVA_Gunfight_2025'
+import Double_Tap_Weekly_Denver25 from './pages/game_pages/LANs/2025-Archive/Double_Tap_Weekly_Denver25';
+import TPC_Champs from './pages/game_pages/LANs/2025-Archive/TPC_Champs';
+import Bell_Esports_Challenge25 from './pages/game_pages/LANs/2025-Archive/Bell_Esports_Challenge25';
+import League_Play_Legends_BO2 from './pages/game_pages/LANs/2025-Archive/League_Play_Legends_BO2';
+import Cindershots_fired_3 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_3';
+import MAGWest_2025 from './pages/game_pages/LANs/2025-Archive/MAGWest_2025';
+import Norfolk_LAN_Summer25 from './pages/game_pages/LANs/2025-Archive/Norfolk_LAN_Summer25';
+import HCS_SLC_Major from './pages/game_pages/LANs/2025-Archive/HCS_SLC_Major';
+import Reforged_Gaming_4v4 from './pages/game_pages/LANs/2025-Archive/Reforged_Gaming_4v4';
+import IndyCOD_x_Yes_Gaming from './pages/game_pages/LANs/2025-Archive/IndyCOD_x_Yes_Gaming';
+import Capital_LAN_25 from './pages/game_pages/LANs/2025-Archive/Capital_LAN_25';
+import LANWAR_74 from './pages/game_pages/LANs/2025-Archive/LANWAR_74';
+import Kami_Con_v3 from './pages/game_pages/LANs/2025-Archive/Kami_Con_v3';
 import Blink_Respawn_25 from './pages/game_pages/LANs/2025-Archive/Blink_Respawn_25';
+import LAN_A_THON_2025 from './pages/game_pages/LANs/2025-Archive/LAN_A_THON_2025';
+import Halo_Delta_LAN from './pages/game_pages/LANs/2025-Archive/Halo_Delta_LAN';
+import APA_Blackops6_1v1 from './pages/game_pages/LANs/2025-Archive/APA_Blackops6_1v1';
+import DropZone_4v4_5k from './pages/game_pages/LANs/2025-Archive/DropZone_4v4_5k';
+import MassiveLAN_summer_25 from './pages/game_pages/LANs/2025-Archive/MassiveLAN_summer_25';
+import Cindershots_fired_2v2 from './pages/game_pages/LANs/2025-Archive/Cindershots_fired_2v2';
+import Halo_Summer_25_Tournament from './pages/game_pages/LANs/2025-Archive/Halo_Summer_25_Tournament';
+import Texas_Battlebowl_25 from './pages/game_pages/LANs/2025-Archive/Texas_Battlebowl_25';
+import EZone_4k_bo6_LAN from './pages/game_pages/LANs/2025-Archive/EZone_4k_bo6_LAN';
+import Friday_Fest_2v2_Gunfight from './pages/game_pages/LANs/2025-Archive/Friday_Fest_2v2_Gunfight';
+import GACS_Operation_Freedom from './pages/game_pages/LANs/2025-Archive/GACS_Operation_Freedom'
+import Lethal_Tempo2 from './pages/game_pages/LANs/2025-Archive/Lethal_Tempo2';
+import CODIreland_2025 from './pages/game_pages/LANs/2025-Archive/CODIreland_2025'
+import Battleforthebrand from './pages/game_pages/LANs/2025-Archive/Battleforthebrand';
 import Shinto_Takeover_2025 from './pages/game_pages/LANs/2025-Archive/Shinto_Takeover_2025';
 import Waffle_Games_8 from './pages/game_pages/LANs/2025-Archive/Waffle_Games_8'
 import Live_fire_series from './pages/game_pages/LANs/2025-Archive/Live_fire_series';
@@ -688,6 +708,8 @@ import CheckoutForm from "./pages/payment_pages/CheckoutForm";
 import CompletePage from "./pages/payment_pages/CompletePage";
 
 import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
+
+import Conventions from "./pages/game_pages/Conventions/conventions";
 
 // import {
 //   BrowserRouter as Router,
@@ -2070,101 +2092,65 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
-case "/lans/cindershots-fired-2v2":
-title = "Cindershots Fired 2v2 | uSync";
-component = <Cindershots_fired_2v2 />
+case "/lans/dreamhack-birmingham":
+title = "Dreamhack Birmingham | uSync";
+component = <DreamHack_Birmingham />
 break;
-case "/lans/halo-summer-25-tournament":
-title = "Halo Summer 25 Tournament | uSync";
-component = <Halo_Summer_25_Tournament />
+case "/lans/newengland-collegelan-fall-25":
+title = "New England College LAN Fall 25 | uSync";
+component = <New_England_College_LAN_fall25 />
 break;
-case "/lans/friday-fest-2v2-gunfight":
-title = "Friday Fest: 2v2 Gunfight | uSync";
-component = <Friday_Fest_2v2_Gunfight />
+case "/lans/gatorlan-fall-25":
+title = "GatorLAN Fall 2025 | uSync";
+component = <GatorLAN_Fall_2025 />
 break;
-case "/lans/dropzone-4v4-5k":
-title = "DropZone 4v4 $5k LAN | uSync";
-component = <DropZone_4v4_5k />
+case "/lans/lakewood-league-x":
+title = "Lakewood League X | uSync";
+component = <Lakewood_League_X />
 break;
-case "/lans/double-tap-weekly-s25":
-title = "Double Tap Weekly | uSync";
-component = <Double_Tap_Weekly_Denver25 />
+case "/lans/weekly-contender-ssbu":
+title = "The Weekly Contender | SSBU | uSync";
+component = <Weekly_Contender_SSBU />
 break;
-case "/lans/indycod-x-yes-gaming":
-title = "Indy Cod x Yes Gaming | uSync";
-component = <IndyCOD_x_Yes_Gaming />
+case "/lans/gacod-bo7-launch":
+title = "GA:CoD Black Ops 7 Launch | uSync";
+component = <GACOD_BO7_Launch />
 break;
-case "/lans/bell-esports-challenge25":
-title = "Bell Esports Challenge | uSync";
-component = <Bell_Esports_Challenge25 />
+case "/lans/dreamhack-atlanta-25":
+title = "DreamHack Atlanta 25 | uSync";
+component = <DreamHack_Atlanta25 />
 break;
-case "/lans/norfolk-lan-summer25":
-title = "Norfolk LAN Summer 2025 | uSync";
-component = <Norfolk_LAN_Summer25 />
+case "/lans/magfest-20x6":
+title = "MAGFest 20X6 | uSync";
+component = <MAGFest_20X6 />
 break;
-case "/lans/capital-lan-25":
-title = "Capital LAN 2025 | uSync";
-component = <Capital_LAN_25 />
+case "/lans/code-green-2":
+title = "Code Green 2 | uSync";
+component = <Code_Green_2_Bo7 />
 break;
-case "/lans/hcs-slc-major":
-title = "HCS SLC Major | uSync";
-component = <HCS_SLC_Major />
+case "/lans/hcs-major-charlotte-25":
+title = "HCS Major Charlotte 2025 | uSync";
+component = <HCS_Major_Final25 />
 break;
-case "/lans/lethal-tempo-2":
-title = "Lethal Tempo 2 | uSync";
-component = <Lethal_Tempo2 />
+case "/lans/emerald-city-2026":
+title = "Emerald City LAN 2026 | uSync";
+component = <Emerald_CityLAN_2026 />
 break;
-case "/lans/kami-con-vol-3":
-title = "Kami-Con Vol. 3 | uSync";
-component = <Kami_Con_v3 />
+case "/lans/friday-fest-weekly25":
+title = "Friday Fest Weekly | uSync";
+component = <Friday_Fest_Weekly25 />
 break;
-case "/lans/lan-a-thon-2025":
-title = "LAN-A-THON 2025 | uSync";
-component = <LAN_A_THON_2025 />
+case "/lans/fortlan-fall-25":
+title = "FortLAN Fall 2025 | uSync";
+component = <FortLAN_Fall_2025 />
 break;
-case "/lans/immerse-con-25":
-title = "ImmerseCon 2025 | uSync";
-component = <ImmerseCon25 />
-break;
-case "/lans/battle-for-the-brand":
-title = "Battle For The Brand | uSync";
-component = <Battleforthebrand />
-break;
-case "/lans/tpc-champs":
-title = "The Premier Circuit Champs | uSync";
-component = <TPC_Champs />
-break;
-case "/lans/reforged-gaming-4v4":
-title = "Reforged Gaming 4v4 | uSync";
-component = <Reforged_Gaming_4v4 />
-break;
-case "/lans/magwest-25":
-title = "MAGWest 2025 | uSync";
-component = <MAGWest_2025 />
+case "/lans/lanfest-colorado-25":
+title = "LANFest Colorado 2025 | uSync";
+component = <LANFest_Colorado_2025 />
 break;
 case "/lans/lan-all-night-12":
 title = "LAN All Night 12 | uSync";
 component = <LAN_All_Night_12 />
-break;
-case "/lans/pax-west-fall-25":
-title = "PAX West Fall 2025 | uSync";
-component = <PAX_West_Fall_25 />
-break;
-case "/lans/lanwar-74":
-title = "LANWAR 74 | uSync";
-component = <LANWAR_74 />
-break;
-case "/lans/rgb-lan-vi":
-title = "RGB LAN VI | uSync";
-component = <RGB_LAN_VI />
-break;
-case "/lans/halo-delta-lan":
-title = "Halo Delta LAN | uSync";
-component = <Halo_Delta_LAN />
-break;
-case "/lans/massivelan-summer-25":
-title = "MassiveLAN Summer 25 | uSync";
-component = <MassiveLAN_summer_25 />
 break;
 case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
@@ -2174,34 +2160,150 @@ case "/lans/belowzero-fall-25":
 title = "BelowZero Fall 25 | uSync";
 component = <BelowZero_Fall_25 />
 break;
-case "/lans/texas-battle-bowl-25":
-title = "Texas Battle Bowl | uSync";
-component = <Texas_Battlebowl_25 />
-break;
-case "/lans/cod-ireland-2025":
-title = "COD IreLANd 2025 | uSync";
-component = <CODIreland_2025 />
-break;
-case "/lans/gacs-operation-freedom":
-title = "GA:CS Operation Freedom | uSync";
-component = <GACS_Operation_Freedom />
-break;
-case "/lans/ezone-4k-bo6-lan":
-title = "EZone $4k BO6 LAN | uSync";
-component = <EZone_4k_bo6_LAN />
-break;
-case "/lans/rva-gunfight-2025":
-title = "RVA Gunfight 2025 | uSync";
-component = <RVA_Gunfight_2025 />
-break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/roclan-fall-25":
+title = "RocLAN Fall 2025 | uSync";
+component = <RocLAN_Fall_2025 />
+break;
+case "/lans/ewg-lan-1":
+title = "EWG LAN 1 | uSync";
+component = <EWG_LAN_1 />
+break;
+case "/lans/rgb-lan-vi":
+title = "RGB LAN VI | uSync";
+component = <RGB_LAN_VI />
+break;
+case "/lans/pax-west-fall-25":
+title = "PAX West Fall 2025 | uSync";
+component = <PAX_West_Fall_25 />
+break;
+case "/lans/immerse-con-25":
+title = "ImmerseCon 2025 | uSync";
+component = <ImmerseCon25 />
+break;
+case "/lans/dragoncon-2025":
+title = "DragonCon 2025 | uSync";
+component = <DragonCon_2025 />
+break;
+case "/lans/tpc-champs":
+title = "The Premier Circuit Champs | uSync";
+component = <TPC_Champs />
+break;
+case "/lans/rva-gunfight-2025":
+title = "RVA Gunfight 2025 | uSync";
+component = <RVA_Gunfight_2025 />
+break;
+case "/lans/double-tap-weekly-s25":
+title = "Double Tap Weekly | uSync";
+component = <Double_Tap_Weekly_Denver25 />
+break;
+case "/lans/league-play-legends-bo2":
+title = "League Play Legends BO2 | uSync";
+component = <League_Play_Legends_BO2 />
+break;
+case "/lans/bell-esports-challenge25":
+title = "Bell Esports Challenge | uSync";
+component = <Bell_Esports_Challenge25 />
+break;
+case "/lans/cindershots-fired-3":
+title = "Cindershots Fired 3 | uSync";
+component = <Cindershots_fired_3 />
+break;
+case "/lans/magwest-25":
+title = "MAGWest 2025 | uSync";
+component = <MAGWest_2025 />
+break;
+case "/lans/indycod-x-yes-gaming":
+title = "Indy Cod x Yes Gaming | uSync";
+component = <IndyCOD_x_Yes_Gaming />
+break;
+case "/lans/norfolk-lan-summer25":
+title = "Norfolk LAN Summer 2025 | uSync";
+component = <Norfolk_LAN_Summer25 />
+break;
+case "/lans/hcs-slc-major":
+title = "HCS SLC Major | uSync";
+component = <HCS_SLC_Major />
+break;
+case "/lans/reforged-gaming-4v4":
+title = "Reforged Gaming 4v4 | uSync";
+component = <Reforged_Gaming_4v4 />
+break;
+case "/lans/capital-lan-25":
+title = "Capital LAN 2025 | uSync";
+component = <Capital_LAN_25 />
+break;
+case "/lans/lanwar-74":
+title = "LANWAR 74 | uSync";
+component = <LANWAR_74 />
+break;
+case "/lans/kami-con-vol-3":
+title = "Kami-Con Vol. 3 | uSync";
+component = <Kami_Con_v3 />
+break;
 case "/lans/blink-respawn-25":
 title = "Blink Respawn 2025 | uSync";
 component = <Blink_Respawn_25 />
+break;
+case "/lans/lan-a-thon-2025":
+title = "LAN-A-THON 2025 | uSync";
+component = <LAN_A_THON_2025 />
+break;
+case "/lans/halo-delta-lan":
+title = "Halo Delta LAN | uSync";
+component = <Halo_Delta_LAN />
+break;
+case "/lans/apa-bo6-1v1":
+title = "APA Black Ops 6 1v1 | uSync";
+component = <APA_Blackops6_1v1 />
+break;
+case "/lans/dropzone-4v4-5k":
+title = "DropZone 4v4 $5k LAN | uSync";
+component = <DropZone_4v4_5k />
+break;
+case "/lans/massivelan-summer-25":
+title = "MassiveLAN Summer 25 | uSync";
+component = <MassiveLAN_summer_25 />
+break;
+case "/lans/cindershots-fired-2v2":
+title = "Cindershots Fired 2v2 | uSync";
+component = <Cindershots_fired_2v2 />
+break;
+case "/lans/halo-summer-25-tournament":
+title = "Halo Summer 25 Tournament | uSync";
+component = <Halo_Summer_25_Tournament />
+break;
+case "/lans/texas-battle-bowl-25":
+title = "Texas Battle Bowl | uSync";
+component = <Texas_Battlebowl_25 />
+break;
+case "/lans/ezone-4k-bo6-lan":
+title = "EZone $4k BO6 LAN | uSync";
+component = <EZone_4k_bo6_LAN />
+break;
+case "/lans/friday-fest-2v2-gunfight":
+title = "Friday Fest: 2v2 Gunfight | uSync";
+component = <Friday_Fest_2v2_Gunfight />
+break;
+case "/lans/gacs-operation-freedom":
+title = "GA:CS Operation Freedom | uSync";
+component = <GACS_Operation_Freedom />
+break;
+case "/lans/lethal-tempo-2":
+title = "Lethal Tempo 2 | uSync";
+component = <Lethal_Tempo2 />
+break;
+case "/lans/cod-ireland-2025":
+title = "COD IreLANd 2025 | uSync";
+component = <CODIreland_2025 />
+break;
+case "/lans/battle-for-the-brand":
+title = "Battle For The Brand | uSync";
+component = <Battleforthebrand />
 break;
 case "/lans/shinto-takeover-2025":
 title = "Shinto Takeover | uSync";
@@ -3043,6 +3145,11 @@ break;
       case "/reforged-cod-submission":
         title = "Reforged 4v4 CoD LAN | uSync";
         component = <ReforgedCoDForm />
+        break;
+
+      case "/other-lans":
+        title = "Other / Conventions | uSync";
+        component = <Conventions />
         break;
 
       default:

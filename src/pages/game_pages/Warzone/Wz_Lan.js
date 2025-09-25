@@ -32,8 +32,8 @@ const Wz_Lan = () => {
             
             <div className={styles.MapWrapper} style={{ position: 'relative' }}>
                 <div>
-                    <a href='/games/call-of-duty'>
-                        <button type="submit" className='info-button-lans'>Back to Call of Duty</button>
+                    <a href='/games/warzone'>
+                        <button type="submit" className='info-button-lans'>Back to Warzone</button>
                     </a>
                     <a href='/lans'>
                         <button type="submit" className='info-button-lans-home'>Back to LANs</button>
@@ -50,11 +50,10 @@ const Wz_Lan = () => {
             <div className='container-fluid'>
                 
                 <p className='hr' />
-
                 
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
                 <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div>
-                
+
                 {/* <div className='row'>
                     <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
@@ -71,6 +70,7 @@ const Wz_Lan = () => {
                         </div>
                     </div>
                 </div> */}
+
                 
                 <p className='hr' />
 

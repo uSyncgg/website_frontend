@@ -37,7 +37,7 @@ const Verification = () => {
                 <div className='col-12 col-lg-5 offset-lg-1'>
                   <a href='/more/verification/verified-game-selection'>
                     <img
-                      src="https://i.imgur.com/zVrGPNn.png"
+                      src="https://i.imgur.com/ahoZSHb.png"
                       className="verification-sub-img"
                     />
                   </a>
@@ -49,7 +49,7 @@ const Verification = () => {
                 <div className='col-12 col-lg-5'>
                   <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
                     <img
-                      src="https://i.imgur.com/IGLQYqK.png"
+                      src="https://i.imgur.com/KE1KZwu.png"
                       className="verification-sub-img"
                     />
                   </a>
@@ -73,7 +73,7 @@ const Verification = () => {
               />
             </div>
             <h1 className="info-title-verification">
-              uSync Verified providers are some of the most trustworthy
+              uSync Verified providers are the most trustworthy
               providers that we feature. These events are not only extremely
               well trusted but have shown a record of exceptional quality in
               their work. We strive to verify as many events as possible so that

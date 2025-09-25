@@ -88,6 +88,7 @@ function Playground() {
               <a className={`dropdown-item ${location === '/games/warzone/lans' ? 'item-active' : ''}`} href="/games/warzone/lans">Warzone</a>
               <a className={`dropdown-item ${location === '/games/halo/lans' ? 'item-active' : ''}`} href="/games/halo/lans">Halo</a>
               <a className={`dropdown-item ${location === '/games/LoL/lans' ? 'item-active' : ''}`} href="/games/LoL/lans">League of Legends</a>
+              <a className={`dropdown-item ${location === '/other-lans' ? 'item-active' : ''}`} href="/other-lans">Other / Conventions</a>
               {/*<a className={`dropdown-item ${location === '/games/RocketLeague/lans' ? 'item-active' : ''}`} href="/games/RocketLeague/lans">Rocket League</a>
               <a className={`dropdown-item ${location === '/games/Valorant/lans' ? 'item-active' : ''}`} href="/games/Valorant/lans">Valorant</a>*/}
             </div>
