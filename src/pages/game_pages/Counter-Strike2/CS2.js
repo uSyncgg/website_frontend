@@ -1,4 +1,4 @@
-mport '../Game.css';
+import '../Game.css';
 import { Helmet } from "react-helmet";
 import Footer from '../../../Footer';
 import useNavHeight from '../../hooks/NavbarHeight';
