@@ -8,7 +8,18 @@ const CS2 = () => {
     return (
       <>
           <Helmet>
-            <meta name="description" content="Counter-Strike 2 leagues, LANs, wagers, head-to-head, and tournaments all in once place. Try the true competitive experience today." />
+            <title>Counter-Strike 2 | Leagues, Wagers & Tournaments | uSync</title>
+        <meta name="description" content="Find Counter-Strike 2 leagues, wagers, and head-to-heads all in one place. The competitive CS2 experience starts here." />
+        <meta property="og:title" content="Play Counter-Strike 2 Competitively | uSync" />
+        <meta property="og:description" content="Join CS2 leagues, wagers, and head-to-heads. Your next competitive CS2 match starts on uSync." />
+        <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+        <meta property="og:url" content="https://usync.gg/games/CS2" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Competitive CS2 Matches | uSync" />
+        <meta name="twitter:description" content="Browse CS2 events including leagues, wagers, and head-to-heads. Get active on uSync." />
+        <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
           </Helmet>
       <div className="total-container">
         <div className='Header-Img-l cs2-general-header-img' />
