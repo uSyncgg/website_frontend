@@ -61,7 +61,7 @@ header {
 }
 
 .join-button {
-  display: block; /* ADD THIS: Allows width, height, and margin auto to work correctly */
+  /* display: block; ADD THIS: Allows width, height, and margin auto to work correctly */
   background-color: rgb(49, 49, 49);
   color: rgb(141, 125, 181);
   border: .125rem solid rgb(144, 125, 181);
@@ -71,9 +71,9 @@ header {
   font-weight: bold;
   font-family: 'Helvetica';
   height: 2.5rem;
-  text-align: center; /* ADD THIS: Centers the "Join Now" text horizontally */
-  line-height: 2.5rem; /* ADD THIS: Centers the text vertically */
-  text-decoration: none; /* ADD THIS: Removes the link underline */
+  /* text-align: center; ADD THIS: Centers the "Join Now" text horizontally */
+  /* line-height: 2.5rem; ADD THIS: Centers the text vertically */
+  /* text-decoration: none; ADD THIS: Removes the link underline */
 }
 
 #join-button-link {
@@ -84,7 +84,7 @@ header {
 .join-button:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
-    text-decoration: none; /* ADD THIS: Ensures no underline appears on hover */
+    /* text-decoration: none; ADD THIS: Ensures no underline appears on hover */
 }
 
 
@@ -114,7 +114,7 @@ header {
 }
 
 .back-button {
-    display: block; /* ADD THIS: Allows the link to have width and height */
+    /* display: block; ADD THIS: Allows the link to have width and height */
     background-color: rgb(49, 49, 49);
     color: rgb(141, 125, 181);
     border: .125rem solid rgb(141, 125, 181);
@@ -125,15 +125,15 @@ header {
     font-family: 'Helvetica';
     border-radius: .5rem;
     height: 2rem;
-    text-align: center; /* ADD THIS: Centers the "Back" text horizontally */
-    line-height: 2rem; /* ADD THIS: Centers the text vertically */
-    text-decoration: none; /* ADD THIS: Removes the link underline */
+    /* text-align: center; ADD THIS: Centers the "Back" text horizontally */
+    /* line-height: 2rem; ADD THIS: Centers the text vertically */
+    /* text-decoration: none; ADD THIS: Removes the link underline */
 }
 
 .back-button:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
-    text-decoration: none; /* ADD THIS: Ensures no underline on hover */
+    /* text-decoration: none; ADD THIS: Ensures no underline on hover */
 }
 
 
