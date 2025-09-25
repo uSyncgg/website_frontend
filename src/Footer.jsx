@@ -6,36 +6,17 @@ function Footer() {
             <a href="/reportproblem" className={styles.reportProblem}>Report a problem</a>
             <div className={styles.footerImages}>
                 <a href='https://www.linkedin.com/company/usync-llc/' target='_blank' rel='noopener noreferrer'>
-                    <img 
-                        src="https://i.imgur.com/Bx4MX1t.png" 
-                        alt="uSync's LinkedIn Profile" 
-                        title="Follow uSync on LinkedIn" 
-                    />
-                </a>
+                    <img src="https://i.imgur.com/Bx4MX1t.png" alt="LinkedIn" /></a>
 
-                <a href='https://www.instagram.com/usyncgg/?next=%2F' target='_blank' rel='noopener noreferrer'>
-                    <img 
-                        src="https://i.imgur.com/YOav7r1.png" 
-                        alt="uSync's Instagram Profile" 
-                        title="Follow uSync on Instagram" 
-                    />
-                </a>
+                <a href='https://www.instagram.com/usyncgg/?next=%2F'target='_blank' rel='noopener noreferrer'>
+                    <img src="https://i.imgur.com/YOav7r1.png" alt="Instagram"/></a>
 
-                <a href='https://twitter.com/uSyncGG' target='_blank' rel='noopener noreferrer'>
-                    <img 
-                        src="https://i.imgur.com/p0wIHEq.png" 
-                        alt="uSync's Profile on X (formerly Twitter)" 
-                        title="Follow uSync on X (Twitter)" 
-                    />
-                </a>
+                <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'>
+                    <img src="https://i.imgur.com/p0wIHEq.png" alt="Twitter or X"/></a>
 
                 <a href='mailto:contact@usync.gg'>
-                    <img 
-                        src="https://i.imgur.com/mUzX7o1.png" 
-                        alt="Email contact@usync.gg" 
-                        title="Contact uSync via Email" 
-                    />
-                </a>
+                    <img src="https://i.imgur.com/mUzX7o1.png" alt="Gmail"/></a>
+
             </div>
 
             <p className={styles.footer}>

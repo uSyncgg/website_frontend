@@ -7,21 +7,7 @@ const CS2_Leagues = () => {
     return (
       <>
           <Helmet>
-  <title>Counter-Strike 2 Leagues | uSync</title>
-  <meta name="description" content="Browse and join the top Counter-Strike 2 leagues around the world. From collegiate to global pro circuits, uSync connects you to the best in CS2." />
-
-  {/* Open Graph */}
-  <meta property="og:title" content="Counter-Strike 2 Leagues | uSync" />
-  <meta property="og:description" content="Browse and join the top Counter-Strike 2 leagues around the world. From collegiate to global pro circuits, uSync connects you to the best in CS2." />
-  <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
-  <meta property="og:url" content="https://usync.gg/games/CS2/leagues" />
-  <meta property="og:type" content="website" />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Counter-Strike 2 Leagues | uSync" />
-  <meta name="twitter:description" content="Join the best CS2 leagues across the world. Verified partners, regional and collegiate leagues, only on uSync." />
-  <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+            <meta name="description" content="Counter-Strike 2 leagues to prove your CS2 talent and compete like the pros. Join a league today and win huge cash prize pools." />
           </Helmet>
       <div>
         <div className='Header-Img-l cs2-league-header'>
