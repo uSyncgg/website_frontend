@@ -58,21 +58,6 @@ const Lol_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/lakewood-league-x'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Lakewood League X</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/lakewood-league-x"><img src="https://i.imgur.com/BsyotZR.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/lakewood-league-x5'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/gatorlan-fall-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>GatorLAN Fall 2025</h1>
                             </a>

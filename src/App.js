@@ -387,7 +387,6 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import New_England_College_LAN_fall25 from './pages/game_pages/LANs/New_England_College_LAN_fall25';
 import GatorLAN_Fall_2025 from './pages/game_pages/LANs/GatorLAN_Fall_2025';
-import Lakewood_League_X from './pages/game_pages/LANs/Lakewood_League_X';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
@@ -400,11 +399,12 @@ import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
-import BelowZero_Fall_25 from './pages/game_pages/LANs/BelowZero_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Lakewood_League_X from './pages/game_pages/LANs/2025-Archive/Lakewood_League_X';
+import BelowZero_Fall_25 from './pages/game_pages/LANs/2025-Archive/BelowZero_Fall_25';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/RocLAN_Fall_2025';
 import EWG_LAN_1 from './pages/game_pages/LANs/2025-Archive/EWG_LAN_1';
 import RGB_LAN_VI from './pages/game_pages/LANs/2025-Archive/RGB_LAN_VI';
@@ -2104,10 +2104,6 @@ case "/lans/gatorlan-fall-25":
 title = "GatorLAN Fall 2025 | uSync";
 component = <GatorLAN_Fall_2025 />
 break;
-case "/lans/lakewood-league-x":
-title = "Lakewood League X | uSync";
-component = <Lakewood_League_X />
-break;
 case "/lans/weekly-contender-ssbu":
 title = "The Weekly Contender | SSBU | uSync";
 component = <Weekly_Contender_SSBU />
@@ -2156,15 +2152,19 @@ case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
 component = <PDXLAN_Fall_25 />
 break;
-case "/lans/belowzero-fall-25":
-title = "BelowZero Fall 25 | uSync";
-component = <BelowZero_Fall_25 />
-break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/lakewood-league-x":
+title = "Lakewood League X | uSync";
+component = <Lakewood_League_X />
+break;
+case "/lans/belowzero-fall-25":
+title = "BelowZero Fall 25 | uSync";
+component = <BelowZero_Fall_25 />
+break;
 case "/lans/roclan-fall-25":
 title = "RocLAN Fall 2025 | uSync";
 component = <RocLAN_Fall_2025 />
