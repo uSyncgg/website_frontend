@@ -384,6 +384,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import TXP5 from './pages/game_pages/LANs/TXP5';
+
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import New_England_College_LAN_fall25 from './pages/game_pages/LANs/New_England_College_LAN_fall25';
 import GatorLAN_Fall_2025 from './pages/game_pages/LANs/GatorLAN_Fall_2025';
@@ -2092,6 +2094,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/txp5":
+title = "TorontoXP 5 | uSync";
+component = <TXP5 />
+break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />

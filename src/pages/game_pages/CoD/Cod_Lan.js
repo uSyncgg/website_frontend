@@ -70,7 +70,7 @@ const Cod_Lan = () => {
                         </div>
                     </div>
 
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/code-green-2'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Code Green 2 BO7</h1>
@@ -89,7 +89,7 @@ const Cod_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/gacod-bo7-launch'>
                                 <h1 className='Leagueh1 hide-on-mobile'>GA:CoD Black Ops 7 Launch</h1>
@@ -99,6 +99,21 @@ const Cod_Lan = () => {
                             </div>
                             <p className='Leaguep'>Columbus, OH</p>
                             <a href='/lans/gacod-bo7-launch'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/txp5'>
+                                <h1 className='Leagueh1 hide-on-mobile'>TorontoXP 5</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/txp5"><img src="https://i.imgur.com/2hEZ5lq.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Ontario, Canada</p>
+                            <a href='/lans/txp5'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Code_Green_2_Bo7 = () => {
+const TXP5 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Code Green 2 is here for the brand new Black Ops 7 game. 4v4 CDL variant LAN event to kick off the new BO7 competitive LAN season." />
+          <meta name="description" content="The FIRST Black Ops 7 LAN tournament in Canada is being hosted by TorontoXP. Play in Ontario for $4.5k in prizing." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Code Green 2 BO7</h1>
+          <h1 id="league-title">TorontoXP 5</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const Code_Green_2_Bo7 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://www.start.gg/tournament/code-green-2/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://x.com/TorontoXP/status/1969177805083521338" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,19 +48,19 @@ const Code_Green_2_Bo7 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>November 16th, 2025</p>
-              <p>Kansas City, MO</p>
+              <p>November 29 - 30th, 2025</p>
+              <p>Ontario, Canada</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$5,000 Prize Pool (Estimated)</p>
+              <p>$4,500 Prize Pool</p>
               <p>4v4 CDL Ruleset</p>
-              <p>Top 3 Payout</p>
+              <p>16 Teams MAX</p>
               <p>Live Streamed Matches</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: $250</p>
+              <p>Team Pass: $250 (Estimated)</p>
             </div>
           </div>
         </div>
@@ -72,4 +72,4 @@ const Code_Green_2_Bo7 = () => {
   );
 };
 
-export default Code_Green_2_Bo7;
+export default TXP5;
