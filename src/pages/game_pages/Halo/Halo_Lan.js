@@ -52,9 +52,9 @@ const Halo_Lan = () => {
                 <p className='hr' />
 
                 {/* COMMENT BELOW OUT WHEN LANS ARE POSTED, OTHERWISE UNCOMMENT */}
-                {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
+                <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div>
 
-                 <div className='row'>
+                 {/* <div className='row'>
                     <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/hcs-major-charlotte-25'>
@@ -71,7 +71,7 @@ const Halo_Lan = () => {
                         </div>
                     </div>
                 </div>
-
+ */}
                     {/* <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/cindershots-fired-3'>

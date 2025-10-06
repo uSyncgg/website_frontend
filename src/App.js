@@ -394,17 +394,17 @@ import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
-import HCS_Major_Final25 from './pages/game_pages/LANs/HCS_Major_Final25';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/FortLAN_Fall_2025';
-import LANFest_Colorado_2025 from './pages/game_pages/LANs/LANFest_Colorado_2025';
 import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import LANFest_Colorado_2025 from './pages/game_pages/LANs/2025-Archive/LANFest_Colorado_2025';
+import HCS_Major_Final25 from './pages/game_pages/LANs/2025-Archive/HCS_Major_Final25';
 import Lakewood_League_X from './pages/game_pages/LANs/2025-Archive/Lakewood_League_X';
 import BelowZero_Fall_25 from './pages/game_pages/LANs/2025-Archive/BelowZero_Fall_25';
 import RocLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/RocLAN_Fall_2025';
@@ -2130,10 +2130,6 @@ case "/lans/code-green-2":
 title = "Code Green 2 | uSync";
 component = <Code_Green_2_Bo7 />
 break;
-case "/lans/hcs-major-charlotte-25":
-title = "HCS Major Charlotte 2025 | uSync";
-component = <HCS_Major_Final25 />
-break;
 case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
@@ -2145,10 +2141,6 @@ break;
 case "/lans/fortlan-fall-25":
 title = "FortLAN Fall 2025 | uSync";
 component = <FortLAN_Fall_2025 />
-break;
-case "/lans/lanfest-colorado-25":
-title = "LANFest Colorado 2025 | uSync";
-component = <LANFest_Colorado_2025 />
 break;
 case "/lans/lan-all-night-12":
 title = "LAN All Night 12 | uSync";
@@ -2163,6 +2155,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/lanfest-colorado-25":
+title = "LANFest Colorado 2025 | uSync";
+component = <LANFest_Colorado_2025 />
+break;
+case "/lans/hcs-major-charlotte-25":
+title = "HCS Major Charlotte 2025 | uSync";
+component = <HCS_Major_Final25 />
+break;
 case "/lans/lakewood-league-x":
 title = "Lakewood League X | uSync";
 component = <Lakewood_League_X />
