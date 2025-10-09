@@ -256,7 +256,22 @@ const Cod_Leagues = () => {
 
                         <p className='hr' />
 
-                        <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>LockdownCL</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>All Regions</p>
+                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                                 <a href='/games/call-of-duty/leagues/retired-challengers'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Retired Challenger's League</h1>

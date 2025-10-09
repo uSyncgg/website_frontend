@@ -32,6 +32,7 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
+import LockdownCL from './pages/game_pages/CoD/leagues/LockdownCL'
 import Retired_challengers from './pages/game_pages/CoD/leagues/Retired_challengers'
 import TPC_COD_League from './pages/game_pages/CoD/leagues/TPC_COD_League'
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
@@ -946,6 +947,10 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/lockdowncl":
+      title = "Lockdown CoD League (LCL) | uSync";
+      component = <LockdownCL />
+      break;
     case "/games/call-of-duty/leagues/retired-challengers":
       title = "Retired Challenger's League | uSync";
       component = <Retired_challengers />
