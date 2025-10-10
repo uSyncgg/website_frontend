@@ -7,7 +7,7 @@ import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
-import '../../head-to-head.css'
+import '../../leagues.css';
 import useNavHeight from '../../../hooks/NavbarHeight';
 
 // Make sure the name following const is the same as the file name
@@ -18,9 +18,9 @@ const LockdownCL = () => {
           <Helmet>
             <meta name="description" content="Fun but competitive Call of Duty league for free agents that are looking for a draft based league with a cash prize and playoffs." />
           </Helmet>
-          <div className='total-container'>
-        <div className="Header-Img-l not-verified-banner-img-lans"> 
-        <div className="games-leagues-header-title">
+          <div className="total-playground">
+      <div className="Header-Img-l lockdown-league-verified-banner">
+      <div className="games-leagues-header-title-verified">
           <h1 id="league-title">Lockdown CoD League (LCL)</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
@@ -39,12 +39,12 @@ const LockdownCL = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/HaRfFh9.png"
+              src="https://i.imgur.com/OSMYolc.png"
               className="Checkmark-title"
             />
           </a>
           <a href="/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
+            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
             href="https://discord.gg/xDXwaKSA9a"
@@ -85,7 +85,7 @@ const LockdownCL = () => {
         </div>
         <div className="become-verified">
           <h6>
-            Become <a href="/more/verification">Verified</a>
+             <a href="/more/verification"></a>
           </h6>
         </div>
       </div>

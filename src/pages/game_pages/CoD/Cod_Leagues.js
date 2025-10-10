@@ -33,6 +33,22 @@ const Cod_Leagues = () => {
                 <div className='container-fluid'>
                     <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>LockdownCL</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                </div>
+                                <p className='Leaguep'>All Regions</p>
+                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/xp-league-cod'>
                                     <h1 className='Leagueh1 hide-on-mobile'>XP League</h1>
@@ -43,20 +59,6 @@ const Cod_Leagues = () => {
                                 </div>
                                 <p className='Leaguep'>NA/EU</p>
                                 <a href='/games/call-of-duty/leagues/xp-league-cod'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className='col-12 col-lg-6 bottom-card'>
-                            <div className='league'>
-                                <a href='/games/call-of-duty/leagues/cod-rec-league'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>COD Rec League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/cod-rec-league"><img src="https://i.imgur.com/qbmhh4T.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                <a href='/games/call-of-duty/leagues/cod-rec-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -257,20 +259,20 @@ const Cod_Leagues = () => {
                         <p className='hr' />
 
                         <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                                <a href='/games/call-of-duty/leagues/lockdowncl'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>LockdownCL</h1>
+                            <div className='league'>
+                                <a href='/games/call-of-duty/leagues/cod-rec-league'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>COD Rec League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/cod-rec-league"><img src="https://i.imgur.com/qbmhh4T.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
-                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                <p className='Leaguep'>NA</p>
+                                <a href='/games/call-of-duty/leagues/cod-rec-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
-
+                        
                         <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                                 <a href='/games/call-of-duty/leagues/retired-challengers'>
