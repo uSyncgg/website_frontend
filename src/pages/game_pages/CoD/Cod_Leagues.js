@@ -288,6 +288,23 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
+                        <p className='hr' />
+
+                        <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                            <div className='league'>
+                                <a href='/games/call-of-duty/leagues/elite-gaming-warfare-league'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Elite Warfare Gaming League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="/games/call-of-duty/leagues/elite-gaming-warfare-league"><img src="https://i.imgur.com/7o2e5a3.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='/games/call-of-duty/leagues/elite-gaming-warfare-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                        <div>
                         <p className='hr' />
                         <h2 id="league-title1">Collegiate Leagues</h2>                        
