@@ -386,6 +386,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
+import Florence_Esports_Festival_25 from './pages/game_pages/LANs/Florence_Esports_Festival_25';
+import Rocky_Mountain_Collegiate_Fall_Series from './pages/game_pages/LANs/Rocky_Mountain_Collegiate_Fall_Series';
 import Lakewood_League_XI from './pages/game_pages/LANs/Lakewood_League_XI';
 import Mid_Atlantic_Collegiate_Series from './pages/game_pages/LANs/Mid_Atlantic_Collegiate_Series';
 import TXP5 from './pages/game_pages/LANs/TXP5';
@@ -2105,6 +2108,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/rmcs-fall-25":
+title = "RMCS Fall 25 | uSync";
+component = <Rocky_Mountain_Collegiate_Fall_Series />
+break;
+case "/lans/florence-festival-25":
+title = "Florence Esports Festival 25 | uSync";
+component = <Florence_Esports_Festival_25 />
+break;
+case "/lans/basai-bo7-kickoff":
+title = "Basai 4v4 Bo7 Kickoff | uSync";
+component = <Basai_4v4_Bo7_Kickoff />
+break;
 case "/lans/lakewood-league-xi":
 title = "Lakewood League XI | uSync";
 component = <Lakewood_League_XI />
