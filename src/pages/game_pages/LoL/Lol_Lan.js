@@ -90,7 +90,7 @@ const Lol_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/macs-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Mid-Atlantic Collegiate Series</h1>
@@ -100,6 +100,21 @@ const Lol_Lan = () => {
                             </div>
                             <p className='Leaguep'>Philadelphia, PA</p>
                             <a href='/lans/macs-25'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/boilerfrag-xviii'>
+                                <h1 className='Leagueh1 hide-on-mobile'>BoilerFrag XVIII</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/boilerfrag-xviii"><img src="https://i.imgur.com/VVDehqk.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>West Lafayette, IN</p>
+                            <a href='/lans/boilerfrag-xviii'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
