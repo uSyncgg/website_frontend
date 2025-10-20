@@ -1,10 +1,10 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 const FortLAN_Fall_2025 = () => {
   useNavHeight();
@@ -35,14 +35,14 @@ const FortLAN_Fall_2025 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
+          {/* <a // from here to the </a> do CTRL + /
             href="https://www.tixr.com/groups/lanfest/events/fortlan-fall-2025-148886" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
@@ -64,7 +64,7 @@ const FortLAN_Fall_2025 = () => {
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/other-lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------

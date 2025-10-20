@@ -80,21 +80,6 @@ const Conventions = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/fortlan-fall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>FortLAN Fall 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/fortlan-fall-25"><img src="https://i.imgur.com/W1iIUMc.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Fort Wayne, IN</p>
-                            <a href='/lans/fortlan-fall-25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/emerald-city-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Emerald City LAN 2026</h1>
                             </a>
@@ -107,12 +92,8 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/dreamhack-atlanta-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>DreamHack Atlanta 25</h1>
@@ -126,8 +107,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/magfest-20x6'>
                                 <h1 className='Leagueh1 hide-on-mobile'>MAGFest 20X6</h1>
@@ -141,12 +126,8 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/weekly-contender-ssbu'>
                                 <h1 className='Leagueh1 hide-on-mobile'>The Weekly Contender | SSBU</h1>
@@ -160,8 +141,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/newengland-collegelan-fall-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>New England College LAN Fall 25</h1>
@@ -175,12 +160,8 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/dreamhack-birmingham'>
                                 <h1 className='Leagueh1 hide-on-mobile'>DreamHack Birmingham</h1>
@@ -194,8 +175,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/florence-festival-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Florence Esports Festival 25</h1>
@@ -209,12 +194,8 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/rmcs-fall-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Rocky Mountain Collegiate Fall Series</h1>
