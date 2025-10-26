@@ -32,6 +32,7 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
+import Purge_CoD_League from './pages/game_pages/CoD/leagues/Purge_CoD_League'
 import Elite_Warfare_Gaming from './pages/game_pages/CoD/leagues/Elite_Warfare_Gaming'
 import LockdownCL from './pages/game_pages/CoD/leagues/LockdownCL'
 import Retired_challengers from './pages/game_pages/CoD/leagues/Retired_challengers'
@@ -953,6 +954,10 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/purge-cod-league":
+      title = "Purge CoD League | uSync";
+      component = <Purge_CoD_League />
+      break;
     case "/games/call-of-duty/leagues/elite-gaming-warfare-league":
       title = "Elite Gaming Warfare League | uSync";
       component = <Elite_Warfare_Gaming />
