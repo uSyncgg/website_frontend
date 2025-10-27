@@ -32,7 +32,6 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
-import Purge_CoD_League from './pages/game_pages/CoD/leagues/Purge_CoD_League'
 import Elite_Warfare_Gaming from './pages/game_pages/CoD/leagues/Elite_Warfare_Gaming'
 import LockdownCL from './pages/game_pages/CoD/leagues/LockdownCL'
 import Retired_challengers from './pages/game_pages/CoD/leagues/Retired_challengers'
@@ -60,6 +59,10 @@ import CXP_Varsity from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Varsity'
 import CXP_Club from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Club';
 import CXP_Open from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Open';
 import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
+
+import Purge_Lowers from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Lowers';
+import Purge_Premade from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Premade';
+import Purge_Leagues from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Leagues'
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -954,9 +957,17 @@ function App() {
 
 
     //COD LEAGUES
-    case "/games/call-of-duty/leagues/purge-cod-league":
-      title = "Purge CoD League | uSync";
-      component = <Purge_CoD_League />
+    case "/games/call-of-duty/leagues/purge-cod-leagues":
+      title = "Purge CoD Leagues | uSync";
+      component = <Purge_Leagues />
+      break;
+    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers":
+      title = "Purge Lowers Division | uSync";
+      component = <Purge_Lowers />
+      break;
+    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-premade":
+      title = "Purge Premade Division | uSync";
+      component = <Purge_Premade />
       break;
     case "/games/call-of-duty/leagues/elite-gaming-warfare-league":
       title = "Elite Gaming Warfare League | uSync";

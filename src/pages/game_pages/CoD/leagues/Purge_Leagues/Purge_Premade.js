@@ -3,25 +3,24 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import { Helmet } from "react-helmet";
-import '../../../../Info.css';
+import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-import Footer from '../../../../Footer';
-import '../../leagues.css';
-import useNavHeight from '../../../hooks/NavbarHeight';
-
+import Footer from '../../../../../Footer';
+import '../../../head-to-head.css';
+import useNavHeight from '../../../../hooks/NavbarHeight';
 // Make sure the name following const is the same as the file name
-const Purge_CoD_League = () => {
+const Purge_Premade = () => {
   useNavHeight();
     return (
       <>
           <Helmet>
-            <meta name="description" content="Purge CoD League is THE Call of Duty league that you and your team has been looking for. Sign up solo or as a team and compete for thousands!" />
+            <meta name="description" content="Purge Premade Division is the very competitive arm of the Purge CoD league. Grab your best teammates or sign up solo and compete for a huge prize pool!" />
           </Helmet>
           <div className="total-playground">
       <div className="Header-Img-l purge-league-verified-banner">
       <div className="games-leagues-header-title-verified">
-          <h1 id="league-title">Purge CoD League</h1>
+          <h1 id="league-title">Purge Premade Division</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -63,9 +62,8 @@ const Purge_CoD_League = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Two Divisions: Premade and Lowers</p>
-              <p>Premade Division: $800 - $1,000 Prize Pool (TBD)</p>
-              <p>Lowers Division: $100 Prize Pool</p>
+              <p>Premade Teams</p>
+              <p>$800 - $1,000 Prize Pool (TBD)</p>
               <p>Crossplay (Xbox, Playstation 4 & 5, and PC)</p>
               <p>Live Streamed Matches with Casters and Media Coverage</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -73,13 +71,12 @@ const Purge_CoD_League = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Premade Division: $10 per Captain, $5 per player, $25 per team</p>
-              <p>Lowers Division: Free Entry</p>
+              <p>$10 per Captain, $5 per player, $25 per team</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="/games/call-of-duty/leagues" id='league-back-button-a'>
+          <a href="/games/call-of-duty/leagues/purge-cod-leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -96,4 +93,4 @@ const Purge_CoD_League = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Purge_CoD_League;
+export default Purge_Premade;

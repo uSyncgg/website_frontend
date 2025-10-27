@@ -50,16 +50,16 @@ const Cod_Leagues = () => {
 
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
-                                <a href='/games/call-of-duty/leagues/purge-cod-league'>
+                                <a href='/games/call-of-duty/leagues/purge-cod-leagues'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Purge CoD League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/purge-cod-league"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/purge-cod-leagues"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA/EU</p>
-                                <a href='/games/call-of-duty/leagues/purge-cod-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
+                                <a href='/games/call-of-duty/leagues/purge-cod-leagues'>
+                                    <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
                             </div>
                         </div>
