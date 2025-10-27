@@ -393,11 +393,8 @@ import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff
 import Florence_Esports_Festival_25 from './pages/game_pages/LANs/Florence_Esports_Festival_25';
 import Rocky_Mountain_Collegiate_Fall_Series from './pages/game_pages/LANs/Rocky_Mountain_Collegiate_Fall_Series';
 import Lakewood_League_XI from './pages/game_pages/LANs/Lakewood_League_XI';
-import Mid_Atlantic_Collegiate_Series from './pages/game_pages/LANs/Mid_Atlantic_Collegiate_Series';
 import TXP5 from './pages/game_pages/LANs/TXP5';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
-import New_England_College_LAN_fall25 from './pages/game_pages/LANs/New_England_College_LAN_fall25';
-import GatorLAN_Fall_2025 from './pages/game_pages/LANs/GatorLAN_Fall_2025';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
@@ -405,12 +402,15 @@ import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
-import LAN_All_Night_12 from './pages/game_pages/LANs/LAN_All_Night_12';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Mid_Atlantic_Collegiate_Series from './pages/game_pages/LANs/2025-Archive/Mid_Atlantic_Collegiate_Series';
+import GatorLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/GatorLAN_Fall_2025';
+import New_England_College_LAN_fall25 from './pages/game_pages/LANs/2025-Archive/New_England_College_LAN_fall25';
+import LAN_All_Night_12 from './pages/game_pages/LANs/2025-Archive/LAN_All_Night_12';
 import FortLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/FortLAN_Fall_2025';
 import LANFest_Colorado_2025 from './pages/game_pages/LANs/2025-Archive/LANFest_Colorado_2025';
 import HCS_Major_Final25 from './pages/game_pages/LANs/2025-Archive/HCS_Major_Final25';
@@ -2139,10 +2139,6 @@ case "/lans/lakewood-league-xi":
 title = "Lakewood League XI | uSync";
 component = <Lakewood_League_XI />
 break;
-case "/lans/macs-25":
-title = "MACS 2025 | uSync";
-component = <Mid_Atlantic_Collegiate_Series />
-break;
 case "/lans/txp5":
 title = "TorontoXP 5 | uSync";
 component = <TXP5 />
@@ -2150,14 +2146,6 @@ break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
-break;
-case "/lans/newengland-collegelan-fall-25":
-title = "New England College LAN Fall 25 | uSync";
-component = <New_England_College_LAN_fall25 />
-break;
-case "/lans/gatorlan-fall-25":
-title = "GatorLAN Fall 2025 | uSync";
-component = <GatorLAN_Fall_2025 />
 break;
 case "/lans/weekly-contender-ssbu":
 title = "The Weekly Contender | SSBU | uSync";
@@ -2187,10 +2175,6 @@ case "/lans/friday-fest-weekly25":
 title = "Friday Fest Weekly | uSync";
 component = <Friday_Fest_Weekly25 />
 break;
-case "/lans/lan-all-night-12":
-title = "LAN All Night 12 | uSync";
-component = <LAN_All_Night_12 />
-break;
 case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
 component = <PDXLAN_Fall_25 />
@@ -2200,6 +2184,22 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/newengland-collegelan-fall-25":
+title = "New England College LAN Fall 25 | uSync";
+component = <New_England_College_LAN_fall25 />
+break;
+case "/lans/lan-all-night-12":
+title = "LAN All Night 12 | uSync";
+component = <LAN_All_Night_12 />
+break;
+case "/lans/macs-25":
+title = "MACS 2025 | uSync";
+component = <Mid_Atlantic_Collegiate_Series />
+break;
+case "/lans/gatorlan-fall-25":
+title = "GatorLAN Fall 2025 | uSync";
+component = <GatorLAN_Fall_2025 />
+break;
 case "/lans/fortlan-fall-25":
 title = "FortLAN Fall 2025 | uSync";
 component = <FortLAN_Fall_2025 />

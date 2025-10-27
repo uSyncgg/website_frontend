@@ -58,21 +58,6 @@ const Lol_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/gatorlan-fall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>GatorLAN Fall 2025</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/gatorlan-fall-25"><img src="https://i.imgur.com/Ibby6Qe.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Gainesville, FL</p>
-                            <a href='/lans/gatorlan-fall-25'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/lakewood-league-xi'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Lakewood League XI</h1>
                             </a>
@@ -81,25 +66,6 @@ const Lol_Lan = () => {
                             </div>
                             <p className='Leaguep'>Lakewood, CO</p>
                             <a href='/lans/lakewood-league-xi'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/macs-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Mid-Atlantic Collegiate Series</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/macs-25"><img src="https://i.imgur.com/4bddM3N.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Philadelphia, PA</p>
-                            <a href='/lans/macs-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

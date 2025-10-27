@@ -61,25 +61,6 @@ const Conventions = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/lan-all-night-12'>
-                                <h1 className='Leagueh1 hide-on-mobile'>LAN All Night 12</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/lan-all-night-12"><img src="https://i.imgur.com/hfacYHq.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Grapevine, TX</p>
-                            <a href='/lans/lan-all-night-12'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/emerald-city-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Emerald City LAN 2026</h1>
                             </a>
@@ -92,8 +73,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/dreamhack-atlanta-25'>
                                 <h1 className='Leagueh1 hide-on-mobile'>DreamHack Atlanta 25</h1>
@@ -107,12 +92,8 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/magfest-20x6'>
                                 <h1 className='Leagueh1 hide-on-mobile'>MAGFest 20X6</h1>
@@ -126,8 +107,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/weekly-contender-ssbu'>
                                 <h1 className='Leagueh1 hide-on-mobile'>The Weekly Contender | SSBU</h1>
@@ -137,25 +122,6 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Tulsa, OK</p>
                             <a href='/lans/weekly-contender-ssbu'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/newengland-collegelan-fall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>New England College LAN Fall 25</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/newengland-collegelan-fall-25"><img src="https://i.imgur.com/7jBpmTA.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Henniker, NH</p>
-                            <a href='/lans/newengland-collegelan-fall-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
