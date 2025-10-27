@@ -15,12 +15,12 @@ const Purge_Lowers = () => {
     return (
       <>
           <Helmet>
-            <meta name="description" content="Purge Lowers Division is a Call of Duty league for those that are looking to play in a competitive environment for free." />
+            <meta name="description" content="Purge Uppers & Lowers Divisions is a Call of Duty league for those that are looking to play in a competitive environment for free." />
           </Helmet>
           <div className="total-playground">
       <div className="Header-Img-l purge-league-verified-banner">
       <div className="games-leagues-header-title-verified">
-          <h1 id="league-title">Purge Lowers Division</h1>
+          <h1 id="league-title">Purge Uppers & Lowers Division</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -62,7 +62,8 @@ const Purge_Lowers = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$100 Prize Pool</p>
+              <p>$350 Prize Pool (TBD)</p>
+              <p>Uppers and Lowers Division Based on Skill</p>
               <p>Crossplay (Xbox, Playstation 4 & 5, and PC)</p>
               <p>Live Streamed Matches with Casters and Media Coverage</p>
               <h2 className="info-title3">Region/Type:</h2>

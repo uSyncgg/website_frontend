@@ -40,7 +40,7 @@ const Purge_Leagues = () => {
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Lowers Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Uppers & Lowers Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
