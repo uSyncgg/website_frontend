@@ -24,7 +24,7 @@ const Wz_headtohead = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/warzone/head-to-head/cmg'>
                                     <h1 className='Leagueh1 hide-on-mobile'>Checkmate Gaming</h1>
@@ -35,21 +35,6 @@ const Wz_headtohead = () => {
                                     <p className='Leaguep'></p>
                                 </div>
                                 <a href='/games/warzone/head-to-head/cmg'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                                <a href='/games/warzone/head-to-head/esport-rivals'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Rivals</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="/games/warzone/head-to-head/esport-rivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
-                                    <p className='Leaguep'></p>
-                                </div>
-                                <a href='/games/warzone/head-to-head/esport-rivals'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

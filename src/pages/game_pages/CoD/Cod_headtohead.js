@@ -63,23 +63,7 @@ const Cod_headtohead = () => {
 
                         <p className='hr' />
 
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                            <div className='league'>
-                                <a href='/games/call-of-duty/head-to-head/erivals'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Esport Rivals</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="/games/call-of-duty/head-to-head/erivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='/games/call-of-duty/head-to-head/erivals'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/head-to-head/arena'>
                                     <h1 className='Leagueh1 hide-on-mobile'>The Arena</h1>

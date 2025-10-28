@@ -45,23 +45,27 @@ const EsportRivals = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a
+          {/* <a
             href="https://esportrivals.com/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Fees:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Free XP Matches</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Ticket Support Only</p>
               <p>Small User Base</p>
               <p>User Interface Similar to GameBattles</p>
@@ -69,6 +73,8 @@ const EsportRivals = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Available Worldwide</p>
               <p>Ladder Restrictions</p>
             </div>

@@ -45,23 +45,27 @@ const Erivals = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a
+          {/* <a
             href="https://esportrivals.com/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Fees:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Free XP Matches </p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Ticket Support Only</p>
               <p>Consistent Rule Updates</p>
               <p>Smaller User Base</p>
@@ -70,12 +74,14 @@ const Erivals = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
+              <p>Shut Down due to Lack of Funding</p>
+              <p> _ </p>
               <p>Available Worldwide (With Ladder Restrictions)</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/call-of-duty/head-to-head" id='league-back-button-a'>
+        <a href="/" id='league-back-button-a'>
           <button className="back-button">Back</button>
         </a>
         </div>
