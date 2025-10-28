@@ -30,7 +30,7 @@ const Purge_Leagues = () => {
                                     <a href="/games/call-of-duty/leagues/purge-cod-leagues/purge-premade"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA/EU</p>
+                                <p className='Leaguep'>Premade Division - NA/EU</p>
                                 <a href='/games/call-of-duty/leagues/purge-cod-leagues/purge-premade'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -46,7 +46,7 @@ const Purge_Leagues = () => {
                                     <a href="/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA/EU</p>
+                                <p className='Leaguep'>Uppers & Lowers Division - NA/EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers'>
                                     <button type="submit" className='info-button'>More Info</button>
