@@ -29,7 +29,8 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/titan"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1790+ MMR</p>
+                                <p className='Leaguep hide-on-pc'>Titan League - 1790+ MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1790+ MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/titan'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/rival"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1611 - 1789 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Rival League - 1611 - 1789 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1611 - 1789 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/rival'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/challenger"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1474 - 1610 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Challenger League - 1474 - 1610 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1474 - 1610 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/challenger'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -79,7 +82,8 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/prospect"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1316 - 1474 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Prospect League - 1316 - 1474 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1316 - 1474 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/prospect'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -97,7 +101,8 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/nemesis-leagues/novice"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1315 MMR & Below</p>
+                                <p className='Leaguep hide-on-pc'>Novice League - 1315 MMR & Below</p>
+                                <p className='Leaguep hide-on-mobile'>1315 MMR & Below</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/nemesis-leagues/novice'>
                                     <button type="submit" className='info-button'>More Info</button>

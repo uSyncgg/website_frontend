@@ -30,7 +30,8 @@ const Frontpage_Risen = () => {
                                     <a href="/games/LoL/leagues/risen-leagues/champions"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Must Qualify</p>
+                                <p className='Leaguep hide-on-pc'>Champions League - Must Qualify</p>
+                                <p className='Leaguep hide-on-mobile'>Must Qualify</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/risen-leagues/champions'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -47,7 +48,8 @@ const Frontpage_Risen = () => {
                                     <a href="/games/LoL/leagues/risen-leagues/dominate"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 1 cap</p>
+                                <p className='Leaguep hide-on-pc'>Dominate League - Diamond 1 cap</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/risen-leagues/dominate'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -66,7 +68,8 @@ const Frontpage_Risen = () => {
                                     <a href="/games/LoL/leagues/risen-leagues/unstoppable"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 1 cap</p>
+                                <p className='Leaguep hide-on-pc'>Unstoppable League - Emerald 1 cap</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/risen-leagues/unstoppable'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -83,7 +86,8 @@ const Frontpage_Risen = () => {
                                     <a href="/games/LoL/leagues/risen-leagues/rampage"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 4 cap</p>
+                                <p className='Leaguep hide-on-pc'>Rampage League - Emerald 4 cap</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/risen-leagues/rampage'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -102,7 +106,8 @@ const Frontpage_Risen = () => {
                                     <a href="/games/LoL/leagues/risen-leagues/draft"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Account Level 100</p>
+                                <p className='Leaguep hide-on-pc'>Draft League - Account Level 100</p>
+                                <p className='Leaguep hide-on-mobile'>Account Level 100</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/risen-leagues/draft'>
                                     <button type="submit" className='info-button'>More Info</button>

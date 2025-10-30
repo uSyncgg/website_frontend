@@ -29,7 +29,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/radon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 1</p>
+                                <p className='Leaguep hide-on-pc'>Radon League - Tier 1</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 1</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/radon'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/xenon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 2</p>
+                                <p className='Leaguep hide-on-pc'>Xenon League - Tier 2</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 2</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/xenon'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/krypton"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 3</p>
+                                <p className='Leaguep hide-on-pc'>Krypton League - Tier 3</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/krypton'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -79,7 +82,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/argon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 4</p>
+                                <p className='Leaguep hide-on-pc'>Argon League - Tier 4</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/argon'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -97,7 +101,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/nitrogen"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 5</p>
+                                <p className='Leaguep hide-on-pc'>Nitrogen League - Tier 5</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 5</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/nitrogen'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -113,7 +118,8 @@ const Frontpage_MetaShift = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/meta-shift-leagues/neon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Tier 6</p>
+                                <p className='Leaguep hide-on-pc'>Neon League - Tier 6</p>
+                                <p className='Leaguep hide-on-mobile'>Tier 6</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/meta-shift-leagues/neon'>
                                     <button type="submit" className='info-button'>More Info</button>

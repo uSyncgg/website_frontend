@@ -29,7 +29,8 @@ const Frontpage_ECAC = () => {
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/ecac-leagues/division-a"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond - Radiant</p>
+                                <p className='Leaguep hide-on-pc'>Division A League - Diamond - Radiant</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond - Radiant</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-a'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_ECAC = () => {
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/ecac-leagues/division-b"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold - Platinum</p>
+                                <p className='Leaguep hide-on-pc'>Division B League - Gold - Platinum</p>
+                                <p className='Leaguep hide-on-mobile'>Gold - Platinum</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-b'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_ECAC = () => {
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/ecac-leagues/division-c"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Iron - Silver</p>
+                                <p className='Leaguep hide-on-pc'>Division C League - Iron - Silver</p>
+                                <p className='Leaguep hide-on-mobile'>Iron - Silver</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/ecac-leagues/division-c'>
                                     <button type="submit" className='info-button'>More Info</button>

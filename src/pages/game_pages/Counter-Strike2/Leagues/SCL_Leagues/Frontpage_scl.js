@@ -29,7 +29,8 @@ const Frontpage_scl = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/challenger"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Highest Division</p>
+                                <p className='Leaguep hide-on-pc'>Challenger Division - Highest Division</p>
+                                <p className='Leaguep hide-on-mobile'>Highest Division</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/scl-leagues/challenger'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_scl = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/masters"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>High-Tier Division</p>
+                                <p className='Leaguep hide-on-pc'>Masters Division - High-Tier Division</p>
+                                <p className='Leaguep hide-on-mobile'>High-Tier Division</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/scl-leagues/masters'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_scl = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/intermediate"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Mid-Tier Division</p>
+                                <p className='Leaguep hide-on-pc'>Intermediate Division - Mid-Tier Division</p>
+                                <p className='Leaguep hide-on-mobile'>Mid-Tier Division</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/scl-leagues/intermediate'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -79,7 +82,8 @@ const Frontpage_scl = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/scl-leagues/public"><img src="https://i.imgur.com/b6fSddr.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Open Division</p>
+                                <p className='Leaguep hide-on-pc'>Public Division - Open Division</p>
+                                <p className='Leaguep hide-on-mobile'>Open Division</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/scl-leagues/public'>
                                     <button type="submit" className='info-button'>More Info</button>

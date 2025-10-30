@@ -29,7 +29,8 @@ const HOE_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
+                                <p className='Leaguep hide-on-pc'>Amateurs League - All Regions</p>
+                                <p className='Leaguep hide-on-mobile'>All Regions</p>
                                 <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -44,7 +45,8 @@ const HOE_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
+                                <p className='Leaguep hide-on-pc'>Challengers League - All Regions</p>
+                                <p className='Leaguep hide-on-mobile'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers'>
                                     <button type="submit" className='info-button'>More Info</button>

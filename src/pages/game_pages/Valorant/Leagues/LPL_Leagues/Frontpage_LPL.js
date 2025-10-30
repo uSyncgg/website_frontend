@@ -30,7 +30,8 @@ const Frontpage_LPL = () => {
                                     <a href="/games/Valorant/leagues/lpl-leagues/gold"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Invite-Only</p>
+                                <p className='Leaguep hide-on-pc'>Gold Division League - Invite-Only</p>
+                                <p className='Leaguep hide-on-mobile'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/lpl-leagues/gold'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -47,7 +48,8 @@ const Frontpage_LPL = () => {
                                     <a href="/games/Valorant/leagues/lpl-leagues/silver"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Invite-Only</p>
+                                <p className='Leaguep hide-on-pc'>Silver Division League - Invite-Only</p>
+                                <p className='Leaguep hide-on-mobile'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/lpl-leagues/silver'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -66,7 +68,8 @@ const Frontpage_LPL = () => {
                                     <a href="/games/Valorant/leagues/lpl-leagues/bronze"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Qualified Teams</p>
+                                <p className='Leaguep hide-on-pc'>Bronze Division League - Qualified Teams</p>
+                                <p className='Leaguep hide-on-mobile'>Qualified Teams</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/lpl-leagues/bronze'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -83,7 +86,8 @@ const Frontpage_LPL = () => {
                                     <a href="/games/Valorant/leagues/lpl-leagues/open"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Open</p>
+                                <p className='Leaguep hide-on-pc'>Open Division League - Open</p>
+                                <p className='Leaguep hide-on-mobile'>Open</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/lpl-leagues/open'>
                                     <button type="submit" className='info-button'>More Info</button>

@@ -29,7 +29,8 @@ const Frontpage_OCE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>$5100 Team Salary cap</p>
+                                <p className='Leaguep hide-on-pc'>Division 1 League - $5100 Team Salary cap</p>
+                                <p className='Leaguep hide-on-mobile'>$5100 Team Salary cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_OCE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>$3100 Team Salary cap</p>
+                                <p className='Leaguep hide-on-pc'>Division 2 League - $3100 Team Salary cap</p>
+                                <p className='Leaguep hide-on-mobile'>$3100 Team Salary cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_OCE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/oce-leagues/divisions"><img src="https://i.imgur.com/NxauxTy.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>$1300 Team Salary Cap</p>
+                                <p className='Leaguep hide-on-pc'>Division 3 League - $1300 Team Salary cap</p>
+                                <p className='Leaguep hide-on-mobile'>$1300 Team Salary cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/oce-leagues/divisions'>
                                     <button type="submit" className='info-button'>More Info</button>

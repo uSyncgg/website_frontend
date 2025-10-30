@@ -30,7 +30,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/masters"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>600LP+</p>
+                                <p className='Leaguep hide-on-pc'>Masters League - 600LP+</p>
+                                <p className='Leaguep hide-on-mobile'>600LP+</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/masters'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -46,7 +47,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/diamond"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 1 cap / One Masters</p>
+                                <p className='Leaguep hide-on-pc'>Diamond League - Diamond 1 cap / One Masters</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 1 cap / One Masters</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/diamond'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -64,7 +66,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/emerald"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 1 cap / One Diamond 4</p>
+                                <p className='Leaguep hide-on-pc'>Emerald League - Emerald 1 cap / One Diamond 4</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 1 cap / One Diamond 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/emerald'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -80,7 +83,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/plat"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 1 cap / One Emerald 4</p>
+                                <p className='Leaguep hide-on-pc'>Platinum League - Platinum 1 cap / One Emerald 4</p>
+                                <p className='Leaguep hide-on-mobile'>Platinum 1 cap / One Emerald 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/plat'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -98,7 +102,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/gold"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold 1 cap / One Platinum 4</p>
+                                <p className='Leaguep hide-on-pc'>Gold League - Gold 1 cap / One Platinum 4</p>
+                                <p className='Leaguep hide-on-mobile'>Gold 1 cap / One Platinum 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/gold'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -114,7 +119,8 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/blue-otter-leagues/draft"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 4 - Diamond 1</p>
+                                <p className='Leaguep hide-on-pc'>Draft League - Platinum 4 - Diamond 1</p>
+                                <p className='Leaguep hide-on-mobile'>Platinum 4 - Diamond 1</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/blue-otter-leagues/draft'>
                                     <button type="submit" className='info-button'>More Info</button>

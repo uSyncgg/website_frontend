@@ -29,7 +29,8 @@ const Frontpage_Doubles = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/elite"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1600 - 1799 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Elite League - 1600 - 1799 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1600 - 1799 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                     <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/elite'>
                                         <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_Doubles = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/star"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1400 - 1599 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Star League - 1400 - 1599 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1400 - 1599 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/star'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_Doubles = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/expert"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1200 - 1399 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Expert League - 1200 - 1399 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1200 - 1399 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/expert'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -80,7 +83,8 @@ const Frontpage_Doubles = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/frontier-doubles-leagues/origin"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>0 - 1199 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Origin League - 0 - 1199 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>0 - 1199 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/frontier-doubles-leagues/origin'>
                                     <button type="submit" className='info-button'>More Info</button>

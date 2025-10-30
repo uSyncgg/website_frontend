@@ -31,7 +31,8 @@ const Frontpage_Aegis = () => {
                                     <a href="/games/LoL/leagues/aegis-leagues/champ"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Uncapped</p>
+                                <p className='Leaguep hide-on-pc'>Champions League - Uncapped</p>
+                                <p className='Leaguep hide-on-mobile'>Uncapped</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/aegis-leagues/champ'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -48,7 +49,8 @@ const Frontpage_Aegis = () => {
                                     <a href="/games/LoL/leagues/aegis-leagues/marauder"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Master 600LP cap</p>
+                                <p className='Leaguep hide-on-pc'>Marauder League - Master 600LP cap</p>
+                                <p className='Leaguep hide-on-mobile'>Master 600LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/aegis-leagues/marauder'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -67,7 +69,8 @@ const Frontpage_Aegis = () => {
                                     <a href="/games/LoL/leagues/aegis-leagues/defenders"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>100LP cap</p>
+                                <p className='Leaguep hide-on-pc'>Defenders League - 100LP cap</p>
+                                <p className='Leaguep hide-on-mobile'>100LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/aegis-leagues/defenders'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -84,7 +87,8 @@ const Frontpage_Aegis = () => {
                                     <a href="/games/LoL/leagues/aegis-leagues/executioners"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap</p>
+                                <p className='Leaguep hide-on-pc'>Executioners League - Diamond 4 cap</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/aegis-leagues/executioners'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -103,7 +107,8 @@ const Frontpage_Aegis = () => {
                                     <a href="/games/LoL/leagues/aegis-leagues/protectors"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 4 cap</p>
+                                <p className='Leaguep hide-on-pc'>Protectors League - Emerald 4 cap</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/aegis-leagues/protectors'>
                                     <button type="submit" className='info-button'>More Info</button>

@@ -30,7 +30,8 @@ const Frontpage_Cobalt = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>750 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-pc'>CWL Ascend - 750 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-mobile'>750 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-ascend'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -46,7 +47,8 @@ const Frontpage_Cobalt = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-defy"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>500 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-pc'>CWL Defy - 500 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-mobile'>500 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-defy'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -64,7 +66,8 @@ const Frontpage_Cobalt = () => {
                                 <div className='parent'>
                                     <a href="/games/LoL/leagues/cobalt-winds-leagues/cwl-rise"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>100 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-pc'>CWL Rise - 100 LP Individual Cap</p>
+                                <p className='Leaguep hide-on-mobile'>100 LP Individual Cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/cobalt-winds-leagues/cwl-rise'>
                                     <button type="submit" className='info-button'>More Info</button>

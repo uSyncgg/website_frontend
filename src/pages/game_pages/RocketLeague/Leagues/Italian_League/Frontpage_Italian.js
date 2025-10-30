@@ -29,7 +29,8 @@ const Frontpage_Italian = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/italian-leagues/serie-a"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>By Rank</p>
+                                <p className='Leaguep hide-on-pc'>Serie A League - By Rank</p>
+                                <p className='Leaguep hide-on-mobile'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-a'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_Italian = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/italian-leagues/serie-b"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>By Rank</p>
+                                <p className='Leaguep hide-on-pc'>Serie B League - By Rank</p>
+                                <p className='Leaguep hide-on-mobile'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/italian-leagues/serie-b'>
                                     <button type="submit" className='info-button'>More Info</button>

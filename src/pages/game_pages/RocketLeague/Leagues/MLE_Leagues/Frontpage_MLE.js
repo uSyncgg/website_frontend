@@ -29,7 +29,8 @@ const Frontpage_MLE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/mle-leagues/premier"><img src="https://i.imgur.com/1ouD021.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1651 - 1900 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Premier League - 1651 - 1900 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1651 - 1900 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/mle-leagues/premier'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_MLE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/mle-leagues/master"><img src="https://i.imgur.com/44UEg5N.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1451 - 1650 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Master League - 1451 - 1650 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1451 - 1650 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/mle-leagues/master'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -62,7 +64,8 @@ const Frontpage_MLE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/mle-leagues/champ"><img src="https://i.imgur.com/U3PRmzs.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1251 - 1450 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Champion League - 1251 - 1450 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1251 - 1450 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/mle-leagues/champ'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -78,7 +81,8 @@ const Frontpage_MLE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/mle-leagues/academy"><img src="https://i.imgur.com/6Fzq2oe.jpg" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1000 - 1250 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Academy League - 1000 - 1250 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1000 - 1250 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/mle-leagues/academy'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -96,7 +100,8 @@ const Frontpage_MLE = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/mle-leagues/foundation"><img src="https://i.imgur.com/acXiAPL.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>0 - 1050 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Foundation League - 0 - 1050 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>0 - 1050 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/mle-leagues/foundation'>
                                     <button type="submit" className='info-button'>More Info</button>

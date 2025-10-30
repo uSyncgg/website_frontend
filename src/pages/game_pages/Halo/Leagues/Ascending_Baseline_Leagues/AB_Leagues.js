@@ -29,7 +29,8 @@ const AB_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/halo/leagues/ascending-baseline/ab"><img src="https://i.imgur.com/W2CJtZK.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Premade Format</p>
+                                <p className='Leaguep hide-on-pc'>AB League - Premade Format</p>
+                                <p className='Leaguep hide-on-mobile'>Premade Format</p>
                                 <a href='/games/halo/leagues/ascending-baseline/ab'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -44,7 +45,8 @@ const AB_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/halo/leagues/ascending-baseline/pandemonium-games"><img src="https://i.imgur.com/W2CJtZK.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>Pandemonium Games League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 <a href='/games/halo/leagues/ascending-baseline/pandemonium-games'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>

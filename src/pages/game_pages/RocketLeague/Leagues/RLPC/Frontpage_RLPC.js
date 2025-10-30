@@ -29,7 +29,8 @@ const Frontpage_RLPC = () => {
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/major"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1800 MMR & Above</p>
+                                <p className='Leaguep hide-on-pc'>Major League - 1800 MMR & Above</p>
+                                <p className='Leaguep hide-on-mobile'>1800 MMR & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/major'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -46,7 +47,8 @@ const Frontpage_RLPC = () => {
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/aaa"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1575-1799 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Triple A League - 1575 - 1799 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1575 - 1799 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/aaa'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -65,7 +67,8 @@ const Frontpage_RLPC = () => {
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/aa"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1350-1574 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Double A League - 1350 - 1574 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1350 - 1574 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/aa'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -82,7 +85,8 @@ const Frontpage_RLPC = () => {
                                     <a href="/games/RocketLeague/leagues/rlpc-leagues/a"><img src="https://i.imgur.com/kVDfckC.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1021-1349 MMR</p>
+                                <p className='Leaguep hide-on-pc'>Single A League - 1021 - 1349 MMR</p>
+                                <p className='Leaguep hide-on-mobile'>1021 - 1349 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rlpc-leagues/a'>
                                     <button type="submit" className='info-button'>More Info</button>

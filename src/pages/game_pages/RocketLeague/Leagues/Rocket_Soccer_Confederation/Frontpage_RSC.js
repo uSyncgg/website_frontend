@@ -29,7 +29,8 @@ const Frontpage_RSC = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/3v3-na"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>3v3 NA League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/3v3-na'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_RSC = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/3v3-eu"><img src="https://i.imgur.com/uQgW3Kj.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>3v3 EU League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/3v3-eu'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -63,7 +65,8 @@ const Frontpage_RSC = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/rsc-leagues/2v2"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>2v2 League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/rsc-leagues/2v2'>
                                     <button type="submit" className='info-button'>More Info</button>

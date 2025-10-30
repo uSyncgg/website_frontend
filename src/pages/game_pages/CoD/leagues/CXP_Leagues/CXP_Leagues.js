@@ -29,7 +29,8 @@ const CXP_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-varsity"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
+                                <p className='Leaguep hide-on-pc'>Varsity Division - NA</p>
+                                <p className='Leaguep hide-on-mobile'>NA</p>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-varsity'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -44,7 +45,8 @@ const CXP_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-open"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
+                                <p className='Leaguep hide-on-pc'>Open Division - NA</p>
+                                <p className='Leaguep hide-on-mobile'>NA</p>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-open'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -61,7 +63,8 @@ const CXP_Leagues = () => {
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/cxp-leagues/cxp-club"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
+                                <p className='Leaguep hide-on-pc'>Club Division - NA</p>
+                                <p className='Leaguep hide-on-mobile'>NA</p>
                                 <a href='/games/call-of-duty/leagues/cxp-leagues/cxp-club'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>

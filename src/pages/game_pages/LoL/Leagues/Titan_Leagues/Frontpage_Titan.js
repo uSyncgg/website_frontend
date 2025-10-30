@@ -30,7 +30,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/immortal"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>600LP cap | Thursdays</p>
+                                <p className='Leaguep hide-on-pc'>Immortal - 600LP cap | Thursdays</p>
+                                <p className='Leaguep hide-on-mobile'>600LP cap | Thursdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/immortal'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -47,7 +48,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/vanquisher"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>M100 cap | Tuesdays</p>
+                                <p className='Leaguep hide-on-pc'>Vanquisher - M100 cap | Tuesdays</p>
+                                <p className='Leaguep hide-on-mobile'>M100 cap | Tuesdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/vanquisher'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -66,7 +68,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/eternal"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap | Mondays</p>
+                                <p className='Leaguep hide-on-pc'>Eternal - Diamond 4 cap | Mondays</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 4 cap | Mondays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/eternal'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -83,7 +86,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap | Wednesdays</p>
+                                <p className='Leaguep hide-on-pc'>Conqueror - Diamond 4 cap | Wednesdays</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 4 cap | Wednesdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/conqueror'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -102,7 +106,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/olympus"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap | Fridays</p>
+                                <p className='Leaguep hide-on-pc'>Olympus - Diamond 4 cap | Fridays</p>
+                                <p className='Leaguep hide-on-mobile'>Diamond 4 cap | Fridays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/olympus'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -119,7 +124,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 4 cap | Mondays</p>
+                                <p className='Leaguep hide-on-pc'>Divinity - Emerald 4 cap | Mondays</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 4 cap | Mondays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/divinity'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -138,7 +144,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/berserker"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Emerald 4 cap | Thursdays</p>
+                                <p className='Leaguep hide-on-pc'>Berserker - Emerald 4 cap | Thursdays</p>
+                                <p className='Leaguep hide-on-mobile'>Emerald 4 cap | Thursdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/berserker'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -155,7 +162,8 @@ const Frontpage_Titan = () => {
                                     <a href="/games/LoL/leagues/titan-leagues/gladiator"><img src="https://i.imgur.com/SoRhxEf.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 4 cap | Tuesdays</p>
+                                <p className='Leaguep hide-on-pc'>Gladiator - Platinum 4 cap | Tuesdays</p>
+                                <p className='Leaguep hide-on-mobile'>Platinum 4 cap | Tuesdays</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/LoL/leagues/titan-leagues/gladiator'>
                                     <button type="submit" className='info-button'>More Info</button>

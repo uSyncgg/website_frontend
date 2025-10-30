@@ -29,7 +29,8 @@ const Frontpage_LPLCS = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-gold"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Invite-Only</p>
+                                <p className='Leaguep hide-on-pc'>Gold Division - Invite-Only</p>
+                                <p className='Leaguep hide-on-mobile'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-gold'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_LPLCS = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-silver"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Invite-Only</p>
+                                <p className='Leaguep hide-on-pc'>Silver Division - Invite-Only</p>
+                                <p className='Leaguep hide-on-mobile'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-silver'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -62,7 +64,8 @@ const Frontpage_LPLCS = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-bronze"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Qualified Teams</p>
+                                <p className='Leaguep hide-on-pc'>Bronze Division - Qualified Teams</p>
+                                <p className='Leaguep hide-on-mobile'>Qualified Teams</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-bronze'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -78,7 +81,8 @@ const Frontpage_LPLCS = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/lpl-leagues/lpl-open"><img src="https://i.imgur.com/bqbNpmT.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Open</p>
+                                <p className='Leaguep hide-on-pc'>Open Division - Open</p>
+                                <p className='Leaguep hide-on-mobile'>Open</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/lpl-leagues/lpl-open'>
                                     <button type="submit" className='info-button'>More Info</button>

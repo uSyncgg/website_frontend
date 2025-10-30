@@ -29,7 +29,8 @@ const Frontpage_hyper = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/hyperfibre-leagues/elite"><img src="https://i.imgur.com/Cx4N8HW.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Competitive</p>
+                                <p className='Leaguep hide-on-pc'>Elite Division - Competitive</p>
+                                <p className='Leaguep hide-on-mobile'>Competitive</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/elite'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_hyper = () => {
                                 <div className='parent'>
                                     <a href="/games/CS2/leagues/hyperfibre-leagues/social"><img src="https://i.imgur.com/Cx4N8HW.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Casual</p>
+                                <p className='Leaguep hide-on-pc'>Social Division - Casual</p>
+                                <p className='Leaguep hide-on-mobile'>Casual</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/CS2/leagues/hyperfibre-leagues/social'>
                                     <button type="submit" className='info-button'>More Info</button>

@@ -29,7 +29,8 @@ const Frontpage_Playfly = () => {
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/playfly-leagues/varsity"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum & Above</p>
+                                <p className='Leaguep hide-on-pc'>Varsity League - Platinum & Above</p>
+                                <p className='Leaguep hide-on-mobile'>Platinum & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/playfly-leagues/varsity'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_Playfly = () => {
                                 <div className='parent'>
                                     <a href="/games/Valorant/leagues/playfly-leagues/open"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold & Below</p>
+                                <p className='Leaguep hide-on-pc'>Open League - Gold & Below</p>
+                                <p className='Leaguep hide-on-mobile'>Gold & Below</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/Valorant/leagues/playfly-leagues/open'>
                                     <button type="submit" className='info-button'>More Info</button>

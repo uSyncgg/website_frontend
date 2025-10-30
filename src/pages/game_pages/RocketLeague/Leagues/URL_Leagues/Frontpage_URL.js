@@ -29,7 +29,8 @@ const Frontpage_URL = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/url-leagues/2s"><img src="https://i.imgur.com/MAt6qsf.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>2v2 League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/url-leagues/2s'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -45,7 +46,8 @@ const Frontpage_URL = () => {
                                 <div className='parent'>
                                     <a href="/games/RocketLeague/leagues/url-leagues/3s"><img src="https://i.imgur.com/MAt6qsf.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Draft Format</p>
+                                <p className='Leaguep hide-on-pc'>3v3 League - Draft Format</p>
+                                <p className='Leaguep hide-on-mobile'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/RocketLeague/leagues/url-leagues/3s'>
                                     <button type="submit" className='info-button'>More Info</button>
