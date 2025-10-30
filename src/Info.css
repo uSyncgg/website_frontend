@@ -556,6 +556,10 @@ header {
     /* display: flex;
     flex-direction: column; */
   }
+
+  .hide-on-pc {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
