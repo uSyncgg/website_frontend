@@ -9,6 +9,17 @@ const Purge_Leagues = () => {
         <>
             <Helmet>
               <meta name="description" content="Purge CoD League is THE Call of Duty league that you and your team has been looking for. Sign up solo or as a team and compete for thousands!" />
+              <meta property="og:title" content="Purge Leagues | Verified CoD Leagues." />
+              <meta property="og:description" content="Play in Purge's upcoming Leagues. Sign up before December 1st, 2025." />
+              <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+              <meta property="og:url" content="https://usync.gg/" />
+              <meta property="og:type" content="website" />
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:title" content="Purge Leagues | Verified CoD Leagues." />
+              <meta name="twitter:description" content="Play in Purge's upcoming Leagues. Sign up before December 1st, 2025." />
+              <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+              <meta name="twitter:site" content="@uSyncGG" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Helmet>
         <div>
         <div className="Header-Img-l not-verified-banner-img-lans">
