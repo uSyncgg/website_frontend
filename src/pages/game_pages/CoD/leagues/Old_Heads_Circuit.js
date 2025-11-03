@@ -69,6 +69,7 @@ const Old_Heads_Circuit = () => {
               <p>Draft League, Sign Up Solo</p>
               <p>Regular Season and Playoffs</p>
               <p>Ages 27+ and No Longer Competing</p>
+              <p>8s, Tournaments, Leagues, and More</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>
