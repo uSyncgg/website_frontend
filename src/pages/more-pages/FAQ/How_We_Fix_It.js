@@ -46,7 +46,7 @@ const Fix = () => {
                                 of searching for and verifying your next league, LAN, tournament, or more.
                             </p>
                             <h3 className="black-text left-center">
-                                Reudcing Search Time
+                                Reducing Search Time
                             </h3>
                             <p className="black-text-no-bold left-center">
                                 Before uSync, finding the right competition required hours of searching across multiple

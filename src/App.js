@@ -32,6 +32,7 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
+import Old_Heads_Circuit from './pages/game_pages/CoD/leagues/Old_Heads_Circuit'
 import Casual_XP_League from './pages/game_pages/CoD/leagues/Casual_XP_League'
 import Elite_Warfare_Gaming from './pages/game_pages/CoD/leagues/Elite_Warfare_Gaming'
 import LockdownCL from './pages/game_pages/CoD/leagues/LockdownCL'
@@ -958,6 +959,10 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/old-heads-circuit":
+      title = "Old Heads Circuit | uSync";
+      component = <Old_Heads_Circuit />
+      break;
     case "/games/call-of-duty/leagues/casual-xp-league":
       title = "Casual XP League | uSync";
       component = <Casual_XP_League />
