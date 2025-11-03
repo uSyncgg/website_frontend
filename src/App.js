@@ -391,7 +391,6 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
-import BoilerFrag_XVIII from './pages/game_pages/LANs/BoilerFrag_XVIII';
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
 import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
 import Florence_Esports_Festival_25 from './pages/game_pages/LANs/Florence_Esports_Festival_25';
@@ -401,7 +400,6 @@ import TXP5 from './pages/game_pages/LANs/TXP5';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
-import DreamHack_Atlanta25 from './pages/game_pages/LANs/DreamHack_Atlanta25';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
@@ -411,6 +409,8 @@ import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 
 
 //MASONS & JAKE LANs - Archived 2025
+import BoilerFrag_XVIII from './pages/game_pages/LANs/2025-Archive/BoilerFrag_XVIII';
+import DreamHack_Atlanta25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Atlanta25';
 import Mid_Atlantic_Collegiate_Series from './pages/game_pages/LANs/2025-Archive/Mid_Atlantic_Collegiate_Series';
 import GatorLAN_Fall_2025 from './pages/game_pages/LANs/2025-Archive/GatorLAN_Fall_2025';
 import New_England_College_LAN_fall25 from './pages/game_pages/LANs/2025-Archive/New_England_College_LAN_fall25';
@@ -2131,10 +2131,6 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
-case "/lans/boilerfrag-xviii":
-title = "BoilerFrag XVIII | uSync";
-component = <BoilerFrag_XVIII />
-break;
 case "/lans/shintogc-major-1":
 title = "ShintoGC Major 1 | uSync";
 component = <ShintoGC_Major_1 />
@@ -2171,10 +2167,6 @@ case "/lans/gacod-bo7-launch":
 title = "GA:CoD Black Ops 7 Launch | uSync";
 component = <GACOD_BO7_Launch />
 break;
-case "/lans/dreamhack-atlanta-25":
-title = "DreamHack Atlanta 25 | uSync";
-component = <DreamHack_Atlanta25 />
-break;
 case "/lans/magfest-20x6":
 title = "MAGFest 20X6 | uSync";
 component = <MAGFest_20X6 />
@@ -2200,6 +2192,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/dreamhack-atlanta-25":
+title = "DreamHack Atlanta 25 | uSync";
+component = <DreamHack_Atlanta25 />
+break;
+case "/lans/boilerfrag-xviii":
+title = "BoilerFrag XVIII | uSync";
+component = <BoilerFrag_XVIII />
+break;
 case "/lans/newengland-collegelan-fall-25":
 title = "New England College LAN Fall 25 | uSync";
 component = <New_England_College_LAN_fall25 />
