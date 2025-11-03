@@ -403,12 +403,12 @@ import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
-import Friday_Fest_Weekly25 from './pages/game_pages/LANs/Friday_Fest_Weekly25';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Friday_Fest_Weekly25 from './pages/game_pages/LANs/2025-Archive/Friday_Fest_Weekly25';
 import BoilerFrag_XVIII from './pages/game_pages/LANs/2025-Archive/BoilerFrag_XVIII';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Atlanta25';
 import Mid_Atlantic_Collegiate_Series from './pages/game_pages/LANs/2025-Archive/Mid_Atlantic_Collegiate_Series';
@@ -2179,10 +2179,6 @@ case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
 break;
-case "/lans/friday-fest-weekly25":
-title = "Friday Fest Weekly | uSync";
-component = <Friday_Fest_Weekly25 />
-break;
 case "/lans/pdxfall-25":
 title = "PDXLAN Fall 25 | uSync";
 component = <PDXLAN_Fall_25 />
@@ -2192,6 +2188,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/friday-fest-weekly25":
+title = "Friday Fest Weekly | uSync";
+component = <Friday_Fest_Weekly25 />
+break;
 case "/lans/dreamhack-atlanta-25":
 title = "DreamHack Atlanta 25 | uSync";
 component = <DreamHack_Atlanta25 />
