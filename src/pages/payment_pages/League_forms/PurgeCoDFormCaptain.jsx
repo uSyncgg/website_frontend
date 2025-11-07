@@ -39,7 +39,7 @@ function PurgeCodFormCaptain() {
 
     try {
         console.log(`FORM: ${form.teamName}`)
-        const res = await axios.post('http://localhost:4242/usyncApp/leagues/PurgeCoDLeagueTeam', form, {
+        const res = await axios.post('https://website-backend-5m32.onrender.com/usyncApp/leagues/PurgeCoDLeagueTeam', form, {
         headers: {
             'Content-Type': 'application/json',
         }});
