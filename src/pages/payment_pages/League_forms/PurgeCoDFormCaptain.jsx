@@ -170,6 +170,8 @@ const RequiredLabel = ({ htmlFor, children }) => (
                             </div>
                         </div>
 
+                        <p className="hr-form" />
+
                         {/* Player 1 + 2 */}
                         <div style={styles.row}>
                             <div style={styles.fieldHalf}>
@@ -228,6 +230,8 @@ const RequiredLabel = ({ htmlFor, children }) => (
                             />
                             </div>
                         </div>
+                        
+                        <p className="hr-form" />
 
                         <div style={styles.row}>
                             <div style={styles.fieldHalf}>
@@ -286,6 +290,8 @@ const RequiredLabel = ({ htmlFor, children }) => (
                             />
                             </div>
                         </div>
+                        
+                        <p className="hr-form" />
 
                         <div style={styles.row}>
                             <div style={styles.fieldHalf}>
@@ -344,6 +350,8 @@ const RequiredLabel = ({ htmlFor, children }) => (
                             />
                             </div>
                         </div>
+                        
+                        <p className="hr-form" />
 
                         <div style={styles.row}>
                             <div style={styles.fieldHalf}>

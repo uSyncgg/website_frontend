@@ -200,19 +200,19 @@ const RequiredLabel = ({ htmlFor, children }) => (
                             <div className="cart-box">
                                 <div className="cart-item">
                                 <span >League Entry</span>
-                                <span >$25</span>
+                                <span >$5</span>
                                 </div>
 
                                 <div className="cart-item">
                                 <span >Platform Fee</span>
-                                <span >$1.25</span>
+                                <span >$0.25</span>
                                 </div>
 
                                 <hr className="cart-divider" />
 
                                 <div className="cart-total">
                                 <span >Total</span>
-                                <span >$26.25</span>
+                                <span >$5.25</span>
                                 </div>
                             </div>
                         </div>
