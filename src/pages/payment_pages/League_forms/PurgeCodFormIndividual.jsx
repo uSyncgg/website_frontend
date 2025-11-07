@@ -125,7 +125,7 @@ const RequiredLabel = ({ htmlFor, children }) => (
             <div className='row'>
                 <div className='col-lg-8 mx-auto'>
                     <div className='cart-container'>
-                        <h1 style={styles.heading}>Submit Your Team Info</h1>
+                        <h1 style={styles.heading}>Submit Your Info</h1>
                         <form onSubmit={handleSubmit} style={styles.form}>
 
                         {/* Player 1 + 2 */}
