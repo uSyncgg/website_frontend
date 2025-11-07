@@ -19,7 +19,9 @@ export default function CheckoutPage() {
 
     useEffect(() => {
         // Create PaymentIntent as soon as the page loads
-        fetch("http://localhost:4242/usyncPayments/generalPayment", {
+        // Test Link: "http://localhost:4242/usyncPayments/generalPayment"
+        // Live Link: "http://localhost:4242/usyncPayments/generalPayment"
+        fetch("https://website-backend-5m32.onrender.com/usyncPayments/generalPayment", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ items: [{ id: "purge-league", amount: 2625 }] }),
