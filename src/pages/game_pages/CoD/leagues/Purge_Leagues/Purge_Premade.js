@@ -16,7 +16,6 @@ const Purge_Premade = () => {
       <>
           <Helmet>
   {/* Basic SEO */}
-  <title>PurgeCL Premade Division – uSync</title>
   <meta
     name="description"
     content="Purge Premade Division is the competitive arm of the Purge CoD League. Build your squad or sign up solo and compete in BO7-ready series with playoffs and prize support."
