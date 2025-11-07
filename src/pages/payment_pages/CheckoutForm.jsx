@@ -51,35 +51,51 @@ export default function CheckoutForm() {
     layout: "accordion"
   }
 
+  const containerStyle =  {
+        height: "70.2vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        transition: "all 0.5s ease-in-out",
+      };
+
   return (
     <>
-      <div className="checkout-div" style={{ backgroundColor: 'rgb(49,49,49)', color: 'rgb(255,255,255)' }}>
-          <form id="payment-form" className="payform" onSubmit={handleSubmit}>
+      <div>
+        <div style={containerStyle}>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="checkout-div col-8 offset-4" style={{ backgroundColor: 'rgb(49,49,49)', color: 'rgb(255,255,255)' }}>
+                  <form id="payment-form" className="payform" onSubmit={handleSubmit}>
 
-          <PaymentElement id="payment-element" options={paymentElementOptions} />
-          {/* Terms and Conditions checkbox */}
-          <label style={{ display: "block", marginTop: "1rem", color: 'rgb(255,255,255)', fontSize: '10px' }}>
-            <input
-              type="checkbox"
-              checked={agreed}
-              onChange={(e) => setAgreed(e.target.checked)}
-            />{" "}
-            I acknowledge that (i) payments for tickets, registrations, and donations related to events 
-            listed on uSync.gg will be directed to the Event Organizer, (ii) uSync.gg will charge a platform fee of 5% 
-            on the total payment made to the Event Organizer; and (iii) uSync.gg is not responsible for the deliverability 
-            or quality of the Event.
-          </label>
-
-          <button disabled={isLoading || !stripe || !elements || !agreed} id="submit" className="paybutton">
-              <span id="button-text">
-              {isLoading ? <div className="spinner" id="spinner"></div> : "Pay $315.00 now"}
-              </span>
-          </button>
-          {/* Show any error or success messages */}
-          {message && <div id="payment-message">{message}</div>}
-          </form>
+                  <PaymentElement id="payment-element" options={paymentElementOptions} />
+                  {/* Terms and Conditions checkbox */}
+                  <label style={{ display: "block", marginTop: "1rem", color: 'rgb(255,255,255)', fontSize: '10px' }}>
+                    <input
+                      type="checkbox"
+                      checked={agreed}
+                      onChange={(e) => setAgreed(e.target.checked)}
+                    />{" "}
+                    I acknowledge that (i) payments for tickets, registrations, and donations related to events 
+                    listed on uSync.gg will be directed to the Event Organizer, (ii) uSync.gg will charge a platform fee of 5% 
+                    on the total payment made to the Event Organizer; and (iii) uSync.gg is not responsible for the deliverability 
+                    or quality of the Event.
+                  </label>
+                  
+                  <button disabled={isLoading || !stripe || !elements || !agreed} id="submit" className="paybutton">
+                      <span id="button-text">
+                      {isLoading ? <div className="spinner" id="spinner"></div> : "Pay $26.25 now"}
+                      </span>
+                  </button>
+                  {/* Show any error or success messages */}
+                  {message && <div id="payment-message">{message}</div>}
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }

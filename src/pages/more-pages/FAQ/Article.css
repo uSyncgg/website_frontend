@@ -186,6 +186,17 @@
 }
 }
 
+@media only screen and (min-width: 768px) {
+    .article-space-top {
+        margin-top: 1.5rem;
+    }
+    
+    .article-space {
+        margin-bottom: 2.5rem;
+        /* margin-top: 1.5rem; */
+    }
+}
+
 @media only screen and (max-width: 480px) {
 .problem-with-esports-img, .esports-better-img, .we-fix-img, .join-esports-img, .we-provide-img {
     width: auto;

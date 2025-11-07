@@ -106,7 +106,7 @@ const Fix = () => {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row article-space-top">
                         <div className="col-12 col-lg-3 offset-lg-1">
                             <h3 className="black-text left-center">
                                 OTHER ARTICLES
@@ -115,10 +115,10 @@ const Fix = () => {
                     </div>
 
             {/* <div className="container"> */}
-               <div className="row justify-content-center">
+               <div className="row justify-content-center article-space">
                  {" "}
                  {/* add justify-content-center class to center the columns */}
-                 <div className="col-lg-3 space-on-bottom problem-with-esports-img" id="bubblel">
+                 <div className="col-lg-3 problem-with-esports-img" id="bubblel">
                    <a href="/more/FAQ/The-Problem-With-Esports">
                     <img
                       className="blockimg2 img-fluid d-block mx-auto"
@@ -127,7 +127,7 @@ const Fix = () => {
                     />
                   </a>
                  </div>
-                 <div className="col-lg-3 space-on-bottom we-provide-img" id="bubble">
+                 <div className="col-lg-3 we-provide-img" id="bubble">
                    <a href="/more/FAQ/What-We-Provide">
                     <img
                       className="blockimg2 img-fluid d-block mx-auto"
@@ -136,7 +136,7 @@ const Fix = () => {
                     />
                   </a>
                  </div>
-                  <div className="col-lg-3 space-on-bottom join-esports-img" id="bubblelb">
+                  <div className="col-lg-3 join-esports-img" id="bubblelb">
                    <a href="/more/FAQ/How-to-Join-an-Esports-League">
                     <img
                       className="blockimg2 img-fluid d-block mx-auto"

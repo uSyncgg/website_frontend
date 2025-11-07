@@ -52,7 +52,7 @@
   border-radius: 7px;
   /* padding: 40px; */
   padding-top: 5rem;
-  margin-bottom: auto;
+  margin-bottom: 4.1rem;
 }
 
 
@@ -210,7 +210,7 @@
 }
 
 .checkout-div {
-  margin-left: 30svw;
+  /* margin-left: 50svw; */
   overflow-x: hidden;
 }
 

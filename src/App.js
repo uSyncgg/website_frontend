@@ -721,11 +721,16 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 import CheckoutForm from "./pages/payment_pages/CheckoutForm";
+import CheckoutPage from "./pages/payment_pages/CheckoutPage";
 import CompletePage from "./pages/payment_pages/CompletePage";
 
 import ReforgedCoDForm from "./pages/payment_pages/LAN_forms/ReforgedCoDForm";
+import PurgeCoDFormCaptain from "./pages/payment_pages/League_forms/PurgeCoDFormCaptain";
+import PurgeCoDFormIndividual from "./pages/payment_pages/League_forms/PurgeCodFormIndividual";
+import PurgeCoDForm from "./pages/payment_pages/Payment_pages/PurgeCodPaymentPage";
 
 import Conventions from "./pages/game_pages/Conventions/conventions";
+import PurgeCodFormCaptain from './pages/payment_pages/League_forms/PurgeCoDFormCaptain';
 
 // import {
 //   BrowserRouter as Router,
@@ -3210,7 +3215,7 @@ break;
       
       case "/checkout":
         title = "Payment Checkout | uSync";
-        component = <CheckoutForm />
+        component = <CheckoutPage />
         break;
       
       case "/complete":
@@ -3221,6 +3226,21 @@ break;
       case "/reforged-cod-submission":
         title = "Reforged 4v4 CoD LAN | uSync";
         component = <ReforgedCoDForm />
+        break;
+
+      // case "/purge-cod-submission":
+      //   title = "Purge CoD League | uSync";
+      //   component = <PurgeCoDFormCaptain />
+      //   break;
+
+      // case "/purge-cod-submission1":
+      //   title = "Purge CoD League | uSync";
+      //   component = <PurgeCoDFormIndividual />
+      //   break;
+      
+      case "/purge-cod-submission":
+        title = "Purge CoD League | uSync";
+        component = <PurgeCoDForm />
         break;
 
       case "/other-lans":
