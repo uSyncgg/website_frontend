@@ -586,5 +586,6 @@
 
 /checkout  /index.html 200
 /complete  /index.html 200
-/reforged-cod-submission  /index.html 200
+@REM /reforged-cod-submission  /index.html 200
+/purge-cod-submission  /index.html 200
 /404.html 404
