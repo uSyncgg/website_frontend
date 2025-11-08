@@ -15,8 +15,37 @@ const Purge_Premade = () => {
     return (
       <>
           <Helmet>
-            <meta name="description" content="Purge Premade Division is the very competitive arm of the Purge CoD league. Grab your best teammates or sign up solo and compete for a huge prize pool!" />
-          </Helmet>
+  {/* Basic SEO */}
+  <meta
+    name="description"
+    content="Purge Premade Division is the competitive arm of the Purge CoD League. Build your squad or sign up solo and compete in BO7-ready series with playoffs and prize support."
+  />
+  <link rel="canonical" href="https://usync.gg/games/CoD/leagues/purge-premade" />
+  <meta name="robots" content="index,follow" />
+
+  {/* Open Graph (Facebook/Discord) */}
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="uSync" />
+  <meta property="og:title" content="Purge Premade Division – uSync" />
+  <meta
+    property="og:description"
+    content="Purge Premade Division is the very competitive arm of the Purge CoD league. Grab your best teammates or sign up solo and compete for a huge prize pool!."
+  />
+  <meta property="og:url" content="https://usync.gg/games/CoD/leagues/purge-premade" />
+  <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Purge Premade Division – uSync" />
+  <meta
+    name="twitter:description"
+    content="Assemble your team or sign up solo for the Purge Premade Division. Competitive BO7 4v4 series, playoffs, and prizes."
+  />
+  <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
+</Helmet>
+
           <div className="total-playground">
       <div className="Header-Img-l purge-league-verified-banner">
       <div className="games-leagues-header-title-verified">
