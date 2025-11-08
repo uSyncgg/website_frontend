@@ -8,7 +8,7 @@ const Frontpage_URL = () => {
   return (
     <>
         <Helmet>
-          <meta name="description" content="Ultimate Rocket League leagues. Draft based leagues that are 2v2 or 3v3. With over 10+ MMR based divisions you won't want to miss sign ups for this." />
+          <meta name="description" content="Discover competitive Rocket League leagues on uSync. Join draft-based 2v2 and 3v3 leagues with over 10 MMR divisions: Play your rank, climb the leaderboards, and secure your spot before sign-ups close." />
         </Helmet>
         <div>
         <div className="Header-Img-l not-verified-banner-img-lans">
