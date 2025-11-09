@@ -394,9 +394,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 //MASON & JAKE LANs - Current
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
 import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
-import Florence_Esports_Festival_25 from './pages/game_pages/LANs/Florence_Esports_Festival_25';
 import Rocky_Mountain_Collegiate_Fall_Series from './pages/game_pages/LANs/Rocky_Mountain_Collegiate_Fall_Series';
-import Lakewood_League_XI from './pages/game_pages/LANs/Lakewood_League_XI';
 import TXP5 from './pages/game_pages/LANs/TXP5';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
@@ -409,6 +407,8 @@ import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Florence_Esports_Festival_25 from './pages/game_pages/LANs/2025-Archive/Florence_Esports_Festival_25';
+import Lakewood_League_XI from './pages/game_pages/LANs/2025-Archive/Lakewood_League_XI';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/2025-Archive/Friday_Fest_Weekly25';
 import BoilerFrag_XVIII from './pages/game_pages/LANs/2025-Archive/BoilerFrag_XVIII';
 import DreamHack_Atlanta25 from './pages/game_pages/LANs/2025-Archive/DreamHack_Atlanta25';
@@ -2149,17 +2149,9 @@ case "/lans/rmcs-fall-25":
 title = "RMCS Fall 25 | uSync";
 component = <Rocky_Mountain_Collegiate_Fall_Series />
 break;
-case "/lans/florence-festival-25":
-title = "Florence Esports Festival 25 | uSync";
-component = <Florence_Esports_Festival_25 />
-break;
 case "/lans/basai-bo7-kickoff":
 title = "Basai 4v4 Bo7 Kickoff | uSync";
 component = <Basai_4v4_Bo7_Kickoff />
-break;
-case "/lans/lakewood-league-xi":
-title = "Lakewood League XI | uSync";
-component = <Lakewood_League_XI />
 break;
 case "/lans/txp5":
 title = "TorontoXP 5 | uSync";
@@ -2198,6 +2190,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/lakewood-league-xi":
+title = "Lakewood League XI | uSync";
+component = <Lakewood_League_XI />
+break;
+case "/lans/florence-festival-25":
+title = "Florence Esports Festival 25 | uSync";
+component = <Florence_Esports_Festival_25 />
+break;
 case "/lans/friday-fest-weekly25":
 title = "Friday Fest Weekly | uSync";
 component = <Friday_Fest_Weekly25 />
