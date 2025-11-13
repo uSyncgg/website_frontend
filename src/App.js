@@ -400,13 +400,13 @@ import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
-import Code_Green_2_Bo7 from './pages/game_pages/LANs/Code_Green_2_Bo7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Code_Green_2_Bo7 from './pages/game_pages/LANs/2025-Archive/Code_Green_2_Bo7';
 import Florence_Esports_Festival_25 from './pages/game_pages/LANs/2025-Archive/Florence_Esports_Festival_25';
 import Lakewood_League_XI from './pages/game_pages/LANs/2025-Archive/Lakewood_League_XI';
 import Friday_Fest_Weekly25 from './pages/game_pages/LANs/2025-Archive/Friday_Fest_Weekly25';
@@ -2173,10 +2173,6 @@ case "/lans/magfest-20x6":
 title = "MAGFest 20X6 | uSync";
 component = <MAGFest_20X6 />
 break;
-case "/lans/code-green-2":
-title = "Code Green 2 | uSync";
-component = <Code_Green_2_Bo7 />
-break;
 case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
@@ -2190,6 +2186,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/code-green-2":
+title = "Code Green 2 | uSync";
+component = <Code_Green_2_Bo7 />
+break;
 case "/lans/lakewood-league-xi":
 title = "Lakewood League XI | uSync";
 component = <Lakewood_League_XI />
