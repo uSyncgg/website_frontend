@@ -44,7 +44,7 @@ const Tournaments = () => {
               <div className={styles.backgroundImages + ' full-height-wrapper'}>
                 <a href="/tournaments/call-of-duty-tournaments">
                   <img
-                    src="https://i.imgur.com/lt94bkC.png"
+                    src="https://i.imgur.com/gNvoNEo.png"
                     alt="Call of Duty"
                     height="12.5rem"
                     width="12.5rem"

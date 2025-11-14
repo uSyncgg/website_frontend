@@ -66,7 +66,7 @@ const ChooseGame = () => {
               <div className={styles.backgroundImages}>
               <a href="https://buy.stripe.com/eVa8xf3LUb6H4yQ7su" target='_blank'>
                   <img
-                    src="https://i.imgur.com/lt94bkC.png"
+                    src="https://i.imgur.com/gNvoNEo.png"
                     alt="Call of Duty"
                     className='home-games-images'
                     // height="12.5rem"

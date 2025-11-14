@@ -42,7 +42,7 @@ const Leagues = () => {
               <div className={styles.backgroundImages}>
               <a href="/games/call-of-duty/leagues">
                   <img
-                    src="https://i.imgur.com/lt94bkC.png"
+                    src="https://i.imgur.com/gNvoNEo.png"
                     alt="Call of Duty"
                     className='home-games-images'
                     // height="12.5rem"
