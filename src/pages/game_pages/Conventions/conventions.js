@@ -46,14 +46,14 @@ const Conventions = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/pdxfall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>PDXLAN Fall 2025</h1>
+                            <a href='/lans/dreamhack-birmingham'>
+                                <h1 className='Leagueh1 hide-on-mobile'>DreamHack Birmingham</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/pdxfall-25"><img src="https://i.imgur.com/JlcrVZH.png" className='league-img' /></a>
+                                <a href="/lans/dreamhack-birmingham"><img src="https://i.imgur.com/6mNKaHp.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>Ridgefield, WA</p>
-                            <a href='/lans/pdxfall-25'>
+                            <p className='Leaguep'>Birmingham, UK</p>
+                            <a href='/lans/dreamhack-birmingham'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -103,40 +103,6 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Tulsa, OK</p>
                             <a href='/lans/weekly-contender-ssbu'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/dreamhack-birmingham'>
-                                <h1 className='Leagueh1 hide-on-mobile'>DreamHack Birmingham</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/dreamhack-birmingham"><img src="https://i.imgur.com/6mNKaHp.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Birmingham, UK</p>
-                            <a href='/lans/dreamhack-birmingham'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/rmcs-fall-25'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Rocky Mountain Collegiate Fall Series</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/rmcs-fall-25"><img src="https://i.imgur.com/WaNJjN7.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/rmcs-fall-25'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

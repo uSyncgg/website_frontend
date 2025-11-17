@@ -394,18 +394,18 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 //MASON & JAKE LANs - Current
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
 import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
-import Rocky_Mountain_Collegiate_Fall_Series from './pages/game_pages/LANs/Rocky_Mountain_Collegiate_Fall_Series';
 import TXP5 from './pages/game_pages/LANs/TXP5';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/GACOD_BO7_Launch';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
-import PDXLAN_Fall_25 from './pages/game_pages/LANs/PDXLAN_Fall_25';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2025
+import PDXLAN_Fall_25 from './pages/game_pages/LANs/2025-Archive/PDXLAN_Fall_25';
+import Rocky_Mountain_Collegiate_Fall_Series from './pages/game_pages/LANs/2025-Archive/Rocky_Mountain_Collegiate_Fall_Series';
 import Code_Green_2_Bo7 from './pages/game_pages/LANs/2025-Archive/Code_Green_2_Bo7';
 import Florence_Esports_Festival_25 from './pages/game_pages/LANs/2025-Archive/Florence_Esports_Festival_25';
 import Lakewood_League_XI from './pages/game_pages/LANs/2025-Archive/Lakewood_League_XI';
@@ -2145,10 +2145,6 @@ case "/lans/shintogc-major-1":
 title = "ShintoGC Major 1 | uSync";
 component = <ShintoGC_Major_1 />
 break;
-case "/lans/rmcs-fall-25":
-title = "RMCS Fall 25 | uSync";
-component = <Rocky_Mountain_Collegiate_Fall_Series />
-break;
 case "/lans/basai-bo7-kickoff":
 title = "Basai 4v4 Bo7 Kickoff | uSync";
 component = <Basai_4v4_Bo7_Kickoff />
@@ -2177,15 +2173,19 @@ case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
 break;
-case "/lans/pdxfall-25":
-title = "PDXLAN Fall 25 | uSync";
-component = <PDXLAN_Fall_25 />
-break;
 //MASON & JAKE LANs - Current
 
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/pdxfall-25":
+title = "PDXLAN Fall 25 | uSync";
+component = <PDXLAN_Fall_25 />
+break;
+case "/lans/rmcs-fall-25":
+title = "RMCS Fall 25 | uSync";
+component = <Rocky_Mountain_Collegiate_Fall_Series />
+break;
 case "/lans/code-green-2":
 title = "Code Green 2 | uSync";
 component = <Code_Green_2_Bo7 />
