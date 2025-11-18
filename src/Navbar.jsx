@@ -6,8 +6,7 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  // const path = window.location.pathname;
-  // If you are adding something to the navbar simply add a <CustomLink href="custompath">Page name</CustomLink> to the ul tag
+  
   return (
         <nav className="nav">
           <a href="/" className="site-title">
@@ -18,6 +17,7 @@ const Navbar = () => {
           </div>
           <div className={click ? 'mobile-menu' : 'hide-mobile'}>
             <ul className='mobile-menu-ul'>
+                {/* Ensure CustomLink/CustomDropLink handle their 'to' prop correctly, it should be 'to' not 'href' for react-router Link */}
                 <CustomLink className="cLink-mobile" to="/">Home</CustomLink>
                 <MobileCustomLinkDropdown className="cLinkDropdown-mobile" title="Games">
                     <CustomDropLink className='cLinkText-mobile' to="/games/call-of-duty">Call of Duty</CustomDropLink>
@@ -61,24 +61,26 @@ const Navbar = () => {
   );
 };
 
-const CustomLink = ({ href, children, ...props }) => {
+// Ensure 'href' is actually 'to' for react-router Link
+const CustomLink = ({ to, children, ...props }) => {
   const path = window.location.pathname;
 
   return (
-    <li className={path === href ? "active" : ""}>
-      <Link id="navbarLink" href={href} {...props}>
+    <li className={path === to ? "active" : ""}>
+      <Link id="navbarLink" to={to} {...props}> {/* Changed href to to */}
         {children}
       </Link>
     </li>
   );
 };
 
-const CustomDropLink = ({ href, children, ...props }) => {
+// Ensure 'href' is actually 'to' for react-router Link
+const CustomDropLink = ({ to, children, ...props }) => {
   const path = window.location.pathname;
 
   return (
-    <li className={path === href ? "active mNavLink" : "mNavLink"}>
-      <Link id="navbarDropLink" href={href} {...props}>
+    <li className={path === to ? "active mNavLink" : "mNavLink"}>
+      <Link id="navbarDropLink" to={to} {...props}> {/* Changed href to to */}
         {children}
       </Link>
     </li>
@@ -88,20 +90,51 @@ const CustomDropLink = ({ href, children, ...props }) => {
 const CustomLinkGameDropdown = ({ title, children }) => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const handleMouseEnter = () => {
-    setShowMenu(true);
+  // Mouse events for hover
+  const handleMouseEnter = () => setShowMenu(true);
+  const handleMouseLeave = () => setShowMenu(false);
+
+  // Keyboard events for focus/blur and Enter/Space
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault(); // Prevent default scroll for spacebar
+      setShowMenu(prev => !prev);
+    } else if (event.key === 'Escape') {
+      setShowMenu(false);
+    }
   };
 
-  const handleMouseLeave = () => {
-    setShowMenu(false);
+  const handleFocus = () => setShowMenu(true); // Show dropdown on focus
+  const handleBlur = (event) => {
+    // Only hide if focus moves outside the dropdown area
+    if (!event.currentTarget.contains(event.relatedTarget)) {
+      setShowMenu(false);
+    }
   };
+
 
   return (
     <li className="dropdown dropdown-wrapper"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onFocus={handleFocus} // New: handle focus
+      onBlur={handleBlur}   // New: handle blur
     >
-      <span className="dropbtn">{title} <i className='fa-solid fa-caret-down'></i></span>
+      {/* 
+        Make the span focusable with tabIndex="0" and add keyboard interaction.
+        Use role="button" to convey its interactive nature to screen readers.
+        Add aria-haspopup and aria-expanded for accessibility.
+      */}
+      <span 
+        className="dropbtn" 
+        tabIndex="0" 
+        role="button" 
+        aria-haspopup="true" 
+        aria-expanded={showMenu}
+        onKeyDown={handleKeyDown} // New: keyboard interaction
+      >
+        {title} <i className='fa-solid fa-caret-down'></i>
+      </span>
       {showMenu && (
         <ul className="dropdown-games-content">{children}</ul>
       )}
@@ -112,20 +145,42 @@ const CustomLinkGameDropdown = ({ title, children }) => {
 const CustomLinkMoreDropdown = ({ title, children }) => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const handleMouseEnter = () => {
-    setShowMenu(true);
+  const handleMouseEnter = () => setShowMenu(true);
+  const handleMouseLeave = () => setShowMenu(false);
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      setShowMenu(prev => !prev);
+    } else if (event.key === 'Escape') {
+      setShowMenu(false);
+    }
   };
 
-  const handleMouseLeave = () => {
-    setShowMenu(false);
+  const handleFocus = () => setShowMenu(true);
+  const handleBlur = (event) => {
+    if (!event.currentTarget.contains(event.relatedTarget)) {
+      setShowMenu(false);
+    }
   };
 
   return (
     <li className="dropdown dropdown-wrapper"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
     >
-      <span className="dropbtn">{title} <i className='fa-solid fa-caret-down'></i></span>
+      <span 
+        className="dropbtn" 
+        tabIndex="0" 
+        role="button" 
+        aria-haspopup="true" 
+        aria-expanded={showMenu}
+        onKeyDown={handleKeyDown}
+      >
+        {title} <i className='fa-solid fa-caret-down'></i>
+      </span>
       {showMenu && (
         <ul className="dropdown-more-content">{children}</ul>
       )}
@@ -138,9 +193,31 @@ const MobileCustomLinkDropdown = ({ title, children }) => {
 
   const toggleMenu = () => setShowMenu(prev => !prev);
 
+  // Keyboard events for focus/blur and Enter/Space
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault(); // Prevent default scroll for spacebar
+      toggleMenu();
+    } else if (event.key === 'Escape') {
+      setShowMenu(false);
+    }
+  };
+  
+  // Mobile dropdowns are usually click-based, so focus/blur might be simpler
+  // We'll primarily rely on the onClick and keydown for toggling.
+  // The focus styling will still apply to the span.
+
   return (
     <li className="dropdown-wrapper mNavLink">
-      <span className="dropbtn mNavLink" onClick={toggleMenu}>
+      <span 
+        className="dropbtn mNavLink" 
+        onClick={toggleMenu} 
+        tabIndex="0" 
+        role="button" 
+        aria-haspopup="true" 
+        aria-expanded={showMenu}
+        onKeyDown={handleKeyDown} // New: keyboard interaction
+      >
         {title} <i className='fa-solid fa-caret-down'></i>
       </span>
       {showMenu && (
@@ -149,6 +226,5 @@ const MobileCustomLinkDropdown = ({ title, children }) => {
     </li>
   );
 };
-
 
 export default Navbar;
