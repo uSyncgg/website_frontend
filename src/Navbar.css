@@ -1,3 +1,53 @@
+.skip-link {
+    /* Visually hide the link by default */
+    position: absolute;
+    left: -9999px; /* Off-screen */
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999; /* Ensure it doesn't block interactions when hidden */
+
+    /* Basic styling for when it becomes visible */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text */
+    padding: 10px 15px;
+    border: 2px solid #007bff; /* A prominent blue border */
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: all 0.1s ease-in-out; /* Smooth transition for appearance */
+}
+
+.skip-link:focus {
+    /* Make the link visible when it receives keyboard focus */
+    position: absolute; /* Keep it absolute to overlay content */
+    left: 10px;        /* Position from left */
+    top: 10px;         /* Position from top */
+    width: auto;       /* Allow content width */
+    height: auto;      /* Allow content height */
+    overflow: visible; /* Show all content */
+    z-index: 1000;     /* Bring it to the front of everything */
+    outline: 3px solid #f00; /* Stronger outline for focus visibility (can be customized) */
+}
+
+/* 
+  Your existing Navbar and other styles would go here.
+  Example from your commented code:
+*/
+.nav {
+    background-color: rgb(29, 29, 28);
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 1.25rem 0 0; 
+    position: fixed;
+    z-index: 9999999; /* Ensure Navbar is above skip link when skip link is hidden */
+    top: 0;
+    width: 100%;
+}
+
 /*.nav {
     background-color: rgb(29, 29, 28);
     display: flex;
