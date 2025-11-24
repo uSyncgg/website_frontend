@@ -57,14 +57,15 @@ const Cod_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/gacod-bo7-launch'>
-                                <h1 className='Leagueh1 hide-on-mobile'>GA:CoD Black Ops 7 Launch</h1>
+                            <a href='/lans/basai-bo7-kickoff'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Basai 4v4 Bo7 Kickoff LAN</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/gacod-bo7-launch"><img src="https://i.imgur.com/JQWbVLw.png" className='league-img' loading='lazy'/></a>
+                                <a href="/lans/basai-bo7-kickoff"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' loading='lazy'/></a>
+                                <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/gacod-bo7-launch'>
+                            <p className='Leaguep'>Charleston, SC</p>
+                            <a href='/lans/basai-bo7-kickoff'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -89,22 +90,7 @@ const Cod_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/basai-bo7-kickoff'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Basai 4v4 Bo7 Kickoff LAN</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/basai-bo7-kickoff"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Charleston, SC</p>
-                            <a href='/lans/basai-bo7-kickoff'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 mx-auto bottom-card'>
                         <div className='league'>
                             <a href='/lans/shintogc-major-1'>
                                 <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major 1</h1>

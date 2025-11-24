@@ -12,10 +12,10 @@ const Basai_4v4_Bo7_Kickoff = () => {
     <>
         <Helmet>
           <meta name="description" content="Team Basai is back again with another Call of Duty LAN in South Carolina. Up to $3k in prizing for this Black Ops 7 Lan event." />
-        </Helmet>
-    <div className='total-container'>
-<div className="Header-Img-l not-verified-banner-img-lans"> 
-        <div className="games-leagues-header-title">
+          </Helmet>
+          <div className="total-playground">
+      <div className="Header-Img-l basai-lan-verified-banner">
+      <div className="games-leagues-header-title-verified">
           <h1 id="league-title">Basai 4v4 Bo7 Kickoff LAN</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
@@ -28,14 +28,14 @@ const Basai_4v4_Bo7_Kickoff = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/HaRfFh9.png"
+              src="https://i.imgur.com/OSMYolc.png"
               className="Checkmark-title"
             />
           </a>
           <a href="/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
+            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
+          <a
             href="https://x.com/TeamBasai/status/1976760569668485167" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
