@@ -392,6 +392,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
 import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
 import TXP5 from './pages/game_pages/LANs/TXP5';
@@ -2141,6 +2142,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/lol-atlantic":
+title = "LoL Atlantic | uSync";
+component = <Lol_Atlantic />
+break;
 case "/lans/shintogc-major-1":
 title = "ShintoGC Major 1 | uSync";
 component = <ShintoGC_Major_1 />
