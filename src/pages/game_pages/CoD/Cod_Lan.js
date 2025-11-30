@@ -73,25 +73,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/txp5'>
-                                <h1 className='Leagueh1 hide-on-mobile'>TorontoXP 5</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/txp5"><img src="https://i.imgur.com/2hEZ5lq.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Ontario, Canada</p>
-                            <a href='/lans/txp5'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto bottom-card'>
-                        <div className='league'>
                             <a href='/lans/shintogc-major-1'>
                                 <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major 1</h1>
                             </a>
