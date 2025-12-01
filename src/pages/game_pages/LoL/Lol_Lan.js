@@ -56,7 +56,7 @@ const Lol_Lan = () => {
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/lol-atlantic'>
                                 <h1 className='Leagueh1 hide-on-mobile'>LoL Atlantic</h1>
@@ -70,9 +70,25 @@ const Lol_Lan = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/midwest-battleground-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Midwest Battleground 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/midwest-battleground-2026"><img src="https://i.imgur.com/jCZV5y1.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Lisle, IL</p>
+                            <a href='/lans/midwest-battleground-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <p className='hr' />
+
 
             </div>
         </div>

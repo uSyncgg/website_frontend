@@ -392,6 +392,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
 import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
@@ -2142,6 +2143,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/midwest-battleground-2026":
+title = "Midwest Battleground 2026 | uSync";
+component = <Midwest_Battleground_2026 />
+break;
 case "/lans/lol-atlantic":
 title = "LoL Atlantic | uSync";
 component = <Lol_Atlantic />
