@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
         <Helmet>
-          <title>uSync</title>
+          <title>uSync | Esports LANs, Tournaments, & Leagues Hub</title>
           <meta name="description" content="uSync is the world's largest selection of esports LANs, Leagues, and Tournaments. Find your next event today." />
         </Helmet>
     <div>
