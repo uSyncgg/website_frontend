@@ -392,6 +392,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import VegasInferno_Major_II from './pages/game_pages/LANs/VegasInferno_Major_II';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import ShintoGC_Major_1 from './pages/game_pages/LANs/ShintoGC_Major_1';
@@ -2143,6 +2144,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/vegasinferno-major-ii":
+title = "VegasInferno Major II | uSync";
+component = <VegasInferno_Major_II />
+break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
 component = <Midwest_Battleground_2026 />

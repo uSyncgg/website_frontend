@@ -89,6 +89,23 @@ const Cod_Lan = () => {
 
                 <p className='hr' />
 
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/vegasinferno-major-ii'>
+                                <h1 className='Leagueh1 hide-on-mobile'>VegasInferno Major II</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/vegasinferno-major-ii"><img src="https://i.imgur.com/aY0v1e1.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Las Vegas, NV</p>
+                            <a href='/lans/vegasinferno-major-ii'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                <p className='hr' />
+
             </div>
         </div>
 
