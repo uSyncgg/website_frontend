@@ -23,6 +23,48 @@ import { Helmet } from 'react-helmet';
 import LanMap from './pages/LanMap';
 import NotFound from './NotFound';
 
+function App() {
+  return (
+    <Router>
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
+
+      <Navbar /> 
+      <main id="main-content" tabIndex="-1"> {/* tabIndex="-1" makes it programmatically focusable */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Comingsoon" element={<Comingsoon />} />
+          <Route path="/games" element={<Games />} /> {/* Example: You might have a general Games page */}
+          <Route path="/games/call-of-duty" element={<div>Call of Duty Content</div>} /> {/* Replace with actual components */}
+          <Route path="/games/halo" element={<div>Halo Content</div>} />
+          {/* ... all your specific game routes ... */}
+          <Route path="/games/CS2" element={<div>CS2 Content</div>} />
+
+          {/* More page routes */}
+          <Route path="/more/FAQ" element={<FAQ />} />
+          <Route path="/more/FAQ/how-we-fix-it" element={<Fix />} /> {/* Example route for Fix */}
+          <Route path="/more/FAQ/how-esports-can-be-better" element={<Better />} />
+          <Route path="/more/FAQ/problem-with-esports" element={<Problem />} />
+          <Route path="/more/FAQ/what-we-provide" element={<Provide />} />
+          <Route path="/more/FAQ/eco-tourneys" element={<ECO_Tourneys />} />
+          <Route path="/more/FAQ/how-to-join-esports-league" element={<Join />} />
+          {/* ... other routes ... */}
+          <Route path="/playground" element={<Playground />} />
+          <Route path="/more/playground-two" element={<PlaygroundTwo />} />
+          <Route path="/lanmap" element={<LanMap />} />
+          
+          {/* Catch-all for 404 */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      {/* Any global footer or other elements would go here, after main */}
+    </Router>
+  );
+}
+
+export default App;
+
 import Cod_headtohead from './pages/game_pages/CoD/Cod_headtohead'
 import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers'
 import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
