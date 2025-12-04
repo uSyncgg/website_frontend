@@ -63,8 +63,12 @@ const LockdownCL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$200+ Uppers Prize Pool</p>
-              <p>$200+ Lowers Prize Pool</p>
+              <p>4 Different Leagues</p>
+              <p>1) Lowers: Diamond 1 & below</p>
+              <p>2) Uppers: Diamond 2 - Crim 2</p>
+              <p>3) Legends: Crim 3 & above</p>
+              <p>4) Womens: All skill levels</p>
+              <p>$100 Prize Pool for Each League</p>
               <p>4v4 CDL Variant Ruleset</p>
               <p>Playoffs after Regular Season</p>
               <p>Solo Registration - Draft Format</p>
