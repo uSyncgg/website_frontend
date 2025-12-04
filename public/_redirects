@@ -571,7 +571,6 @@
 /lans/txp5  /index.html 200
 /lans/lakewood-league-xi  /index.html 200
 /lans/macs-25  /index.html 200
-/games/call-of-duty/leagues/lockdowncl  /index.html 200
 /games/call-of-duty/leagues/elite-gaming-warfare-league  /index.html 200
 /lans/rmcs-fall-25  /index.html 200
 /lans/florence-festival-25  /index.html 200
@@ -587,6 +586,11 @@
 /lans/lol-atlantic  /index.html 200
 /lans/midwest-battleground-2026  /index.html 200
 lans/vegasinferno-major-ii  /index.html 200
+/games/call-of-duty/leagues/lockdowncl-leagues  /index.html 200
+/games/call-of-duty/leagues/lockdowncl-leagues/legends  /index.html 200
+/games/call-of-duty/leagues/lockdowncl-leagues/uppers  /index.html 200
+/games/call-of-duty/leagues/lockdowncl-leagues/lowers  /index.html 200
+/games/call-of-duty/leagues/lockdowncl-leagues/womens  /index.html 200
 
 /checkout  /index.html 200
 /complete  /index.html 200

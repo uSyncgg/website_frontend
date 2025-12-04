@@ -34,15 +34,15 @@ const Cod_Leagues = () => {
                     <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                <a href='/games/call-of-duty/leagues/lockdowncl-leagues'>
                                     <h1 className='Leagueh1 hide-on-mobile'>LockdownCL</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                <a href='/games/call-of-duty/leagues/lockdowncl'>
+                                <a href='/games/call-of-duty/leagues/lockdowncl-leagues'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

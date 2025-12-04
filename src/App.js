@@ -35,7 +35,6 @@ import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 import Old_Heads_Circuit from './pages/game_pages/CoD/leagues/Old_Heads_Circuit'
 import Casual_XP_League from './pages/game_pages/CoD/leagues/Casual_XP_League'
 import Elite_Warfare_Gaming from './pages/game_pages/CoD/leagues/Elite_Warfare_Gaming'
-import LockdownCL from './pages/game_pages/CoD/leagues/LockdownCL'
 import Retired_challengers from './pages/game_pages/CoD/leagues/Retired_challengers'
 import TPC_COD_League from './pages/game_pages/CoD/leagues/TPC_COD_League'
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
@@ -61,6 +60,12 @@ import CXP_Varsity from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Varsity'
 import CXP_Club from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Club';
 import CXP_Open from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Open';
 import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
+
+import LCL_Leagues from './pages/game_pages/CoD/leagues/LCL_Leagues/LCL_Leagues'
+import Uppers from './pages/game_pages/CoD/leagues/LCL_Leagues/Uppers'
+import Legends from './pages/game_pages/CoD/leagues/LCL_Leagues/Legends'
+import Lowers from './pages/game_pages/CoD/leagues/LCL_Leagues/Lowers'
+import Womens from './pages/game_pages/CoD/leagues/LCL_Leagues/Womens'
 
 import Purge_Lowers from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Lowers';
 import Purge_Premade from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Premade';
@@ -967,6 +972,26 @@ function App() {
 
 
     //COD LEAGUES
+    case "/games/call-of-duty/leagues/lockdowncl-leagues/womens":
+      title = "LockdownCL Womens | uSync";
+      component = <Womens />
+      break;
+    case "/games/call-of-duty/leagues/lockdowncl-leagues/lowers":
+      title = "LockdownCL Lowers | uSync";
+      component = <Lowers />
+      break;
+    case "/games/call-of-duty/leagues/lockdowncl-leagues/uppers":
+      title = "LockdownCL Uppers | uSync";
+      component = <Uppers />
+      break;
+    case "/games/call-of-duty/leagues/lockdowncl-leagues/legends":
+      title = "LockdownCL Legends | uSync";
+      component = <Legends />
+      break;
+    case "/games/call-of-duty/leagues/lockdowncl-leagues":
+      title = "Lockdown CoD Leagues (LCL) | uSync";
+      component = <LCL_Leagues />
+      break;
     case "/games/call-of-duty/leagues/old-heads-circuit":
       title = "Old Heads Circuit | uSync";
       component = <Old_Heads_Circuit />
@@ -990,10 +1015,6 @@ function App() {
     case "/games/call-of-duty/leagues/elite-gaming-warfare-league":
       title = "Elite Gaming Warfare League | uSync";
       component = <Elite_Warfare_Gaming />
-      break;
-    case "/games/call-of-duty/leagues/lockdowncl":
-      title = "Lockdown CoD League (LCL) | uSync";
-      component = <LockdownCL />
       break;
     case "/games/call-of-duty/leagues/retired-challengers":
       title = "Retired Challenger's League | uSync";
