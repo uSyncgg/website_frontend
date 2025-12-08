@@ -7,7 +7,12 @@ const Cod_Leagues = () => {
     return (
         <>
             <Helmet>
-              <meta name="description" content="Call of Duty leagues for amateur players looking for high level competition. Every Call of Duty league in one place." />
+              <title>Call of Duty Leagues | Casual and Competitive Leagues</title>
+              <meta name="description" content="How can Esports be better? Centralizing a hub for all of esports to unify the community one step at a time." />
+              <meta property="og:title" content="Call of Duty Leagues | Casual and Competitive Leagues" /> 
+              <meta property="og:description" content="Call of Duty leagues for amateur players looking for high level competition." />
+            </Helmet>
+        
             </Helmet>
         <div className='total-container'>
             {/* <header id='League-header'>
