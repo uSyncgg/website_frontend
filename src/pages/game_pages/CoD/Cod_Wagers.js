@@ -8,6 +8,7 @@ const Cod_Wagers = () => {
     return (
         <>
             <Helmet>
+              <title>=uSync CoD Wagers | Call of Duty Wagers</title>
               <meta name="description" content="Wagers for Call of Duty from every website out there. Find the best website to play Call of Duty wagers." />
             </Helmet>
         <div>
