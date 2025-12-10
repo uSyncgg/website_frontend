@@ -397,6 +397,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import VegasInferno_Major_II from './pages/game_pages/LANs/VegasInferno_Major_II';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
@@ -2165,6 +2166,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/tscl-bo7":
+title = "Tri-State Challengers LAN | uSync";
+component = <TSCL_BO7 />
+break;
 case "/lans/vegasinferno-major-ii":
 title = "VegasInferno Major II | uSync";
 component = <VegasInferno_Major_II />
