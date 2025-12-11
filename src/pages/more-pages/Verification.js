@@ -46,18 +46,37 @@ const Verification = () => {
                   </a>
                 </div>  */}
 
-                <div className='col-12 col-lg-12'>
-                  <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
-                    <img
-                      src="https://i.imgur.com/EC4OOoS.png"
-                      className="verification-sub-img"
-                    />
-                  </a>
+                <div className='hide-on-mobile'>
+                  <div className='col-12 col-lg-12'>
+                    <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
+                      <img
+                        src="https://i.imgur.com/EC4OOoS.png"
+                        className="verification-sub-img"
+                      />
+                    </a>
+                  </div>
+                  <div className='col-12 col-lg-6 offset-lg-3'>
+                    <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
+                      <button className="info-button-verification">Subscribe Now</button>
+                    </a>
+                  </div>
                 </div>
-                <div className='col-12 col-lg-6 offset-lg-3'>
-                  <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
-                    <button className="info-button-verification">Subscribe Now</button>
-                  </a>
+                
+                <div className='show-on-mobile'>
+                  <div className='col-12 col-lg-12'>
+                    <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
+                      <img
+                        src="https://i.imgur.com/n2Zqo3U.png"
+                        className="verification-sub-img"
+                      />
+                    </a>
+                  </div>
+
+                  <div className='col-12 col-lg-6 offset-lg-3'>
+                    <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
+                      <button className="info-button-verification">Subscribe Now</button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
