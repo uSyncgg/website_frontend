@@ -115,6 +115,11 @@
     height: auto;
 }
 
+.verification-sub-img {
+    width: 53%;
+    /* display: block; */
+}
+
 @media only screen and (max-width: 768px) {
     .veri-checkmark {
         width: 40%;

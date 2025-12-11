@@ -34,7 +34,7 @@ const Verification = () => {
 
             <div className='container-fluid'>
               <div className='row'>
-                <div className='col-12 col-lg-5 offset-lg-1'>
+                {/* <div className='col-12 col-lg-5 offset-lg-1'>
                   <a href='/more/verification/verified-game-selection'>
                     <img
                       src="https://i.imgur.com/ahoZSHb.png"
@@ -44,15 +44,17 @@ const Verification = () => {
                   <a href="/more/verification/verified-game-selection">
                     <button className="info-button-verification space-bottom-veri">Choose Your Game</button>
                   </a>
-                </div> 
+                </div>  */}
 
-                <div className='col-12 col-lg-5'>
+                <div className='col-12 col-lg-12'>
                   <a href='https://buy.stripe.com/eVadRz4PY0s31mEcMV' target='_blank'>
                     <img
-                      src="https://i.imgur.com/KE1KZwu.png"
+                      src="https://i.imgur.com/EC4OOoS.png"
                       className="verification-sub-img"
                     />
                   </a>
+                </div>
+                <div className='col-12 col-lg-6 offset-lg-3'>
                   <a href="https://buy.stripe.com/eVadRz4PY0s31mEcMV" target='_blank'>
                     <button className="info-button-verification">Subscribe Now</button>
                   </a>
