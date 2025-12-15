@@ -55,7 +55,7 @@ const Cod_Lan = () => {
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    {/* <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/basai-bo7-kickoff'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Basai 4v4 Bo7 Kickoff LAN</h1>
@@ -69,9 +69,9 @@ const Cod_Lan = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/vegasinferno-major-ii'>
                                 <h1 className='Leagueh1 hide-on-mobile'>VegasInferno Major II</h1>
@@ -85,12 +85,8 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
-                </div>
 
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/tscl-bo7'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Tri-State Challengers League - LAN</h1>

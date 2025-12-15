@@ -401,7 +401,6 @@ import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import VegasInferno_Major_II from './pages/game_pages/LANs/VegasInferno_Major_II';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
-import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/Basai_4v4_Bo7_Kickoff';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
@@ -410,6 +409,7 @@ import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 
 
 //MASONS & JAKE LANs - Archived 2025
+import Basai_4v4_Bo7_Kickoff from './pages/game_pages/LANs/2025-Archive/Basai_4v4_Bo7_Kickoff';
 import ShintoGC_Major_1 from './pages/game_pages/LANs/2025-Archive/ShintoGC_Major_1';
 import TXP5 from './pages/game_pages/LANs/2025-Archive/TXP5';
 import GACOD_BO7_Launch from './pages/game_pages/LANs/2025-Archive/GACOD_BO7_Launch';
@@ -2182,10 +2182,6 @@ case "/lans/lol-atlantic":
 title = "LoL Atlantic | uSync";
 component = <Lol_Atlantic />
 break;
-case "/lans/basai-bo7-kickoff":
-title = "Basai 4v4 Bo7 Kickoff | uSync";
-component = <Basai_4v4_Bo7_Kickoff />
-break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
@@ -2207,6 +2203,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2025
+case "/lans/basai-bo7-kickoff":
+title = "Basai 4v4 Bo7 Kickoff | uSync";
+component = <Basai_4v4_Bo7_Kickoff />
+break;
 case "/lans/shintogc-major-1":
 title = "ShintoGC Major 1 | uSync";
 component = <ShintoGC_Major_1 />
