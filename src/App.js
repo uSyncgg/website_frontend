@@ -397,6 +397,9 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
+import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
+import MassiveLAN2026 from './pages/game_pages/LANs/MassiveLAN2026';
 import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import VegasInferno_Major_II from './pages/game_pages/LANs/VegasInferno_Major_II';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
@@ -2166,6 +2169,18 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/operation-cupid":
+title = "GA:CS Operation Cupid | uSync";
+component = <GACS_Operation_Cupid />
+break;
+case "/lans/infernalan-2026":
+title = "InfernaLAN 2026 | uSync";
+component = <InfernaLAN2026 />
+break;
+case "/lans/massivelan-2026":
+title = "MassiveLAN 2026 | uSync";
+component = <MassiveLAN2026 />
+break;
 case "/lans/tscl-bo7":
 title = "Tri-State Challengers LAN | uSync";
 component = <TSCL_BO7 />
