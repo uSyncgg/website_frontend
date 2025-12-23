@@ -38,7 +38,7 @@ const LCL_Leagues = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Legends League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/legends"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/legends"><img src="https://i.imgur.com/Kg7IPyO.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Legends League - Crim 3 & Above</p>
@@ -55,7 +55,7 @@ const LCL_Leagues = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Uppers League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/uppers"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/uppers"><img src="https://i.imgur.com/hppmH7i.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Uppers League - Diamond 2 - Crim 2</p>
@@ -75,7 +75,7 @@ const LCL_Leagues = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Lowers League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/lowers"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/lowers"><img src="https://i.imgur.com/iA4qVhT.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Lowers League - Diamond 1 & Below</p>
@@ -92,7 +92,7 @@ const LCL_Leagues = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Womens League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/womens"><img src="https://i.imgur.com/MQkAGHe.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/lockdowncl-leagues/womens"><img src="https://i.imgur.com/9E2KYjz.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Womens League - All Skill Levels</p>

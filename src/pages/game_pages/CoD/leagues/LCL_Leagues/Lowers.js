@@ -15,7 +15,7 @@ const Lowers = () => {
     return (
       <>
           <Helmet>
-            <meta name="description" content="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+            <meta name="description" content="Want to play competitive call of duty like the pros? Sign up for the COD league today." />
           </Helmet>
           <div className="total-playground">
       <div className="Header-Img-l lockdown-league-verified-banner">
@@ -46,7 +46,7 @@ const Lowers = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.gg/xDXwaKSA9a"
+            href="https://discord.gg/SMZ4R8XzWZ"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -62,7 +62,7 @@ const Lowers = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$100 Prize Pool (Estimated)</p>
+              <p>$284 Prize Pool</p>
               <p>Diamond 1 & below</p>
               <p>4v4 CDL Variant Ruleset</p>
               <p>Playoffs after Regular Season</p>
