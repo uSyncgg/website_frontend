@@ -71,8 +71,8 @@ const Cod_Lan = () => {
                         </div>
                     </div> */}
 
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        {/* <div className='league'>
                             <a href='/lans/vegasinferno-major-ii'>
                                 <h1 className='Leagueh1 hide-on-mobile'>VegasInferno Major II</h1>
                             </a>
@@ -86,7 +86,7 @@ const Cod_Lan = () => {
                         </div>
                     </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 bottom-card'> */}
                         <div className='league'>
                             <a href='/lans/tscl-bo7'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Tri-State Challengers League - LAN</h1>

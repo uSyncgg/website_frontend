@@ -401,7 +401,6 @@ import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
 import MassiveLAN2026 from './pages/game_pages/LANs/MassiveLAN2026';
 import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
-import VegasInferno_Major_II from './pages/game_pages/LANs/VegasInferno_Major_II';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
@@ -409,6 +408,11 @@ import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU
 import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 //MASON & JAKE LANs - Current
+
+
+//MASONS & JAKE LANs - Archived 2026
+import VegasInferno_Major_II from './pages/game_pages/LANs/2026-Archive/VegasInferno_Major_II';
+//MASONS & JAKE LANs - Archived 2026
 
 
 //MASONS & JAKE LANs - Archived 2025
@@ -2185,10 +2189,6 @@ case "/lans/tscl-bo7":
 title = "Tri-State Challengers LAN | uSync";
 component = <TSCL_BO7 />
 break;
-case "/lans/vegasinferno-major-ii":
-title = "VegasInferno Major II | uSync";
-component = <VegasInferno_Major_II />
-break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
 component = <Midwest_Battleground_2026 />
@@ -2215,6 +2215,14 @@ component = <Emerald_CityLAN_2026 />
 break;
 //MASON & JAKE LANs - Current
 
+
+//MASONS & JAKE LANs - Archived 2026
+case "/lans/vegasinferno-major-ii":
+title = "VegasInferno Major II | uSync";
+component = <VegasInferno_Major_II />
+break;
+
+//MASONS & JAKE LANs - Archived 2026
 
 
 //MASONS & JAKE LANs - Archived 2025
