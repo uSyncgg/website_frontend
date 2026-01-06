@@ -397,6 +397,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
+import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
 import MassiveLAN2026 from './pages/game_pages/LANs/MassiveLAN2026';
@@ -2173,6 +2175,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/kamicon-17":
+title = "Kami-Con 17 | uSync";
+component = <Kami_Con_17 />
+break;
+case "/lans/lakewood-league-xii":
+title = "Lakewood League XII | uSync";
+component = <Lakewood_League_XII />
+break;
 case "/lans/operation-cupid":
 title = "GA:CS Operation Cupid | uSync";
 component = <GACS_Operation_Cupid />
