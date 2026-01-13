@@ -397,6 +397,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
+import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
 import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
 import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
@@ -2175,6 +2177,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/heartland-2026":
+title = "Heartland 2026 | uSync";
+component = <Heartland_2026 />
+break;
+case "/lans/shintogc-major-iii-2026":
+title = "ShintoGC Major III | uSync";
+component = <ShintoGC_Major_III_2026 />
+break;
 case "/lans/kamicon-17":
 title = "Kami-Con 17 | uSync";
 component = <Kami_Con_17 />

@@ -123,6 +123,26 @@ const Lol_Lan = () => {
 
                 <p className='hr' />
 
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/heartland-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Heartland 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/heartland-2026"><img src="https://i.imgur.com/ZRcvLqn.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Manhattan, KS</p>
+                            <a href='/lans/heartland-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
+
             </div>
         </div>
 
