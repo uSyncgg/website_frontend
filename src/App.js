@@ -401,18 +401,18 @@ import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
 import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
-import MassiveLAN2026 from './pages/game_pages/LANs/MassiveLAN2026';
 import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
-import Weekly_Contender_SSBU from './pages/game_pages/LANs/Weekly_Contender_SSBU';
-import MAGFest_20X6 from './pages/game_pages/LANs/MAGFest_20X6';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import MassiveLAN2026 from './pages/game_pages/LANs/2026-Archive/MassiveLAN2026';
+import Weekly_Contender_SSBU from './pages/game_pages/LANs/2026-Archive/Weekly_Contender_SSBU';
+import MAGFest_20X6 from './pages/game_pages/LANs/2026-Archive/MAGFest_20X6';
 import VegasInferno_Major_II from './pages/game_pages/LANs/2026-Archive/VegasInferno_Major_II';
 //MASONS & JAKE LANs - Archived 2026
 
@@ -2191,11 +2191,6 @@ case "/lans/infernalan-2026":
 title = "InfernaLAN 2026 | uSync";
 component = <InfernaLAN2026 />
 break;
-case "/lans/massivelan-2026":
-title = "MassiveLAN 2026 | uSync";
-component = <MassiveLAN2026 />
-break;
-case "/lans/tscl-bo7":
 title = "Tri-State Challengers LAN | uSync";
 component = <TSCL_BO7 />
 break;
@@ -2211,14 +2206,6 @@ case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
 break;
-case "/lans/weekly-contender-ssbu":
-title = "The Weekly Contender | SSBU | uSync";
-component = <Weekly_Contender_SSBU />
-break;
-case "/lans/magfest-20x6":
-title = "MAGFest 20X6 | uSync";
-component = <MAGFest_20X6 />
-break;
 case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
@@ -2227,6 +2214,19 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/massivelan-2026":
+title = "MassiveLAN 2026 | uSync";
+component = <MassiveLAN2026 />
+break;
+case "/lans/tscl-bo7":
+case "/lans/weekly-contender-ssbu":
+title = "The Weekly Contender | SSBU | uSync";
+component = <Weekly_Contender_SSBU />
+break;
+case "/lans/magfest-20x6":
+title = "MAGFest 20X6 | uSync";
+component = <MAGFest_20X6 />
+break;
 case "/lans/vegasinferno-major-ii":
 title = "VegasInferno Major II | uSync";
 component = <VegasInferno_Major_II />
