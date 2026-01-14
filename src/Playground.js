@@ -1,5 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './playground.css';
+import SignupButton from './pages/login/pages/SignupButton';
+import LoginButton from './pages/login/pages/Login';
+import LogoutButton from './pages/login/pages/Logout';
+import { useAuth0 } from '@auth0/auth0-react'
 
 const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png", import.meta.url)
 
@@ -30,6 +34,13 @@ function Playground() {
 
   const handleComingSoonButtonClick = () => {
     window.location.href = "/Comingsoon";
+  }
+
+  const { user, isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading) {
+    // You can render a spinner or placeholder
+    return <div>Loading...</div>;
   }
 
   return (
@@ -115,6 +126,32 @@ function Playground() {
               <a className={`dropdown-item ${location === '/more/articles' ? 'item-active' : ''}`} href="/more/articles">Articles</a>
             </div>
           </li>
+          {isAuthenticated && user?.picture ? (
+            <>
+              <a href='/signup'>
+              <img 
+                src={user.picture} 
+                alt={user.name} 
+                style={{
+                  width: "50px",
+                  height: "50px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                }}
+              />
+              </a>
+              <LogoutButton />
+            </>
+          ) : (
+            <>
+              <SignupButton />
+              <LoginButton />
+            </>
+          )}
+
+          {/* <SignupButton />
+          <LoginButton /> */}
+          {/* <LogoutButton /> */}
         </ul>
       </div>
     </nav>

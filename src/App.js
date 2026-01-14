@@ -732,6 +732,10 @@ import PurgeCoDForm from "./pages/payment_pages/Payment_pages/PurgeCodPaymentPag
 import Conventions from "./pages/game_pages/Conventions/conventions";
 import PurgeCodFormCaptain from './pages/payment_pages/League_forms/PurgeCoDFormCaptain';
 
+import Temp from './pages/login/pages/Temp';
+import Signup from './pages/login/pages/Signup';
+// import Profile from './pages/login/pages/Profile';
+
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -741,8 +745,8 @@ import PurgeCodFormCaptain from './pages/payment_pages/League_forms/PurgeCoDForm
 // Different components needed for homepage: Nav bar, on click events for each image + button just take to a random page, css (A LOT)
 
 // FOR LIVE
-const stripePublicKey = process.env.REACT_APP_STRIPE_PK;
-const stripePromise = loadStripe(stripePublicKey);
+// const stripePublicKey = process.env.REACT_APP_STRIPE_PK;
+// const stripePromise = loadStripe(stripePublicKey);
 
 // FOR TESTING
 // const stripePublicTestKey = process.env.REACT_APP_STRIPE_TK; 
@@ -813,6 +817,18 @@ function App() {
       title = "Games | uSync";
       component = <Games />
       break;
+    case "/temp":
+      title = "Temp Page";
+      component = <Temp />
+      break;
+    case "/signup":
+      title = "Sign Up | uSync";
+      component = <Signup />
+      break;
+    // case "/profile":
+    //   title = "Profile | uSync";
+    //   component = <Profile />
+    //   break;
      case "/more/articles":
       title = "Articles | uSync";
       component = <Articles />
