@@ -370,7 +370,7 @@ function Tournament(props) {
     const combinedString = `${cleanedDate} ${currentYear} ${estTime}`; // "Apr 14 2025 10:00 AM"
 
     // Step 3: Create a Date object in EST
-    const estDateObj = new Date(`${combinedString} GMT-0400`); // EST is UTC-5
+    const estDateObj = new Date(`${combinedString} GMT-0500`); // EST is UTC-5
 
     // Step 4: Get the user's time zone
     const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -383,6 +383,7 @@ function Tournament(props) {
     });
     // Removes leading 0 if present — already done by 'numeric' format
     const formattedTime = timeParts; // e.g., "5:00 AM" or "10:00 PM"
+    console.log(`FORMATTED TIME: ${formattedTime}`)
     const timeZoneParts = new Intl.DateTimeFormat('en-US', {
         timeZone: userTimeZone,
         timeZoneName: 'short',
