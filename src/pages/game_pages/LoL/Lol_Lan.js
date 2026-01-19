@@ -58,14 +58,14 @@ const Lol_Lan = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/lol-atlantic'>
-                                <h1 className='Leagueh1 hide-on-mobile'>LoL Atlantic</h1>
+                            <a href='/lans/heartland-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Heartland 2026</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/lol-atlantic"><img src="https://i.imgur.com/rrV9ttQ.png" className='league-img' loading='lazy'/></a>
+                                <a href="/lans/heartland-2026"><img src="https://i.imgur.com/ZRcvLqn.png" className='league-img' loading='lazy'/></a>
                             </div>
-                            <p className='Leaguep'>Nova Scotia, Canada</p>
-                            <a href='/lans/lol-atlantic'>
+                            <p className='Leaguep'>Manhattan, KS</p>
+                            <a href='/lans/heartland-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -115,25 +115,6 @@ const Lol_Lan = () => {
                             </div>
                             <p className='Leaguep'>Birmingham, AL</p>
                             <a href='/lans/kamicon-17'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/heartland-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Heartland 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/heartland-2026"><img src="https://i.imgur.com/ZRcvLqn.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Manhattan, KS</p>
-                            <a href='/lans/heartland-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

@@ -403,15 +403,15 @@ import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
 import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
-import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
-import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import Lol_Atlantic from './pages/game_pages/LANs/2026-Archive/Lol_Atlantic';
+import TSCL_BO7 from './pages/game_pages/LANs/2026-Archive/TSCL_BO7';
 import MassiveLAN2026 from './pages/game_pages/LANs/2026-Archive/MassiveLAN2026';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/2026-Archive/Weekly_Contender_SSBU';
 import MAGFest_20X6 from './pages/game_pages/LANs/2026-Archive/MAGFest_20X6';
@@ -2201,16 +2201,9 @@ case "/lans/infernalan-2026":
 title = "InfernaLAN 2026 | uSync";
 component = <InfernaLAN2026 />
 break;
-title = "Tri-State Challengers LAN | uSync";
-component = <TSCL_BO7 />
-break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
 component = <Midwest_Battleground_2026 />
-break;
-case "/lans/lol-atlantic":
-title = "LoL Atlantic | uSync";
-component = <Lol_Atlantic />
 break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
@@ -2224,6 +2217,13 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/lol-atlantic":
+title = "LoL Atlantic | uSync";
+component = <Lol_Atlantic />
+break;
+title = "Tri-State Challengers LAN | uSync";
+component = <TSCL_BO7 />
+break;
 case "/lans/massivelan-2026":
 title = "MassiveLAN 2026 | uSync";
 component = <MassiveLAN2026 />
