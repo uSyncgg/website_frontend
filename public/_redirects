@@ -577,10 +577,6 @@
 /lans/basai-bo7-kickoff  /index.html 200
 /lans/shintogc-major-1  /index.html 200
 /lans/boilerfrag-xviii  /index.html 200
-/games/call-of-duty/leagues/purge-cod-league  /games/call-of-duty/leagues/purge-cod-leagues /index.html 200
-/games/call-of-duty/leagues/purge-cod-leagues  /index.html 200
-/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers  /index.html 200
-/games/call-of-duty/leagues/purge-cod-leagues/purge-premade  /index.html 200
 /games/call-of-duty/leagues/casual-xp-league  /index.html 200
 /games/call-of-duty/leagues/old-heads-circuit  /index.html 200
 /lans/lol-atlantic  /index.html 200
@@ -599,6 +595,10 @@ lans/vegasinferno-major-ii  /index.html 200
 /lans/kamicon-17  /index.html 200
 /lans/heartland-2026  /index.html 200
 /lans/shintogc-major-iii-2026  /index.html 200
+
+/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade  /index.html 200
+/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers  /index.html 200
+/games/call-of-duty/leagues/pulse-x-leagues  /index.html 200
 
 /checkout  /index.html 200
 /complete  /index.html 200

@@ -67,9 +67,9 @@ import Legends from './pages/game_pages/CoD/leagues/LCL_Leagues/Legends'
 import Lowers from './pages/game_pages/CoD/leagues/LCL_Leagues/Lowers'
 import Womens from './pages/game_pages/CoD/leagues/LCL_Leagues/Womens'
 
-import Purge_Lowers from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Lowers';
-import Purge_Premade from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Premade';
-import Purge_Leagues from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Leagues'
+import Pulse_x_Lowers from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Lowers';
+import Pulse_x_Premade from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Premade';
+import PulseX_Leagues from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/PulseX_Leagues'
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -1012,17 +1012,17 @@ function App() {
       title = "Casual XP League | uSync";
       component = <Casual_XP_League />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues":
-      title = "Purge CoD Leagues | uSync";
-      component = <Purge_Leagues />
+    case "/games/call-of-duty/leagues/pulse-x-leagues":
+      title = "Pulse X Leagues | uSync";
+      component = <PulseX_Leagues />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers":
-      title = "Purge Lowers Division | uSync";
-      component = <Purge_Lowers />
+    case "/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers":
+      title = "Pulse X Lowers Division | uSync";
+      component = <Pulse_x_Lowers />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-premade":
-      title = "Purge Premade Division | uSync";
-      component = <Purge_Premade />
+    case "/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade":
+      title = "Pulse X Premade Division | uSync";
+      component = <Pulse_x_Premade />
       break;
     case "/games/call-of-duty/leagues/elite-gaming-warfare-league":
       title = "Elite Gaming Warfare League | uSync";
