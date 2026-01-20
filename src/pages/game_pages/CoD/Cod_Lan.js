@@ -71,7 +71,7 @@ const Cod_Lan = () => {
                         </div>
                     </div> */}
 
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/shintogc-major-iii-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major III</h1>
@@ -86,20 +86,20 @@ const Cod_Lan = () => {
                         </div>
                     </div>
 
-                    {/* <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/shintogc-major-iii-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major III</h1>
+                            <a href='/lans/g-site-bo7'>
+                                <h1 className='Leagueh1 hide-on-mobile'>G-SITE BO7</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/shintogc-major-iii-2026"><img src="https://i.imgur.com/t4k8Qi6.png" className='league-img' loading='lazy'/></a>
+                                <a href="/lans/g-site-bo7"><img src="https://i.imgur.com/ZAeuKjU.png" className='league-img' loading='lazy'/></a>
                             </div>
-                            <p className='Leaguep'>San Antonio, TX</p>
-                            <a href='/lans/shintogc-major-iii-2026'>
+                            <p className='Leaguep'>Edinburg, TX</p>
+                            <a href='/lans/g-site-bo7'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
 
                 <p className='hr' />
