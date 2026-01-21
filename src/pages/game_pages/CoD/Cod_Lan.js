@@ -73,21 +73,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/tscl-bo7'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Tri-State Challengers League - LAN</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/tscl-bo7"><img src="https://i.imgur.com/py2pu03.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Glassboro, NJ</p>
-                            <a href='/lans/tscl-bo7'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/shintogc-major-iii-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major III</h1>
                             </a>
@@ -96,6 +81,21 @@ const Cod_Lan = () => {
                             </div>
                             <p className='Leaguep'>San Antonio, TX</p>
                             <a href='/lans/shintogc-major-iii-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/g-site-bo7'>
+                                <h1 className='Leagueh1 hide-on-mobile'>G-SITE BO7</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/g-site-bo7"><img src="https://i.imgur.com/ZAeuKjU.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Edinburg, TX</p>
+                            <a href='/lans/g-site-bo7'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

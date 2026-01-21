@@ -67,9 +67,9 @@ import Legends from './pages/game_pages/CoD/leagues/LCL_Leagues/Legends'
 import Lowers from './pages/game_pages/CoD/leagues/LCL_Leagues/Lowers'
 import Womens from './pages/game_pages/CoD/leagues/LCL_Leagues/Womens'
 
-import Purge_Lowers from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Lowers';
-import Purge_Premade from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Premade';
-import Purge_Leagues from './pages/game_pages/CoD/leagues/Purge_Leagues/Purge_Leagues'
+import Pulse_x_Lowers from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Lowers';
+import Pulse_x_Premade from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Premade';
+import PulseX_Leagues from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/PulseX_Leagues'
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -397,21 +397,22 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import G_Site_BO7 from './pages/game_pages/LANs/G_Site_BO7';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
 import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
 import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
 import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
-import TSCL_BO7 from './pages/game_pages/LANs/TSCL_BO7';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
-import Lol_Atlantic from './pages/game_pages/LANs/Lol_Atlantic';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import Lol_Atlantic from './pages/game_pages/LANs/2026-Archive/Lol_Atlantic';
+import TSCL_BO7 from './pages/game_pages/LANs/2026-Archive/TSCL_BO7';
 import MassiveLAN2026 from './pages/game_pages/LANs/2026-Archive/MassiveLAN2026';
 import Weekly_Contender_SSBU from './pages/game_pages/LANs/2026-Archive/Weekly_Contender_SSBU';
 import MAGFest_20X6 from './pages/game_pages/LANs/2026-Archive/MAGFest_20X6';
@@ -1012,17 +1013,17 @@ function App() {
       title = "Casual XP League | uSync";
       component = <Casual_XP_League />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues":
-      title = "Purge CoD Leagues | uSync";
-      component = <Purge_Leagues />
+    case "/games/call-of-duty/leagues/pulse-x-leagues":
+      title = "Pulse X Leagues | uSync";
+      component = <PulseX_Leagues />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-lowers":
-      title = "Purge Lowers Division | uSync";
-      component = <Purge_Lowers />
+    case "/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers":
+      title = "Pulse X Lowers Division | uSync";
+      component = <Pulse_x_Lowers />
       break;
-    case "/games/call-of-duty/leagues/purge-cod-leagues/purge-premade":
-      title = "Purge Premade Division | uSync";
-      component = <Purge_Premade />
+    case "/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade":
+      title = "Pulse X Premade Division | uSync";
+      component = <Pulse_x_Premade />
       break;
     case "/games/call-of-duty/leagues/elite-gaming-warfare-league":
       title = "Elite Gaming Warfare League | uSync";
@@ -2177,6 +2178,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/g-site-bo7":
+title = "G-SITE BO7 | uSync";
+component = <G_Site_BO7 />
+break;
 case "/lans/heartland-2026":
 title = "Heartland 2026 | uSync";
 component = <Heartland_2026 />
@@ -2201,16 +2206,9 @@ case "/lans/infernalan-2026":
 title = "InfernaLAN 2026 | uSync";
 component = <InfernaLAN2026 />
 break;
-title = "Tri-State Challengers LAN | uSync";
-component = <TSCL_BO7 />
-break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
 component = <Midwest_Battleground_2026 />
-break;
-case "/lans/lol-atlantic":
-title = "LoL Atlantic | uSync";
-component = <Lol_Atlantic />
 break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
@@ -2224,6 +2222,13 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/lol-atlantic":
+title = "LoL Atlantic | uSync";
+component = <Lol_Atlantic />
+break;
+title = "Tri-State Challengers LAN | uSync";
+component = <TSCL_BO7 />
+break;
 case "/lans/massivelan-2026":
 title = "MassiveLAN 2026 | uSync";
 component = <MassiveLAN2026 />

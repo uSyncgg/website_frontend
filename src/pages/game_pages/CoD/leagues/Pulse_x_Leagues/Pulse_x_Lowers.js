@@ -10,46 +10,17 @@ import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 // Make sure the name following const is the same as the file name
-const Purge_Premade = () => {
+const Pulse_x_Lowers = () => {
   useNavHeight();
     return (
       <>
           <Helmet>
-  {/* Basic SEO */}
-  <meta
-    name="description"
-    content="Purge Premade Division is the competitive arm of the Purge CoD League. Build your squad or sign up solo and compete in BO7-ready series with playoffs and prize support."
-  />
-  <link rel="canonical" href="https://usync.gg/games/CoD/leagues/purge-premade" />
-  <meta name="robots" content="index,follow" />
-
-  {/* Open Graph (Facebook/Discord) */}
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="uSync" />
-  <meta property="og:title" content="Purge Premade Division – uSync" />
-  <meta
-    property="og:description"
-    content="Purge Premade Division is the very competitive arm of the Purge CoD league. Grab your best teammates or sign up solo and compete for a huge prize pool!."
-  />
-  <meta property="og:url" content="https://usync.gg/games/CoD/leagues/purge-premade" />
-  <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Purge Premade Division – uSync" />
-  <meta
-    name="twitter:description"
-    content="Assemble your team or sign up solo for the Purge Premade Division. Competitive BO7 4v4 series, playoffs, and prizes."
-  />
-  <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
-</Helmet>
-
+            <meta name="description" content="Pulse X Uppers & Lowers Divisions is a Call of Duty league for those that are looking to play in a competitive environment for free." />
+          </Helmet>
           <div className="total-playground">
-      <div className="Header-Img-l purge-league-verified-banner">
+      <div className="Header-Img-l pulse-x-league-verified-banner">
       <div className="games-leagues-header-title-verified">
-          <h1 id="league-title">Purge Premade Division</h1>
+          <h1 id="league-title">Pulse X Uppers & Lowers Division</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -75,7 +46,7 @@ const Purge_Premade = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.gg/WFB3UKPfDZ"
+            href="https://discord.com/invite/pulsexleague"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -91,8 +62,8 @@ const Purge_Premade = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Premade Teams</p>
-              <p>$800 - $1,000 Prize Pool (TBD)</p>
+              <p>$350 Prize Pool (TBD)</p>
+              <p>Uppers and Lowers Division Based on Skill</p>
               <p>Crossplay (Xbox, Playstation 4 & 5, and PC)</p>
               <p>Live Streamed Matches with Casters and Media Coverage</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -100,12 +71,12 @@ const Purge_Premade = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$10 per Captain, $5 per player, $25 per team</p>
+              <p>Free Entry</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="/games/call-of-duty/leagues/purge-cod-leagues" id='league-back-button-a'>
+          <a href="/games/call-of-duty/leagues/pulse-x-leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -122,4 +93,4 @@ const Purge_Premade = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Purge_Premade;
+export default Pulse_x_Lowers;
