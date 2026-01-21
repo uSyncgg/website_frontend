@@ -19,7 +19,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Playground from './Playground';
 import PlaygroundTwo from './pages/more-pages/PlaygroundTwo';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import LanMap from './pages/LanMap';
 import NotFound from './NotFound';
 
@@ -3380,6 +3380,7 @@ break;
   const loader = 'auto';
 
   return (
+    <HelmetProvider>
     <Router>
       <div className="App">
         <Helmet>
@@ -3398,6 +3399,7 @@ break;
           )} */}
       </div> 
     </Router>  
+    </HelmetProvider>
   );
 }
 
