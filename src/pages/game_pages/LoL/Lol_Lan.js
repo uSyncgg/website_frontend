@@ -90,22 +90,7 @@ const Lol_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/lakewood-league-xii'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Lakewood League XII</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/lakewood-league-xii"><img src="https://i.imgur.com/IbpZc52.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/lakewood-league-xii'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/kamicon-17'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Kami-Con 17</h1>

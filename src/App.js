@@ -401,9 +401,7 @@ import G_Site_BO7 from './pages/game_pages/LANs/G_Site_BO7';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
 import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
 import Kami_Con_17 from './pages/game_pages/LANs/Kami_Con_17';
-import Lakewood_League_XII from './pages/game_pages/LANs/Lakewood_League_XII';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
-import InfernaLAN2026 from './pages/game_pages/LANs/InfernaLAN2026';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
@@ -411,6 +409,8 @@ import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 
 
 //MASONS & JAKE LANs - Archived 2026
+import InfernaLAN2026 from './pages/game_pages/LANs/2026-Archive/InfernaLAN2026';
+import Lakewood_League_XII from './pages/game_pages/LANs/2026-Archive/Lakewood_League_XII';
 import Lol_Atlantic from './pages/game_pages/LANs/2026-Archive/Lol_Atlantic';
 import TSCL_BO7 from './pages/game_pages/LANs/2026-Archive/TSCL_BO7';
 import MassiveLAN2026 from './pages/game_pages/LANs/2026-Archive/MassiveLAN2026';
@@ -2194,17 +2194,9 @@ case "/lans/kamicon-17":
 title = "Kami-Con 17 | uSync";
 component = <Kami_Con_17 />
 break;
-case "/lans/lakewood-league-xii":
-title = "Lakewood League XII | uSync";
-component = <Lakewood_League_XII />
-break;
 case "/lans/operation-cupid":
 title = "GA:CS Operation Cupid | uSync";
 component = <GACS_Operation_Cupid />
-break;
-case "/lans/infernalan-2026":
-title = "InfernaLAN 2026 | uSync";
-component = <InfernaLAN2026 />
 break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
@@ -2222,6 +2214,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/infernalan-2026":
+title = "InfernaLAN 2026 | uSync";
+component = <InfernaLAN2026 />
+break;
+case "/lans/lakewood-league-xii":
+title = "Lakewood League XII | uSync";
+component = <Lakewood_League_XII />
+break;
 case "/lans/lol-atlantic":
 title = "LoL Atlantic | uSync";
 component = <Lol_Atlantic />
