@@ -54,10 +54,10 @@ const Cod_Leagues = () => {
                                     <h1 className='Leagueh1 hide-on-mobile'>Pulse X League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA/EU</p>
+                                <p className='Leaguep'>NA</p>
                                 <a href='/games/call-of-duty/leagues/pulse-x-leagues'>
                                     <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
