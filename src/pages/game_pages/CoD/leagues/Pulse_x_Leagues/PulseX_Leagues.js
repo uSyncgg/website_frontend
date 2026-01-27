@@ -34,16 +34,16 @@ const PulseX_Leagues = () => {
                     <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
-                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Premade Division</h1>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-uppers'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Uppers Division</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-uppers"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep hide-on-pc'>Premade Division - NA/EU</p>
+                                <p className='Leaguep hide-on-pc'>Uppers Division - NA/EU</p>
                                 <p className='Leaguep hide-on-mobile'>NA/EU</p>
-                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-premade'>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-uppers'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -52,13 +52,13 @@ const PulseX_Leagues = () => {
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Uppers & Lowers Division</h1>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Lowers Division</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
                                     <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep hide-on-pc'>Uppers & Lowers Division - NA/EU</p>
+                                <p className='Leaguep hide-on-pc'>Lowers Division - NA/EU</p>
                                 <p className='Leaguep hide-on-mobile'>NA/EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers'>
@@ -66,6 +66,25 @@ const PulseX_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
+                            <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                            <div className='league'>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-open'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Open Division</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-open"><img src="https://i.imgur.com/4dVJ11u.png" className='league-img' /></a>
+                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                </div>
+                                <p className='Leaguep hide-on-pc'>Open Division - NA/EU</p>
+                                <p className='Leaguep hide-on-mobile'>NA/EU</p>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-open'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                         <p className='hr' />
 
                     </div>

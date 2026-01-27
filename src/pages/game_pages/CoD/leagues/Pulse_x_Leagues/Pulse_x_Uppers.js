@@ -10,46 +10,17 @@ import Footer from '../../../../../Footer';
 import '../../../head-to-head.css';
 import useNavHeight from '../../../../hooks/NavbarHeight';
 // Make sure the name following const is the same as the file name
-const Pulse_x_Premade = () => {
+const Pulse_x_Uppers = () => {
   useNavHeight();
     return (
       <>
           <Helmet>
-  {/* Basic SEO */}
-  <meta
-    name="description"
-    content="Pulse X Premade Division is the competitive arm of the Pulse X CoD League. Build your squad or sign up solo and compete in BO7-ready series with playoffs and prize support."
-  />
-  <link rel="canonical" href="https://usync.gg/games/CoD/leagues/pulse-x-premade" />
-  <meta name="robots" content="index,follow" />
-
-  {/* Open Graph (Facebook/Discord) */}
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="uSync" />
-  <meta property="og:title" content="Pulse X Premade Division – uSync" />
-  <meta
-    property="og:description"
-    content="Pulse X Premade Division is the very competitive arm of the Pulse X CoD league. Grab your best teammates or sign up solo and compete for a huge prize pool!."
-  />
-  <meta property="og:url" content="https://usync.gg/games/CoD/leagues/pulse-x-premade" />
-  <meta property="og:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Pulse X Premade Division – uSync" />
-  <meta
-    name="twitter:description"
-    content="Assemble your team or sign up solo for the Pulse X Premade Division. Competitive BO7 4v4 series, playoffs, and prizes."
-  />
-  <meta name="twitter:image" content="https://i.imgur.com/A0AhUZp.jpeg" />
-</Helmet>
-
+            <meta name="description" content="Pulse X Uppers Division is a Call of Duty league for those that are looking to play in a competitive environment with the best of the best to prove your name." />
+          </Helmet>
           <div className="total-playground">
       <div className="Header-Img-l pulse-x-league-verified-banner">
       <div className="games-leagues-header-title-verified">
-          <h1 id="league-title">Pulse X Premade Division</h1>
+          <h1 id="league-title">Pulse X Uppers Division</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -91,8 +62,8 @@ const Pulse_x_Premade = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Premade Teams</p>
-              <p>$800 - $1,000 Prize Pool (TBD)</p>
+              <p>TBD Prize Pool</p>
+              <p>6 Different Ranks</p>
               <p>Crossplay (Xbox, Playstation 4 & 5, and PC)</p>
               <p>Live Streamed Matches with Casters and Media Coverage</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -100,7 +71,7 @@ const Pulse_x_Premade = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$10 per Captain, $5 per player, $25 per team</p>
+              <p>$25 per team</p>
             </div>
           </div>
         </div>
@@ -122,4 +93,4 @@ const Pulse_x_Premade = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Pulse_x_Premade;
+export default Pulse_x_Uppers;
