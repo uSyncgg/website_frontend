@@ -67,7 +67,7 @@ const Pulse_x_Lowers = () => {
               <p>Crossplay (Xbox, Playstation 4 & 5, and PC)</p>
               <p>Live Streamed Matches with Casters and Media Coverage</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>4v4 - NA/EU (NA Based)</p>
+              <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
