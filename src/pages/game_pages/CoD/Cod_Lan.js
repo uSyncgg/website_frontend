@@ -55,23 +55,23 @@ const Cod_Lan = () => {
                 {/* <div className='white-text'><h1>None Upcoming - Please Check Back Tomorrow</h1></div> */}
 
                 <div className='row'>
-                    {/* <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/basai-bo7-kickoff'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Basai 4v4 Bo7 Kickoff LAN</h1>
+                            <a href='/lans/charleston-crown-series'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Charleston Crown Series</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/basai-bo7-kickoff"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' loading='lazy'/></a>
+                                <a href="/lans/charleston-crown-series"><img src="https://i.imgur.com/xJuJq6u.png" className='league-img' loading='lazy'/></a>
                                 <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                             </div>
                             <p className='Leaguep'>Charleston, SC</p>
-                            <a href='/lans/basai-bo7-kickoff'>
+                            <a href='/lans/charleston-crown-series'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
-                    </div> */}
+                    </div>
 
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
                             <a href='/lans/shintogc-major-iii-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>ShintoGC Major III</h1>
@@ -86,7 +86,9 @@ const Cod_Lan = () => {
                         </div>
                     </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/g-site-bo7'>
                                 <h1 className='Leagueh1 hide-on-mobile'>G-SITE BO7</h1>

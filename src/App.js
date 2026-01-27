@@ -398,6 +398,11 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import LAN_All_Night_Spring26 from './pages/game_pages/LANs/LAN_All_Night_Spring26';
+import FortLAN_Spring_26 from './pages/game_pages/LANs/FortLAN_Spring_26';
+import Low_Ping_LAN_26 from './pages/game_pages/LANs/Low_Ping_LAN_26';
+import BelowZeroLAN_Winter_26 from './pages/game_pages/LANs/BelowZeroLAN_Winter_26';
+import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Series';
 import G_Site_BO7 from './pages/game_pages/LANs/G_Site_BO7';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
 import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
@@ -2183,6 +2188,26 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/lan-all-night-spring-26":
+title = "LAN All Night Spring 2026 | uSync";
+component = <LAN_All_Night_Spring26 />
+break;
+case "/lans/fortlan-spring-2026":
+title = "FortLAN Spring 2026 | uSync";
+component = <FortLAN_Spring_26 />
+break;
+case "/lans/low-ping-lan-2026":
+title = "Low Ping LAN 2026 | uSync";
+component = <Low_Ping_LAN_26 />
+break;
+case "/lans/belowzerolan-winter-26":
+title = "BelowZeroLAN Winter 26 | uSync";
+component = <BelowZeroLAN_Winter_26 />
+break;
+case "/lans/charleston-crown-series":
+title = "Charleston Crown Series | uSync";
+component = <Charleston_Crown_Series />
+break;
 case "/lans/g-site-bo7":
 title = "G-SITE BO7 | uSync";
 component = <G_Site_BO7 />

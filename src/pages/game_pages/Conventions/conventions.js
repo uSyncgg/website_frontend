@@ -78,7 +78,7 @@ const Conventions = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/operation-cupid'>
                                 <h1 className='Leagueh1 hide-on-mobile'>GA:CS Operation Cupid</h1>
@@ -88,6 +88,73 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Columbus, OH</p>
                             <a href='/lans/operation-cupid'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/fortlan-spring-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>FortLAN Spring 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/fortlan-spring-2026"><img src="https://i.imgur.com/W1iIUMc.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Fort Wayne, IN</p>
+                            <a href='/lans/fortlan-spring-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/lan-all-night-spring-26'>
+                                <h1 className='Leagueh1 hide-on-mobile'>LAN All Night Spring 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/lan-all-night-spring-26"><img src="https://i.imgur.com/JYplRtG.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Grapevine, TX</p>
+                            <a href='/lans/lan-all-night-spring-26'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/belowzerolan-winter-26'>
+                                <h1 className='Leagueh1 hide-on-mobile'>BelowZero LAN Winter 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/belowzerolan-winter-26"><img src="https://i.imgur.com/iP58w7S.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Minneapolis, MN</p>
+                            <a href='/lans/belowzerolan-winter-26'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/low-ping-lan-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Low Ping LAN</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/low-ping-lan-2026"><img src="https://i.imgur.com/xzN1wAG.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Lisle, IL</p>
+                            <a href='/lans/low-ping-lan-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
