@@ -398,6 +398,7 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import TomorrowLAN_2026 from './pages/game_pages/LANs/TomorrowLAN_2026';
 import LAN_All_Night_Spring26 from './pages/game_pages/LANs/LAN_All_Night_Spring26';
 import FortLAN_Spring_26 from './pages/game_pages/LANs/FortLAN_Spring_26';
 import Low_Ping_LAN_26 from './pages/game_pages/LANs/Low_Ping_LAN_26';
@@ -2188,6 +2189,10 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/tomorrowlan_2026":
+title = "TomorrowLAN 2026 | uSync";
+component = <TomorrowLAN_2026 />
+break;
 case "/lans/lan-all-night-spring-26":
 title = "LAN All Night Spring 2026 | uSync";
 component = <LAN_All_Night_Spring26 />

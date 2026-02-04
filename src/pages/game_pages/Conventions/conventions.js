@@ -142,10 +142,11 @@ const Conventions = () => {
                         </div>
                     </div>
                 </div>
+
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/low-ping-lan-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Low Ping LAN</h1>
@@ -155,6 +156,21 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Lisle, IL</p>
                             <a href='/lans/low-ping-lan-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/tomorrowlan_2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>TomorrowLAN 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/tomorrowlan_2026"><img src="https://i.imgur.com/clcdX48.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Moncton, Canada</p>
+                            <a href='/lans/tomorrowlan_2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
