@@ -551,7 +551,6 @@
 /lans/fortlan-fall-25  /index.html 200
 /lans/roclan-fall-25  /index.html 200
 /lans/lanfest-colorado-25  /index.html 200
-
 /lans/ewg-lan-1  /index.html 200
 /lans/dragoncon-2025  /index.html 200
 /lans/cindershots-fired-3  /index.html 200
@@ -581,7 +580,7 @@
 /games/call-of-duty/leagues/old-heads-circuit  /index.html 200
 /lans/lol-atlantic  /index.html 200
 /lans/midwest-battleground-2026  /index.html 200
-lans/vegasinferno-major-ii  /index.html 200
+/lans/vegasinferno-major-ii  /index.html 200
 /games/call-of-duty/leagues/lockdowncl-leagues  /index.html 200
 /games/call-of-duty/leagues/lockdowncl-leagues/legends  /index.html 200
 /games/call-of-duty/leagues/lockdowncl-leagues/uppers  /index.html 200
@@ -608,6 +607,8 @@ lans/vegasinferno-major-ii  /index.html 200
 /games/call-of-duty/leagues/pulse-x-leagues/pulse-x-uppers  /index.html 200
 /lans/gatorlan-spring-2026  /index.html 200
 /lans/volan-2026  /index.html 200
+
+
 
 /checkout  /index.html 200
 /complete  /index.html 200
