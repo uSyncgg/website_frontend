@@ -18,8 +18,8 @@ const Pulse_x_Uppers = () => {
             <meta name="description" content="Pulse X Uppers Division is a Call of Duty league for those that are looking to play in a competitive environment with the best of the best to prove your name." />
           </Helmet>
           <div className="total-playground">
-      <div className="Header-Img-l pulse-x-league-verified-banner">
-      <div className="games-leagues-header-title-verified">
+        <div className="Header-Img-l not-verified-banner-img-lans"> 
+        <div className="games-leagues-header-title">
           <h1 id="league-title">Pulse X Uppers Division</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
@@ -38,12 +38,12 @@ const Pulse_x_Uppers = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+          <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://discord.com/invite/pulsexleague"
@@ -82,7 +82,7 @@ const Pulse_x_Uppers = () => {
         </div>
         <div className="become-verified">
           <h6>
-             <a href="/more/verification"></a>
+            Become <a href="/more/verification">Verified</a>
           </h6>
         </div>
       </div>

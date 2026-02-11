@@ -67,7 +67,7 @@ import Legends from './pages/game_pages/CoD/leagues/LCL_Leagues/Legends'
 import Lowers from './pages/game_pages/CoD/leagues/LCL_Leagues/Lowers'
 import Womens from './pages/game_pages/CoD/leagues/LCL_Leagues/Womens'
 
-import Pulse_x_Uppers from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Lowers';
+import Pulse_x_Uppers from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Uppers';
 import Pulse_x_Lowers from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Lowers';
 import Pulse_x_Open from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/Pulse_x_Open';
 import PulseX_Leagues from './pages/game_pages/CoD/leagues/Pulse_x_Leagues/PulseX_Leagues'

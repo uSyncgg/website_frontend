@@ -50,16 +50,15 @@ const Cod_Leagues = () => {
 
                         <div className='col-12 col-lg-6 bottom-card'>
                             <div className='league'>
-                                <a href='/games/call-of-duty/leagues/pulse-x-leagues'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>Pulse X League</h1>
+                                <a href='/games/call-of-duty/leagues/u18-league'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>U18 COD League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
-                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/u18-league"><img src="https://i.imgur.com/AMzISPh.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
-                                <a href='/games/call-of-duty/leagues/pulse-x-leagues'>
-                                    <button type="submit" className='info-button'>All Leagues</button>
+                                <p className='Leaguep'>All Regions</p>
+                                <a href='/games/call-of-duty/leagues/u18-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
@@ -100,15 +99,16 @@ const Cod_Leagues = () => {
 
                         <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                             <div className='league'>
-                                <a href='/games/call-of-duty/leagues/u18-league'>
-                                    <h1 className='Leagueh1 hide-on-mobile'>U18 COD League</h1>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues'>
+                                    <h1 className='Leagueh1 hide-on-mobile'>Pulse X League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="/games/call-of-duty/leagues/u18-league"><img src="https://i.imgur.com/AMzISPh.png" className='league-img' /></a>
+                                    <a href="/games/call-of-duty/leagues/pulse-x-leagues"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
+                                    {/* <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a> */}
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
-                                <a href='/games/call-of-duty/leagues/u18-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
+                                <p className='Leaguep'>NA</p>
+                                <a href='/games/call-of-duty/leagues/pulse-x-leagues'>
+                                    <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
                             </div>
                         </div>

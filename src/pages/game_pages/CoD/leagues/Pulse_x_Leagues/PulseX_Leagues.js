@@ -39,7 +39,7 @@ const PulseX_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-uppers"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
-                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    {/* <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a> */}
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Uppers Division - NA</p>
                                 <p className='Leaguep hide-on-mobile'>NA</p>
@@ -56,7 +56,7 @@ const PulseX_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-lowers"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
-                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    {/* <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a> */}
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Lowers Division - NA</p>
                                 <p className='Leaguep hide-on-mobile'>NA</p>
@@ -75,7 +75,7 @@ const PulseX_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="/games/call-of-duty/leagues/pulse-x-leagues/pulse-x-open"><img src="https://i.imgur.com/RHgIQV1.jpg" className='league-img' /></a>
-                                    <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    {/* <a href="/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a> */}
                                 </div>
                                 <p className='Leaguep hide-on-pc'>Open Division - NA</p>
                                 <p className='Leaguep hide-on-mobile'>NA</p>
