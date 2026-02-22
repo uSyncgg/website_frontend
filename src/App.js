@@ -409,14 +409,14 @@ import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Se
 import G_Site_BO7 from './pages/game_pages/LANs/G_Site_BO7';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
 import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
-import GACS_Operation_Cupid from './pages/game_pages/LANs/GACS_Operation_Cupid';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
-import Emerald_CityLAN_2026 from './pages/game_pages/LANs/Emerald_CityLAN_2026';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import Emerald_CityLAN_2026 from './pages/game_pages/LANs/2026-Archive/Emerald_CityLAN_2026';
+import GACS_Operation_Cupid from './pages/game_pages/LANs/2026-Archive/GACS_Operation_Cupid';
 import Kami_Con_17 from './pages/game_pages/LANs/2026-Archive/Kami_Con_17';
 import InfernaLAN2026 from './pages/game_pages/LANs/2026-Archive/InfernaLAN2026';
 import Lakewood_League_XII from './pages/game_pages/LANs/2026-Archive/Lakewood_League_XII';
@@ -2235,10 +2235,6 @@ case "/lans/shintogc-major-iii-2026":
 title = "ShintoGC Major III | uSync";
 component = <ShintoGC_Major_III_2026 />
 break;
-case "/lans/operation-cupid":
-title = "GA:CS Operation Cupid | uSync";
-component = <GACS_Operation_Cupid />
-break;
 case "/lans/midwest-battleground-2026":
 title = "Midwest Battleground 2026 | uSync";
 component = <Midwest_Battleground_2026 />
@@ -2247,14 +2243,18 @@ case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
 break;
-case "/lans/emerald-city-2026":
-title = "Emerald City LAN 2026 | uSync";
-component = <Emerald_CityLAN_2026 />
-break;
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/emerald-city-2026":
+title = "Emerald City LAN 2026 | uSync";
+component = <Emerald_CityLAN_2026 />
+break;
+case "/lans/operation-cupid":
+title = "GA:CS Operation Cupid | uSync";
+component = <GACS_Operation_Cupid />
+break;
 case "/lans/kamicon-17":
 title = "Kami-Con 17 | uSync";
 component = <Kami_Con_17 />

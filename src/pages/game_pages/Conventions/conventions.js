@@ -61,40 +61,6 @@ const Conventions = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/emerald-city-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Emerald City LAN 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/emerald-city-2026"><img src="https://i.imgur.com/tijewTk.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Seattle, WA</p>
-                            <a href='/lans/emerald-city-2026'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/operation-cupid'>
-                                <h1 className='Leagueh1 hide-on-mobile'>GA:CS Operation Cupid</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/operation-cupid"><img src="https://i.imgur.com/70lwsgH.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/operation-cupid'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
                             <a href='/lans/fortlan-spring-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>FortLAN Spring 2026</h1>
                             </a>
@@ -103,40 +69,6 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Fort Wayne, IN</p>
                             <a href='/lans/fortlan-spring-2026'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/lan-all-night-spring-26'>
-                                <h1 className='Leagueh1 hide-on-mobile'>LAN All Night Spring 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/lan-all-night-spring-26"><img src="https://i.imgur.com/JYplRtG.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Grapevine, TX</p>
-                            <a href='/lans/lan-all-night-spring-26'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/belowzerolan-winter-26'>
-                                <h1 className='Leagueh1 hide-on-mobile'>BelowZero LAN Winter 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/belowzerolan-winter-26"><img src="https://i.imgur.com/iP58w7S.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Minneapolis, MN</p>
-                            <a href='/lans/belowzerolan-winter-26'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
