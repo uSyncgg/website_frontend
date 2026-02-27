@@ -406,7 +406,6 @@ import FortLAN_Spring_26 from './pages/game_pages/LANs/FortLAN_Spring_26';
 import Low_Ping_LAN_26 from './pages/game_pages/LANs/Low_Ping_LAN_26';
 import BelowZeroLAN_Winter_26 from './pages/game_pages/LANs/BelowZeroLAN_Winter_26';
 import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Series';
-import G_Site_BO7 from './pages/game_pages/LANs/G_Site_BO7';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
 import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
 import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
@@ -415,6 +414,7 @@ import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 
 
 //MASONS & JAKE LANs - Archived 2026
+import G_Site_BO7 from './pages/game_pages/LANs/2026-Archive/G_Site_BO7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/2026-Archive/Emerald_CityLAN_2026';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/2026-Archive/GACS_Operation_Cupid';
 import Kami_Con_17 from './pages/game_pages/LANs/2026-Archive/Kami_Con_17';
@@ -2223,10 +2223,6 @@ case "/lans/charleston-crown-series":
 title = "Charleston Crown Series | uSync";
 component = <Charleston_Crown_Series />
 break;
-case "/lans/g-site-bo7":
-title = "G-SITE BO7 | uSync";
-component = <G_Site_BO7 />
-break;
 case "/lans/heartland-2026":
 title = "Heartland 2026 | uSync";
 component = <Heartland_2026 />
@@ -2247,6 +2243,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/g-site-bo7":
+title = "G-SITE BO7 | uSync";
+component = <G_Site_BO7 />
+break;
 case "/lans/emerald-city-2026":
 title = "Emerald City LAN 2026 | uSync";
 component = <Emerald_CityLAN_2026 />
