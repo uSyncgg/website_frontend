@@ -123,7 +123,43 @@ const Lol_Lan = () => {
 
                 <p className='hr' />
 
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/macs-spring-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>MACS Spring 2026</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/macs-spring-2026"><img src="https://i.imgur.com/4bddM3N.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Philadelphia, PA</p>
+                            <a href='/lans/macs-spring-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/tech-in-action'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Tech In Action</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/tech-in-action"><img src="https://i.imgur.com/zD3erMG.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Concord, CA</p>
+                            <a href='/lans/tech-in-action'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/volan-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Volan 2026</h1>
@@ -137,6 +173,22 @@ const Lol_Lan = () => {
                             </a>
                         </div>
                     </div>
+                    
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/st-clair-aram-mayhem'>
+                                <h1 className='Leagueh1 hide-on-mobile'>St. Clair ARAM Mayhem Tournament</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/st-clair-aram-mayhem"><img src="https://i.imgur.com/GViu7L0.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Windsor, Ontario</p>
+                            <a href='/lans/st-clair-aram-mayhem'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <p className='hr' />
 

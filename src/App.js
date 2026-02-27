@@ -398,6 +398,10 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import St_Clair_ARAM_Mayhem from './pages/game_pages/LANs/St_Clair_ARAM_Mayhem';
+import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
+import Tech_In_Action from './pages/game_pages/LANs/Tech_In_Action';
+import Mile_High_Classic from './pages/game_pages/LANs/Mile_High_Classic';
 import GatorLAN_Spring_2026 from './pages/game_pages/LANs/GatorLAN_Spring_2026';
 import Volan_2026 from './pages/game_pages/LANs/Volan_2026';
 import TomorrowLAN_2026 from './pages/game_pages/LANs/TomorrowLAN_2026';
@@ -2191,6 +2195,22 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/st-clair-aram-mayhem":
+title = "St. Clair ARAM Mayhem | uSync";
+component = <St_Clair_ARAM_Mayhem />
+break;
+case "/lans/macs-spring-2026":
+title = "MACS Spring 2026 | uSync";
+component = <MACS_Spring_2026 />
+break;
+case "/lans/tech-in-action":
+title = "Tech In Action | uSync";
+component = <Tech_In_Action />
+break;
+case "/lans/mile-high-classic":
+title = "Mile High Classic | uSync";
+component = <Mile_High_Classic />
+break;
 case "/lans/gatorlan-spring-2026":
 title = "GatorLAN Spring 2026 | uSync";
 component = <GatorLAN_Spring_2026 />

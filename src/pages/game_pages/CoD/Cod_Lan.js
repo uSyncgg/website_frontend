@@ -102,6 +102,21 @@ const Cod_Lan = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/mile-high-classic'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Mile High Classic</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/mile-high-classic"><img src="https://i.imgur.com/o6sUycR.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Lakewood, CO</p>
+                            <a href='/lans/mile-high-classic'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <p className='hr' />
