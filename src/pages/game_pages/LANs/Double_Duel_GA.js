@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const TomorrowLAN_2026 = () => {
+const Double_Duel_GA = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="30 Tournaments accross various titles. Console and PC tournaments. $25 venue fee / $30 at door. Tournament entry fee: LoL $20 per teammate, CoD 2v2 $10 per teammate. PC tournaments: BYOPC and monitor. 70/30 Prize Pool split for CoD and LoL" />
+          <meta name="description" content="The Game Arena Double Duel is a new event featuring two titles that cycle out with each iteration. A mix of collegiate and open-entry squads compete in Marvel Rivals and Valorant." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">TomorrowLAN 2026</h1>
+          <h1 id="league-title">Double Duel</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const TomorrowLAN_2026 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://www.start.gg/tournament/tomorrowlan-2026/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://www.start.gg/tournament/game-arena-presents-double-duel/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,21 +48,20 @@ const TomorrowLAN_2026 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>March 6 - 8th, 2026</p>
-              <p>Moncton, Canada</p>
+              <p>March 28 - 29th, 2026</p>
+              <p>Columbus, OH</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>30 Tournaments Accross Various Titles</p>
-              <p>Console and PC Tournaments</p>
-              <p>PC tournaments: BYOPC and Monitor</p>
-              <p>Console tournaments: Bring Controller</p>
-              <p>70/30 Prize Pool Split for CoD and LoL</p>
+              <p>Valorant and Marvel Rivals Tournaments</p>
+              <p>Tiered Prize Pools up to $1,000</p>
+              <p>2-Day Event</p>
+              <p>Collegiate and Open Teams</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$25 Venue Fee / $30 at door</p>
-              <p>Tournament Entry Fee(s): LoL $20 per teammate, CoD 2v2 $10 per teammate</p>
+              <p>Marvel Rivals Pass: $250</p>
+              <p>Valorant Pass: $250</p>
             </div>
           </div>
         </div>
@@ -74,4 +73,4 @@ const TomorrowLAN_2026 = () => {
   );
 };
 
-export default TomorrowLAN_2026;
+export default Double_Duel_GA;

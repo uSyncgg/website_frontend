@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const TomorrowLAN_2026 = () => {
+const University_HS_LAN_26 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="30 Tournaments accross various titles. Console and PC tournaments. $25 venue fee / $30 at door. Tournament entry fee: LoL $20 per teammate, CoD 2v2 $10 per teammate. PC tournaments: BYOPC and monitor. 70/30 Prize Pool split for CoD and LoL" />
+          <meta name="description" content="Join us at University High School in Hartford, CT for our next Campus Series Event. This recruiting event will feature Rocket League, Marvel Rivals & Smash Ultimate as players compete in front of collegiate recruiters to gain more collegiate esports scholarship opportunities." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">TomorrowLAN 2026</h1>
+          <h1 id="league-title">University High School LAN</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const TomorrowLAN_2026 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://www.start.gg/tournament/tomorrowlan-2026/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://www.staypluggedin.com/events/university-high-school-lan-%2726" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,21 +48,19 @@ const TomorrowLAN_2026 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>March 6 - 8th, 2026</p>
-              <p>Moncton, Canada</p>
+              <p>March 21 - 22nd, 2026</p>
+              <p>Hartford, CT</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>30 Tournaments Accross Various Titles</p>
-              <p>Console and PC Tournaments</p>
-              <p>PC tournaments: BYOPC and Monitor</p>
-              <p>Console tournaments: Bring Controller</p>
-              <p>70/30 Prize Pool Split for CoD and LoL</p>
+              <p>Marvel Rivals, Rocket League, and SSBU Tournaments</p>
+              <p>HS Players Compete in Front of Collegiate Recruiters</p>
+              <p>Potential Scholarships</p>
+              <p>$1,000 Prize Pool</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$25 Venue Fee / $30 at door</p>
-              <p>Tournament Entry Fee(s): LoL $20 per teammate, CoD 2v2 $10 per teammate</p>
+              <p>Free Entry</p>
             </div>
           </div>
         </div>
@@ -74,4 +72,4 @@ const TomorrowLAN_2026 = () => {
   );
 };
 
-export default TomorrowLAN_2026;
+export default University_HS_LAN_26;

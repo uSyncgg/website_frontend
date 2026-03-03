@@ -398,6 +398,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
+import University_HS_LAN_26 from './pages/game_pages/LANs/University_HS_LAN_26';
 import St_Clair_ARAM_Mayhem from './pages/game_pages/LANs/St_Clair_ARAM_Mayhem';
 import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
 import Tech_In_Action from './pages/game_pages/LANs/Tech_In_Action';
@@ -2195,6 +2197,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/ga-double-duel":
+title = "Double Duel | uSync";
+component = <Double_Duel_GA />
+break;
+case "/lans/university-hs-lan-26":
+title = "University HS LAN 26 | uSync";
+component = <University_HS_LAN_26 />
+break;
 case "/lans/st-clair-aram-mayhem":
 title = "St. Clair ARAM Mayhem | uSync";
 component = <St_Clair_ARAM_Mayhem />
