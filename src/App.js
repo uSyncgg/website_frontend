@@ -398,6 +398,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Cali_Esports_4v4 from './pages/game_pages/LANs/Cali_Esports_4v4';
+import Misfits_Elite_Circuit_Champs from './pages/game_pages/LANs/Misfits_Elite_Circuit_Champs';
 import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
 import University_HS_LAN_26 from './pages/game_pages/LANs/University_HS_LAN_26';
 import St_Clair_ARAM_Mayhem from './pages/game_pages/LANs/St_Clair_ARAM_Mayhem';
@@ -2197,6 +2199,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/cali-esports-4v4-lan":
+title = "Cali Esports 4v4 LAN | uSync";
+component = <Cali_Esports_4v4 />
+break;
+case "/lans/misfits-elite-circuit-0":
+title = "Misfits Elite Circuit | uSync";
+component = <Misfits_Elite_Circuit_Champs />
+break;
 case "/lans/ga-double-duel":
 title = "Double Duel | uSync";
 component = <Double_Duel_GA />

@@ -88,7 +88,8 @@ const Cod_Lan = () => {
 
                 <p className='hr' />
 
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/tomorrowlan_2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>TomorrowLAN 2026</h1>
@@ -121,10 +122,44 @@ const Cod_Lan = () => {
 
                 <p className='hr' />
 
-            </div>
-        </div>
+                <div className='row'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/cali-esports-4v4-lan'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Cali Esports 4v4 LAN</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/cali-esports-4v4-lan"><img src="https://i.imgur.com/ACaDgtE.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Irvine, CA</p>
+                            <a href='/lans/cali-esports-4v4-lan'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
 
-        
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/misfits-elite-circuit-0'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Misfits Elite Circuit</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/misfits-elite-circuit-0"><img src="https://i.imgur.com/k0Sy2pV.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Brunswick, OH</p>
+                            <a href='/lans/misfits-elite-circuit-0'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p className='hr' />
+
+            </div>
+            </div>
+            </div>
         <Footer />
     </>
     );
