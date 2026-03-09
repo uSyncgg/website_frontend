@@ -80,14 +80,14 @@ const Conventions = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/low-ping-lan-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Low Ping LAN</h1>
+                            <a href='/lans/lan-all-night-spring-26'>
+                                <h1 className='Leagueh1 hide-on-mobile'>LAN All Night</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/low-ping-lan-2026"><img src="https://i.imgur.com/xzN1wAG.png" className='league-img' /></a>
+                                <a href="/lans/lan-all-night-spring-26"><img src="https://i.imgur.com/JYplRtG.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>Lisle, IL</p>
-                            <a href='/lans/low-ping-lan-2026'>
+                            <p className='Leaguep'>Grapevine, TX</p>
+                            <a href='/lans/lan-all-night-spring-26'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -95,14 +95,14 @@ const Conventions = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/tomorrowlan_2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>TomorrowLAN 2026</h1>
+                            <a href='/lans/belowzerolan-winter-26'>
+                                <h1 className='Leagueh1 hide-on-mobile'>BelowZero 2026</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/tomorrowlan_2026"><img src="https://i.imgur.com/clcdX48.png" className='league-img' /></a>
+                                <a href="/lans/belowzerolan-winter-26"><img src="https://i.imgur.com/iP58w7S.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>Moncton, Canada</p>
-                            <a href='/lans/tomorrowlan_2026'>
+                            <p className='Leaguep'>Minneapolis, MN</p>
+                            <a href='/lans/belowzerolan-winter-26'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

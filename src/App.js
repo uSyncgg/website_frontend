@@ -402,26 +402,26 @@ import Cali_Esports_4v4 from './pages/game_pages/LANs/Cali_Esports_4v4';
 import Misfits_Elite_Circuit_Champs from './pages/game_pages/LANs/Misfits_Elite_Circuit_Champs';
 import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
 import University_HS_LAN_26 from './pages/game_pages/LANs/University_HS_LAN_26';
-import St_Clair_ARAM_Mayhem from './pages/game_pages/LANs/St_Clair_ARAM_Mayhem';
 import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
 import Tech_In_Action from './pages/game_pages/LANs/Tech_In_Action';
 import Mile_High_Classic from './pages/game_pages/LANs/Mile_High_Classic';
-import GatorLAN_Spring_2026 from './pages/game_pages/LANs/GatorLAN_Spring_2026';
 import Volan_2026 from './pages/game_pages/LANs/Volan_2026';
-import TomorrowLAN_2026 from './pages/game_pages/LANs/TomorrowLAN_2026';
 import LAN_All_Night_Spring26 from './pages/game_pages/LANs/LAN_All_Night_Spring26';
 import FortLAN_Spring_26 from './pages/game_pages/LANs/FortLAN_Spring_26';
-import Low_Ping_LAN_26 from './pages/game_pages/LANs/Low_Ping_LAN_26';
 import BelowZeroLAN_Winter_26 from './pages/game_pages/LANs/BelowZeroLAN_Winter_26';
 import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Series';
 import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
-import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/ShintoGC_Major_III_2026';
-import Midwest_Battleground_2026 from './pages/game_pages/LANs/Midwest_Battleground_2026';
 import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import TomorrowLAN_2026 from './pages/game_pages/LANs/2026-Archive/TomorrowLAN_2026';
+import Midwest_Battleground_2026 from './pages/game_pages/LANs/2026-Archive/Midwest_Battleground_2026';
+import Low_Ping_LAN_26 from './pages/game_pages/LANs/2026-Archive/Low_Ping_LAN_26';
+import St_Clair_ARAM_Mayhem from './pages/game_pages/LANs/2026-Archive/St_Clair_ARAM_Mayhem';
+import GatorLAN_Spring_2026 from './pages/game_pages/LANs/2026-Archive/GatorLAN_Spring_2026';
+import ShintoGC_Major_III_2026 from './pages/game_pages/LANs/2026-Archive/ShintoGC_Major_III_2026';
 import G_Site_BO7 from './pages/game_pages/LANs/2026-Archive/G_Site_BO7';
 import Emerald_CityLAN_2026 from './pages/game_pages/LANs/2026-Archive/Emerald_CityLAN_2026';
 import GACS_Operation_Cupid from './pages/game_pages/LANs/2026-Archive/GACS_Operation_Cupid';
@@ -2215,10 +2215,6 @@ case "/lans/university-hs-lan-26":
 title = "University HS LAN 26 | uSync";
 component = <University_HS_LAN_26 />
 break;
-case "/lans/st-clair-aram-mayhem":
-title = "St. Clair ARAM Mayhem | uSync";
-component = <St_Clair_ARAM_Mayhem />
-break;
 case "/lans/macs-spring-2026":
 title = "MACS Spring 2026 | uSync";
 component = <MACS_Spring_2026 />
@@ -2231,17 +2227,9 @@ case "/lans/mile-high-classic":
 title = "Mile High Classic | uSync";
 component = <Mile_High_Classic />
 break;
-case "/lans/gatorlan-spring-2026":
-title = "GatorLAN Spring 2026 | uSync";
-component = <GatorLAN_Spring_2026 />
-break;
 case "/lans/volan-2026":
 title = "Volan 2026 | uSync";
 component = <Volan_2026 />
-break;
-case "/lans/tomorrowlan_2026":
-title = "TomorrowLAN 2026 | uSync";
-component = <TomorrowLAN_2026 />
 break;
 case "/lans/lan-all-night-spring-26":
 title = "LAN All Night Spring 2026 | uSync";
@@ -2250,10 +2238,6 @@ break;
 case "/lans/fortlan-spring-2026":
 title = "FortLAN Spring 2026 | uSync";
 component = <FortLAN_Spring_26 />
-break;
-case "/lans/low-ping-lan-2026":
-title = "Low Ping LAN 2026 | uSync";
-component = <Low_Ping_LAN_26 />
 break;
 case "/lans/belowzerolan-winter-26":
 title = "BelowZeroLAN Winter 26 | uSync";
@@ -2267,14 +2251,6 @@ case "/lans/heartland-2026":
 title = "Heartland 2026 | uSync";
 component = <Heartland_2026 />
 break;
-case "/lans/shintogc-major-iii-2026":
-title = "ShintoGC Major III | uSync";
-component = <ShintoGC_Major_III_2026 />
-break;
-case "/lans/midwest-battleground-2026":
-title = "Midwest Battleground 2026 | uSync";
-component = <Midwest_Battleground_2026 />
-break;
 case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
@@ -2283,6 +2259,30 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/gatorlan-spring-2026":
+title = "GatorLAN Spring 2026 | uSync";
+component = <GatorLAN_Spring_2026 />
+break;
+case "/lans/tomorrowlan_2026":
+title = "TomorrowLAN 2026 | uSync";
+component = <TomorrowLAN_2026 />
+break;
+case "/lans/low-ping-lan-2026":
+title = "Low Ping LAN 2026 | uSync";
+component = <Low_Ping_LAN_26 />
+break;
+case "/lans/shintogc-major-iii-2026":
+title = "ShintoGC Major III | uSync";
+component = <ShintoGC_Major_III_2026 />
+break;
+case "/lans/midwest-battleground-2026":
+title = "Midwest Battleground 2026 | uSync";
+component = <Midwest_Battleground_2026 />
+break;
+case "/lans/st-clair-aram-mayhem":
+title = "St. Clair ARAM Mayhem | uSync";
+component = <St_Clair_ARAM_Mayhem />
+break;
 case "/lans/g-site-bo7":
 title = "G-SITE BO7 | uSync";
 component = <G_Site_BO7 />
