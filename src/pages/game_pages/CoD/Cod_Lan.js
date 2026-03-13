@@ -120,6 +120,24 @@ const Cod_Lan = () => {
                     </div>
                 </div>
 
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                        <div className='league'>
+                            <a href='/lans/lowtier-major-iv'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Lowtier Major IV</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/lowtier-major-iv"><img src="https://i.imgur.com/t4k8Qi6.png" className='league-img' /></a>
+                            </div>
+                            <p className='Leaguep'>Knoxville, TN</p>
+                            <a href='/lans/lowtier-major-iv'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <p className='hr' />
 

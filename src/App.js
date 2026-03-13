@@ -398,6 +398,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import Lowtier_Major_IV from './pages/game_pages/LANs/Lowtier_Major_IV';
+import RMCS_Spring_2026 from './pages/game_pages/LANs/RMCS_Spring_2026';
 import Cali_Esports_4v4 from './pages/game_pages/LANs/Cali_Esports_4v4';
 import Misfits_Elite_Circuit_Champs from './pages/game_pages/LANs/Misfits_Elite_Circuit_Champs';
 import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
@@ -2199,6 +2201,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/lowtier-major-iv":
+title = "Lowtier Major IV | uSync";
+component = <Lowtier_Major_IV />
+break;
+case "/lans/rmcs-spring-2026":
+title = "RMCS Spring 2026 | uSync";
+component = <RMCS_Spring_2026 />
+break;
 case "/lans/cali-esports-4v4-lan":
 title = "Cali Esports 4v4 LAN | uSync";
 component = <Cali_Esports_4v4 />

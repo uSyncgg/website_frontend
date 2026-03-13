@@ -6,17 +6,17 @@ import '../head-to-head.css';
 import useNavHeight from "../../hooks/NavbarHeight";
 import Footer from "../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const MACS_Spring_2026 = () => {
+const Lowtier_Major_IV = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="The Mid-Atlantic Collegiate Series, or MACS, is an open LAN tournament for collegiate teams, designed to provide players with affordable, in-person tournaments every semester!" />
+          <meta name="description" content="Every player planning to attend this event must receive a ranking before forming a roster. You must join our discord and put your name in the “player-rating” text channel under the general section. " />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">MACS Spring 2026</h1>
+          <h1 id="league-title">Lowtier Major IV</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -36,7 +36,7 @@ const MACS_Spring_2026 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a // from here to the </a> do CTRL + /
-            href="https://nerdstreet.com/events/mid-atlantic-collegiate-series-macs-collegiate-community-tournaments-2026-04-17?section=overview" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+            href="https://x.com/TPCircuit/status/2031850516507181452" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,30 +48,28 @@ const MACS_Spring_2026 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>April 17 - 19th, 2026</p>
-              <p>Philadelphia, PA</p>
+              <p>June 13 - 14th, 2026</p>
+              <p>Knoxville, TN</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Custom Trophy for Winner</p>
-              <p>League of Legends 5v5 Format</p>
-              <p>Collegiate Full-Time Students ONLY</p>
-              <p>League of Legends Tournament with Round Robin Format</p>
-              <p>Double Elimination Bracket</p>
-              <p>Overwatch, Valorant, and Rocket League Tournaments</p>
+              <p>$5,000 Prize Pool, Based on Entrants</p>
+              <p>4v4 CDL Ruleset</p>
+              <p>Players Must be Ranked, and a Point System is Assigned to Each Player</p>
+              <p>Maximum of 24 Points Per Team</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: $125</p>
+              <p>Team Pass: $325</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/games/call-of-duty/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default MACS_Spring_2026;
+export default Lowtier_Major_IV;
