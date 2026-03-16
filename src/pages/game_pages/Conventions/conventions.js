@@ -95,24 +95,6 @@ const Conventions = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/belowzerolan-winter-26'>
-                                <h1 className='Leagueh1 hide-on-mobile'>BelowZero 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/belowzerolan-winter-26"><img src="https://i.imgur.com/iP58w7S.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Minneapolis, MN</p>
-                            <a href='/lans/belowzerolan-winter-26'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/ga-double-duel'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Double Duel</h1>
                             </a>
@@ -125,8 +107,12 @@ const Conventions = () => {
                             </a>
                         </div>
                     </div>
+                </div>
 
-                    <div className='col-12 col-lg-6 bottom-card'>
+                <p className='hr' />
+
+                <div className='row'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/university-hs-lan-26'>
                                 <h1 className='Leagueh1 hide-on-mobile'>University High School LAN</h1>

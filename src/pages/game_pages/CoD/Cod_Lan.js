@@ -106,25 +106,6 @@ const Cod_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/misfits-elite-circuit-0'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Misfits Elite Circuit</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/misfits-elite-circuit-0"><img src="https://i.imgur.com/k0Sy2pV.png" className='league-img' loading='lazy'/></a>
-                            </div>
-                            <p className='Leaguep'>Brunswick, OH</p>
-                            <a href='/lans/misfits-elite-circuit-0'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/lowtier-major-iv'>
                                 <h1 className='Leagueh1 hide-on-mobile'>Lowtier Major IV</h1>
                             </a>
