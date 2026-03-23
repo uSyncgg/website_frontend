@@ -403,7 +403,6 @@ import Lowtier_Major_IV from './pages/game_pages/LANs/Lowtier_Major_IV';
 import RMCS_Spring_2026 from './pages/game_pages/LANs/RMCS_Spring_2026';
 import Cali_Esports_4v4 from './pages/game_pages/LANs/Cali_Esports_4v4';
 import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
-import University_HS_LAN_26 from './pages/game_pages/LANs/University_HS_LAN_26';
 import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
 import Tech_In_Action from './pages/game_pages/LANs/Tech_In_Action';
 import Mile_High_Classic from './pages/game_pages/LANs/Mile_High_Classic';
@@ -417,6 +416,7 @@ import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 
 
 //MASONS & JAKE LANs - Archived 2026
+import University_HS_LAN_26 from './pages/game_pages/LANs/2026-Archive/University_HS_LAN_26';
 import Misfits_Elite_Circuit_Champs from './pages/game_pages/LANs/2026-Archive/Misfits_Elite_Circuit_Champs';
 import BelowZeroLAN_Winter_26 from './pages/game_pages/LANs/2026-Archive/BelowZeroLAN_Winter_26';
 import TomorrowLAN_2026 from './pages/game_pages/LANs/2026-Archive/TomorrowLAN_2026';
@@ -2222,10 +2222,6 @@ case "/lans/ga-double-duel":
 title = "Double Duel | uSync";
 component = <Double_Duel_GA />
 break;
-case "/lans/university-hs-lan-26":
-title = "University HS LAN 26 | uSync";
-component = <University_HS_LAN_26 />
-break;
 case "/lans/macs-spring-2026":
 title = "MACS Spring 2026 | uSync";
 component = <MACS_Spring_2026 />
@@ -2266,6 +2262,10 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/university-hs-lan-26":
+title = "University HS LAN 26 | uSync";
+component = <University_HS_LAN_26 />
+break;
 case "/lans/belowzerolan-winter-26":
 title = "BelowZeroLAN Winter 26 | uSync";
 component = <BelowZeroLAN_Winter_26 />
