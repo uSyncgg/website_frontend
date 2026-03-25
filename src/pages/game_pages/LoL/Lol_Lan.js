@@ -124,7 +124,7 @@ const Lol_Lan = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/rmcs-spring-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>RMCS Spring 2026</h1>
@@ -134,6 +134,21 @@ const Lol_Lan = () => {
                             </div>
                             <p className='Leaguep'>Lakewood, CO</p>
                             <a href='/lans/rmcs-spring-2026'>
+                                <button type="submit" className='info-button'>More Info</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-lg-6 bottom-card'>
+                        <div className='league'>
+                            <a href='/lans/lakewood-league-xii-spring'>
+                                <h1 className='Leagueh1 hide-on-mobile'>Lakewood League XII Spring</h1>
+                            </a>
+                            <div className='parent'>
+                                <a href="/lans/lakewood-league-xii-spring"><img src="https://i.imgur.com/IbpZc52.png" className='league-img' loading='lazy'/></a>
+                            </div>
+                            <p className='Leaguep'>Lakewood, CO</p>
+                            <a href='/lans/lakewood-league-xii-spring'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

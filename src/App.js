@@ -398,6 +398,8 @@ import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2'
 
 
 //MASON & JAKE LANs - Current
+import ImmerseCon_2026 from './pages/game_pages/LANs/ImmerseCon_2026';
+import Lakewood_League_XII_Spring from './pages/game_pages/LANs/Lakewood_League_XII_Spring';
 import RVA_Esports_Champ_2026 from './pages/game_pages/LANs/RVA_Esports_Champ_2026';
 import Lowtier_Major_IV from './pages/game_pages/LANs/Lowtier_Major_IV';
 import RMCS_Spring_2026 from './pages/game_pages/LANs/RMCS_Spring_2026';
@@ -2202,6 +2204,14 @@ function App() {
 
 
 //MASON & JAKE LANs - Current
+case "/lans/immersecon-2026":
+title = "ImmerseCon 2026 | uSync";
+component = <ImmerseCon_2026 />
+break;
+case "/lans/lakewood-league-xii-spring":
+title = "Lakewood League XII Spring | uSync";
+component = <Lakewood_League_XII_Spring />
+break;
 case "/lans/rva-esports-championship-2026":
 title = "RVA Esports Championship 2026 | uSync";
 component = <RVA_Esports_Champ_2026 />
