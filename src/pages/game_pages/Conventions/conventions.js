@@ -46,14 +46,14 @@ const Conventions = () => {
                 <div className='row'>
                     <div className='col-12 col-lg-6 space-on-bottom-mobile'>
                         <div className='league'>
-                            <a href='/lans/dreamhack-birmingham'>
-                                <h1 className='Leagueh1 hide-on-mobile'>DreamHack Birmingham</h1>
+                            <a href='/lans/immersecon-2026'>
+                                <h1 className='Leagueh1 hide-on-mobile'>ImmerseCon 2026</h1>
                             </a>
                             <div className='parent'>
-                                <a href="/lans/dreamhack-birmingham"><img src="https://i.imgur.com/6mNKaHp.png" className='league-img' /></a>
+                                <a href="/lans/immersecon-2026"><img src="https://i.imgur.com/fwRdpTT.png" className='league-img' /></a>
                             </div>
-                            <p className='Leaguep'>Birmingham, UK</p>
-                            <a href='/lans/dreamhack-birmingham'>
+                            <p className='Leaguep'>Richmond, VA</p>
+                            <a href='/lans/immersecon-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>
@@ -78,7 +78,7 @@ const Conventions = () => {
                 <p className='hr' />
 
                 <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
+                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
                         <div className='league'>
                             <a href='/lans/lan-all-night-spring-26'>
                                 <h1 className='Leagueh1 hide-on-mobile'>LAN All Night</h1>
@@ -88,40 +88,6 @@ const Conventions = () => {
                             </div>
                             <p className='Leaguep'>Grapevine, TX</p>
                             <a href='/lans/lan-all-night-spring-26'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/ga-double-duel'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Double Duel</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/ga-double-duel"><img src="https://i.imgur.com/Uc7D0lR.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Columbus, OH</p>
-                            <a href='/lans/ga-double-duel'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 mx-auto space-on-bottom-mobile'>
-                        <div className='league'>
-                            <a href='/lans/immersecon-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>ImmerseCon 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/immersecon-2026"><img src="https://i.imgur.com/fwRdpTT.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Richmond, VA</p>
-                            <a href='/lans/immersecon-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

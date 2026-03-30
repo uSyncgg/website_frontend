@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Heartland_2026 = () => {
+const DreamHack_Birmingham = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="Heartland is back in-person in Kansas with a variety of LAN events to choose from. Sign up your university students or yourself today." />
+          <meta name="description" content="Dreamhack is back and this time is in the United Kingdom. Grab your pass today and compete for massive prizes." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Heartland 2026</h1>
+          <h1 id="league-title">DreamHack Birmingham</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,41 +35,41 @@ const Heartland_2026 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
-            href="https://www.start.gg/tournament/heartland-2026/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://dreamhack.com/birmingham/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>March 27th, 2026</p>
-              <p>Manhattan, KS</p>
+              <p>March 27 - 29th, 2026</p>
+              <p>Birmingham, UK</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>TBA Prize Pool</p>
-              <p>Full Time University Students ONLY</p>
-              <p>Regular Rules (More Info TBA)</p>
-              <p>Game Titles: League of Legends, Overwatch 2, and Valorant</p>
+              <p>3 Day Esports Festival</p>
+              <p>Potentially Hosting a CDL Major and HCS Open Tournament</p>
+              <p>Booths, Shops, Cosplay Contests, Meet and Greets, and More</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Registration Fee: $40 per player</p>
+              <p>£35-45 - 1 Day Ticket</p>
+              <p>£109 - 3 Day Ticket</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/LoL/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Heartland_2026;
+export default DreamHack_Birmingham;

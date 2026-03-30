@@ -403,8 +403,6 @@ import Lakewood_League_XII_Spring from './pages/game_pages/LANs/Lakewood_League_
 import RVA_Esports_Champ_2026 from './pages/game_pages/LANs/RVA_Esports_Champ_2026';
 import Lowtier_Major_IV from './pages/game_pages/LANs/Lowtier_Major_IV';
 import RMCS_Spring_2026 from './pages/game_pages/LANs/RMCS_Spring_2026';
-import Cali_Esports_4v4 from './pages/game_pages/LANs/Cali_Esports_4v4';
-import Double_Duel_GA from './pages/game_pages/LANs/Double_Duel_GA';
 import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
 import Tech_In_Action from './pages/game_pages/LANs/Tech_In_Action';
 import Mile_High_Classic from './pages/game_pages/LANs/Mile_High_Classic';
@@ -412,12 +410,14 @@ import Volan_2026 from './pages/game_pages/LANs/Volan_2026';
 import LAN_All_Night_Spring26 from './pages/game_pages/LANs/LAN_All_Night_Spring26';
 import FortLAN_Spring_26 from './pages/game_pages/LANs/FortLAN_Spring_26';
 import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Series';
-import Heartland_2026 from './pages/game_pages/LANs/Heartland_2026';
-import DreamHack_Birmingham from './pages/game_pages/LANs/DreamHack_Birmingham';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import Cali_Esports_4v4 from './pages/game_pages/LANs/2026-Archive/Cali_Esports_4v4';
+import Double_Duel_GA from './pages/game_pages/LANs/2026-Archive/Double_Duel_GA';
+import Heartland_2026 from './pages/game_pages/LANs/2026-Archive/Heartland_2026';
+import DreamHack_Birmingham from './pages/game_pages/LANs/2026-Archive/DreamHack_Birmingham';
 import University_HS_LAN_26 from './pages/game_pages/LANs/2026-Archive/University_HS_LAN_26';
 import Misfits_Elite_Circuit_Champs from './pages/game_pages/LANs/2026-Archive/Misfits_Elite_Circuit_Champs';
 import BelowZeroLAN_Winter_26 from './pages/game_pages/LANs/2026-Archive/BelowZeroLAN_Winter_26';
@@ -2224,14 +2224,6 @@ case "/lans/rmcs-spring-2026":
 title = "RMCS Spring 2026 | uSync";
 component = <RMCS_Spring_2026 />
 break;
-case "/lans/cali-esports-4v4-lan":
-title = "Cali Esports 4v4 LAN | uSync";
-component = <Cali_Esports_4v4 />
-break;
-case "/lans/ga-double-duel":
-title = "Double Duel | uSync";
-component = <Double_Duel_GA />
-break;
 case "/lans/macs-spring-2026":
 title = "MACS Spring 2026 | uSync";
 component = <MACS_Spring_2026 />
@@ -2260,6 +2252,10 @@ case "/lans/charleston-crown-series":
 title = "Charleston Crown Series | uSync";
 component = <Charleston_Crown_Series />
 break;
+//MASON & JAKE LANs - Current
+
+
+//MASONS & JAKE LANs - Archived 2026
 case "/lans/heartland-2026":
 title = "Heartland 2026 | uSync";
 component = <Heartland_2026 />
@@ -2268,10 +2264,14 @@ case "/lans/dreamhack-birmingham":
 title = "Dreamhack Birmingham | uSync";
 component = <DreamHack_Birmingham />
 break;
-//MASON & JAKE LANs - Current
-
-
-//MASONS & JAKE LANs - Archived 2026
+case "/lans/cali-esports-4v4-lan":
+title = "Cali Esports 4v4 LAN | uSync";
+component = <Cali_Esports_4v4 />
+break;
+case "/lans/ga-double-duel":
+title = "Double Duel | uSync";
+component = <Double_Duel_GA />
+break;
 case "/lans/university-hs-lan-26":
 title = "University HS LAN 26 | uSync";
 component = <University_HS_LAN_26 />
