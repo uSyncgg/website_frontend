@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const Mile_High_Classic = () => {
+const FortLAN_Spring_26 = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="The Mile High Classic is finally here! Join us for a 4v4 Call of Duty Tournament brought to you by Localhost Denver. Friday, April 3rd - Sunday, April 5th — 2v2 SnD Side Event" />
+          <meta name="description" content="FortLAN is back and bigger than ever in the heart of Indiana. Tons of raffles and prizes in this BYOC event." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">Mile High Classic</h1>
+          <h1 id="league-title">FortLAN Spring 2026</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,43 +35,40 @@ const Mile_High_Classic = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
-            href="https://nerdstreet.com/events/mile-high-classic-or-cod-bo7-lan-2026-04-04?section=overview" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://lanfest.com/blog/event/fortlan-spring-2026/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>April 4th, 2026</p>
-              <p>Lakewood, CO</p>
+              <p>April 3 - 5th, 2026</p>
+              <p>Fort Wayne, IN</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$2,000 Prize Pool, Based on Entrants</p>
-              <p>4v4 CDL Ruleset</p>
-              <p>Group Play into Double Elim Bracket</p>
-              <p>2v2 SND Site Event ($25 per player)</p>
+              <p>Various Esports Tournaments and Games</p>
+              <p>Raffle Prizing</p>
+              <p>BYOC LAN Event with over 48 Stations</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Team Pass: $300</p>
-              <p>Bootcamp Pass: $80</p>
-              <p>Spectator Pass: $10 - $15</p>
+              <p>BYOC: $45</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/games/call-of-duty/lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default Mile_High_Classic;
+export default FortLAN_Spring_26;

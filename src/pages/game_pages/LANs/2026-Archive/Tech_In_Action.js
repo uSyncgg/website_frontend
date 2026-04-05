@@ -1,22 +1,22 @@
-import "../../../Info.css";
+import "../../../../Info.css";
 import { Helmet } from "react-helmet";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
 import "bootstrap/dist/css/bootstrap.css";
-import '../head-to-head.css';
-import useNavHeight from "../../hooks/NavbarHeight";
-import Footer from "../../../Footer";
+import '../../head-to-head.css';
+import useNavHeight from "../../../hooks/NavbarHeight";
+import Footer from "../../../../Footer";
 // Add ANOTHER ../ once archived -------------------------------------------------------------------------------------------------------------------------------------------------------
-const FortLAN_Spring_26 = () => {
+const Tech_In_Action = () => {
   useNavHeight();
   return (
     <>
         <Helmet>
-          <meta name="description" content="FortLAN is back and bigger than ever in the heart of Indiana. Tons of raffles and prizes in this BYOC event." />
+          <meta name="description" content="Join us for an engaging day filled with thrilling esports matches, professional development sessions, insightful panel discussions, and public youth project exhibits. You'll also have the chance to network with peers, educators, and industry professionals, building meaningful connections that can shape your future in this exciting field." />
         </Helmet>
     <div className='total-container'>
 <div className="Header-Img-l not-verified-banner-img-lans"> 
         <div className="games-leagues-header-title">
-          <h1 id="league-title">FortLAN Spring 2026</h1>
+          <h1 id="league-title">Tech In Action</h1>
           <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
         </div>
       </div>
@@ -35,40 +35,42 @@ const FortLAN_Spring_26 = () => {
           <a href="/more/verification" id="checkmark-link">
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
-          <a // from here to the </a> do CTRL + /
-            href="https://lanfest.com/blog/event/fortlan-spring-2026/" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
+          {/* <a // from here to the </a> do CTRL + /
+            href="https://www.start.gg/tournament/techinactionsesportstourney/details" // COMMENT OUT join button once archived ------------------------------------------------------------------------------------------------------------
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
           >
             <button className="join-button">Join Now</button>
-          </a>
+          </a> */}
         </div>
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date/Place:</h2>
-              <p>April 3 - 5th, 2026</p>
-              <p>Fort Wayne, IN</p>
+              <p>April 4th, 2026</p>
+              <p>Concord, CA</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Various Esports Tournaments and Games</p>
-              <p>Raffle Prizing</p>
-              <p>BYOC LAN Event with over 48 Stations</p>
+              <p>Prizes TBD</p>
+              <p>Industry Pannel Discussion</p>
+              <p>Esports Business Networking</p>
+              <p>League of Legends Tournament</p>
+              <p>Overwatch, Valorant, Mario Kart and Fighting Game Tournaments</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>BYOC: $45</p>
+              <p>Free Entry</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-        <a href="/other-lans" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
+        <a href="/" id='league-back-button-a'> <button className="back-button">Back</button> </a> </div>
         <div className="become-verified"> <h6> Become <a href="/more/verification">Verified</a> </h6> </div> </div> <Footer />
         </div>
         </> // CHANGE THE BACK BUTTON TO THE CORRECT GAME (or just to lans for conventions) AND DELETE THE BECOME VERIFIED IF IT IS VERIFIED, ONCE ARCHIVED CHANGE BACK BUTTON TO / ------------------------------------------------------------------------------
   );
 };
 
-export default FortLAN_Spring_26;
+export default Tech_In_Action;
