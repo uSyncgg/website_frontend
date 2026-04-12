@@ -73,25 +73,6 @@ const Lol_Lan = () => {
 
                     <div className='col-12 col-lg-6 bottom-card'>
                         <div className='league'>
-                            <a href='/lans/volan-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>Volan 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/volan-2026"><img src="https://i.imgur.com/SynVnAn.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Knoxville, TN</p>
-                            <a href='/lans/volan-2026'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <p className='hr' />
-
-                <div className='row'>
-                    <div className='col-12 col-lg-6 space-on-bottom-mobile'>
-                        <div className='league'>
                             <a href='/lans/macs-spring-2026'>
                                 <h1 className='Leagueh1 hide-on-mobile'>MACS Spring 2026</h1>
                             </a>
@@ -100,21 +81,6 @@ const Lol_Lan = () => {
                             </div>
                             <p className='Leaguep'>Philadelphia, PA</p>
                             <a href='/lans/macs-spring-2026'>
-                                <button type="submit" className='info-button'>More Info</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className='col-12 col-lg-6 bottom-card'>
-                        <div className='league'>
-                            <a href='/lans/rmcs-spring-2026'>
-                                <h1 className='Leagueh1 hide-on-mobile'>RMCS Spring 2026</h1>
-                            </a>
-                            <div className='parent'>
-                                <a href="/lans/rmcs-spring-2026"><img src="https://i.imgur.com/WaNJjN7.png" className='league-img' /></a>
-                            </div>
-                            <p className='Leaguep'>Lakewood, CO</p>
-                            <a href='/lans/rmcs-spring-2026'>
                                 <button type="submit" className='info-button'>More Info</button>
                             </a>
                         </div>

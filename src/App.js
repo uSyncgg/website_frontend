@@ -402,15 +402,15 @@ import ImmerseCon_2026 from './pages/game_pages/LANs/ImmerseCon_2026';
 import Lakewood_League_XII_Spring from './pages/game_pages/LANs/Lakewood_League_XII_Spring';
 import RVA_Esports_Champ_2026 from './pages/game_pages/LANs/RVA_Esports_Champ_2026';
 import Lowtier_Major_IV from './pages/game_pages/LANs/Lowtier_Major_IV';
-import RMCS_Spring_2026 from './pages/game_pages/LANs/RMCS_Spring_2026';
 import MACS_Spring_2026 from './pages/game_pages/LANs/MACS_Spring_2026';
-import Volan_2026 from './pages/game_pages/LANs/Volan_2026';
 import LAN_All_Night_Spring26 from './pages/game_pages/LANs/LAN_All_Night_Spring26';
 import Charleston_Crown_Series from './pages/game_pages/LANs/Charleston_Crown_Series';
 //MASON & JAKE LANs - Current
 
 
 //MASONS & JAKE LANs - Archived 2026
+import RMCS_Spring_2026 from './pages/game_pages/LANs/2026-Archive/RMCS_Spring_2026';
+import Volan_2026 from './pages/game_pages/LANs/2026-Archive/Volan_2026';
 import Tech_In_Action from './pages/game_pages/LANs/2026-Archive/Tech_In_Action';
 import Mile_High_Classic from './pages/game_pages/LANs/2026-Archive/Mile_High_Classic';
 import FortLAN_Spring_26 from './pages/game_pages/LANs/2026-Archive/FortLAN_Spring_26';
@@ -2220,17 +2220,9 @@ case "/lans/lowtier-major-iv":
 title = "Lowtier Major IV | uSync";
 component = <Lowtier_Major_IV />
 break;
-case "/lans/rmcs-spring-2026":
-title = "RMCS Spring 2026 | uSync";
-component = <RMCS_Spring_2026 />
-break;
 case "/lans/macs-spring-2026":
 title = "MACS Spring 2026 | uSync";
 component = <MACS_Spring_2026 />
-break;
-case "/lans/volan-2026":
-title = "Volan 2026 | uSync";
-component = <Volan_2026 />
 break;
 case "/lans/lan-all-night-spring-26":
 title = "LAN All Night Spring 2026 | uSync";
@@ -2244,6 +2236,14 @@ break;
 
 
 //MASONS & JAKE LANs - Archived 2026
+case "/lans/rmcs-spring-2026":
+title = "RMCS Spring 2026 | uSync";
+component = <RMCS_Spring_2026 />
+break;
+case "/lans/volan-2026":
+title = "Volan 2026 | uSync";
+component = <Volan_2026 />
+break;
 case "/lans/tech-in-action":
 title = "Tech In Action | uSync";
 component = <Tech_In_Action />
